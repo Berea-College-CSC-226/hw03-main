@@ -6,7 +6,7 @@
 ######################################################################################################
 import turtle
 
-def draw_house(rex):
+def draw_house(rex): #def for drawing th house
     '''
     Drawing the house and the roof
 
