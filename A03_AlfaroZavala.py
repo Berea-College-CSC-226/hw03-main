@@ -13,7 +13,6 @@ import turtle
 
 def make_triangle(esa, sz, xpos, ypos, filling, pen):
     """
-
     :param esa: a turtle object
     :param sz: size of the triangle
     :param xpos: set x position
