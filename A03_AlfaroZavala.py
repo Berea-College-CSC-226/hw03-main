@@ -3,6 +3,9 @@
 #
 # Assignment: A03: A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: To understand and create functions to draw more complex objects and use turtles.
+
+# Link to my google docs file: https://docs.google.com/document/d/15YvyZJA45FgmATPoFIBMzD3koKYm8N8krjdFMuS-xI0/edit#
+
 #################################################################################
 # Acknowledgements:
 # Giorgi Lomia - Taught me how to do xpos, ypos and how to work with the size of the objects.
