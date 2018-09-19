@@ -1,7 +1,7 @@
 ######################################################################
 # Author: Will Pratt
 # Username: prattw
-#
+# https://docs.google.com/document/d/1BYwAcLtaumWrIs0W1QkbSx6m2r7iBi08zLiBIwyRW3k/edit?usp=sharing
 # Assignment: A03: A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: Continue practicing creating and using functions.
 ######################################################################
