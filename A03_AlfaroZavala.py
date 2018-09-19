@@ -81,11 +81,12 @@ def make_human(esa,sz, xpos, ypos, filling, pen):
     esa.pendown() #putting pen down to draw again
     esa.forward(sz/2) #drawing second hand
 
-def make_text(esa, wn, txt):
+def make_text(esa, txt):
     """
-    Writes text to the screen.
-    :param esa: Turtle object
-    :return: None
+
+    :param esa: a trutle object
+    :param txt: the text to show on the screen
+    :return: none. void
     """
     esa.color("blue")
     esa.penup()
@@ -111,6 +112,6 @@ make_triangle(esa, 400, -400,0, (0,100,0), (60,179,113)) # Function call to make
 make_human(esa,50, 30, 90, "black", (222,184,135)) # function cal lto make_human
 make_text(esa, "El Salvador, Land of volcanoes")
 
-
+main()
 
 wn.exitonclick()
