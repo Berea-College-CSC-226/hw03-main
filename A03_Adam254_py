@@ -1,15 +1,14 @@
-#################################################################################
-# Author: Adam M. Kinyua
-# Username: Adam254
+######################################################################
+# Author: Adam Kinyua
+# Username: adam254
 #
 # Assignment: A03: A Pair of Fully Functional Gitty Psychedelic  Robotic Turtles
 # Purpose: To very simply demonstrate use of functions to organize my code
-#################################################################################
+######################################################################
 # Acknowledgements:
-#
-#
+# Original: http://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html
+# Google doc link: https://docs.google.com/document/d/17O7B0N_S3BY3BcRQUWubq5Tzo0S8eUoqEwEutIYOzSw/edit?usp=sharing
 #################################################################################
-
 import turtle
 
 
