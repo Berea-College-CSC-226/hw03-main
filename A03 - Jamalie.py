@@ -8,7 +8,6 @@
 # Attribution:
 # Website used: https://docs.python.org/2/library/turtle.html#turtle.write
 # https://docs.python.org/3.0/library/turtle.html#turtle.color
-#
 # Got help from TAs: Aaron Christian and Giorgi Lomia
 #################################################################################
 
