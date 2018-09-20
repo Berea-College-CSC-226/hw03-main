@@ -1,3 +1,11 @@
+#################################################################################
+# Author: Bryan Epperson
+# Username: eppersonb
+#Google doc link: https://docs.google.com/document/d/1smLac0NqXwb2Vhik-P_RQHyp7SrGP1fTNXuw59lm9Oc/edit?usp=sharing
+# Assignment: A03: A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
+# Purpose: this code draws an ambulance. WEEWOOWEEWOOO!
+#################################################################################
+
 import turtle
 wn = turtle.Screen()
 wn.title("Ambulance")
@@ -17,6 +25,7 @@ wn.colormode(255)
 
 def drawambulance():
     """This draws an ambulance!!!
+
 
     return:None
     """
