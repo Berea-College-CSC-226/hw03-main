@@ -29,7 +29,7 @@ def draw_house(rex): #def for drawing th house
     rex.setpos(-60,90)
     rex.pendown()
 
-    rex.begin_fill()        #Drawing the trisngle roof
+    rex.begin_fill()        #Drawing the trisngle roof of the house
     for i in range(3):
         rex.forward(120)
         rex.left(120)
