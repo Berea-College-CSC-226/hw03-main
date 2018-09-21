@@ -8,8 +8,6 @@
 # Google Document: https://docs.google.com/document/d/1pdOD4_06ODrgqR11LQO3PXbS2jpj591w86SUGjg6deU/edit?usp=sharing
 #################################################################################
 
-
-
 import turtle                                                                 #imported my turtle
 
 wn=turtle.Screen()
