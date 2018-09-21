@@ -1,5 +1,7 @@
 #################################################
 # Anderson Stettner A03
+
+#https://docs.google.com/document/d/1-WyeAyLQg33YSv7AE61My-hWb5yDrYVNEBUImbhSZU8/edit?usp=sharing
 #################################################
 import turtle
 
