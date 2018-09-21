@@ -2,6 +2,7 @@
 #Author: May Jue
 #username: juem
 
+#google doc: https://docs.google.com/document/d/1h6asxC9yZFtLBvuwIFVTVdZ8yPDrGLkP2ZBRi4WlK60/edit?usp=sharing
 #Assignment: a03: A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
 ######################################################################################################
 import turtle
@@ -142,7 +143,7 @@ def main():
     bob.end_fill()
 
 
-    #function calls
+    #function calls for all of the def
     draw_house(rex)
     for x in dis:
         draw_stars(star, x)
