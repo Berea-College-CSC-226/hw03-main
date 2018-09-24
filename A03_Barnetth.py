@@ -3,6 +3,7 @@
 # Username: barnetth
 #
 # Assignment: A03: A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
+# Google Doc: https://docs.google.com/document/d/1b_kPuOFjk2ts8oeHPeDi9AVNJG23O5g9rXZ3Zpel5ic/edit?usp=sharing
 ######################################################################
 # Acknowledgements:
 
