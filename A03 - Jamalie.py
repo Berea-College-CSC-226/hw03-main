@@ -2,6 +2,7 @@
 # Author: Ela Jamali
 # Username: Jamalie
 #
+# Google Doc: https://docs.google.com/document/d/1-tCZSE_ifI0Q9IcZ3osAFNl59Ois0sxHh9bdSrzI_Bo/edit?usp=sharing
 # Assignment: A03: A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: Practicing creating and using functions and using the turtle library.
 #################################################################################
