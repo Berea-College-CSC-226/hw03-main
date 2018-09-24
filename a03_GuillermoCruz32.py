@@ -7,6 +7,7 @@
 ######################################################################
 # Acknowledgements:
 # Original: http://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html
+# Google Doc Link: https://docs.google.com/document/d/1-oSksfApYVTg6nTMdsSBAIEQVH-xe0YlDPra-Ng_edY/edit?usp=sharing
 #
 # Dr. Jan Pearce - this file is modified from her original work
 
