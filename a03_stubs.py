@@ -59,7 +59,3 @@ def main():
     wn.exitonclick()
 
 main()
-
-
-
-
