@@ -15,7 +15,7 @@ import turtle
 def draw_outside_circle(t, x, y, color):
     """
     Draws a circle with given color on the (x,y) coordinate.
-    (Intended to make it look like outer circle of a tyre )
+    (Intended to make it look like outer circle of a tyre).
 
     :param t: Turtle to use a circle
     :param x: value of coordinates of x-axis
