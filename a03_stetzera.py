@@ -1,7 +1,7 @@
 ######################################################################
 # Author: Heidi Stetzer
 # Username: Stetzera
-#
+# Gdoc link: https://docs.google.com/document/d/1qEd391FpcBqrTeEjmNKtAXIC2kV2kX8jCR-Puv0ydxY/edit?usp=sharing
 # Assignment: A03
 # Purpose: Creates a picture using lots of functions.
 ######################################################################
