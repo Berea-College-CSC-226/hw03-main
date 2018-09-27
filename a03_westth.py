@@ -7,7 +7,7 @@
 #################################################################################
 # Acknowledgements:
 #
-#
+#https://docs.google.com/document/d/1UUrL8WRVpqdXmYqJ5OhmooaObqljzm8hwvvHmirZGWk/edit?usp=sharing
 #################################################################################
 import turtle
 wn = turtle.Screen()
