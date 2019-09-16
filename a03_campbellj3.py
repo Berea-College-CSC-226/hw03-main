@@ -18,11 +18,12 @@ def make_roof(wn, bob):
     :param bob: the turtle object we'll be using
     :return: No specified return
     """
-    bob.penup()
-    bob.setpos(90, 90,)
-    bob.pendown()
-    bob.stamp()
-
+    # wn.register_shape("roof.png")
+    # bob.penup()
+    # bob.setpos(45, 45)
+    # bob.pendown()
+    # wn.shape("roof.png")
+    # bob.stamp()
 
 def make_main_house(bob):
     """
@@ -31,8 +32,9 @@ def make_main_house(bob):
     :param bob: the specified turtle object.
     :return: N/A
     """
-
+    bob.penup()
     bob.setpos(30, 47)
+    bob.pendown()
     bob.color('brown')
     bob.begin_fill()
     for side in range(2):
@@ -85,7 +87,7 @@ def make_door(bob):
     bob.end_fill()
 
 
-#def make_text(bob, txt):
+def make_text(bob, txt):
     """
     Will display text on the screen.
 
@@ -93,9 +95,10 @@ def make_door(bob):
     :param txt: intended text to be displayed.
     :return: N/A.
     """
-    #bob.color('red')
-    #bob.setpos(70, 120)
-    #bob.write(txt, move=False, align='center', font=("Times New Roman", 20, "bold," "normal"))
+    bob.penup()
+    bob.color('dark red')
+    bob.setpos(70, 210)
+    bob.write(txt, move=False, align='center', font=("Arial", 25, ("bold", "normal")))
 
 
 def main():
@@ -107,7 +110,7 @@ def main():
     #turtle.colormode(255)
 
     wn = turtle.Screen()
-    wn.bgcolor('lightgreen')
+    wn.bgpic("DH.PNG")
     bob = turtle.Turtle()
     bob.hideturtle()
 
@@ -117,7 +120,7 @@ def main():
     make_window(bob, 45, 0)
     make_window(bob, 88, 0)
     make_door(bob)
-    #make_text(bob, "Welcome home!")
+    make_text(bob, "At least the rents cheap...")
 
     wn.exitonclick()  # allows user to exit the ran program as wanted.
 
