@@ -5,6 +5,8 @@
 # Assignment: a03
 
 # Purpose: Design a moderately complex image that utilizes a rgb color range.
+
+# Modeled after the house code in t03. Credit to Dr. Scott Heggen and Emily Lovell
 ########################################################################################################################
 
 import turtle  # opens the turtle library
