@@ -5,6 +5,7 @@
 # Assignment: A03 A Pair of Fully-Functional Gitty Psychedelic Turtles
 #
 # Purpose: To create a decently friendly puppy
+# https://docs.google.com/document/d/1F0p1RUkWr2HRi5TaR7jY76hfCaQDz0nHv14eZImY7uw/edit?usp=sharing
 ########################################################################################################################
 
 
