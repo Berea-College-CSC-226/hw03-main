@@ -1,6 +1,7 @@
 #################################################################################
 # Author: Jose Zapata
 # Username: zapatamezaj
+# Google Doc Link: https://docs.google.com/document/d/1Zq2as7MCc36fKQ-mG_TrKfXLLRpVSfLs4w7kI8JvUmM/edit?usp=sharing
 #
 # Assignment: A03
 # Purpose: More practice on using the turtle library. Learn about how computers represent colors.
