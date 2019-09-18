@@ -4,6 +4,7 @@
 #
 # Assignment: a03: A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: To draw a guitar
+# Google link: https://docs.google.com/document/d/11YvbLzDSJ61SnGrrocbZ9Yq0Z_p5AJKAuERopqjMpi4/edit?usp=sharing
 
 
 # Acknowledgements:
@@ -134,7 +135,7 @@ def draw_bottom(turtle):
     turtle.right(90)
     turtle.circle(radius=-150, extent=180)
     turtle.forward(50)
-    print(turtle.pos())
+    # print(turtle.pos())
 
 
 def main():
