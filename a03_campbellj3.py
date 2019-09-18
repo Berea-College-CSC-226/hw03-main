@@ -26,23 +26,6 @@
 import turtle  # opens the turtle library
 
 
-# def make_roof(wn, bob):
-    # Constructing the roof of the house.
-
-    # :param wn: the turtle screen object
-    # :param bob: the turtle object we'll be using
-    # :return: No specified return
-
-    # wn.register_shape("roof.png")
-    # bob.penup()
-    # bob.setpos(45, 45)
-
-
-    # bob.pendown()
-    # wn.shape("roof.png")
-    # bob.stamp()
-
-
 def make_main_house(bob):
     """
     Will construct the main body of the house
