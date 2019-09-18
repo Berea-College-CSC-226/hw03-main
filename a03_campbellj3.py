@@ -1,12 +1,3 @@
-# Author: Jeremy Campbell
-
-# Username: campbellj3
-
-# Assignment: a03
-
-# Purpose: Design a moderately complex image that utilizes a rgb color range.
-
-# Modeled after the house code in t03. Credit to Dr. Scott Heggen and Emily Lovell
 ########################################################################################################################
 
 # Author: Jeremy Campbell
@@ -14,6 +5,8 @@
 # Username: campbellj3
 
 # Assignment: a03
+
+# Google Doc Link: https://docs.google.com/document/d/1YqGLQCJl7wE7VMxRnNqa1_8J6_8kHClcrfaLgpI1aNo/edit?usp=sharing
 
 # Purpose: Design a moderately complex image that utilizes a rgb color range.
 
