@@ -193,6 +193,3 @@ def main():
 
 
 main()
-
-roof = turtle.Turtle()
-the_roof(roof)
