@@ -3,6 +3,8 @@
 # Username: Richardsonmas
 # For CSC 226 with Scott Heggen (Fall 2019)
 # This program uses the Turtles library to draw a complex image.
+
+# Google Doc Link: https://docs.google.com/document/d/1aHajIag9yXOQFwHwXaT4hE5cj7AmsKLXGQaBAiAACRg/edit#
 ################################################################
 import turtle
 import random
