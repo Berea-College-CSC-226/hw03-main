@@ -3,7 +3,7 @@
 # Username: maynardb
 
 # assignment: A03 A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
-
+# google doc link:https://docs.google.com/document/d/1KhrAcX_s6xYsGnLjPLaGLGwKJPQA00j1x-yZnrc9Mcg/edit?usp=sharing
 ###############################################
 
 import turtle
