@@ -52,6 +52,7 @@ def draw_swing(thy):
     :param sides:
     :return:
     """
+    #Construct tne swing with nearly a trapezoid
     thy.left(60)
     thy.forward(80)
 
@@ -99,29 +100,25 @@ def write_word(maithy, ask_color):
     maithy.forward(95)
     maithy.pendown()
     maithy.write("This is a " + ask_color + " swing", move=False, align="center", font=("Helvetica", 30, "bold"))
-
+    #Print the color of the swing
 def main():
     """
     Call all of the functions and set up all of the turtles as well as the background
     """
-    ask_color = input("Enter a color: [pink], [red], [blue]")
+    ask_color = input("Enter a color: [pink], [red], [blue], [yellow]")
     sleep(2)
     wns = turtle.Screen()
     wns.setworldcoordinates(-5, -5, 200, 100)
     wns.bgcolor("#b3ffe6")
     thy = turtle.Turtle()
-    thy.penup()
-    if ask_color == "pink" or ask_color == "red" or ask_color == "blue":
+    if ask_color == "pink" or ask_color == "red" or ask_color == "blue" or ask_color == "yellow":
         thy.color(ask_color)
     else:
         ask_color = "purple"
         thy.color("purple")
     thy.pensize(3)
-    thy.pendown()
     maithy = turtle.Turtle()
     maithy.color("#000099")
-    maithy.penup()
-    maithy.pendown()
     draw_swing(thy)
     write_word(maithy, ask_color)
     wns.exitonclick()
