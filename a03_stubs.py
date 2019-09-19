@@ -19,7 +19,7 @@
 import turtle
 wn = turtle.Screen()
 wn.bgcolor("light blue")  # turns the background to light blue
-wn.colormode(255)
+wn.colormode(255) 
 hse = turtle.Turtle()
 hse.shape("turtle")
 hse.begin_fill()
