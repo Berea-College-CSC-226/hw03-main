@@ -49,7 +49,7 @@ def draw_swing(thy):
     """
     This function draws a swing.
     :param thy:
-    :param a:
+    :param sides:
     :return:
     """
     thy.left(60)
