@@ -88,5 +88,4 @@ def main():
     many_windows(raphael,-205,-55)    #makes windows
     make_door(raphael,-140,-250,80,120)  #makes door
     wn.exitonclick()
-
 main()
