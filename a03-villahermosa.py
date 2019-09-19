@@ -177,7 +177,7 @@ def main():
 
     wn = turtle.Screen()
     wn.title("Happy Halloween!")
-    wn.bgpic("Halloween.gif")  # Sets up the background picture
+    wn.bgpic("Halloween-Background.gif")  # Sets up the background picture
     tess = turtle.Turtle()
     tess.speed(5)  # Sets up the speed to which the turtle draws
     tess.hideturtle()
