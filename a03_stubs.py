@@ -18,7 +18,6 @@
 
 
 
-
 import turtle
 sc = turtle.Screen()
 sc.bgcolor("#ADD8E6")
