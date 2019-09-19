@@ -3,13 +3,6 @@
 
 import turtle
 
-#def draw_backcircle(a, angel):
-#    a.speed(10)
- #   for i in range(angel):
-#        a.backward(1)
- #       a.right(1)
-
-
 def drawrecta(a):
     "'This function's main purpose is to draw a rectangle around the options. It draws a cool stamp of arrows into a rectangle. '"
     for i in range(2):
@@ -23,19 +16,6 @@ def drawrecta(a):
             a.stamp()
             a.forward(1)
         a.left(90)
-
-
-#def bubble(a):
- #   a.begin_fill()
-  #  a.speed(0)
-    # wn.bgpic("Brain 1.gif")
-   # for i in range(360):
-        # a.speed(10)
-    #    a.stamp()
-     #   a.backward(1)
-      #  a.right(1)
-    #a.end_fill()
-
 
 def drawflower(f):
     "'This function draws a flower made of lines angeled 220 degrees inbetween.'"
@@ -55,19 +35,19 @@ def drawthickflower(f):
 def main():
     wn = turtle.Screen()
     wn.bgpic(picname="Brain 1.png")
-    wn.colormode()
+    wn.colormode(255)
 
     d = turtle.Turtle() #This turtle writes the prompt
     d.speed(0)
     d.penup()
     d.setpos(200, -200)
     d.pendown()
-    d.color("red", "white")
+    d.color((220,20,60), (255,255,255))
     d.write("\nWhat's really\n on my mind?", move=False, font=("Times", 20, ("bold", "normal")))
     print("d is:", d.position())
 
     a = turtle.Turtle() #This turtle provides one of the options
-    a.color("red")
+    a.pencolor(220,20,60)
     a.speed(0)
     a.penup()
     a.setposition(-200, -50)
@@ -82,7 +62,7 @@ def main():
     b.speed(0)
     b.penup()
     b.setpos(-400, -100)
-    b.color("green")
+    b.color(50,205,50)
     b.write("   Friends", move=False, font=("Times", 15, ("bold", "normal")))
     b.pendown()
     drawrecta(b)
@@ -95,7 +75,7 @@ def main():
     c.penup()
     c.setpos(0, 0)
     c.pendown()
-    c.color("blue")
+    c.color(0,0,255)
     c.write("   Future", move=False, font=("Times", 15, ("bold", "normal")))
     drawrecta(c)
     print("c is:", c.position())
@@ -104,7 +84,7 @@ def main():
     f.speed(0)
     f.penup()
     f.setpos(200, -50)
-    f.color("red")
+    f.color(178,34,34)
     f.write("   Self-Care", move=False, font=("Times", 15, ("bold", "normal")))
     f.pendown()
     drawrecta(f)
@@ -115,7 +95,7 @@ def main():
     e.penup()
     e.setposition(-500,200)
     e.pendown()
-    e.color("red","white")
+    e.color((178,34,34),(255,255,255))
     drawthickflower(e)
     e.penup()
 
@@ -123,7 +103,7 @@ def main():
     g.penup()
     g.setpos(150, 200)
     g.pendown()
-    g.color("blue","white")
+    g.color((0,0,255),(255,255,255))
     drawflower(g)
 
     h = turtle.Turtle() #This turtle draws one of the flowers
