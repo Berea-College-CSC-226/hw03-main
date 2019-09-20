@@ -10,8 +10,7 @@
 
 
 import turtle
-wn = turtle.Screen()
-wn.bgcolor('light green')
+
 
 def CreateHead(turtle):
     """
@@ -129,16 +128,20 @@ def DrawMouth(turtle):
 
 
 
+
+
 def main(turtle):
     """
     Calls all of the functions in order so that the puppy can be drawn!
     :return: none
     """
+    wn = turtle.Screen()
+    wn.bgcolor('light green')
     CreateHead(turtle)
     CreateEars(turtle)
     DrawEyes(turtle)
     DrawNose(turtle)
     DrawMouth(turtle)
+    wn.exitonclick()
 
 main(turtle)
-wn.exitonclick()
