@@ -14,11 +14,6 @@
 
 import turtle
 
-wn = turtle.Screen()
-wn.colormode(255)
-wn.bgcolor(120, 150, 130)
-# sets the background color to xanadu
-
 
 jose = turtle.Turtle()
 # creates the turtle Jose
@@ -126,6 +121,10 @@ def main():
     """
     Creates the entire house using all of the functions.
     """
+    wn = turtle.Screen()
+    wn.colormode(255)
+    wn.bgcolor(120, 150, 130)
+    # sets the background color to xanadu
     roof()
     house()
     window()
