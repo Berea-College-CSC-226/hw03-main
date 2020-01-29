@@ -24,7 +24,7 @@ def function_1():
     Docstring for function_1
     """
     pass
-    # ...
+    # ....
 
 
 def function_2():
