@@ -4,11 +4,14 @@
 #
 # Assignment: A03: A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: Draws the Danforth building
+# Google Doc Link: https://docs.google.com/document/d/1au_vIgBq9R9oMruHW2GL8MeyCLP_8GY-Wk_AulrXdsE/edit?usp=sharing
+#
 #################################################################################
 # Acknowledgements:
 #
 #
 #################################################################################
+
 import turtle
 
 
