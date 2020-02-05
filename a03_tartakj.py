@@ -2,6 +2,8 @@
 # Author: Jacek Tartak
 # Username: tartkj
 #
+# Google Docs: https://docs.google.com/document/d/1884_v8JY0_S9ndSunQ-q2NpWi_gngqWtRQI5gqQD-yg/edit?usp=sharing
+#
 # Assignment: A03 - A Pair of Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: Grow to appreciate pair programming and learn about how computers represent colors.
 #################################################################################
