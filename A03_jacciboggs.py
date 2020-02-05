@@ -22,7 +22,7 @@ def make_roof(wn, shape):
     :param shape:
     :return:
     """
-  wn.register_shape("Bricks.gif")     #registers a sh
+    wn.register_shape("Bricks.gif")     #registers a sh
 #draw the body of the house - a rectangle
 
 def draw_square(houseturtle):
@@ -47,7 +47,7 @@ def draw_roof(houseturtle):
     :param houseturtle:
     :return:
     """
-    houseturtle.color("32a852")
+    houseturtle.color(50, 168, 82)
     houseturtle.penup()
     houseturtle.goto(-230, -230)
     houseturtle.pendown()
@@ -74,12 +74,13 @@ def main():
     """
     houseturtle = turtle.Turtle()
     wn = turtle.Screen()
+    wn.colormode(255)
     houseturtle.pensize (10)
 
     draw_square(houseturtle)
     draw_roof(houseturtle)
-    draw_chimney(houseturtle)
-    draw_smoke(houseturtle)
+    #draw_chimney(houseturtle)
+    #draw_smoke(houseturtle)
 
     wn.exitonclick()
 
