@@ -6,7 +6,7 @@
 # Purpose: Creating useful functions
 #################################################################################
 # Acknowledgements:
-#
+# Google document URL: https://docs.google.com/document/d/1pYePMqtWoGBR1tD9cJOawBtUxx7mR0Frm8LI3ebTi98/edit?usp=sharing
 #
 #################################################################################
 

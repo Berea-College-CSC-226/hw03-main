@@ -8,7 +8,7 @@
 #
 # Assignment:
 # Purpose:
-# Google Doc Link: https://docs.google.com/document/d/1pYePMqtWoGBR1tD9cJOawBtUxx7mR0Frm8LI3ebTi98/edit?usp=sharing
+# Google Doc Link:
 #
 #################################################################################
 # Acknowledgements:
