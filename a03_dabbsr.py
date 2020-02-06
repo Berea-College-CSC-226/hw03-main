@@ -1,3 +1,7 @@
+Robert Dabbs
+dabbsr
+https://docs.google.com/document/d/1NYZeAN_fGb0iTEdF8upy8mrT_fNUva248VOr3c7x7pY/edit#
+
 import turtle
 wn = turtle.Screen()
 wn.colormode(255)
