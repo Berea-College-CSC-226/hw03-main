@@ -11,7 +11,7 @@ house = turtle.Turtle()
 
 def make_triangle():
     """
-    makes a triangle on top of the main house
+    makes a triangle on top of the main houses
 
     """
     house.right(135)
