@@ -3,6 +3,14 @@ import turtle
 
 
 def rect(t, leng):
+    """
+
+    :param t:       "t" is our turtle that draws the three block of cake
+    :param leng:     the length is the parameters for the sides of the block of cake
+    :return:            It draws the blocks of cake
+    """
+
+
     t.forward(leng)
     t.right(90)
     t.forward(100)
@@ -16,7 +24,7 @@ def move(t):
     t.right(90)
 
 
-def lamp(t, l, w):
+def lamp(t, l, w):                        # this function draw our candles on top of our cake
     for g in range(3):
         t.forward(l)
         t.right(90)
@@ -28,24 +36,16 @@ def lamp(t, l, w):
         t.left(90)
 
 
-def baloons(tess):
+def baloons(tess):                             # This function draws our balloons
     tess.left(150)
     tess.forward(100)
-    #tess.penup()
-    #tess.setposition(-300, -100)
-    #tess.pendown()
-    #tess.forward(100)
 
 
 
 
-#def talloval(r):               # Verticle Oval
- #   hassan.left(45)
-  #  for loop in range(5):      # Draws 2 halves of ellipse
-   #     hassan.circle(r,90)    # Long curved part
-    #    hassan.circle(r/2,90)  # Short curved part
 
-def flatoval(r, tess):
+
+def flatoval(r, tess):                           # this draws our oval shaped baloons
     tess.fillcolor("#8B4513")
     tess.begin_fill()                                            # Horizontal Oval
     tess.right(45)
@@ -76,7 +76,7 @@ def flatoval(r, tess):
 
 
 #
-def write(tess):
+def write(tess):                          # this function writes the text "happy birthday"
     tess.penup()
     tess.setpos(-300, -200)
     tess.pendown()
@@ -85,7 +85,13 @@ def write(tess):
 
 
 def main():
+    """
+    This main function contain some part of my rectangle function.
+    :return:
+    """
+
     hassan = turtle.Turtle()
+
     hassan.pensize(10)
 
     tess = turtle.Turtle()
@@ -95,7 +101,8 @@ def main():
     mouse = turtle.Turtle()
 
     wn = turtle.Screen()
-    wn.bgcolor("white")
+
+    wn.bgcolor("#d4ddb7")
     hassan.color("white")
     hassan.color("red")
 
@@ -103,9 +110,9 @@ def main():
     tess.speed(20)
 
     hassan.fillcolor("#8B4513")
-    hassan.begin_fill()
+    #hassan.begin_fill()
 
-    for i in [300, 200, 100]:
+    for i in [300, 200, 100]:             # This loop repeats our three layers of cake.
 
         for v in range(2):
             rect(hassan, i)
@@ -114,7 +121,7 @@ def main():
             break
 
         move(hassan)
-    hassan.end_fill()
+    #hassan.end_fill()
 
 
     hassan.forward(30)
@@ -178,48 +185,12 @@ main()
 
 
 
-"""def rectangle(t, l):
-    for i in range (2):
-        t.forward(l)
-        t.left(90)
-        t.forward(100)
-        t.left(90)
-
-def first_block_of_cake(color,):
-    hassan.penup()
-    hassan.setpos(-300, -200)
-    hassan.pendown()
-    #for i in range(2):
-    rectangle(hassan, 300)
-    hassan.penup()
-    hassan.goto(-280, -100)
-    hassan.right(90)
-    hassan.pendown()
-def second_block_of_cake():
-      #hassan.begin_fill()
-      rectangle(hassan, 200)
-      #hassan.end_fill()
-      hassan.penup()
-      hassan.goto(-260, 0)
-      hassan.left(90)
-      hassan.left(90)
-      hassan.pendown()
-def third_block_of_cake():
-    rectangle(hassan, 100)
 
 
 
 
 
 
-
-
-
-
-first_block_of_cake("red")
-
-second_block_of_cake()
-third_block_of_cake()"""
 
 
 
