@@ -37,8 +37,6 @@ def draw_base(cup):
     cup.end_fill()
 
 
-
-
 def curve(love):
     """
        draws the love sign on the table
@@ -95,7 +93,6 @@ def draws_table(table):
     table.end_fill()
 
 
-
 def make_text(txt):
     """
     Writes text to the screen.
@@ -110,7 +107,8 @@ def make_text(txt):
     txt.setpos(0, 120)
     txt.write('Computer Science Is Life!', move=False, align='center', font=("Algerian", 20, ("bold", "normal")))
 
-def main() :
+
+def main():
 
     wn = turtle.Screen()
     wn.bgcolor('#ffffff')  # Sets background color.
@@ -127,4 +125,5 @@ def main() :
 
     wn.exitonclick()
 
-main()       # call main()
+
+main()       #call main()
