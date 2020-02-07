@@ -1,4 +1,16 @@
-
+#################################################################################
+# Author:
+# Username: AbdulBaseer Mahmood
+#
+# Assignment: a-o3
+# Purpose: to create happy birthday cake
+# Google Doc Link: https://docs.google.com/document/d/1vqxaWs54B0K_AzsEIOlyF96Hx13iN_ehCspy9zxjzgM/edit?usp=sharing
+#
+#################################################################################
+# Acknowledgements:
+#
+#
+#################################################################################
 import turtle
 
 
