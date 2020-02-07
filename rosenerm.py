@@ -3,7 +3,7 @@
 # username: rosenerm            ****** TODO: CHANGE THIS!! *****
 #
 # Purpose: Designed to
-#
+# google doc link: https://docs.google.com/document/d/1av0ghPojqKQlRCck1p-s1Gq7s17fXfmKDOB5s4CZFnU/edit?usp=sharing
 ######################################################################
 import turtle                           # allows us to use the turtles library
 
