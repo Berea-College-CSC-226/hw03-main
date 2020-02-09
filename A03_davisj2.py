@@ -40,6 +40,7 @@ def ground(t):
     t.forward(50)
     t.end_fill()
 
+
 def house(t):
     t.penup()
     t.setpos(-190,-200)
