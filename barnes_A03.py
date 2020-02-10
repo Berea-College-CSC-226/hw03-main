@@ -6,7 +6,7 @@
 # upload my work to Github
 # Google Doc Link: https://docs.google.com/document/d/14x1obxTxnOAusPypyGGnFPovBs_ScAmhieBzGT052TQ/edit?usp=sharing
 #################################################################################
-# Acknowledgements: I wrote all of this. I used the knowledge that was given to me by professor scott heggen.
+# Acknowledgements: I wrote all of this. I used the knowledge that was given to me by professor Scott Heggen.
 #################################################################################
 import turtle
 import random
