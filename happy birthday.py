@@ -118,8 +118,8 @@ def main():
     hassan.color("white")
     hassan.color("red")
 
-    hassan.speed(20)
-    tess.speed(20)
+    #hassan.speed(0)
+    #tess.speed(0)
 
     hassan.fillcolor("#8B4513")
     #hassan.begin_fill()
