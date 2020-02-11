@@ -1,10 +1,7 @@
 ######################################################################
-# Author: Anna Carrillo
-# username: carrilloa
-# Link:
-#
+# Name: Anna Carrillo
 # Purpose:
-#
+# Link: https://docs.google.com/document/d/1TScJ_SQWAMJLXnWaSz1P81k8HZTGVFPZ_0cgIZxUsbM/edit?usp=sharing
 ######################################################################
 # Acknowledgements:
 #
