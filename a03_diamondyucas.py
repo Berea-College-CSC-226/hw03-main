@@ -6,8 +6,10 @@
 #
 # Purpose: Practice with making functions and using Git
 #
-# This program creates
-#
+# This program creates my interpretation of a mountain with a full bright moon
+# and the big dipper to help light up the night sky
+
+# I received help from Mr. Darian Sanders with organization!
 ######################################################################
 
 import turtle
