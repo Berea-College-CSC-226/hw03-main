@@ -43,7 +43,7 @@ log.forward(200)
 
 
 
-def front_door(): # making the door to the cabin
+def front_door(): ## making the door to the cabin
     """function 2"""
 
 door = turtle.Turtle()
