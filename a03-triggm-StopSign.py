@@ -1,7 +1,7 @@
 ########################################################
 # Author: Matthew Trigg
 # Username: triggm
-
+# Google Doc https://docs.google.com/document/d/1vJmtwj1WUgYqU9LEzEp9jM2oL7p9yIS70mqsypai0CU/edit?usp=sharing
 # Assignment: A03: Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: Create something creative
 ####################################################
