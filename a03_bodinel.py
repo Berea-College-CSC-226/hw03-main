@@ -2,7 +2,7 @@
 # Author: Lydia Bodine
 # Username: bodinel
 # Assignment: A03 - Fully Functional Gitty Pyschedelic Robotic Turtles
-# Google Doc: https://docs.google.com/document/d/1nO1j0PSvngdlDDSlSutAlc7grp_5dXbqYevRSSM-StI/edit#
+# Google Doc link: https://docs.google.com/document/d/1nO1j0PSvngdlDDSlSutAlc7grp_5dXbqYevRSSM-StI/edit#
 # Purpose: To create something complex, like a house, animal or person.
 # https://docs.python.org/3.0/library/turtle.html#turtle.pencolor helped me figure out how to incorporate r,g,b
 ######################################################################
@@ -13,7 +13,7 @@ wn.bgcolor("light blue")
 wn.title("Welcome Home!")
 
 
-def log_cabin(): # making the structure of the log cabin
+def log_cabin():    # making the structure of the log cabin
         """
         Docstring for function_1
         """
@@ -43,7 +43,7 @@ log.forward(200)
 
 
 
-def front_door(): ## making the door to the cabin
+def front_door(): # making the door to the cabin
     """function 2"""
 
 door = turtle.Turtle()
@@ -65,7 +65,7 @@ door.end_fill()
 
 
 
-def roof_top(): # Building the roof
+def roof_top(): #Building the roof
     """Function 3"""
 roof = turtle.Turtle()
 roof.color("purple")
