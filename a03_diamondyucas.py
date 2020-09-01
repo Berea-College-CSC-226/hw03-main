@@ -9,6 +9,8 @@
 # This program creates my interpretation of a mountain with a full bright moon
 # and the big dipper to help light up the night sky
 
+# Google Doc Link: https://docs.google.com/document/d/1k9NEPLqzxsZzhp_NomwIHNL4_Qat2GAY-kY07_dW3ko/edit?usp=sharing
+
 # I received help from Mr. Darian Sanders with organization!
 ######################################################################
 
