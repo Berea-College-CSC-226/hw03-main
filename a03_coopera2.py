@@ -7,6 +7,8 @@
 #
 # Purpose: Drawing something more complex using turtles
 #
+# Google Doc Link: https://docs.google.com/document/d/1LkdtJJqZ1Oe6dbnRCYdJvgNadz-JbYggaJ4zJOSuw_U/edit?usp=sharing
+#
 ######################################################################
 #
 # Acknowledgements: Python Library
