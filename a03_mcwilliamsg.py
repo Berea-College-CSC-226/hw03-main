@@ -4,6 +4,7 @@
 #
 # Assignment: A03:Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: To draw a house
+# Google Doc Link: https://docs.google.com/document/d/1LqK3C93SgweDSm81z-T2KW_Ruwtsl6kmEFbcNStc_cQ/edit#
 ######################################################################
 # Acknowledgements:
 
