@@ -3,6 +3,7 @@
 # Username: hughesk2
 # Assignment: A03:Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: Use multiple functions to create something. In this case, a sandcastle
+#Google Doc: https://docs.google.com/document/d/12_zVfRq4SBh98FXjr3C2X4dJ5kxRj306L5kju9lVO48/edit?usp=sharing
 ######################################################################
 
 import turtle  # allows us to use the turtles library
