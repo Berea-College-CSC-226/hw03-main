@@ -12,6 +12,7 @@
 # Google Doc Link: https://docs.google.com/document/d/1k9NEPLqzxsZzhp_NomwIHNL4_Qat2GAY-kY07_dW3ko/edit?usp=sharing
 
 # I received help from Mr. Darian Sanders with organization!
+# Also made a mistake and added file from sangarie_a03 to troubleshoot and uploaded file with mine!
 ######################################################################
 
 import turtle
