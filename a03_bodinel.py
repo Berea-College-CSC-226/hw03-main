@@ -90,6 +90,6 @@ def main():
     front_door()
     roof_top()
 
-main()
+
 
 wn.exitonclick()
