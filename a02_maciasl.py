@@ -14,13 +14,13 @@ luis.pencolor(0, 0, 0)
 wn.bgcolor(100, 100, 255)
 
 
-
 def building():
     for i in range(2):
         luis.forward(300)
         luis.left(90)
         luis.forward(660)
         luis.left(90)
+
 
 def color():
     luis.color('grey')
@@ -50,6 +50,7 @@ def color():
     luis.forward(640)
     luis.left(90)
 
+
 def windows():
     luis.pencolor(0, 0, 0)
     for i in range(2):
@@ -64,6 +65,7 @@ def windows():
         luis.penup()
         luis.forward(108)
         luis.pendown()
+
 
 def main():
     luis.penup()
@@ -96,8 +98,7 @@ def main():
     luis.pendown()
     windows()
 
+
 main()
-
-
 
 wn.exitonclick()
