@@ -1,6 +1,7 @@
 # Author: Darius Morton
 # Username: mortond
-#
+# Google doc link: https://docs.google.com/document/d/1LCaK7xrjIaCi4lZffVT7LUmrYVyYUXjz15eXhzyeMmI/edit?usp=sharing
+
 # Assignment: A03: Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: To learn about how computers use colors using rgb values and using source and git.
 
