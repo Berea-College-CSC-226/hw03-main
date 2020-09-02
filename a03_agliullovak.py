@@ -4,7 +4,7 @@
 # Assignment: A03: Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: This program draws a dream house and the sun using turtles and functions.
 ######################################################################
-# Acknowledgements:
+# Google Doc Link: https://docs.google.com/document/d/11Yc1W0G3JQutGKG8Upq3oU_Rtv0Fbt6jQHCSQiktvLg/edit#heading=h.j4414z2ufr72
 
 # Original code by: Karina Agliullova
 
