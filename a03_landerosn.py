@@ -3,6 +3,7 @@
 # Username: landerosn
 #
 # Assignment: A03: Fully Functional Gitty Psychedelic Robotic Turtles
+#Google Doc link: https://docs.google.com/document/d/1CYlhf3IDJj0o6fuSB3hL0P7r1iG9gkNlMxqnPZ6EySM/edit?usp=sharing
 #############################################################
 
 import turtle
