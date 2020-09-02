@@ -1,7 +1,7 @@
 ######################################################################
 # Authors: Jakob Bister
 # Username: bisterj
-#
+# Doc link: https://docs.google.com/document/d/14SaoPnirHLAimFZClApE9LVONUtrSzHRP1WLj_0BRqU/edit?usp=sharing
 # Assignment: A03
 ######################################################################
 import turtle
