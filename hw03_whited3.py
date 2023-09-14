@@ -26,7 +26,7 @@ def mb():
     mb.fillcolor('#eb5c0d')
     mb.pencolor('#eb5c0d')
     mb.begin_fill()
-    for i in range(2):      # rectangle
+    for i in range(2):      # BRICK LAYER
         mb.fd(200)
         mb.left(90)
         mb.fd(50)
@@ -36,7 +36,7 @@ def mb():
     mb.left(90)
     mb.fd(50)
 
-    mb.pencolor('royal blue')
+    mb.pencolor('royal blue')       # STUCCO
     mb.fillcolor('royal blue')
     mb.begin_fill()
     for f in range(2):      ##TODO: Change placeholder colors
@@ -49,8 +49,7 @@ def mb():
     mb.pencolor('green')
     mb.fillcolor('green')
     mb.begin_fill()
-
-    mb.fd(100)
+    mb.fd(100)                         # ROOF
     mb.right(45)
     mb.fd(100)
     mb.right(45)
@@ -59,9 +58,7 @@ def mb():
     mb.fd(100)
     mb.right(135)
     mb.fd(200)
-
     mb.end_fill()
-
 
 def chim():
     ch = turtle.Turtle()
@@ -83,7 +80,13 @@ def chim():
     ch.fd(60)
     ch.end_fill()
 
-
+def extension():
+    ex = turtle.Turtle()
+    for i in range(2):
+        ex.fd(40)
+        ex.left(90)
+        ex.fd(100)
+        ex.left(90)
 
 
 
@@ -92,9 +95,9 @@ def main():
     wn = turtle.Screen()
     wn.setup(400, 400)
 
-
-    chim()
-    mb()
+    # chim()
+    # mb()
+    extension()
     wn.exitonclick()
 
 main()
