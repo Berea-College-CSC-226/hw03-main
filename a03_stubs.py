@@ -70,7 +70,6 @@ def flower_outsidecircle():         #draws a final circlea round the flower
 
 
 
-
 # Function to draw a flower
 
 
