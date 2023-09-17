@@ -33,7 +33,7 @@ def move(t, lenght):
     t.fd(lenght)
     t.pd()
 def setup_window(rosa):
-    rosa.color('orchid')
+    rosa.color('orchid') #aje
     rosa.shape('turtle')
     move(rosa,150)
     rosa.begin_fill()
