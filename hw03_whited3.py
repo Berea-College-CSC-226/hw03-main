@@ -97,7 +97,7 @@ def main():
 
     # chim()
     # mb()
-    extension()
+    #extension()
     wn.exitonclick()
 
 main()
