@@ -1,7 +1,7 @@
 #################################################################################
 # Author: Gerard Nagel
 # Username: nagelg
-#
+# Google Doc: https://docs.google.com/document/d/1CtGVE73xZCMP0tAIBb7fdBZGuHK2BC2an2vo10VEUag/edit?usp=sharing
 # Assignment: HW03
 # Purpose:
 #################################################################################
