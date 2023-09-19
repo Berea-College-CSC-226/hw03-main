@@ -132,6 +132,52 @@ def body():
     # ...
 
 
+def feet():
+    """
+    Feet of turtle
+    """
+    claws = turtle.Turtle()
+    claws.pensize(10)
+    claws.pencolor("#64ae26")
+    claws.speed(10)
+    claws.penup()
+    claws.goto(-80, -40)
+    claws.pendown()
+
+    claws.right(45)
+    claws.forward(60)
+    claws.right(50)
+    claws.forward(40)
+    claws.right(40)
+    claws.forward(110)
+    claws.right(70)
+    claws.forward(80)
+    claws.right(110)
+    claws.forward(90)
+    claws.left(10)
+    claws.forward(40)
+
+    claws.penup()
+    claws.goto(100, -40)
+    claws.pendown()
+
+    claws.right(90)
+    claws.forward(60)
+    claws.right(50)
+    claws.forward(40)
+    claws.right(40)
+    claws.forward(110)
+    claws.right(70)
+    claws.forward(80)
+    claws.right(110)
+    claws.forward(90)
+    claws.left(10)
+    claws.forward(40)
+
+    claws.penup()
+    claws.goto(1000, 1000)
+
+
 def main():
     """
     Drawing a alligator snapping turtle
@@ -139,9 +185,11 @@ def main():
     # ...
     window = turtle.Screen()
     window.bgcolor("#5f3414")
+
     head()            # Function call to function_1
     tail()
     body()            # Function call to function_2
+    feet()
 
     window.exitonclick()
 
