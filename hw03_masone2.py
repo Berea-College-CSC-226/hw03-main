@@ -3,6 +3,7 @@
 # Username: Masone2
 # Assignment: HW03: Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: To demonstrate the turtle library, funcshons, and git
+# google doc link: https://docs.google.com/document/d/1uEDcJfrSPKVqRZIrBYCS930wwOhCPhb6U_Q640EEbRM/edit?usp=sharing
 ######################################################################
 # Acknowledgements:
 #HW02: Loopy Turtles, Loopy Languages and its assosiated acknowledgments
