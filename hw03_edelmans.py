@@ -1,43 +1,61 @@
 #################################################################################
-# Author:
-# Username:
+# Author: Sam Edelman
+# Username: edelmans
 #
-# Assignment:
+# Assignment: hw03 Fully Functional Gitty Psychedelic Robotic Turtles
+#
 # Purpose:
-# Google Doc Link:
+#   Continue practicing creating and using functions.
+#   More practice on using the turtle library.
+#   Learn about how computers represent colors.
+#   Learn about source control and Git.
 #
+# Google Doc Link: https://docs.google.com/document/d/1d-mX4dTe4ysHzNasPZLG1phhV-ksM9_mMCXrIqtT3wU/edit#heading=h.ju96mtye4s7l
 #################################################################################
-# Acknowledgements:
-#
+# Acknowledgements: Scott Heggen (for template)
 #
 #################################################################################
 
 import turtle
 
 
-def function_1():
+def head():
     """
-    Docstring for function_1
+    Head of turtle
     """
     pass
     # ....
 
 
-def function_2():
+def body():
+
     """
     Docstring for function_2
     """
-    pass
+    shell = turtle.Turtle
+    shell.pensize(10)
+
     # ...
 
+
+def tail():
+    """
+
+    """
+    pass
 
 def main():
     """
-    Docstring for main
+    Drawing a alligator snapping turtle
     """
     # ...
-    function_1()            # Function call to function_1
-    function_2()            # Function call to function_2
+    window = turtle.Screen()
+
+    head()            # Function call to function_1
+    body()            # Function call to function_2
+    tail()
+
+    turtle.exitonclick()
 
 
 main()
