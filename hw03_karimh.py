@@ -11,6 +11,7 @@ import turtle
 def function_1():
     "include docstring"
 
+
 def function_2():
     "docstring"
 
