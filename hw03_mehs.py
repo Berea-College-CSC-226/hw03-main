@@ -378,7 +378,7 @@ def main():
     wn.bgcolor("light blue")
 
     draw_roof(rf)  # Function call to outline the roof.
-    draw_house(hse)  # Function call to outline the house
+    draw_house(hse)  # Function call to outline the house.
     fill_rfred(filr)  # Function call to fill roof red
     fill_house(filhse)  # Function call to fill house
     fill_rfor(filror)  # Function call to fill roof a shade of red
