@@ -60,7 +60,7 @@ def drawroof(t2):
 
 def main():
     """
-    Creates a window and initializes t1 and t2
+    Creates a window and initializes t1 and t2.
     """
     wn = turtle.Screen()
     t1 = turtle.Turtle()
