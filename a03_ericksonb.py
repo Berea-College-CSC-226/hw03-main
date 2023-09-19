@@ -14,45 +14,45 @@
 
 import turtle
 
-def draw_rect(turtle, color, length, height):
+def draw_rect(turt, color, length, height):
     """
     Draws a rectangle
     """
-    turtle.pendown()
-    turtle.color(color)
-    turtle.begin_fill()
+    turt.pendown()
+    turt.color(color)
+    turt.begin_fill()
     for i in range(2):
-        turtle.forward(length)
-        turtle.left(90)
-        turtle.forward(height)
-        turtle.left(90)
-    turtle.end_fill()
-    turtle.penup()
+        turt.forward(length)
+        turt.left(90)
+        turt.forward(height)
+        turt.left(90)
+    turt.end_fill()
+    turt.penup()
 
-def draw_tri(turtle, color, length):
+def draw_tri(turt, color, length):
     """
     Draws a triangle
     """
-    turtle.pendown()
-    turtle.color(color)
-    turtle.begin_fill()
+    turt.pendown()
+    turt.color(color)
+    turt.begin_fill()
     for i in range(3):
-        turtle.forward(length)
-        turtle.left(120)
-    turtle.end_fill()
-    turtle.penup()
+        turt.forward(length)
+        turt.left(120)
+    turt.end_fill()
+    turt.penup()
 
-def draw_tree(turtle):
+def draw_tree(turt):
     """
     Draws a tree
     """
     for i in range(3):
-        draw_tri(turtle,"#14651A",100)
-        turtle.forward(50)
-        turtle.left(90)
-        turtle.forward(50)
-        turtle.right(90)
-        turtle.forward(-50)
+        draw_tri(turt,"#14651A",100)
+        turt.forward(50)
+        turt.left(90)
+        turt.forward(50)
+        turt.right(90)
+        turt.forward(-50)
 
 def main():
     """
