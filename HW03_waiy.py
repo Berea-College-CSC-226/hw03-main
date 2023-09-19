@@ -12,8 +12,8 @@
 #################################################################################
 # Acknowledgements:
 
-https://www.colorspire.com/rgb-color-wheel/
-https://www.webucator.com/article/python-color-constants-module/
+#https://www.colorspire.com/rgb-color-wheel/
+#https://www.webucator.com/article/python-color-constants-module/
 
 #
 #
