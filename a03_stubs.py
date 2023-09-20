@@ -42,8 +42,6 @@ def main():
     function_2()            # Function call to function_2
 
 
-
-
 main()
 
 
