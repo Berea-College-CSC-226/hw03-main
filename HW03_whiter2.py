@@ -61,7 +61,7 @@ def house_base(base):
         base.pendown()
         base.forward(500)
 
-    #
+    # Creates the brick pattern.
     for a in range(5):
         base.penup()
         base.setpos(-230 + 105 * a, -250)
@@ -74,6 +74,7 @@ def house_base(base):
             base.forward(35)
             base.right(90)
             base.forward(35)
+            base.right(90)
     base.penup()
 
 
