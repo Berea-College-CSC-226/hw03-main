@@ -34,7 +34,8 @@ def draw_circles():
     t.circle(170)
     t.end_fill()
 
-    t.penup()  # Repositioning the turtle for a second circle, this one a bit lighter to give the illusion of shadows.
+    # Repositioning the turtle to draw a second circle this one a bit lighter to give the illusion of shadows.
+    t.penup()
     t.left(90)
     t.forward(20)
     t.right(90)
