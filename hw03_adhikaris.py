@@ -1,5 +1,5 @@
 # Drawing a cat.
-#Acknowlege:
+#Acknowlege: Used ChatGPT to ask question, used runestone textbook.
 
 import turtle
 
@@ -45,6 +45,7 @@ def draw_ear(cat, x,y):
     cat.end_fill()
 
 def right_ear(cat, x,y):
+    """This function draws the right side ear of a cat."""
     cat.begin_fill()
     cat.color("white")
     cat.penup()
