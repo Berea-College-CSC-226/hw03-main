@@ -93,7 +93,7 @@ def main ():
     Heer.goto(0,60 )
     Heer.pendown()
 
-    Heer.write("Hira's self-driving car!", align="center", font=("Verdana", 15, "normal"))
+    Heer.write("Hira's self-driving car!", align="center", font=("Verdana", 18, "normal"))
 
     wn.exitonclick()
 
