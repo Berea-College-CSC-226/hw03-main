@@ -1,14 +1,14 @@
-"""
+
 #Author: Tristan Razote
 # Username:razotet
 #
 # Assignment:HW03-Fully Functional Gitty Psychedelic Robotic Turtles
 
 # Purpose:
-Continue practicing creating and using functions.
-More practice on using the turtle library.
-Learn about how computers represent colors.
-Learn about source control and Git.
+#Continue practicing creating and using functions.
+#More practice on using the turtle library.
+#Learn about how computers represent colors.
+#Learn about source control and Git.
 
 # Google Doc Link:https://docs.google.com/document/d/1o3qQdqf5zXFRLx-ZWTtfvhRjhSI-q1dkjrt7Ms-U91M/edit?usp=sharing
 
@@ -17,7 +17,6 @@ Learn about source control and Git.
 #
 #
 #################################################################################
-"""
 import turtle
 
 
