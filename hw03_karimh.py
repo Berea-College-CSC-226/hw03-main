@@ -8,36 +8,77 @@
 
 import turtle
 
-def tyres(rad, th):
+Heer = turtle.Turtle()
+
+def tyre_1(rad, th):
     "rad = radius of the circle"
     "th = thickness of the tyre"
-    turtle.pensize(th)
-    turtle.circle(rad)
+    Heer.pensize(th)
+    Heer.circle(rad)
 
+def tyre_2(rad, th):
+    "rad = radius of the circle"
+    "th = thickness of the tyre"
 
-def function_2():
-    "docstring"
+    Heer.pensize(th)
+    Heer.circle(rad)
+    Heer.fillcolor("grey")
+    Heer.begin_fill()
+def lower_body(l, w):
+    "l = length of the lower rectangular body of car"
+    "w = width of the lower rectangular body of car"
 
-def function_3():
-    "docstring"
+    Heer.left(180)
+    Heer.forward(600)
+    Heer.right(90)
+    Heer.forward(130)
+    Heer.right(90)
+    Heer.forward(600)
+    Heer.right(90)
+    Heer.forward(130)
+    Heer.fillcolor("black")
+    Heer.begin_fill()
+def upper_body(ul,uw):
+    "ul = length of the upper rectangular body"
+    "uw = width of the upper rectangular body"
 
-def fucntion_4():
-    "docstring"
+    Heer.left(180)
+    Heer.forward(200)
+    Heer.right(90)
+    Heer.forward(100)
+    Heer.right(90)
+    Heer.forward(200)
+    Heer.right(90)
+    Heer.forward(100)
+    Heer.fillcolor("orange")
+    Heer.begin_fill()
+
 
 def main ():
     wn = turtle.Screen()
     wn.colormode(255)
     wn.bgcolor("lightblue")
-    turtle.speed(20)
+    Heer.speed(20)
 
-for i in range(2):
-    turtle.penup()
-    turtle.goto(-200,-200)
-    turtle.pendown()
-
+    Heer.penup()
+    Heer.goto(-150, -200)
+    Heer.pendown()
 
     #call functions
-    tyres(50, 5)
+    tyre_1(50, 5)   #call function 1
+
+    Heer.penup()
+    Heer.goto(150, -200)
+    Heer.pendown()
+
+    tyre_2(50,5)    # call function 2
+
+    Heer.penup()
+    Heer.goto(300, -100)
+    Heer.pendown()
+
+    lower_body(200,100)     #call function 3
+
     wn.exitonclick()
 
 main()
