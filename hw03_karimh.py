@@ -15,7 +15,6 @@ def tyres(rad, th):
     turtle.circle(rad)
 
 
-
 def function_2():
     "docstring"
 
@@ -28,9 +27,17 @@ def fucntion_4():
 def main ():
     wn = turtle.Screen()
     wn.colormode(255)
-    wn.bgcolor("purple")
+    wn.bgcolor("lightblue")
+    turtle.speed(20)
+
+for i in range(2):
+    turtle.penup()
+    turtle.goto(-200,-200)
+    turtle.pendown()
+
 
     #call functions
-    tyres(100, 10)
+    tyres(50, 5)
     wn.exitonclick()
+
 main()
