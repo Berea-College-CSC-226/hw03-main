@@ -8,8 +8,12 @@
 
 import turtle
 
-def function_1():
-    "include docstring"
+def tyres(rad, th):
+    "rad = radius of the circle"
+    "th = thickness of the tyre"
+    turtle.pensize(th)
+    turtle.circle(rad)
+
 
 
 def function_2():
@@ -22,6 +26,11 @@ def fucntion_4():
     "docstring"
 
 def main ():
-    #call functions
+    wn = turtle.Screen()
+    wn.colormode(255)
+    wn.bgcolor("purple")
 
-    main()
+    #call functions
+    tyres(100, 10)
+    wn.exitonclick()
+main()
