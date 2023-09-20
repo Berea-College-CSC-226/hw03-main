@@ -28,28 +28,31 @@ def lower_body(l, w):
     "l = length of the lower rectangular body of car"
     "w = width of the lower rectangular body of car"
 
-    Heer.left(180)
-    Heer.forward(600)
-    Heer.right(90)
-    Heer.forward(130)
-    Heer.right(90)
-    Heer.forward(600)
-    Heer.right(90)
-    Heer.forward(130)
     Heer.fillcolor("black")
     Heer.begin_fill()
+
+    Heer.left(180)
+    Heer.forward(l)
+    Heer.right(90)
+    Heer.forward(w)
+    Heer.right(90)
+    Heer.forward(l)
+    Heer.right(90)
+    Heer.forward(w)
+    Heer.end_fill()
+
 def upper_body(ul,uw):
     "ul = length of the upper rectangular body"
     "uw = width of the upper rectangular body"
 
     Heer.left(180)
-    Heer.forward(200)
+    Heer.forward(ul)
     Heer.right(90)
-    Heer.forward(100)
+    Heer.forward(uw)
     Heer.right(90)
-    Heer.forward(200)
+    Heer.forward(ul)
     Heer.right(90)
-    Heer.forward(100)
+    Heer.forward(uw)
     Heer.fillcolor("orange")
     Heer.begin_fill()
 
@@ -58,7 +61,7 @@ def main ():
     wn = turtle.Screen()
     wn.colormode(255)
     wn.bgcolor("lightblue")
-    Heer.speed(20)
+    Heer.speed(0)
 
     Heer.penup()
     Heer.goto(-150, -200)
@@ -77,7 +80,20 @@ def main ():
     Heer.goto(300, -100)
     Heer.pendown()
 
-    lower_body(200,100)     #call function 3
+    lower_body(600,130)     #call function 3
+
+    Heer.setheading(180)
+    Heer.penup()
+    Heer.goto(-200,130)
+    Heer.pendown()
+
+    upper_body(400,200)
+
+    Heer.penup()
+    Heer.goto(0,60 )
+    Heer.pendown()
+
+    Heer.write("Hira's self-driving car!", align="center", font=("Verdana", 15, "normal"))
 
     wn.exitonclick()
 
