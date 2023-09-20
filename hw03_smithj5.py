@@ -61,12 +61,12 @@ def drawFlower(teddy):
     teddy.right(-90)
     teddy.forward(30)
     teddy.circle
-    for i in range(5):
+    for i in range(20):
         # moving turtle 100 units forward
-        teddy.forward(100)
+        teddy.forward(30)
 
         # rotating turtle 144 degree right
-        teddy.right(100)
+        teddy.right(30)
 
 def main() :
     wn = turtle.Screen()
