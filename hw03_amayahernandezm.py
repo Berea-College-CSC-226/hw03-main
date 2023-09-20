@@ -101,22 +101,57 @@ def door(alex):
 
 # draws the top part of the building
 def second_floor(jen):
+    jen.color("bisque")
+    jen.fillcolor("bisque")
     jen.penup()
-    jen.goto(-120, 82)
+    jen.goto(-60, 82)
     jen.pendown()
+    jen.begin_fill()
     for i in range(2):
-        jen.forward(240)
+        jen.forward(120)
         jen.left(90)
-        jen.forward(100)
+        jen.forward(65)
         jen.left(90)
+    jen.end_fill()
 
 
-def clock():
-    pass
+# draws a clock in the second floor
+def clock(jen):
+    jen.color("black")
+    jen.fillcolor(50, 139, 65)
+    jen.pensize(3)
+    jen.penup()
+    jen.goto(0, 85)
+    jen.pendown()
+    jen.begin_fill()
+    jen.circle(25)
+    jen.end_fill()
+    jen.penup()
+    jen.goto(0, 105)
+    jen.pendown()
+    jen.left(90)
+    jen.forward(20)
+    jen.goto(0, 105)
+    jen.right(90)
+    jen.forward(15)
 
-def flag():
-    pass
 
+# draws a flag at the top of the school
+def flag(jen):
+    jen.fillcolor(189, 57, 8)
+    jen.left(90)
+    jen.penup()
+    jen.goto(0, 150)
+    jen.pendown()
+    jen.forward(50)
+    jen.begin_fill()
+    for i in range(2):
+        jen.right(120)
+        jen.forward(35)
+    jen.end_fill()
+
+
+# executes all functions previously defined by calling them in main
 def main():
     wn = turtle.Screen()
     wn.colormode(255)
@@ -124,10 +159,16 @@ def main():
     alex = turtle.Turtle()
     jen = turtle.Turtle()
     alex.speed(15)
+    jen.speed(15)
+    alex.hideturtle()
+    jen.hideturtle()
     grass(alex)
     outside_walls(alex)
     windows(alex)
     door(alex)
+    second_floor(jen)
+    clock(jen)
+    flag(jen)
     wn.exitonclick()
 
 
