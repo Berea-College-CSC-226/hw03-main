@@ -188,5 +188,7 @@ def main():
     make_flower(flower)     # function to call
     make_other(petals)      # function to call
 
+    wn.exitonclick()
+
 
 main()
