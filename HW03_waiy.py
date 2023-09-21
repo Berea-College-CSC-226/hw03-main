@@ -28,87 +28,104 @@ import turtle
 
 
 def draw_square(t):
-
+    """
+    Docstring information drawing for a drawing a yellow square
+    """
 
    # the outer square
-   r,g,b = 255/255, 215/255, 0/255
-   t.fillcolor(r,g,b)
-   t.begin_fill()
-   for i in range(4):
-       t.forward(300)
-       t.right(90)
-   t.end_fill()
+    r,g,b = 255/255, 215/255, 0/255
+    t.fillcolor(r,g,b)
+    t.begin_fill()
+    for i in range(4):
+           t.forward(300)
+           t.right(90)
+    t.end_fill()
 
 
 def draw_triangle(t2):
+    """
+    Docstring information, drawing for a drawing red triangle
+    """
    # triangle
-   r,g,b = 255/255,0/255,0/255
-   t2.fillcolor(r,g,b)
-   t2.begin_fill()
-   for i in range(3):
-       t2.forward(360)
-       t2.left(120)
-   t2.end_fill()
+    r,g,b = 255/255,0/255,0/255
+    t2.fillcolor(r,g,b)
+    t2.begin_fill()
+    for i in range(3):
+           t2.forward(360)
+           t2.left(120)
+    t2.end_fill()
 
 
 def draw_smallwindow(t1):
-   r,g,b = 240/255, 238/255, 180/255
-   t1.fillcolor(r,g,b)
-   t1.begin_fill()
-   for i in range(4):
+    """
+    Docstring information, drawing for a small window that is light yellow
+    """
+    r,g,b = 240/255, 238/255, 180/255
+    t1.fillcolor(r,g,b)
+    t1.begin_fill()
+    for i in range(4):
        t1.forward(70)
        t1.right(90)
-   t1.end_fill()
+    t1.end_fill()
 
 
 def draw_door(t3):
-   r, g, b = 255 / 255, 0 / 255, 0 / 255
-   t3.fillcolor(r,g,b)
-   t3.begin_fill()
-   width=100
-   height=90
-   for i in range(2):
+    """
+    Docstring information drawing for a red door
+    """
+    r, g, b = 255 / 255, 0 / 255, 0 / 255
+    t3.fillcolor(r,g,b)
+    t3.begin_fill()
+    width=100
+    height=90
+    for i in range(2):
        t3.forward(height)
        t3.right(90)
        t3.forward(width)
        t3.right(90)
-   t3.end_fill()
+    t3.end_fill()
 
 
 def draw_chimney(t4):
-   r, g, b = 148/255, 92/255, 27/255
-   t4.fillcolor(r,g,b)
-   t4.begin_fill()
-   width = 100
-   height = 90
-   for i in range(2):
+    """
+    Docsting information,drawing a brown chimney
+    """
+    r, g, b = 148/255, 92/255, 27/255
+    t4.fillcolor(r,g,b)
+    t4.begin_fill()
+    width = 100
+    height = 90
+    for i in range(2):
        t4.forward(height)
        t4.left(90)
        t4.forward(width)
        t4.left(90)
-   t4.end_fill()
+    t4.end_fill()
 
 
 def draw_crescent_moon(t5):
-   t5.penup()
-   t5.left(90)
-   t5.forward(200)
-   t5.left(90)
-   t5.forward(200)
-   t5.pendown()
+    """
+    Docstring information, drawing a crescent moon
+    """
+    t5.penup()
+    t5.left(90)
+    t5.forward(200)
+    t5.left(90)
+    t5.forward(200)
+    t5.pendown()
    #fullsize mood
-   t5.fillcolor("#F5EBD7")
-   t5.begin_fill()
-   t5.circle(50)
-   t5.end_fill()
-   t5.penup()
-   t5.forward(20)
+    t5.fillcolor("#F5EBD7")
+    t5.begin_fill()
+    t5.circle(50)
+    t5.end_fill()
+    t5.penup()
+    t5.forward(20)
    #crescent
-   t5.fillcolor('#2C2C2C')
-   t5.begin_fill()
-   t5.circle(40)
-   t5.end_fill()
-   t5.pendown()
+    t5.fillcolor('#2C2C2C')
+    t5.begin_fill()
+    t5.circle(40)
+    t5.end_fill()
+    t5.pendown()
 
 
 
