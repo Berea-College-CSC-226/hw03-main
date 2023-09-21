@@ -31,7 +31,7 @@ def function_2():
 
 
 def main():
-    """
+    ""
     Docstring for main
     """
     # ...
