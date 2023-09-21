@@ -1,3 +1,6 @@
+#name:sara Adhikari
+#username: adhikaris
+#googledocs: https://docs.google.com/document/d/1_-sUKfojhzNhwwO79qq6_7qpRuO3XSm9BSWgjbvuAqs/edit?usp=sharing
 # Drawing a cat.
 #Acknowlege: Used ChatGPT to ask question, used runestone textbook.
 
