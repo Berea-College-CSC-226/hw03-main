@@ -13,22 +13,27 @@ Heer = turtle.Turtle()
 def tyre_1(rad, th):
     "rad = radius of the circle"
     "th = thickness of the tyre"
+    Heer.fillcolor("black")
+    Heer.begin_fill()
+
     Heer.pensize(th)
     Heer.circle(rad)
-
+    Heer.end_fill()
 def tyre_2(rad, th):
     "rad = radius of the circle"
     "th = thickness of the tyre"
 
+    Heer.fillcolor("black")
+    Heer.begin_fill()
+
     Heer.pensize(th)
     Heer.circle(rad)
-    Heer.fillcolor("grey")
-    Heer.begin_fill()
+    Heer.end_fill()
 def lower_body(l, w):
     "l = length of the lower rectangular body of car"
     "w = width of the lower rectangular body of car"
 
-    Heer.fillcolor("black")
+    Heer.fillcolor("blue")
     Heer.begin_fill()
 
     Heer.left(180)
@@ -45,6 +50,9 @@ def upper_body(ul,uw):
     "ul = length of the upper rectangular body"
     "uw = width of the upper rectangular body"
 
+    Heer.fillcolor("grey")
+    Heer.begin_fill()
+
     Heer.left(180)
     Heer.forward(ul)
     Heer.right(90)
@@ -53,12 +61,13 @@ def upper_body(ul,uw):
     Heer.forward(ul)
     Heer.right(90)
     Heer.forward(uw)
-    Heer.fillcolor("orange")
-    Heer.begin_fill()
-
+    Heer.end_fill()
 
 def main ():
+
     wn = turtle.Screen()
+    wn.bgpic("chitral-valley.gif")
+
     wn.colormode(255)
     wn.bgcolor("lightblue")
     Heer.speed(0)
@@ -84,10 +93,10 @@ def main ():
 
     Heer.setheading(180)
     Heer.penup()
-    Heer.goto(-200,130)
+    Heer.goto(-180,180)
     Heer.pendown()
 
-    upper_body(400,200)
+    upper_body(350,150)
 
     Heer.penup()
     Heer.goto(0,60 )
