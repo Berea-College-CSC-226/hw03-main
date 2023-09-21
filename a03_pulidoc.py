@@ -186,7 +186,9 @@ def main():
     create_windows(oso)     # function to call
     make_door(tiger)        # function to call
     make_flower(flower)     # function to call
-    make_other(petals)      #fucntion to call
+    make_other(petals)      # function to call
+
+    wn.exitonclick()
 
 
 main()
