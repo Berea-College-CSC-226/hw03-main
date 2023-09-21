@@ -1,10 +1,10 @@
 ################################################################################
-# Author:
-# Username:
+# Author: Spencer Jackson
+# Username: jacksons26
 #
-# Assignment:
-# Purpose:
-# Google Doc Link:
+# Assignment: HW02
+# Purpose: Draw a complex object with turtles
+# Google Doc Link:https://docs.google.com/document/d/1QC2UiH_zJBEsrs8GDyEZ5EjlqP9cXw5uBxGqsJAqnJo/edit?usp=sharing
 #
 #################################################################################
 # Acknowledgements:
@@ -14,29 +14,108 @@
 import turtle
 
 
-def function_1():
+def draw_square(sq):
     """
-    Docstring for function_1
+    Draws a square for the house
     """
-    pass
-    # ....
+    sq.penup()
+    sq.goto(20,20)
+    sq.pendown()
+    sq.color("red")
+    sq.fillcolor("red")
+    sq.begin_fill()
+    sq.forward(200)
+    sq.left(90)
+    sq.forward(200)
+    sq.left(90)
+    sq.forward(200)
+    sq.left(90)
+    sq.forward(200)
+    sq.end_fill()
 
 
-def function_2():
+def draw_roof(rf):
     """
-    Docstring for function_2
+    Draws the roof for the house
     """
-    pass
-    # ...
+    rf.penup()
+    rf.goto(20,220)
+    rf.pendown()
+    rf.color("blue")
+    rf.fillcolor("blue")
+    rf.begin_fill()
+    rf.forward(200)
+    rf.left(135)
+    rf.forward(150)
+    rf.left(92)
+    rf.forward(150)
+    rf.end_fill()
+
+
+def draw_door(dr):
+    dr.penup()
+    dr.goto(80,20)
+    dr.pendown()
+    dr.color("yellow")
+    dr.fillcolor("yellow")
+    dr.begin_fill()
+    dr.forward(50)
+    dr.left(90)
+    dr.forward(100)
+    dr.left(90)
+    dr.forward(50)
+    dr.left(90)
+    dr.forward(100)
+    dr.end_fill()
+
+def draw_windows(wd):
+    wd.penup()
+    wd.goto(50,150)
+    wd.pendown()
+    wd.color("blue")
+    wd.fillcolor("blue")
+    wd.begin_fill()
+    wd.forward(50)
+    wd.left(90)
+    wd.forward(50)
+    wd.left(90)
+    wd.forward(50)
+    wd.end_fill()
+    wd.penup()
+    wd.goto(200, 150)
+    wd.pendown()
+    wd.color("blue")
+    wd.fillcolor("blue")
+    wd.begin_fill()
+    wd.forward(50)
+    wd.left(90)
+    wd.forward(50)
+    wd.left(90)
+    wd.forward(50)
+    wd.end_fill()
+
 
 
 def main():
-    ""
-    Docstring for main
     """
-    # ...
-    function_1()            # Function call to function_1
-    function_2()            # Function call to function_2
+    Setups background and turtles and runs functions
+    """
+    wn = turtle.Screen()
+    wn.bgcolor("green")
+    sq = turtle.Turtle()
+    rf = turtle.Turtle()
+    dr = turtle.Turtle()
+    wd= turtle.Turtle()
+
+
+
+
+
+    draw_square(sq)            # Function call to function_1
+    draw_roof(rf)            # Function call to function_2
+    draw_door(dr)
+    draw_windows(wd)
+    wn.exitonclick()
 
 
 main()
