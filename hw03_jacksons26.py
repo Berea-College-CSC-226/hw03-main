@@ -104,7 +104,7 @@ def draw_windows(wd):
 
 def main():
     """
-    Setups background and turtles and runs functions
+    Setups background and turtles and runs the functions
     """
     wn = turtle.Screen()
     wn.bgcolor("green")
