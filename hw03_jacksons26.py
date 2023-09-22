@@ -2,7 +2,7 @@
 # Author: Spencer Jackson
 # Username: jacksons26
 #
-# Assignment: HW02
+# Assignment: HW03
 # Purpose: Draw a complex object with turtles
 # Google Doc Link:https://docs.google.com/document/d/1QC2UiH_zJBEsrs8GDyEZ5EjlqP9cXw5uBxGqsJAqnJo/edit?usp=sharing
 #
@@ -53,6 +53,9 @@ def draw_roof(rf):
 
 
 def draw_door(dr):
+    """
+    Draws a door for the house
+    """
     dr.penup()
     dr.goto(80,20)
     dr.pendown()
@@ -69,6 +72,9 @@ def draw_door(dr):
     dr.end_fill()
 
 def draw_windows(wd):
+    """
+    Draws two windows for the house
+    """
     wd.penup()
     wd.goto(50,150)
     wd.pendown()
