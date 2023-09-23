@@ -18,7 +18,7 @@
 import turtle               # allows us to use the turtles library
 
 
-def make_roof(wn, shape):                 #  Create the roof
+def make_roof(wn, shape):                 #  Create the roof of the house
     wn.register_shape("top.gif")         # Registers the shape that must be used by turtle library
     shape.penup()
     shape.setpos(120, 80)
