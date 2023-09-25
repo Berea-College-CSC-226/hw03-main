@@ -9,14 +9,12 @@
 
 import turtle
 
-# Assigning name to the turtle
-Heer = turtle.Turtle()
 
 
 def tyre_1(rad, th, H):
-    "rad = radius of the circle"
-    "th = thickness of the tyre"
-    "Makes the left tyre of the car"
+    """rad = radius of the circle
+    th = thickness of the tyre
+    Makes the left tyre of the car"""
 
     # Gives black color to the tyre
     H.fillcolor("black")
@@ -29,8 +27,8 @@ def tyre_1(rad, th, H):
 
 
 def tyre_2(rad, th, H):
-    "rad = radius of the circle"
-    "th = thickness of the tyre"
+    """rad = radius of the circle
+    th = thickness of the tyre"""
 
     H.fillcolor("black")
     H.begin_fill()
@@ -41,9 +39,9 @@ def tyre_2(rad, th, H):
 
 
 def lower_body(l, w, H):
-    "l = length of the lower rectangular body of car"
-    "w = width of the lower rectangular body of car"
-    "Makes the lower body of the car which looks like a big rectangle"
+    """l = length of the lower rectangular body of car
+    w = width of the lower rectangular body of car
+    Makes the lower body of the car which looks like a big rectangle"""
 
     # Colors the lower body blue
     H.fillcolor("blue")
@@ -62,8 +60,8 @@ def lower_body(l, w, H):
 
 
 def upper_body(ul,uw, H):
-    "ul = length of the upper rectangular body"
-    "uw = width of the upper rectangular body"
+    """ul = length of the upper rectangular body
+    uw = width of the upper rectangular body"""
 
     H.fillcolor("grey")
     H.begin_fill()
@@ -86,6 +84,7 @@ def main ():
 
     wn.colormode(255)
     wn.bgcolor("lightblue")
+    Heer = turtle.Turtle()
     Heer.speed(0)
 
     # Moves the turtle head from the center to the porper starting place
