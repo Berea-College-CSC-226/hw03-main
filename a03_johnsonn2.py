@@ -88,10 +88,10 @@ def drawknob(rua):
 
 def main():
     """
-    this function contains all neccessary attributes for the turtle Rúa and the screen she exists in.
+    this function contains all neccessary attributes for the turtle Rùa and the screen she exists in.
     this also contains all the unrelated functions to be 'called' on
     """
-    #creating Rúa and her environment
+    #creating Rùa and her environment
     screen = turtle.Screen()
     rua = turtle.Turtle()
     rua.pensize(4)
