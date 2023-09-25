@@ -116,75 +116,74 @@ def draw_crescent_moon(t5):
     t5.end_fill()
     t5.pendown()
 def main():
-       """
-       Docstring for the main drawing
-       """
+    """
+    Docstring for the main drawing
+    """
        #Creating the turtle screen
-       wn = turtle.Screen()
-       wn.bgcolor('#2C2C2C')
+    wn = turtle.Screen()
+    wn.bgcolor('#2C2C2C')
 
-       #Creating the turtles
-       t=turtle.Turtle()
-       t1 = turtle.Turtle()
-       t2 = turtle.Turtle()
-       t3= turtle.Turtle()
-       t4= turtle.Turtle()
-       t5= turtle.Turtle()
-       t.pensize(10)
-       t.speed(10)
-       t1.speed(10)
-       t1.pensize(10)
-       t2.speed(10)
-       t2.pensize(10)
-       t3.speed(10)
-       t3.pensize(10)
-       t4.pensize(10)
-       t4.speed(5)
-       t5.pensize(10)
-       t5.speed(5)
+    #Creating the turtles
+    t=turtle.Turtle()
+    t1 = turtle.Turtle()
+    t2 = turtle.Turtle()
+    t3= turtle.Turtle()
+    t4= turtle.Turtle()
+    t5= turtle.Turtle()
+    t.pensize(10)
+    t.speed(10)
+    t1.speed(10)
+    t1.pensize(10)
+    t2.speed(10)
+    t2.pensize(10)
+    t3.speed(10)
+    t3.pensize(10)
+    t4.pensize(10)
+    t4.speed(5)
+    t5.pensize(10)
+    t5.speed(5)
 
 #outline of the house
-       t.backward(140)
-       draw_square(t)
+    t.backward(140)
+    draw_square(t)
 
 #roof of the house
-       t2.backward(170)
-       draw_triangle(t2)
+    t2.backward(170)
+    draw_triangle(t2)
 
 # on the way to the window
-       t1.penup()
-       t1.backward(40)
-       t1.right(90)
-       t1.forward(40)
-       t1.pendown()
+    t1.penup()
+    t1.backward(40)
+    t1.right(90)
+    t1.forward(40)
+    t1.pendown()
 #small window on the left
-       draw_smallwindow(t1)
+    draw_smallwindow(t1)
 
 # on the way to the window
-       t1.penup()
-       t1.left(90)
-       t1.forward(100)
-       t1.pendown()
+    t1.penup()
+    t1.left(90)
+    t1.forward(100)
+    t1.pendown()
 
 #small window on the right
-       draw_smallwindow(t1)
+    draw_smallwindow(t1)
 
 #on the way to the door
-       t3.penup()
-       t3.goto(-10,-200)
-       t3.backward(30)
-       t3.pendown()
+    t3.penup()
+    t3.goto(-10,-200)
+    t3.backward(30)
+    t3.pendown()
 #door
-       draw_door(t3)
+    draw_door(t3)
 
 #chimney
-       t4.backward(150)
-       draw_chimney(t4)
+    t4.backward(150)
+    draw_chimney(t4)
 
 #crescent moon
+    draw_crescent_moon(t5)
 
-       draw_crescent_moon(t5)
-
-       wn.exitonclick()
+    wn.exitonclick()
 
 main()
