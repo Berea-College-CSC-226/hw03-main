@@ -65,7 +65,7 @@ def make_window(shape, x, y):
     for side in range(2):
         shape.forward(50)
         shape.right(90)
-        shape.forward(20)
+        shape.forward(40)
         shape.right(90)
     shape.end_fill()
 
@@ -78,12 +78,12 @@ def make_door(shape):
         None
     '''
     shape.penup()
-    shape.setpos(70, -60)
+    shape.setpos(105, -60)
     shape.pendown()
     shape.color('#00ff22')
     shape.begin_fill()
     for side in range(2):
-        shape.forward(60)
+        shape.forward(40)
         shape.right(90)
         shape.forward(50)
         shape.right(90)
@@ -99,7 +99,7 @@ def make_flower(wn, shape):
     '''
     wn.register_shape("flower.gif")
     shape.penup()
-    shape.setpos(110, -170)
+    shape.setpos(117, -160)
     shape.shape("flower.gif")
     shape.stamp()
     shape.up()
@@ -125,8 +125,9 @@ def main():
         None
     '''
     turtle.colormode(255)           # change color modes
+    turtle.screensize(800, 600)
 
-    wn = turtle.Screen()            # Makes a new turtle screen
+    wn = turtle.Screen()  # Makes a new turtle screen
     wn.bgpic("beach.gif")      # Sets background of the house
     shape = turtle.Turtle()
     shape.hideturtle()
@@ -135,7 +136,7 @@ def main():
     make_roof(wn, shape)
     make_main_house(shape)
     make_window(shape, 45, 0)
-    make_window(shape, 88, 0)
+    make_window(shape, 150, 0)
     make_door(shape)
     make_flower(wn, shape)
     make_text(shape, "Kichemy's first/ugly house")
