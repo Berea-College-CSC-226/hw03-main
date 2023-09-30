@@ -57,11 +57,10 @@ def main():
     draw_rectangle(-15, -50, 30, 50, "brown")
 
     # Draw the leaves
-    draw_triangle(-45, -50, 90, "green")
-    draw_triangle(-30, -20, 60, "green")
-    draw_triangle(-15, 10, 30, "green")
+    draw_triangle(-45, 0, 90, "green")  # Moved up to y = 0
+    draw_triangle(-30, 30, 60, "green")  # Moved up to y = 30
+    draw_triangle(-15, 60, 30, "green")  # Moved up to y = 60
 
     turtle.done()
 
-# Call the main function
 main()
