@@ -1,9 +1,11 @@
-#################################################################################
+################################################################################
 # Author: Frederick Oguine
-# Username: oguinef
-# Google Doc: https://docs.google.com/document/d/1CtGVE73xZCMP0tAIBb7fdBZGuHK2BC2an2vo10VEUag/edit?usp=sharing
-# Assignment: HW03
+# Username:oguinef
+#
+# Assignment:Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose:
+# Google Doc Link:
+#
 #################################################################################
 # Acknowledgements:
 #
@@ -12,28 +14,54 @@
 
 import turtle
 
-# Define colors
-fRED = (34, 123, 230)
+def draw_rectangle(x, y, width, height, color):
+    """
+    Draw a rectangle at (x, y) with a given width, height, and color.
+    """
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.pendown()
+    turtle.color(color)
+    turtle.begin_fill()
+    for _ in range(2):
+        turtle.forward(width)
+        turtle.right(90)
+        turtle.forward(height)
+        turtle.right(90)
+    turtle.end_fill()
 
-
-def draw_background():
-    """"""
-    turtle.bgcolor(fRED)
-
-
-def draw_main_object():
-    """"""
-
-
-def add_details():
-    """"""
-
+def draw_triangle(x, y, length, color):
+    """
+    Draw an equilateral triangle at (x, y) with a given length and color.
+    """
+    turtle.penup()
+    turtle.goto(x, y)
+    turtle.pendown()
+    turtle.color(color)
+    turtle.begin_fill()
+    for _ in range(3):
+        turtle.forward(length)
+        turtle.right(120)
+    turtle.end_fill()
 
 def main():
-    draw_background()
-    draw_main_object()
-    add_details()
-    turtle.done()  # This ends the turtle graphics process
+    """
+    Main function to draw a tree.
+    """
+    # Screen setup
+    wn = turtle.Screen()
+    wn.bgcolor("lightblue")  # Light blue sky as background
+    turtle.speed(1)
 
+    # Draw the trunk
+    draw_rectangle(-15, -50, 30, 50, "brown")
 
+    # Draw the leaves
+    draw_triangle(-45, -50, 90, "green")
+    draw_triangle(-30, -20, 60, "green")
+    draw_triangle(-15, 10, 30, "green")
+
+    turtle.done()
+
+# Call the main function
 main()
