@@ -16,7 +16,7 @@ import turtle
 
 def draw_rectangle(x, y, width, height, color):
     """
-    Draw a rectangle at (x, y) with a given width, height, and color.
+
     """
     turtle.penup()
     turtle.goto(x, y)
@@ -32,7 +32,7 @@ def draw_rectangle(x, y, width, height, color):
 
 def draw_triangle(x, y, length, color):
     """
-    Draw an equilateral triangle at (x, y) with a given length and color.
+
     """
     turtle.penup()
     turtle.goto(x, y)
@@ -46,7 +46,7 @@ def draw_triangle(x, y, length, color):
 
 def main():
     """
-    Main function to draw a tree.
+
     """
     # Screen setup
     wn = turtle.Screen()
