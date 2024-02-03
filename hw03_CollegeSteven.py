@@ -24,7 +24,7 @@ def cake(x, y, height, length):
     c.hideturtle()
     c.teleport(x, y)
     c.speed(0)
-    c.color("hot pink")
+    c.color("#FF69B4")
     c.begin_fill()
     c.right(315)
     for i in range(6):
@@ -35,7 +35,7 @@ def cake(x, y, height, length):
     c.end_fill()
 
     # Create the main body of the cake
-    c.color("pink")
+    c.color("#FFC0CB")
     c.teleport(x, y)
     c.setheading(0)
     c.begin_fill()
@@ -53,6 +53,7 @@ def main():
     Creates a triple layered cake with the message happy birthday on the largest layer
     """
     wn = turtle.Screen()
+    wn.bgcolor("#7B68EE")
     for i in range(1, 4):
         cake((- 50 * i), (200 - (50 * i)), (50 * i), (100 * i))
 
