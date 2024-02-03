@@ -13,11 +13,7 @@
 # Acknowledgements:
 # Happy meal
 #
-#################################################################################
-import turtle
-turtle.colormode(255)
-
-
+#################################################################################import turtle
 def drawsquare(JK):     ##Draws House
     """
     Drawing the Square Turtle
@@ -32,25 +28,26 @@ def drawsquare(JK):     ##Draws House
         JK.forward(250)
         JK.left(90)
 
-    # ...
-
-
-def drawTriangle(JK):       ##Draws roof
+def drawTriangle(JK): ## this is the roof
+    """
+        Drawing the roof Turtle
+        """
+    ##Draws roof
     JK.pencolor(255,199,44)
     JK.pensize(25)
     JK.penup()
     JK.goto(-335,-55)
     JK.pendown()
 
-
-
     for i in range(2):
         JK.right(-45)
         JK.forward(230)
         JK.right(135)
 
-
 def drawsign(JK):       ##Draws "M" in MC donalads sign
+    """
+        Drawing the M in McDonalds sign
+        """
     JK.penup()
     JK.pensize(10)
     JK.goto(-220,-220)
@@ -68,23 +65,21 @@ def drawsign(JK):       ##Draws "M" in MC donalads sign
         JK.right(90)
 
 def drawletterC(JK):        ##Draws "c" in MC sign
+
+    """ Drawing the c in McDonalds sign """
     JK.penup()
     JK.goto(-150,-220)
     JK.pendown()
 
-
-    JK.forward(-60)
+    JK.forward(-60) ## path for c
     JK.forward(60)
     JK.right(90)
     JK.forward(75)
     JK.right(90)
     JK.forward(60)
-
-
-
-
 def main(): #sets up main
-
+    import turtle
+    turtle.colormode(255)
     wn = turtle.Screen()
     wn.bgcolor("light blue")
     JK= turtle.Turtle()
@@ -97,7 +92,4 @@ def main(): #sets up main
     drawletterC(JK)      #draw function 4 letter c
     wn.exitonclick()
 
-
-
-
-main()      ##INvoke Main
+main()      ##Invoke Main
