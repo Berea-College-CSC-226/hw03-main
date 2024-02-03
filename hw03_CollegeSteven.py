@@ -50,7 +50,7 @@ def cake(x, y, height, length):
 
 def main():
     """
-    Creates a triple decker cake with the message happy birthday on top
+    Creates a triple layered cake with the message happy birthday on the largest layer
     """
     wn = turtle.Screen()
     for i in range(1, 4):
