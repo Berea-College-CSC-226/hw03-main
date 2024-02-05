@@ -200,9 +200,6 @@ def drawStars(lomi): #draws the stars
         lomi.right(144)
     lomi.end_fill()
 
-
-
-
 def main():  #defines the main function
     lomi=turtle.Turtle()
     wn = turtle.Screen()
