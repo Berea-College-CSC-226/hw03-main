@@ -4,6 +4,7 @@
 #
 # Assignment: HW03 : Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: To create something complex and learn about github
+# Link to Document: https://docs.google.com/document/d/1EzPApStfIckqskXxnh8CNhMuNgis_GTE2FZZHHZvji4/edit?usp=sharing
 ######################################################################
 
 import turtle
