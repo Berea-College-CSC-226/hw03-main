@@ -7,7 +7,7 @@
 # Purpose: A program that uses turtles to draw a complex object. This is also an intro to Git's more complex nature
 #
 # https://docs.google.com/document/d/1ScrNyDoxQ187_iHzXMwE0PJ0ZUmyG6eX1xUxiFIGk-Y/edit?usp=sharing
-######################################################################
+#####################################################################
 
 import turtle
 
