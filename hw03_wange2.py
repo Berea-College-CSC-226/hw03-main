@@ -1,10 +1,24 @@
-# Name: Eun Sung Wang
+#################################################################################
+# Author: Eun Sung Wang
 # Username: wange2
-# Google Doc: https://docs.google.com/document/d/1jl7uXjys2F0Tu1IFPvjZcEspKPECxvctfCDyoPJD6h8/edit?usp=sharing
+#
+# Assignment: HW03
+# Purpose: Creating a house
+# Google Doc Link: https://docs.google.com/document/d/1jl7uXjys2F0Tu1IFPvjZcEspKPECxvctfCDyoPJD6h8/edit?usp=sharing
+#
+#################################################################################
+# Acknowledgements:
+#
+#
+#################################################################################
 
 import turtle
 
-def drawBase(eunsung):            #Function to draw the base of the house
+
+def draw_Base(eunsung):
+    """
+    Made a function to draw a squared base of the house.
+    """
     eunsung.pencolor("#FFF55A")
     eunsung.pensize(5)
     eunsung.penup()
@@ -15,17 +29,25 @@ def drawBase(eunsung):            #Function to draw the base of the house
         eunsung.left(90)
         eunsung.forward(100)
 
-def drawRoof(eunsung):         #Making a roof
+
+def draw_Roof(eunsung):
+    """
+    Made a function to draw a triangular roof for the house,
+    """
     eunsung.pencolor("#405AC6")
     eunsung.pensize(5)
     eunsung.penup()
     eunsung.goto(-156,-3)
     eunsung.pendown()
-    for i in range(3):       #Loop for a triangular roof
+    for i in range(3):          #Loop for a triangular roof
         eunsung.forward(300)
         eunsung.left(120)
 
-def drawDoor(eunsung,w,h):   #Making a door
+
+def draw_Door(eunsung,w,h):
+    """
+    Made a function to draw a door for the house.
+    """
     eunsung.pencolor('orange')
     eunsung.penup()
     eunsung.goto(-44,-235)
@@ -40,7 +62,11 @@ def drawDoor(eunsung,w,h):   #Making a door
     eunsung.pendown()
     eunsung.circle(10)
 
-def drawRoofWin(eunsung):      #Making a roof window
+
+def draw_RoofWin(eunsung):
+    """
+    Made a function to draw the roof window for the house.
+    """
     eunsung.pencolor("#A169B9")
     eunsung.penup()
     eunsung.goto(-5,40)
@@ -56,17 +82,21 @@ def drawRoofWin(eunsung):      #Making a roof window
     eunsung.forward(50)
     eunsung.forward(-100)
 
+
 def main():
+    """
+    Created a turtle named "eunsung", hid the turtle so the drawing looks clean and uninterrupted.
+    """
     wn = turtle.Screen()
     wn.bgcolor("#26C350")
     eunsung = turtle.Turtle()
     eunsung.hideturtle()
 
     # Function calls to drawBase and drawRoof
-    drawBase(eunsung)
-    drawRoof(eunsung)
-    drawDoor(eunsung,90,140)
-    drawRoofWin(eunsung)
+    draw_Base(eunsung)
+    draw_Roof(eunsung)
+    draw_Door(eunsung,90,140)
+    draw_RoofWin(eunsung)
     wn.exitonclick()
 
 
