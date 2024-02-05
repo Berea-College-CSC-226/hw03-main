@@ -19,16 +19,16 @@ def draw_grass(t):  # Function that draws grass in the window.
     """ Make turtle t draw grass on the window."""
     t.speed(0)
     t.penup()
-    t.goto(-350, -270)
+    t.goto(-700, -370)
     t.fillcolor("green")
     t.begin_fill()
-    t.forward(1000)
+    t.forward(1500)
     t.left(90)
-    t.forward(200)
+    t.forward(300)
     t.left(90)
-    t.forward(1000)
+    t.forward(1500)
     t.left(90)
-    t.forward(200)
+    t.forward(300)
     t.end_fill()
 
 
