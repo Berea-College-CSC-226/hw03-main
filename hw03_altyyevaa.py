@@ -8,7 +8,7 @@
 
 import turtle
 
-def drawHouse1(lomi):
+def drawHouse1(lomi):  #draws the house
     lomi.pensize(10)
     turtle.colormode(255)
     lomi.pencolor((63, 37, 8))
@@ -18,7 +18,7 @@ def drawHouse1(lomi):
     lomi.pendown()
     lomi.fillcolor("#3F2508")
     lomi.begin_fill()
-    for i in range(4):
+    for i in range(4):  #draws the square of the house
         lomi.forward(200)
         lomi.left(90)
     lomi.end_fill()
@@ -28,7 +28,7 @@ def drawHouse1(lomi):
     lomi.down()
     lomi.fillcolor("#D5AB7B")
     lomi.begin_fill()
-    for a in range(2):
+    for a in range(2): #draws the roof the house
         lomi.left(90)
         lomi.forward(150)
     lomi.end_fill()
@@ -36,16 +36,16 @@ def drawHouse1(lomi):
     lomi.backward(150)
     lomi.right(135)
     lomi.pendown()
-    lomi.pencolor('black')
+    lomi.pencolor('black') #draws the flag
     lomi.forward(70)
     lomi.color("#19AC3B")
     lomi.fillcolor("#19AC3B")
     lomi.begin_fill()
-    for b in range (3):
+    for b in range (3): #draws the square shape of the flag
         lomi.right(90)
         lomi.forward(40)
     lomi.end_fill()
-def drawRoad(lomi):
+def drawRoad(lomi): #draws a gray straight road
     lomi.pensize(10)
     turtle.colormode(255)
     lomi.pencolor("#B6B6B2")
@@ -70,7 +70,7 @@ def drawRoad(lomi):
     lomi.right(160)
     lomi.forward(245)
     lomi.pendown()
-def drawLines (lomi):
+def drawLines (lomi): #draws the black middle lines to make it actually appear like a road
         lomi.setheading(0)
         lomi.left(90)
         lomi.pensize(40)
@@ -79,7 +79,7 @@ def drawLines (lomi):
         lomi.forward(90)
         lomi.pendown()
 
-        lomi.setheading(0)
+        lomi.setheading(0)  #line no2
         lomi.pensize(30)
         lomi.left(90)
         lomi.forward(120)
@@ -87,11 +87,11 @@ def drawLines (lomi):
         lomi.forward(90)
         lomi.pendown()
 
-        lomi.setheading(0)
+        lomi.setheading(0)  #line no3
         lomi.pensize(25)
         lomi.left(90)
         lomi.forward(105)
-def drawWindows (lomi):
+def drawWindows (lomi):  #draws the windows and the door of the house
     lomi.penup()
     lomi.goto(-300, -300)
     lomi.setheading(0)
@@ -103,7 +103,7 @@ def drawWindows (lomi):
     lomi.pensize(7)
     lomi.fillcolor('#F7D10E')
     lomi.begin_fill()
-    for d in range(4):
+    for d in range(4): #window no1
         lomi.forward(35)
         lomi.left(90)
     lomi.end_fill()
@@ -112,7 +112,7 @@ def drawWindows (lomi):
     lomi.pendown()
     lomi.fillcolor('#F7D10E')
     lomi.begin_fill()
-    for d in range(4):
+    for d in range(4): #window n02
         lomi.forward(35)
         lomi.left(90)
     lomi.end_fill()
@@ -124,7 +124,7 @@ def drawWindows (lomi):
     lomi.fillcolor('#903001')
     lomi.begin_fill()
     lomi.pendown()
-    lomi.forward(60)
+    lomi.forward(60) #draws the red rectangle door
     lomi.left(90)
     lomi.forward(90)
     lomi.left(90)
@@ -132,19 +132,78 @@ def drawWindows (lomi):
     lomi.left(90)
     lomi.forward(90)
     lomi.end_fill()
-def drawStars(lomi):
-    lomi.penup()
+
+def drawStars(lomi): #draws the stars
+    lomi.penup() #star no1
     lomi.goto(-300, -300)
     lomi.setheading(0)
     lomi.left(115)
     lomi.forward(550)
     lomi.pendown()
-    for f in range(4):
+    lomi.pencolor('yellow')
+    lomi.fillcolor('yellow')
+    lomi.begin_fill()
+    for f in range(5):
+        lomi.forward(70)
+        lomi.right(144)
+    lomi.end_fill()
+
+    lomi.setheading(0)  #star no2
+    lomi.penup()
+    lomi.left(30)
+    lomi.forward(150)
+    lomi.pendown()
+    lomi.pencolor('yellow')
+    lomi.fillcolor('yellow')
+    lomi.begin_fill()
+    for f in range(5):
+        lomi.forward(70)
+        lomi.right(144)
+    lomi.end_fill()
+
+    lomi.setheading(0)  #star no3
+    lomi.penup()
+    lomi.right(90)
+    lomi.forward(150)
+    lomi.pendown()
+    lomi.pencolor('yellow')
+    lomi.fillcolor('yellow')
+    lomi.begin_fill()
+    for f in range(5):
+        lomi.forward(70)
+        lomi.right(144)
+    lomi.end_fill()
+
+    lomi.setheading(0) #star no4
+    lomi.penup()
+    lomi.left(45)
+    lomi.forward(150)
+    lomi.pendown()
+    lomi.pencolor('yellow')
+    lomi.fillcolor('yellow')
+    lomi.begin_fill()
+    for f in range(5):
+        lomi.forward(70)
+        lomi.right(144)
+    lomi.end_fill()
+
+    lomi.setheading(0)  #star no5
+    lomi.penup()
+    lomi.right(45)
+    lomi.forward(150)
+    lomi.pendown()
+    lomi.pencolor('yellow')
+    lomi.fillcolor('yellow')
+    lomi.begin_fill()
+    for f in range(5):
+        lomi.forward(70)
+        lomi.right(144)
+    lomi.end_fill()
 
 
 
 
-def main():
+def main():  #defines the main function
     lomi=turtle.Turtle()
     wn = turtle.Screen()
     turtle.colormode(255)
@@ -158,7 +217,7 @@ def main():
 
     wn.exitonclick()
 
-main()
+main() #calls the main function
 
 
 
