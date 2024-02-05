@@ -6,7 +6,7 @@
 # Purpose:
 # Google Doc Link: https://docs.google.com/document/d/1yGLLdFBhjPw96O7yJiaUsUuLIPZWXuOvJ6QDpzMWM_c/edit
 
-import turtle # this imports the turtle.
+import turtle     # this imports the turtle.
 
 
 def drawKkg():
@@ -45,7 +45,7 @@ def drawKkg():
     kkg.pendown()
     kkg.left(45)
 
-    for k in range(4): # this is the for loop that is meant to draw the inner windows of the house.
+    for k in range(4):    # this is the for loop that is meant to draw the inner windows of the house.
         kkg.forward(45)
         kkg.left(90)
 
@@ -56,14 +56,6 @@ def drawKkg():
     for l in range(4):
         kkg.forward(45)
         kkg.left(90)
-
-
-
-
-
-
-    pass
-    # ....
 
 
 def drawOmo():
@@ -77,8 +69,6 @@ def drawOmo():
     Omo.pendown()
     Omo.hideturtle()
 
-
-    pass
     # This for loop draws the outer square of the house.
     for i in range(4):
         Omo.forward(350)
@@ -91,13 +81,12 @@ def main():
     """
     wn = turtle.Screen()
     wn.colormode(255)
-    wn.bgcolor(145, 180, 167) # this sets the background color of the screen using rgb values.
+    wn.bgcolor(145, 180, 167)   # this sets the background color of the screen using rgb values.
     # Function calls to function_1 and function_2.
     drawOmo()
     drawKkg()
     wn.exitonclick()
 
-
-main()  # Starts the program!
+    main()        # Starts the program!
 
 
