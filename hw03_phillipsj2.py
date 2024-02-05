@@ -6,14 +6,15 @@
 #
 # Purpose: A program that uses turtles to draw a complex object. This is also an intro to Git's more complex nature
 #
-#https://docs.google.com/document/d/1ScrNyDoxQ187_iHzXMwE0PJ0ZUmyG6eX1xUxiFIGk-Y/edit?usp=sharing
+# https://docs.google.com/document/d/1ScrNyDoxQ187_iHzXMwE0PJ0ZUmyG6eX1xUxiFIGk-Y/edit?usp=sharing
 ######################################################################
 
 import turtle
 
+
 def draw_trailer(rect, door, w1, w2):
     """This is meant to draw the trailer, a mobile home. Compeleted with doors and windows"""
-    #This is going to draw a blue trailer shape + the grey roof
+    # This is going to draw a blue trailer shape + the grey roof
     rect.fillcolor('blue')
     rect.begin_fill()
     for i in range(2):
@@ -23,7 +24,7 @@ def draw_trailer(rect, door, w1, w2):
         rect.left(90)
     rect.end_fill()
 
-    #This is drawing the "roof" of the trailer to add some depth
+    # This is drawing the "roof" of the trailer to add some depth
     rect.fillcolor('lightgrey')
     rect.begin_fill()
     rect.goto(0,125)
@@ -36,7 +37,7 @@ def draw_trailer(rect, door, w1, w2):
     rect.end_fill()
     rect.hideturtle()
 
-    #This will put a door on the trailer
+    # This will put a door on the trailer
     door.penup()
     door.forward(135)
     door.pendown()
@@ -52,7 +53,7 @@ def draw_trailer(rect, door, w1, w2):
     door.end_fill()
     door.hideturtle()
 
-    #w1 and w2 will put 2 windows on the trailer
+    # w1 and w2 will put 2 windows on the trailer
     w1.penup()
     w1.forward(70)
     w1.left(90)
@@ -101,9 +102,10 @@ def draw_trailer(rect, door, w1, w2):
     w2.forward(30)
     w2.hideturtle()
 
+
 def draw_garage(sh, li):
     """This is meant to draw the garage. It will have a door and a different shape than the trailer"""
-    #This block is for the garage's shape/outline
+    # This block is for the garage's shape/outline
     sh.penup()
     sh.goto(-50, 0)
     sh.pendown()
@@ -128,7 +130,7 @@ def draw_garage(sh, li):
     sh.forward(200)
     sh.hideturtle()
 
-    #The block is meant to draw the garage door
+    # The block is meant to draw the garage door
     li.penup()
     li.goto(-100, 0)
     li.pendown()
@@ -143,7 +145,7 @@ def draw_garage(sh, li):
     li.end_fill()
     li.pensize(2)
 
-    #This part creates the "open" part of the garage door
+    # This part creates the "open" part of the garage door
     li.fillcolor('black')
     li.begin_fill()
     for u in range(2):
@@ -153,7 +155,7 @@ def draw_garage(sh, li):
         li.left(90)
     li.end_fill()
 
-    #This mess makes the lines on the door to add texture
+    # This mess makes the lines on the door to add texture
     li.forward(30)
     li.left(90)
     li.forward(100)
@@ -170,13 +172,17 @@ def draw_garage(sh, li):
     li.right(90)
     li.forward(100)
     li.hideturtle()
+
+
 def main():
+    """This is the main function. It calls on other functions and sets the scene for turtles."""
+
     wn = turtle.Screen()
     wn.colormode(255)
     wn.bgcolor(189, 229, 255)
     wn.screensize(700, 700)
 
-    #This block is making the turtles for the trailer and calling it#
+    # This block is making the turtles for the trailer and calling it
     t = turtle.Turtle()
     t.pensize(5)
     t.speed(3)
@@ -194,8 +200,7 @@ def main():
     w2.speed(3)
     draw_trailer(t, m, w1, w2)
 
-    #This block is for creating the turtles for the garage and calling the function
-
+    # This block is for creating the turtles for the garage and calling the function
     s = turtle.Turtle()
     s.pensize(5)
     s.speed(3)
@@ -205,5 +210,6 @@ def main():
 
     draw_garage(s, l)
     wn.exitonclick()
+
 
 main()
