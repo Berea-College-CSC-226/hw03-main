@@ -8,7 +8,8 @@
 #
 #################################################################################
 # Acknowledgements:
-#
+#   Used Python Documentation to understand turtle methods: setheading and teleport
+#   Found Hexadecimal color codes with https://trinket.io/docs/colors
 #
 #################################################################################
 import turtle
