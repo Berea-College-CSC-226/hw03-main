@@ -12,83 +12,90 @@
 
 import turtle
 
-def drawRectangle(turtle,x,y):
-    """
-        this function draws the buildings
-        """
-    turtle.penup()
-    turtle.setpos(x, y)
-    turtle.pendown()
-    turtle.color('#EC3434')
-    turtle.begin_fill()
-    for side in range(2):
-        turtle.forward(420)
-        turtle.right(90)
-        turtle.forward(600)
-        turtle.right(90)
-    turtle.end_fill()
 
-def drawWindow(turtle, x, y):
+def drawRectangle(shape,x,y):
     """
-        this function draws the windows
-        """
-    turtle.penup()
-    turtle.setpos(x, y)
-    turtle.pendown()
+    this function draws the buildings
+    """
+    shape.penup()
+    shape.setpos(x, y)
+    shape.pendown()
+    shape.color('#EC3434')
+    shape.begin_fill()
+    for side in range(2):
+        shape.forward(420)
+        shape.right(90)
+        shape.forward(600)
+        shape.right(90)
+    shape.end_fill()
+
+
+def drawWindow(shape, x, y):
+    """
+    this function draws the windows
+    """
+    shape.penup()
+    shape.setpos(x, y)
+    shape.pendown()
     for i in range(7):
-        turtle.penup()
-        turtle.forward(50)
-        turtle.pendown()
-        turtle.color('#2911A2')
-        turtle.begin_fill()
+        shape.penup()
+        shape.forward(50)
+        shape.pendown()
+        shape.color('#2911A2')
+        shape.begin_fill()
 
         for side in range(2):
-                turtle.forward(30)
-                turtle.right(90)
-                turtle.forward(20)
-                turtle.right(90)
-        turtle.end_fill()
+                shape.forward(30)
+                shape.right(90)
+                shape.forward(20)
+                shape.right(90)
+        shape.end_fill()
 
 
-def drawDoor(turtle,x,y):
+def drawDoor(shape, x, y):
     """
-        this function draws the huge door
-        """
-    turtle.penup()
-    turtle.setpos(x, y)
-    turtle.pendown()
-    turtle.color('#2911A2')
-    turtle.begin_fill()
+    this function draws the huge door
+    """
+    shape.penup()
+    shape.setpos(x, y)
+    shape.pendown()
+    shape.color('#2911A2')
+    shape.begin_fill()
     for side in range(2):
-        turtle.forward(320)
-        turtle.right(90)
-        turtle.forward(400)
-        turtle.right(90)
-    turtle.end_fill()
-def drawText(turtle, txt,x,y):
-    """
-        this function draws the text
-        """
-    turtle.penup()
-    turtle.color("#070418")
-    turtle.setpos(x,y)
-    turtle.forward(130)
-    turtle.pendown()
-    turtle.write(txt, move=False, align='center', font=("Times New Roman", 70, ("bold", "normal")))
+        shape.forward(320)
+        shape.right(90)
+        shape.forward(400)
+        shape.right(90)
+    shape.end_fill()
 
-def pattern(turtle):
+
+def drawText(shape, txt, x, y):
     """
-            this function the pattern at the end
-            """
-    turtle.penup()
-    turtle.forward(700)
-    turtle.left(90)
-    turtle.forward(200)
-    turtle.pendown()
+    this function draws the text
+    """
+    shape.penup()
+    shape.color("#070418")
+    shape.setpos(x, y)
+    shape.forward(130)
+    shape.pendown()
+    shape.write(txt, move=False, align='center', font=("Times New Roman", 70, ("bold", "normal")))
+
+
+def pattern(shape):
+    """
+    this function the pattern at the end
+    """
+    shape.penup()
+    shape.forward(700)
+    shape.left(90)
+    shape.forward(200)
+    shape.pendown()
     for i in range(30):
-        turtle.circle(100, 180)
-        turtle.circle(100//2, 180)
-        turtle.forward(1)
+        shape.circle(100, 180)
+        shape.circle(100 // 2, 180)
+        shape.forward(1)
+
+
 def main():
     turtle.colormode(255)
 
@@ -101,8 +108,8 @@ def main():
     tess.speed(0)
     tess.shape("turtle")
     malak.shape("turtle")
-    drawRectangle(malak,250,300)
-    drawRectangle(tess,-650,300)
+    drawRectangle(malak, 250, 300)
+    drawRectangle(tess, -650, 300)
     drawWindow(malak, 250, 270)
     drawWindow(tess,-650,270)
     drawDoor(malak,280, 100)
