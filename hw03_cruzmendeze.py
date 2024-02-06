@@ -25,7 +25,7 @@ def roof(shape):
 def house(shape):
     shape.color('pink')
     shape.pendown()
-    for side in range(2):   # Makes the square shape for the house
+    for side in range(2):   # Makes the square frame for the house
         shape.forward(300)
         shape.right(90)
         shape.forward(250)
