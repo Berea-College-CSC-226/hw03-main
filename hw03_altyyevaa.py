@@ -15,7 +15,7 @@
 import turtle
 
 
-def drawHouse1(lomi):
+def draw_house(lomi):
     """
     Draws the house
     """
@@ -56,7 +56,7 @@ def drawHouse1(lomi):
     lomi.end_fill()
 
 
-def drawRoad(lomi):
+def draw_road(lomi):
     """
     Draws a gray straight road
     """
@@ -86,7 +86,7 @@ def drawRoad(lomi):
     lomi.pendown()
 
 
-def drawLines(lomi):
+def draw_lines(lomi):
     """
     draws the black middle lines
     """
@@ -112,7 +112,7 @@ def drawLines(lomi):
     lomi.forward(105)
 
 
-def drawWindows(lomi):  # draws the windows and the door of the house
+def draw_windows(lomi):  # draws the windows and the door of the house
     """
     draws the windows and the door of the house
     """
@@ -158,7 +158,7 @@ def drawWindows(lomi):  # draws the windows and the door of the house
     lomi.end_fill()
 
 
-def drawStars(lomi):
+def draw_stars(lomi):
     """
     draws the stars
     """
@@ -238,11 +238,16 @@ def main():
     wn = turtle.Screen()
     turtle.colormode(255)
     wn.bgcolor("#3A4997")
-    drawHouse1(lomi)
-    drawRoad(lomi)
-    drawLines(lomi)
-    drawWindows(lomi)
-    drawStars(lomi)
+    draw_house(lomi)
+
+    draw_road(lomi)
+
+    draw_lines(lomi)
+
+    draw_windows(lomi)
+
+    draw_stars(lomi)
+
     wn.exitonclick()
 
 
