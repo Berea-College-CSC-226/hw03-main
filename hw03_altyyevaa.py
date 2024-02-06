@@ -6,8 +6,9 @@
 # Purpose: to practice what I have learned until today
 # Google Doc Link: https://docs.google.com/document/d/1qbbG98mVSgm59Zz0Qic8VSSfr2YC18v-gFslQo-V63c/edit
 #
-#################################################################################
-# Acknowledgements: https://colorspire.com/rgb-color-wheel/ (I used this website to get RGBs of the colors I used in my code
+# ################################################################################
+# Acknowledgements:
+# https://colorspire.com/rgb-color-wheel/ (I used this website to get RGBs of the colors I used in my code
 #
 #
 #################################################################################
