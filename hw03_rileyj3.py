@@ -3,15 +3,12 @@
 # Username: rileyj3
 #
 # Assignment: HW03 : Fully Functional Gitty Psychedelic Robotic Turtles
-# Purpose: To create something complex and learn about Github.
+# Purpose: To create something complex and learn about GitHub.
 # Link to Document: https://docs.google.com/document/d/1EzPApStfIckqskXxnh8CNhMuNgis_GTE2FZZHHZvji4/edit?usp=sharing
-######################################################################
+#####################################################################
 
 
 import turtle
-
-wn = turtle.Screen()
-wn.bgcolor('turquoise')
 
 bryce = turtle.Turtle()
 
@@ -31,6 +28,8 @@ def build_house():
         bryce.forward(150)
         bryce.left(90)
     bryce.end_fill()
+
+
 def edit_house():
     """
     Have my turtle build me some nice windows into my house
@@ -38,7 +37,7 @@ def edit_house():
     pass
     bryce.color('black')
     bryce.pu()
-    bryce.setpos(100,80)
+    bryce.setpos(100, 80)
     bryce.pd()
     bryce.begin_fill()
     for i in range(4):
@@ -46,7 +45,7 @@ def edit_house():
         bryce.forward(25)
     bryce.end_fill()
     bryce.pu()
-    bryce.setpos(150,80)
+    bryce.setpos(150, 80)
     bryce.pd()
     bryce.begin_fill()
     for i in range(4):
@@ -54,7 +53,7 @@ def edit_house():
         bryce.left(90)
     bryce.end_fill()
     bryce.pu()
-    bryce.setpos(112.5,0)
+    bryce.setpos(112.5, 0)
     bryce.pd()
     bryce.begin_fill()
     for i in range(2):
@@ -63,6 +62,8 @@ def edit_house():
         bryce.forward(50)
         bryce.left(90)
     bryce.end_fill()
+
+
 def add_roof():
     """
     have my turtle add a roof onto my house
@@ -70,7 +71,7 @@ def add_roof():
     pass
     bryce.color('blue')
     bryce.pu()
-    bryce.setpos(45,150)
+    bryce.setpos(45, 150)
     bryce.pd()
     bryce.begin_fill()
     for i in range(1):
@@ -81,32 +82,39 @@ def add_roof():
         bryce.forward(115)
     bryce.end_fill()
     bryce.pu()
-    bryce.setpos(-50,0)
+    bryce.setpos(-50, 0)
+
+
 def add_words():
     bryce.setpos(-10, -100)
     bryce.hideturtle()
     bryce.color('yellow')
-    bryce.write("My Lovely Complex House",move=False,align='center',font=("Arial",45,("bold","normal")))
+    bryce.write("My Lovely Complex House", move=False, align='center', font=("Arial", 45, ("bold", "normal")))
+
 
 def main():
     """
     Builds a nice house with a roof and some  nice windows
     """
 
-build_house()
-bryce.speed(0)
 
+wn = turtle.Screen()
+wn.bgcolor('turquoise')
+
+build_house()
 
 edit_house()
-bryce.speed(0)
-
 
 add_roof()
-bryce.speed(0)
 
 add_words()
 
 
 wn.exitonclick()
+
+wn = turtle.Screen()
+wn.bgcolor('turquoise')
+bryce.speed(0)
+
 
 main()
