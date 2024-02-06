@@ -12,35 +12,103 @@
 #
 #################################################################################
 
-import turtle
-
 # TESTING PUSH FEATURE IN TA HOURS
-def function_1():
-    """
-    Example docstring for function_1. function_1 is not a good function name and should be changed.
-    """
-    pass
-    # ....
 
+import turtle
+def draw_cat():
 
-def function_2():
-    """
-    Example docstring for function_2. function_2 is not a good function name and should be changed.
-    """
-    pass
-    # ...
+    #Turtle screen
+    screen = turtle.Screen()
+    screen.bgcolor("white")
 
+    #creating turtle object
+    cat_turtle = turtle.Turtle()
+
+    #Setting the turtle properties
+    cat_turtle.shape("turtle")
+    cat_turtle.color("black")
+    cat_turtle.pensize(2)
+
+    #Drawing a cat
+    #Body
+
+    cat_turtle.fillcolor("gray")
+    cat_turtle.begin_fill()
+    cat_turtle.circle(50)
+    cat_turtle.end_fill()
+
+    #Head
+    cat_turtle.fillcolor("gray")
+    cat_turtle.begin_fill()
+    cat_turtle.circle(30)
+    cat_turtle.end_fill()
+
+    #Eyes
+    cat_turtle.penup()
+    cat_turtle.goto(-15, 70)
+    cat_turtle.pendown()
+    cat_turtle.fillcolor("blue")
+    cat_turtle.begin_fill()
+    cat_turtle.circle(5)
+ #Ears
+
+    cat_turtle.penup()
+    cat_turtle.goto(-25, 100)
+    cat_turtle.pendown()
+    cat_turtle.fillcolor("gray")
+    cat_turtle.begin_fill()
+    cat_turtle.left(45)
+    cat_turtle.forward(20)
+    cat_turtle.right(90)
+    cat_turtle.forward(20)
+    cat_turtle.left(45)
+    cat_turtle.end_fill()
+
+    cat_turtle.penup()
+    cat_turtle.goto(0, 100)
+    cat_turtle.pendown()
+    cat_turtle.fillcolor("gray")
+    cat_turtle.begin_fill()
+    cat_turtle.left(45)
+    cat_turtle.forward(20)
+    cat_turtle.right(90)
+    cat_turtle.forward(20)
+    cat_turtle.left(45)
+    cat_turtle.end_fill()
+
+    # Nose
+    cat_turtle.penup()
+    cat_turtle.goto(0, 50)
+    cat_turtle.pendown()
+    cat_turtle.dot(10, "pink")
+
+    # Mouth
+    cat_turtle.penup()
+    cat_turtle.goto(0, 50)
+    cat_turtle.pendown()
+    cat_turtle.right(90)
+    cat_turtle.circle(10, -180)
+
+    # Tail
+    cat_turtle.penup()
+    cat_turtle.goto(60, 50)
+    cat_turtle.pendown()
+    cat_turtle.right(45)
+    cat_turtle.forward(40)
+
+    # Closing the turtle graphics on when clicked!
+    screen.exitonclick()
 
 def main():
     """
     Docstring for main. Should describe the main functionality of this file.
     """
 
-    # Function calls to function_1 and function_2.
-    function_1()            # TODO  Remove when you replace it with your function
-    function_2()            # TODO  Remove when you replace it with your function
+    # Function call to draw_cat
+    draw_cat()
 
-
-main()  # Starts the program!
+if __name__ == "__main__":
+    main()
+ # Starts the program!
 
 
