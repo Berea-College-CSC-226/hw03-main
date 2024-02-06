@@ -3,7 +3,7 @@
 # Username: adama
 #
 # Assignment: HW03
-# Purpose:
+# Purpose: To get more familiar with Git
 # Google Doc Link: https://docs.google.com/document/d/1YXFZxbLGXzFVEYKEQaQeSxvyGnDFdqLH4iHtMqZ9kCQ/edit?usp=sharing
 #
 #################################################################################
@@ -40,7 +40,6 @@ def main():
     window = turtle.Screen()
     window.bgcolor("#5BF0FF")
     window.setup(width=1000, height=750)
-
 
     # Here are the three wonderful turtles that did all the hard work to bring my dream home to reality.
     left_part = turtle.Turtle()
