@@ -4,7 +4,7 @@
 #
 # Assignment: Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: To familiarize functions, turtle graphics, computer color representation, and Git basics.
-# Google Doc Link: https://docs.google.com/document/d/1Mj5nshMpoanpbSKld58QdK__H9CcjM_WI2m9WeCyrzo/edit#heading=h.wh3weva4kufs
+# Google Doc Link: https://docs.google.com/document/d/1Mj5nshMpoanpbSKld58QdK__H9CcjM_WI2m9WeCyrzo/edit?usp=sharing
 #
 #################################################################################
 # Acknowledgements: Used ChatGPT to ask questions, and used textbook.
@@ -13,9 +13,6 @@
 #################################################################################
 
 import turtle
-
-
-# Draw the cat's head
 
 
 def draw_head(cat):
@@ -107,6 +104,8 @@ def draw_tail(cat):
 
 
 def main():
+    """Draw the cat's head"""
+
     cat = turtle.Turtle()
     wn = turtle.Screen()
     cat.speed(7)
