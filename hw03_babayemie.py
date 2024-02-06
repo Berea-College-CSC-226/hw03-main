@@ -20,6 +20,9 @@ import turtle
 
 
 def make_house():
+   """
+  Draws the main body of the house
+   """
    turtle.penup()
    turtle.goto(-50, -50)
    turtle.pendown()
@@ -48,8 +51,11 @@ def make_house():
 
 
 
-   # Draws a roof for the square to make it look like a house.
+
 def draw_roof(shape):
+   """
+   Draws a roof for the square to make it look like a house.
+   """
    shape.penup()
    shape.fillcolor("#898685")
    shape.begin_fill()
@@ -62,8 +68,11 @@ def draw_roof(shape):
    shape.hideturtle()
 
 
-#Draws a tree beside the house.
+
 def draw_tree():
+   """
+   Draws a tree beside the house.
+   """
    turtle.fillcolor("#4A3209")
    turtle.begin_fill()
    turtle.penup()
@@ -101,12 +110,15 @@ def draw_tree():
 
 
 def sun():
+   """
+   Draws a sun.
+   """
    turtle.penup()
    turtle.goto(-150, 100)
    turtle.pendown()
 
 
-   turtle.fillcolor("#FFDE00")  # Yellow color
+   turtle.fillcolor("#FFDE00")  # Yellow color for sun
    turtle.begin_fill()
    turtle.circle(30)
    turtle.end_fill()
