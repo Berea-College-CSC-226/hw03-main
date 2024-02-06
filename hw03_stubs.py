@@ -3,12 +3,12 @@
 #        hw03_username.py and copy this code into it!
 
 #################################################################################
-# Author:
-# Username:
+# Author: Kervens Hilaire
+# Username: hilairek
 #
-# Assignment:
-# Purpose:
-# Google Doc Link:
+# Assignment: HW03: Fully Functional Gitty Psychedelic Robotic Turtles
+# Purpose: Learning more about functions, git, and RGB.
+# Google Doc Link: https://docs.google.com/document/d/1qX_R1QL3Qg3_BBGEiCuX8spbrTxbjD2ipZlsZpv2VWk/edit
 #
 #################################################################################
 # Acknowledgements:
@@ -18,8 +18,94 @@
 
 import turtle
 
+def drawroof():
 
-def function_1():
+    t = turtle.Turtle()
+    t.hideturtle()
+    t.speed(0)
+    t.penup()
+    t.goto(-200, 50)
+    t.pendown()
+    t.color('red')
+    t.begin_fill()
+    for i in range(1):
+        t.forward(450)
+        t.left(110)
+        t.forward(199)
+        t.left(70)
+        t.forward(300)
+        t.left(66)
+        t.forward(205)
+    t.end_fill()
+def drawroofwindow():
+    t = turtle.Turtle()
+    t.hideturtle()
+    t.speed(0)
+    t.color("white")
+    t.penup()
+    t.goto(-60, 100)
+    t.pendown()
+    t.pensize(5)
+    t.forward(130)
+    for i in range(2):
+        t.left(90)
+        t.forward(80)
+        t.left(90)
+        t.forward(130)
+    t.backward(65)
+    t.left(90)
+    t.forward(80)
+    t.backward(40)
+    t.right(90)
+    t.forward(60)
+    t.backward(120)
+
+# Close the turtle graphics window
+
+def bodyofhouse():
+    t = turtle.Turtle()
+    t.speed(0)
+    t.penup()
+    t.goto(-190, 50)
+    t.pendown()
+    t.hideturtle()
+    t.color("#d2b48c")
+    t.begin_fill()
+    for i in range (1):
+        t.forward(426)
+        t.right(90)
+        t.forward(256)
+        t.right(90)
+        t.forward(426)
+        t.right(90)
+        t.forward(256)
+        t.end_fill()
+def door():
+    t = turtle.Turtle()
+    t.speed(0)
+    t.penup()
+    t.goto(-160, -207)
+    t.pendown()
+    #t.hideturtle()
+    t.color("#556b2f")
+    t.begin_fill()
+    for i in range(1):
+        t.left(90)
+        t.forward(150)
+        t.right(90)
+        t.forward(100)
+        t.right(90)
+        t.forward(150)
+        t.right(90)
+        t.forward(100)
+        t.end_fill()
+        t.penup()
+        t.backward(150)
+        t.pendown()
+        t.right(90)
+        t.forward(267)
+
+
     """
     Example docstring for function_1. function_1 is not a good function name and should be changed.
     """
@@ -36,13 +122,15 @@ def function_2():
 
 
 def main():
-    """
-    Docstring for main. Should describe the main functionality of this file.
-    """
+    wn = turtle.Screen()
+    wn.bgcolor("#87ceeb")
+    drawroof()
+    drawroofwindow()
+    bodyofhouse()
+    door()
 
-    # Function calls to function_1 and function_2.
-    function_1()            # TODO  Remove when you replace it with your function
-    function_2()            # TODO  Remove when you replace it with your function
+    wn.exitonclick()
+
 
 
 main()  # Starts the program!
