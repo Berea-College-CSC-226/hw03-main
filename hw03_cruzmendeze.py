@@ -1,31 +1,38 @@
+#####################################################################################
+#
 # Author: Eric Cruz-Mendez
 # Username: cruzmendeze
+#
 # Assignment: HW03: Fully Functional Gitty Psychedelic Robotic Turtles
+# Google Doc Link: https://docs.google.com/document/d/1P5qvQ1eb9AhFPyGV7J0JwgZ8XdeqU9qpbF82LSsu6yM/edit?usp=sharing
+#
+#####################################################################################
 
 import turtle
 turtle.colormode(255)  # Set colormode to RGB value
-# Make the roof
+
+# Function that makes the roof
 def roof(shape):
     shape.color(255, 182, 193)  # RGB values for unnamed color
     shape.begin_fill()
-    for side in range(3):
+    for side in range(3):       # Loop for triangular roof
         shape.forward(300)
         shape.left(120)
-    shape.end_fill()     # Tells Python the shape is complete; now fill it
+    shape.end_fill()  # Tells Python the shape is complete; now fill it
     shape.penup()
 
-# Make the main house rectangle
+# Function that makes the main house rectangle
 def house(shape):
     shape.color('pink')
     shape.pendown()
-    for side in range(2):
+    for side in range(2):   # Makes the square shape for the house
         shape.forward(300)
         shape.right(90)
         shape.forward(250)
         shape.right(90)
     shape.end_fill()
 
-# Make windows in the house
+# Function that make windows in the house
 def window(shape):
     shape.penup()
     shape.color('pink')
@@ -49,7 +56,7 @@ def window(shape):
         shape.forward(-40)
         shape.right(90)
     shape.penup()
-# Makes Door
+# Function that makes door
 def door(shape):
     shape.color('pink')
     shape.forward(-160)
@@ -64,14 +71,15 @@ def door(shape):
     shape.forward(80)
     shape.penup()
 
-# Makes 'floor'
+# Function that makes 'floor'
 def floor(shape):
     shape.pendown()
     shape.right(90)
-    shape.forward(900)
+    shape.forward(-500)
+    shape.forward(1500)
     shape.penup()
     shape.forward(-80)
-# Makes flowers
+# Function that makes flowers
 def flowers(flower):
     flower = turtle.Turtle()
     flower.penup()
@@ -119,6 +127,8 @@ def main():
     shape = turtle.Turtle()
     shape.hideturtle()
     flower = turtle.Turtle()
+
+    # Function calls to roof, house, window, door, floor, and flowers
     roof(shape)
     house(shape)
     window(shape)
