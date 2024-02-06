@@ -1,14 +1,24 @@
-#name:Samundra Adhikari
-#username: adhikaris2
-#googledocs: https://docs.google.com/document/d/1Mj5nshMpoanpbSKld58QdK__H9CcjM_WI2m9WeCyrzo/edit#heading=h.66gmzdtk59q2
-# Drawing a cat.
-#Acknowlege: Used ChatGPT to ask questions, and used textbook.
+#################################################################################
+# Author: Samundra Adhikari
+# Username: hw03_samundra
+#
+# Assignment: Fully Functional Gitty Psychedelic Robotic Turtles
+# Purpose: To familiarize functions, turtle graphics, computer color representation, and Git basics.
+# Google Doc Link: https://docs.google.com/document/d/1Mj5nshMpoanpbSKld58QdK__H9CcjM_WI2m9WeCyrzo/edit#heading=h.wh3weva4kufs
+#
+#################################################################################
+# Acknowledgements: Used ChatGPT to ask questions, and used textbook.
+#
+#
+#################################################################################
 
 import turtle
 
+
 # Draw the cat's head
 
-def draw_head(cat, x,y):
+
+def draw_head(cat):
     """ This function draws the head of a cat"""
     cat.penup()
     cat.goto(0, -100)
@@ -18,7 +28,8 @@ def draw_head(cat, x,y):
     cat.circle(100)
     cat.end_fill()
 
-def draw_eyes(cat, x,y):
+
+def draw_eyes(cat):
     """This function draws the eyes of cat"""
     cat.begin_fill()
     cat.color("white")
@@ -32,7 +43,8 @@ def draw_eyes(cat, x,y):
     cat.circle(-25)
     cat.end_fill()
 
-def draw_ear(cat, x,y):
+
+def draw_ear(cat):
     """This function draws the ear of cat."""
     cat.begin_fill()
     cat.color("white")
@@ -44,7 +56,8 @@ def draw_ear(cat, x,y):
         cat.left(120)
     cat.end_fill()
 
-def right_ear(cat, x,y):
+
+def right_ear(cat):
     """This function draws the right side ear of a cat."""
     cat.begin_fill()
     cat.color("white")
@@ -56,7 +69,8 @@ def right_ear(cat, x,y):
         cat.left(120)
     cat.end_fill()
 
-def draw_mouth(cat, x,y):
+
+def draw_mouth(cat):
     """This function is supposed to draws mustache """
     cat.penup()
     cat.goto(-55, -55)  # Position the turtle
@@ -68,7 +82,8 @@ def draw_mouth(cat, x,y):
     cat.right(120)
     cat.circle(radius=60, extent=80)
 
-def draw_body(cat,x,y):
+
+def draw_body(cat):
     """ This function draws the body of a cat"""
     cat.penup()
     cat.goto(-8, -315)
@@ -78,7 +93,8 @@ def draw_body(cat,x,y):
     cat.circle(120)
     cat.end_fill()
 
-def draw_tail(cat,x,y):
+
+def draw_tail(cat):
     """ draw's triangle shape white tail"""
     cat.penup()
     cat.begin_fill()
@@ -89,22 +105,23 @@ def draw_tail(cat,x,y):
     cat.forward(-200)
     cat.end_fill()
 
+
 def main():
     cat = turtle.Turtle()
     wn = turtle.Screen()
-    side_length = 50
     cat.speed(7)
-    draw_head(cat, 0,-100)
+    draw_head(cat)
     wn.bgcolor("orange")
     cat.speed(10)
-    cat.goto(0,50)
-    draw_eyes(cat, 70,70)
-    draw_ear(cat, -70, 70)
-    draw_mouth(cat, -40, 40)
-    right_ear(cat, 20, 70)
-    draw_body(cat,-8,-315)
-    draw_tail(cat, 0, 0)
+    cat.goto(0, 50)
+    draw_eyes(cat)
+    draw_ear(cat)
+    draw_mouth(cat)
+    right_ear(cat)
+    draw_body(cat)
+    draw_tail(cat)
     cat.hideturtle()
     wn.exitonclick()
+
 
 main()
