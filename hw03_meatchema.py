@@ -1,6 +1,6 @@
 #################################################################################
 # Author: Ariana Meatchem
-# Username:Meatchema
+# Username: Meatchema
 #
 # Assignment:Hw03-main
 # Purpose:To use functions to create an image
@@ -8,10 +8,11 @@
 #
 #################################################################################
 # Acknowledgements:
-#https://redketchup.io/color-picker
-#https://www.w3schools.com/colors/colors_picker.asp
+# https://redketchup.io/color-picker
+# https://www.w3schools.com/colors/colors_picker.asp
 #################################################################################
 import turtle
+
 
 def build_grass(apple):
     """ This function helps to create grass """
@@ -19,21 +20,20 @@ def build_grass(apple):
     apple.color("green")
     apple.speed(0)
 
-    apple.penup() # This set of directions positions apple to get ready to create the ground
+    apple.penup()  # This set of directions positions apple to get ready to create the ground
     apple.goto(x=-350, y=-200)
     apple.pendown()
     apple.forward(800)
     apple.begin_fill()
 
-    for g in range(6): # this for statement creates the grassy colored ground
+    for g in range(6):  # this for statement creates the grassy colored ground
         apple.right(90)
         apple.forward(100)
         apple.right(90)
         apple.forward(1000)
     apple.end_fill()
 
-    pass
-    # ...
+
 def build_windows(twinkle):
     """ This creates the window for the apartment building """
     twinkle.speed(0)
@@ -44,7 +44,7 @@ def build_windows(twinkle):
     twinkle.color("white")
     twinkle.fillcolor("#e5f5f5")
 
-    twinkle.begin_fill() # This is the start of the window creation
+    twinkle.begin_fill()  # This is the start of the window creation
     for p in range(4):
         twinkle.left(90)
         twinkle.forward(125)
@@ -53,8 +53,8 @@ def build_windows(twinkle):
         twinkle.left(90)
         twinkle.forward(200)
         twinkle.end_fill()
-    pass
-    # ...
+
+
 def build_apartment(cutie):
     """ This function helps make the grey apartment """
     cutie.speed(0)
@@ -71,8 +71,7 @@ def build_apartment(cutie):
         cutie.left(90)
         cutie.forward(250)
     cutie.end_fill()
-    pass
-    # ...
+
 
 def draw_sun(beam):
     """ This function helps to draw the sun """
@@ -81,49 +80,49 @@ def draw_sun(beam):
     beam.color("#ffcc00")
     beam.penup()
 
-    beam.goto(-400,350) # puts beam into position to start the sun
+    beam.goto(-400, 350)  # puts beam into position to start the sun
     beam.forward(100)
     beam.pendown()
 
-    beam.begin_fill() # creates the sun
+    beam.begin_fill()  # creates the sun
     for i in range(24):
         beam.right(15)
         beam.forward(30)
     beam.end_fill()
-    pass
-    # ...
+
 
 def draw_door(little):
     """ This function helps to create the door for the apartment building"""
     little.pensize(5)
     little.color("grey")
     little.penup()
-    little.goto(55,-100)
+    little.goto(55, -100)
     little.pendown()
-    for i in range(4): # create rectangle
+    for i in range(4):  # create rectangle
         little.forward(50)
         little.right(90)
         little.forward(100)
         little.right(90)
     little.penup()
 
-    little.goto(97,-150) # create door nob
+    little.goto(97, -150)  # create door nob
     little.pendown()
     for i in range(22):
         little.forward(1)
         little.left(15)
     little.penup()
-    little.goto(500,500)
+    little.goto(500, 500)
+
+
 def main():
     """ The goal of this file is to create an area that has an apartment building as its main focus"""
     wn = turtle.Screen()
-    print(wn.screensize())
     wn.bgcolor("light blue")
     apple = turtle.Turtle()
     cutie = turtle.Turtle()
     twinkle = turtle.Turtle()
     beam = turtle.Turtle()
-    little =turtle.Turtle()
+    little = turtle.Turtle()
 
     build_grass(apple)
     build_apartment(cutie)
@@ -134,4 +133,3 @@ def main():
 
 
 main()
-
