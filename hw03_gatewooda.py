@@ -8,8 +8,8 @@
 #
 #################################################################################
 # Acknowledgements:
-#
-#
+#https://www.geeksforgeeks.org/draw-circle-in-python-using-turtle/
+# https://github.com/Berea-College-CSC-226/hw03-main/assets/147771488/f83d1a85-f43c-4b43-a752-2acc79d48d96)
 #################################################################################
 import turtle
 import math
