@@ -7,7 +7,7 @@
 # Username: Sugargod1
 #
 # Assignment: hw03_Sugargod1
-# Purpose: Better understanding of git and github
+# Purpose: Better understanding of git and Github
 # Google Doc Link: https://docs.google.com/document/d/17NHKwPKQIHpA5JfAf-XqfP_sFllP3Gk8PNOkkDWPsdk/edit?usp=sharing
 #
 #################################################################################
