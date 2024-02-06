@@ -168,7 +168,7 @@ def main():
     draw_figure(middle_part, 100, 45)
     middle_part.end_fill()
     dissect_window(middle_part)
-    #################################
+    ############################
 
     window.exitonclick()
 
