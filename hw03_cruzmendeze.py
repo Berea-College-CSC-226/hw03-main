@@ -32,7 +32,7 @@ def house(shape):
         shape.right(90)
     shape.end_fill()
 
-# Function that make windows in the house
+# Function that make windows
 def window(shape):
     shape.penup()
     shape.color('pink')
