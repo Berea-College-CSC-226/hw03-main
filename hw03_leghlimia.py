@@ -73,8 +73,6 @@ def sword(mah):
         mah.forward(14.6)
         mah.penup()
 
-    # ...
-
 
 def main():
     wn = turtle.Screen()
