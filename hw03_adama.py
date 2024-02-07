@@ -146,7 +146,7 @@ def main():
     draw_figure(right_part, 100, 45)
     right_part.end_fill()
     dissect_window(right_part)
-    ###########################
+    ##########################
 
     # windows in the middle
     middle_part.penup()
