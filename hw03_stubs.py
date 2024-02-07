@@ -18,7 +18,11 @@
 
 import turtle
 
+
 def moon_code():
+    """
+    this function draws a circle with the moon color
+    """
     moon = turtle.Turtle()
     moon.hideturtle()
     moon.speed(0)
@@ -34,6 +38,9 @@ def moon_code():
 
 
 def house_code():
+    """
+        this function draws the body of the house and fill it with wall color
+    """
     house = turtle.Turtle()
     house.hideturtle()
     house.speed(0)
@@ -61,6 +68,9 @@ def house_code():
 
 
 def roof_code():
+    """
+        this function draws the roof of the house and fill it with another wall color like gray
+    """
     roof = turtle.Turtle()
     roof.hideturtle()
     roof.speed(0)
@@ -106,6 +116,9 @@ def roof_code():
 
 
 def little_window_code():
+    """
+        this function draws a little white window above the door
+    """
     little_window = turtle.Turtle()
     little_window.hideturtle()
     little_window.speed(0)
@@ -130,7 +143,10 @@ def little_window_code():
     little_window.forward(23)                          # the little window ends here
 
 
-def road_code():
+def door_code():
+    """
+        this function draws the brown door with its handle
+    """
     door = turtle.Turtle()
     door.hideturtle()
     door.speed(0)
@@ -162,6 +178,9 @@ def road_code():
 
 
 def left_window_code():
+    """
+        this function draws two white windows of the house on the left side
+    """
     left_window = turtle.Turtle()
     left_window.hideturtle()
     left_window.speed(0)
@@ -185,7 +204,6 @@ def left_window_code():
     left_window.left(90)
     left_window.forward(70)                            # the first code of left window ends here
 
-
     left_window.penup()
     left_window.forward(30)
     left_window.pendown()
@@ -207,6 +225,9 @@ def left_window_code():
 
 
 def right_window_code():
+    """
+        this function draws one white window of the house on the right side
+    """
     right_window = turtle.Turtle()
     right_window.hideturtle()
     right_window.speed(0)
@@ -230,7 +251,11 @@ def right_window_code():
     right_window.left(90)
     right_window.forward(70)                            # the code of right window ends here
 
+
 def road_left_side_code():
+    """
+        this function draws left yellow line of the road in front of the house
+    """
     road_left_side = turtle.Turtle()
     road_left_side.hideturtle()
     road_left_side.speed(0)
@@ -244,6 +269,9 @@ def road_left_side_code():
 
 
 def road_right_side_code():
+    """
+        this function draws right yellow line of the road in front of the house
+    """
     road_right_side = turtle.Turtle()
     road_right_side.hideturtle()
     road_right_side.speed(0)
@@ -255,7 +283,11 @@ def road_right_side_code():
     road_right_side.right(100)
     road_right_side.forward(200)                       # the right line of road code ends here
 
+
 def main():
+    """
+        this function is main function, which calls other functions step by step
+    """
 
     wn = turtle.Screen()
     wn.bgcolor('#2e4482')
@@ -264,16 +296,13 @@ def main():
     house_code()
     roof_code()
     little_window_code()
-    road_code()
+    door_code()
     left_window_code()
     right_window_code()
     road_left_side_code()
     road_right_side_code()
 
-
     wn.exitonclick()
 
-main()  # Starts the program!
 
-
-
+main()                                                 # Starts the program!
