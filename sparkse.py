@@ -14,9 +14,7 @@
 
 
 import turtle
-import math
 import random
-
 
 
 def move(t, x, y):
@@ -24,15 +22,26 @@ def move(t, x, y):
     t.goto(x, y)
     t.pendown()
 
+
 def rectangle(t, w, h):
     for i in range(2):
         t.forward(w)
         t.left(90)
         t.forward(h)
         t.left(90)
+    t.forward(15)
+    t.left(90)
+    t.forward(70)
+    t.right(90)
+    t.forward(15)
+    t.right(90)
+    t.forward(35)
+    t.right(90)
+    t.forward(30)
+    t.right(180)
 
 
-def house(t,j, w, h):
+def house(t, j, w, h):
     t.penup()
     t.goto(-300, -250)
     t.pendown()
@@ -67,45 +76,28 @@ def balloon(t,k):
         x = random.randint(0, 600)
         y = random.randint(100, 300)
         x = x - 300
-
-        print(x , y)
-
-        t.goto(x,y)
+        print(x, y)
+        t.goto(x, y)
         t.pendown()
-
         r = random.randint(0,255)
         g = random.randint(0,255)
         b = random.randint(0,255)
-
-        t.color((r,g,b))
-
+        t.color((r, g, b))
         t.begin_fill()
-
         t.circle(random.randrange(10, 15))
-
-
         t.end_fill()
-
-
         k.penup()
         k.goto(x,y)
         k.pendown()
         k.goto(-1.74188, 44.24)
 
 
-        #
-        # p = [x, y]
-        # q = [-1.74188, 44.24 ]
-        # dis = math.dist(p, q)
-        #
-        #
 def main():
     tess = turtle.Turtle()
-    jason= turtle.Turtle()
+    jason = turtle.Turtle()
     kevin = turtle.Turtle()
     wn = turtle.Screen()
     wn.bgcolor("lightblue")
-
 
     jason.speed(0)
     kevin.speed(0)
@@ -113,45 +105,18 @@ def main():
 
     tess.pensize(3)
     jason.pensize(3)
-    kevin.pensize(0.01)
+    kevin.pensize(1)
     house(tess, jason, 600, 200)
 
     move(tess, -200, -150)
     tess.color("brown")
     rectangle(tess, 30, 70)
-    tess.forward(15)
-    tess.left(90)
-    tess.forward(70)
-    tess.right(90)
-    tess.forward(15)
-    tess.right(90)
-    tess.forward(35)
-    tess.right(90)
-    tess.forward(30)
-    tess.right(180)
+
     move(tess, 170, -150)
     rectangle(tess, 30,70)
-    tess.forward(15)
-    tess.left(90)
-    tess.forward(70)
-    tess.right(90)
-    tess.forward(15)
-    tess.right(90)
-    tess.forward(35)
-    tess.right(90)
-    tess.forward(30)
-    tess.right(180)
-
     turtle.colormode(255)
     balloon(tess, kevin)
-
-
-
-
-
-
-
-
-
     wn.exitonclick()
+
+
 main()
