@@ -29,11 +29,103 @@ def draw_figure(t, width, height):
 
 def dissect_window(t):
     """
-    This function draws the window
+    This function divides the windows
     """
     t.forward(50)
     t.left(90)
     t.forward(45)
+
+
+def draw_gable(left_part):
+    """
+    This function draws the gable roof on the left
+    """
+    left_part.goto(-250, 0)
+    left_part.left(30)
+    left_part.forward(144)
+    left_part.right(60)
+    left_part.forward(144)
+    left_part.left(30)
+    left_part.penup()
+    left_part.goto(-240, 0)
+    left_part.pendown()
+    left_part.left(30)
+    left_part.forward(133)
+    left_part.right(60)
+    left_part.forward(145)
+
+
+def adjust_position(t_pos, x, y):
+    """
+        This function sets the turtle to a given position so that it performs the next action
+    """
+    t_pos.penup()
+    t_pos.goto(x, y)
+    t_pos.pendown()
+
+
+def left_windows(left_part):
+    """
+        This function draws the windows on the left
+    """
+    adjust_position(left_part, -170, -70)
+    left_part.left(30)
+    left_part.fillcolor("#50EE8A")
+    left_part.begin_fill()
+    draw_figure(left_part, 100, 45)
+    left_part.end_fill()
+    dissect_window(left_part)
+    adjust_position(left_part, -170, -170)
+    left_part.right(90)
+    left_part.fillcolor("#50EE8A")
+    left_part.begin_fill()
+    draw_figure(left_part, 100, 45)
+    left_part.end_fill()
+    dissect_window(left_part)
+
+
+def right_windows(right_part):
+    """
+        This function draws the windows on the right
+    """
+    right_part.goto(0, -170)
+    right_part.penup()
+    right_part.forward(275)
+    right_part.pendown()
+    right_part.fillcolor("#50EE8A")
+    right_part.begin_fill()
+    draw_figure(right_part, 100, 45)
+    right_part.end_fill()
+    dissect_window(right_part)
+
+    adjust_position(right_part, 275, -70)
+    right_part.right(90)
+    right_part.fillcolor("#50EE8A")
+    right_part.begin_fill()
+    draw_figure(right_part, 100, 45)
+    right_part.end_fill()
+    dissect_window(right_part)
+
+
+def middle_windows(middle_part):
+    """
+            This function draws the windows in the middle section
+    """
+    adjust_position(middle_part, 35, -170)
+    middle_part.right(90)
+    middle_part.fillcolor("#50EE8A")
+    middle_part.begin_fill()
+    draw_figure(middle_part, 100, 45)
+    middle_part.end_fill()
+    dissect_window(middle_part)
+
+    adjust_position(middle_part, 35, -70)
+    middle_part.right(90)
+    middle_part.fillcolor("#50EE8A")
+    middle_part.begin_fill()
+    draw_figure(middle_part, 100, 45)
+    middle_part.end_fill()
+    dissect_window(middle_part)
 
 
 def main():
@@ -59,49 +151,17 @@ def main():
     #####################################################
 
     # left_part couldn't wait to start his duties
-    left_part.penup()
-    left_part.goto(-250, -250)
-    left_part.pendown()
+    adjust_position(left_part, -250, -250)
     draw_figure(left_part, 250, 400)
     draw_figure(left_part, 10, 250)
     draw_figure(left_part, 250, 405)
 
     # Gable roof on the left
-    left_part.goto(-250, 0)
-    left_part.left(30)
-    left_part.forward(144)
-    left_part.right(60)
-    left_part.forward(144)
-    left_part.left(30)
-    left_part.penup()
-    left_part.goto(-240, 0)
-    left_part.pendown()
-    left_part.left(30)
-    left_part.forward(133)
-    left_part.right(60)
-    left_part.forward(145)
+    draw_gable(left_part)
     #####################
 
     # windows on the left
-    left_part.penup()
-    left_part.left(30)
-    left_part.goto(-170, -70)
-    left_part.pendown()
-    left_part.fillcolor("#50EE8A")
-    left_part.begin_fill()
-    draw_figure(left_part, 100, 45)
-    left_part.end_fill()
-    dissect_window(left_part)
-
-    left_part.penup()
-    left_part.right(90)
-    left_part.goto(-170, -170)
-    left_part.pendown()
-    left_part.fillcolor("#50EE8A")
-    left_part.begin_fill()
-    draw_figure(left_part, 100, 45)
-    left_part.end_fill()
-    dissect_window(left_part)
+    left_windows(left_part)
     ######################
 
     # middle section
@@ -111,8 +171,8 @@ def main():
     middle_part.goto(0, -250)
     draw_figure(middle_part, 440, 250)
 
-    middle_part.goto(0, -125)
     middle_part.penup()
+    middle_part.goto(0, -125)
     middle_part.forward(170)
     middle_part.pendown()
     middle_part.fillcolor("#7550EE")
@@ -121,56 +181,18 @@ def main():
     middle_part.end_fill()
 
     # middle wall
-    middle_part.penup()
-    middle_part.goto(170, -250)
-    middle_part.pendown()
+    adjust_position(middle_part, 170, -250)
     middle_part.left(90)
     middle_part.forward(245)
     ############################
 
     # right_part has waited so long. It's desperate to be released!
     # windows on the right
-    right_part.goto(0, -170)
-    right_part.penup()
-    right_part.forward(275)
-    right_part.pendown()
-    right_part.fillcolor("#50EE8A")
-    right_part.begin_fill()
-    draw_figure(right_part, 100, 45)
-    right_part.end_fill()
-    dissect_window(right_part)
-
-    right_part.penup()
-    right_part.goto(275, -70)
-    right_part.pendown()
-    right_part.right(90)
-    right_part.fillcolor("#50EE8A")
-    right_part.begin_fill()
-    draw_figure(right_part, 100, 45)
-    right_part.end_fill()
-    dissect_window(right_part)
+    right_windows(right_part)
     ##########################
 
     # windows in the middle
-    middle_part.penup()
-    middle_part.right(90)
-    middle_part.goto(35, -170)
-    middle_part.pendown()
-    middle_part.fillcolor("#50EE8A")
-    middle_part.begin_fill()
-    draw_figure(middle_part, 100, 45)
-    middle_part.end_fill()
-    dissect_window(middle_part)
-
-    middle_part.penup()
-    middle_part.right(90)
-    middle_part.goto(35, -70)
-    middle_part.pendown()
-    middle_part.fillcolor("#50EE8A")
-    middle_part.begin_fill()
-    draw_figure(middle_part, 100, 45)
-    middle_part.end_fill()
-    dissect_window(middle_part)
+    middle_windows(middle_part)
     ############################
 
     window.exitonclick()
