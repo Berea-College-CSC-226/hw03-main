@@ -26,55 +26,34 @@ def ran_col():
 
 
 def draw_person(ben, wn):
-    wn.bgcolor(ran_col())
     """
     Randomizes the color of the background screen when this function is called
     """
+    wn.bgcolor(ran_col())
     ben.speed(0)
     ben.pensize(10)
     ben.penup()
-    ben.goto(-100, 50)
-    """
-    Setting up the position of ben to draw the person
-    """
+    ben.goto(-100, 50)  # Setting up the position of ben to draw the person
     ben.right(90)
     ben.pendown()
 
-    ben.color(ran_col())
-    """
-    Randomizes the color of the person's head
-    """
+    ben.color(ran_col())  # Randomizes the color of the person's head
 
-    for i in range(4):
-        """
-        This is drawing the person's head
-        """
+    for i in range(4):  # This is drawing the person's head
         ben.forward(50)
         ben.left(90)
 
-    ben.color(ran_col())
-    """
-    Randomizes the color of the person's torso
-    """
+    ben.color(ran_col())  # Randomizes the color of the person's torso
 
-    """
-    This is drawing the person's torso
-    """
-    ben.penup()
+    ben.penup()  # This is drawing the person's torso
     ben.goto(-50, 25)
     ben.left(90)
     ben.pendown()
     ben.forward(130)
 
-    ben.color(ran_col())
-    """
-    Randomizes the color of the person's legs
-    """
+    ben.color(ran_col())  # Randomizes the color of the person's legs
 
-    """
-    This is drawing the person's legs
-    """
-    ben.left(45)
+    ben.left(45)  # This is drawing the person's legs
     ben.forward(80)
     ben.penup()
     ben.goto(80, 25)
@@ -83,15 +62,9 @@ def draw_person(ben, wn):
     ben.forward(80)
     ben.penup()
 
-    ben.color(ran_col())
-    """
-    Randomizes the color of the person's arms
-    """
+    ben.color(ran_col())  # Randomizes the color of the person's arms
 
-    """
-    This is drawing the person's arms
-    """
-    ben.goto(10, 25)
+    ben.goto(10, 25)  # This is drawing the person's arms
     ben.pendown()
     ben.right(90)
     ben.forward(80)
@@ -106,30 +79,18 @@ def draw_person(ben, wn):
 
 
 def draw_illusion(gilbert, wn):
-    wn.bgcolor(ran_col())
     """
     Randomizes the color of the background screen when this function is called
     """
+    wn.bgcolor(ran_col())
     gilbert.speed(0)
-    gilbert.color(ran_col())
-    """
-    Randomizes the color of the illusion
-    """
+    gilbert.color(ran_col())  # Randomizes the color of the illusion
     gilbert.pensize(2)
-    length = 2
-    """
-    Defines the length of each line the turtle makes, so it can increase
-    """
-    for i in range(400):
-        """
-        Draws the entire illusion
-        """
+    length = 2   # Defines the length of each line the turtle makes, so it can increase
+    for i in range(400):  # Draws the entire illusion
         gilbert.forward(length)
         gilbert.left(270)
-        length += 2
-        """
-        Increases the line of the turtle by 2 each time
-        """
+        length += 2  # Increases the line of the turtle by 2 each time
 
     gilbert.hideturtle()
 
