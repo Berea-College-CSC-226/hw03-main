@@ -14,7 +14,7 @@
 import turtle
 
 
-def DrawHuman(mah):
+def draw_human(mah):
     """
     This function draws a human.
     """
@@ -41,10 +41,8 @@ def DrawHuman(mah):
         mah.pendown()
         mah.forward(70)
         mah.penup()
-    # ....
 
-
-def Sword(mah):
+def sword(mah):
     """
     This function draws a sword.
     """
@@ -86,9 +84,8 @@ def main():
     mah.pensize(6)
     mah.penup()
 
-    # Function calls to function_1 and function_2.
-    DrawHuman(mah)
-    Sword(mah)
+    draw_human(mah)
+    sword(mah)
 
     wn.exitonclick()
 
