@@ -1,15 +1,21 @@
 #################################################################################
-# Author: Kafui Gle
+# Author: Kafui
 # Username: glek
 #
 # Assignment: hw03
-# Purpose:
-# Google Doc Link: https://docs.google.com/document/d/1yGLLdFBhjPw96O7yJiaUsUuLIPZWXuOvJ6QDpzMWM_c/edit
+# Purpose: Implemented a code that draws a house
+# Google Doc Link: https://docs.google.com/document/d/1yGLLdFBhjPw96O7yJiaUsUuLIPZWXuOvJ6QDpzMWM_c/edit#heading=h.j4414z2ufr72
+#
+#################################################################################
+# Acknowledgements: Tojo Tsimalay
+#
+#
+#################################################################################
 
 import turtle     # this imports the turtle.
 
 
-def drawKkg():
+def drawkkg():
     """
     This function draws the door, windows and roof of the house.
     """
@@ -58,21 +64,21 @@ def drawKkg():
         kkg.left(90)
 
 
-def drawOmo():
+def drawomo():
     """
     This function draws the outer square of the house.
     """
-    Omo = turtle.Turtle()
-    Omo.pensize(15)
-    Omo.penup()
-    Omo.goto(-250, -250)
-    Omo.pendown()
-    Omo.hideturtle()
+    omo = turtle.Turtle()
+    omo.pensize(15)
+    omo.penup()
+    omo.goto(-250, -250)
+    omo.pendown()
+    omo.hideturtle()
 
     # This for loop draws the outer square of the house.
     for i in range(4):
-        Omo.forward(350)
-        Omo.left(90)
+        omo.forward(350)
+        omo.left(90)
 
 
 def main():
@@ -83,10 +89,11 @@ def main():
     wn.colormode(255)
     wn.bgcolor(145, 180, 167)   # this sets the background color of the screen using rgb values.
     # Function calls to function_1 and function_2.
-    drawOmo()
-    drawKkg()
+    drawomo()
+    drawkkg()
     wn.exitonclick()
 
-    main()        # Starts the program!
+
+main()        # Starts the program!
 
 
