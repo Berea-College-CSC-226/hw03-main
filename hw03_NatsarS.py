@@ -12,7 +12,6 @@
 #################################################################################
 import turtle
 
-
 def main():
     sunflower = turtle.Turtle()
     sunflower.speed(0)
@@ -25,7 +24,6 @@ def main():
 
     s.exitonclick()
 
-
 def flowercenter(sunflower):
     """
     Create the center bulb to our flower!
@@ -37,7 +35,6 @@ def flowercenter(sunflower):
     sunflower.begin_fill()
     sunflower.circle(50)  # draws a circle of radius 20
     sunflower.end_fill()
-
 
 def petals(sunflower):
     """
@@ -58,7 +55,6 @@ def petals(sunflower):
         sunflower.left(18)
         sunflower.end_fill()
 
-
 def make_text(sunflower):
     """
     Writes text about fav flower on the screen.
@@ -68,6 +64,5 @@ def make_text(sunflower):
     sunflower.pendown()
     sunflower.color("#086054")
     sunflower.write("Sunflowers are my favourite!", move=False, align='center', font=("Arial", 30, ("bold", "normal")))
-
 
 main()  # Starts the program!
