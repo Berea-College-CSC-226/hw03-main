@@ -1,14 +1,21 @@
+# Author: Aaliyah Murphy
+# Username: Murphya
+#
+# Assignment: Hw03
+# Google Doc Link:https://docs.google.com/document/d/1QOq5mSUdxNJacGKRdWqrQEk5mgNh5cuqwZO52XxC4JY/edit?usp=sharing
+#
+
 import turtle
 
 wn = turtle.Screen()
 abby = turtle.Screen()
-abby.bgpic('starry.gif')
+abby.bgpic('skyy.gif')
 
 abby = turtle.Turtle()
 aaliyah = turtle.Turtle()
 
 #This code makes the horizon line and makes the water blue.
-abby.color("#3A3C8E", "#3A3C8E")
+abby.color("#5980C3", "#5980C3")
 abby.begin_fill()
 abby.penup()
 abby.right(90)
@@ -45,7 +52,7 @@ def drawRectangle(t, w, h):
 
 #worked on the boat
 aaliyah.penup()
-aaliyah.goto(-90,-160)
+aaliyah.goto(-90,-150)
 aaliyah.pendown()
 aaliyah.color("#8E5B3A", "#8E5B3A")
 aaliyah.begin_fill()
@@ -56,13 +63,26 @@ aaliyah.forward(200)
 aaliyah.end_fill()
 aaliyah.backward(100)
 aaliyah.right(90)
-aaliyah.forward(100)
-def drawFlag(t, sz):
+aaliyah.forward(75)
+aaliyah.backward(15)
 
+def drawFlag(t, sz):
+    t.begin_fill()
     for i in range(4):
+        t.color("#A24C66", "#A24C66")
         t.forward(sz)
         t.left(90)
+    t.end_fill()
 
+#fishing pole
+    aaliyah.backward(60)
+    aaliyah.right(90)
+    aaliyah.forward(50)
+    aaliyah.left(55)
+    aaliyah.forward(120)
+    aaliyah.right(145)
+    aaliyah.forward(140)
+    aaliyah.stamp()
 def main():
     drawRectangle(abby, 180, 75)
     drawFlag(aaliyah, 50)
