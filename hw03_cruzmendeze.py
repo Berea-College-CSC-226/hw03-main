@@ -40,7 +40,7 @@ def house(shape):
 
 def window(shape):
     """
-    Function that makes window
+    Function that makes windows
     """
     shape.penup()
     shape.color('pink')
