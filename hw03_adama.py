@@ -28,6 +28,9 @@ def draw_figure(t, width, height):
 
 
 def dissect_window(t):
+    """
+    This function draws the window
+    """
     t.forward(50)
     t.left(90)
     t.forward(45)
