@@ -10,14 +10,11 @@
 
 import turtle
 
-bryce = turtle.Turtle()
 
-
-def build_house():
+def build_house(bryce):
     """
     Have turtle build me a nice house.
     """
-    pass
     bryce.speed(0)
     bryce.pu()
     bryce.setpos(50, 0)
@@ -30,11 +27,10 @@ def build_house():
     bryce.end_fill()
 
 
-def edit_house():
+def edit_house(bryce):
     """
     Have my turtle build me some nice windows into my house
     """
-    pass
     bryce.color('black')
     bryce.pu()
     bryce.setpos(100, 80)
@@ -64,11 +60,10 @@ def edit_house():
     bryce.end_fill()
 
 
-def add_roof():
+def add_roof(bryce):
     """
     have my turtle add a roof onto my house
     """
-    pass
     bryce.color('blue')
     bryce.pu()
     bryce.setpos(45, 150)
@@ -85,7 +80,10 @@ def add_roof():
     bryce.setpos(-50, 0)
 
 
-def add_words():
+def add_words(bryce):
+    """
+    Have my turtle write 'My Lovely Complex House' on the screen
+    """
     bryce.setpos(-10, -100)
     bryce.hideturtle()
     bryce.color('yellow')
@@ -96,25 +94,21 @@ def main():
     """
     Builds a nice house with a roof and some  nice windows
     """
+    bryce = turtle.Turtle()
 
+    build_house(bryce)
 
-wn = turtle.Screen()
-wn.bgcolor('turquoise')
+    edit_house(bryce)
 
-build_house()
+    add_roof(bryce)
 
-edit_house()
+    add_words(bryce)
 
-add_roof()
+    wn = turtle.Screen()
+    wn.bgcolor('teal')
+    bryce.speed(0)
 
-add_words()
-
-
-wn.exitonclick()
-
-wn = turtle.Screen()
-wn.bgcolor('turquoise')
-bryce.speed(0)
+    wn.exitonclick()
 
 
 main()
