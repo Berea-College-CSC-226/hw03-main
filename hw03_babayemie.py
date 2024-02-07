@@ -9,156 +9,121 @@
 #
 #################################################################################
 # Acknowledgements:
-#
-#
+# https://openbookproject.net/thinkcs/python/english3e/hello_little_turtles.html
+# https://www.geeksforgeeks.org/draw-color-filled-shapes-in-turtle-python/
 #################################################################################
 
 
 import turtle
 
 
-
-
-def make_house():
-   """
+def make_house(house_turtle):
+    """
   Draws the main body of the house
    """
-   turtle.penup()
-   turtle.goto(-50, -50)
-   turtle.pendown()
+    house_turtle.penup()
+    house_turtle.goto(-50, -50)
+    house_turtle.pendown()
 
+    house_turtle.fillcolor("#FF3C00")  # red color
+    house_turtle.begin_fill()
+    for _ in range(4):
+        house_turtle.forward(100)
+        house_turtle.left(90)
+    house_turtle.end_fill()
 
-   turtle.fillcolor("#FF3C00")  # red color
-   turtle.begin_fill()
-   for _ in range(4):
-       turtle.forward(100)
-       turtle.left(90)
-   turtle.end_fill()
-
-
-   #Draws a door for house
-   turtle.penup()
-   turtle.fillcolor("#060D04")
-   turtle.begin_fill()
-   turtle.goto(-15,-50)
-   for _ in range(4):
-       turtle.forward(30)
-       turtle.left(90)
-   turtle.end_fill()
-
-
-
-
-
+    # Draws a door for house
+    house_turtle.penup()
+    house_turtle.fillcolor("#060D04")
+    house_turtle.begin_fill()
+    house_turtle.goto(-15, -50)
+    for _ in range(4):
+        house_turtle.forward(30)
+        house_turtle.left(90)
+    house_turtle.end_fill()
+    house_turtle.hideturtle()
 
 
 def draw_roof(shape):
-   """
+    """
    Draws a roof for the square to make it look like a house.
    """
-   shape.penup()
-   shape.fillcolor("#898685")
-   shape.begin_fill()
-   shape.goto(50,50)
-   shape.pendown()
-   shape.goto(0, 100)
-   shape.goto(-50, 50)
-   shape.goto(50, 50)
-   shape.end_fill()
-   shape.hideturtle()
+    shape.penup()
+    shape.fillcolor("#898685")
+    shape.begin_fill()
+    shape.goto(50, 50)
+    shape.pendown()
+    shape.goto(0, 100)
+    shape.goto(-50, 50)
+    shape.goto(50, 50)
+    shape.end_fill()
+    shape.hideturtle()
 
 
-
-def draw_tree():
-   """
+def draw_tree(tree_turtle):
+    """
    Draws a tree beside the house.
    """
-   turtle.fillcolor("#4A3209")
-   turtle.begin_fill()
-   turtle.penup()
-   turtle.goto(130, -50)
-   turtle.pendown()
-   for _ in range(2):
-       turtle.forward(20)
-       turtle.left(90)
-       turtle.forward(40)
-       turtle.left(90)
-       print(turtle.pos())  #Printing a location so I can find a good place to put the green circle.
-   turtle.end_fill()
+    tree_turtle.fillcolor("#4A3209")
+    tree_turtle.begin_fill()
+    tree_turtle.penup()
+    tree_turtle.goto(130, -50)
+    tree_turtle.pendown()
+    for _ in range(2):
+        tree_turtle.forward(20)
+        tree_turtle.left(90)
+        tree_turtle.forward(40)
+        tree_turtle.left(90)
+        print(turtle.pos())  # Printing a location, so I can find a good place to put the green circle.
+    tree_turtle.end_fill()
 
-
-   #Draws a circle that represents the leaves
-   turtle.fillcolor("#2FA118")
-   turtle.begin_fill()
-   turtle.penup()
-   turtle.goto(140,-10) #Putting the circle in a location close to coordinates I got from "print(turtle.pos())" thats in the center of the rectangle.
-   turtle.pendown()
-   turtle.circle(30)
-   turtle.end_fill()
-
-
-
-
+    # Draws a circle that represents the leaves
+    tree_turtle.fillcolor("#2FA118")
+    tree_turtle.begin_fill()
+    tree_turtle.penup()
+    tree_turtle.goto(140,
+                -10)  # Putting the circle in a location close to coordinates I got from "print(turtle.pos())" thats in the center of the rectangle.
+    tree_turtle.pendown()
+    tree_turtle.circle(30)
+    tree_turtle.end_fill()
+    tree_turtle.hideturtle()
 
 
 
-
-
-
-
-
-
-
-def sun():
-   """
+def sun(sun_turtle):
+    """
    Draws a sun.
    """
-   turtle.penup()
-   turtle.goto(-150, 100)
-   turtle.pendown()
+    sun_turtle.penup()
+    sun_turtle.goto(-150, 100)
+    sun_turtle.pendown()
 
-
-   turtle.fillcolor("#FFDE00")  # Yellow color for sun
-   turtle.begin_fill()
-   turtle.circle(30)
-   turtle.end_fill()
-
-
-
-
-
-
+    sun_turtle.fillcolor("#FFDE00")  # Yellow color for sun
+    sun_turtle.begin_fill()
+    sun_turtle.circle(30)
+    sun_turtle.end_fill()
+    sun_turtle.hideturtle()
 
 
 def main():
+    shape = turtle.Turtle()
+    sun_turtle = turtle.Turtle()
+    house_turtle = turtle.Turtle()
+    tree_turtle = turtle.Turtle()
+
+    # Making turtle screen
+    wn = turtle.Screen()
+    wn.bgcolor("lightblue")
+
+    # Calls Functions
+    make_house(house_turtle)
+    draw_roof(shape)
+    draw_tree(tree_turtle)
+    sun(sun_turtle)
+
+    turtle.hideturtle()
+
+    wn.exitonclick()
 
 
-   shape = turtle.Turtle()
-
-
-   #Making turtle screen
-   wn = turtle.Screen()
-   wn.bgcolor("lightblue")
-
-
-
-
-   # Calls Functions
-   make_house()
-   draw_roof(shape)
-   draw_tree()
-   sun()
-
-
-
-
-   turtle.hideturtle()
-
-
-   wn.exitonclick()
 main()  # Starts the program!
-
-
-
-
-
