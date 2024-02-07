@@ -9,10 +9,12 @@
 #####################################################################################
 
 import turtle
-turtle.colormode(255)  # Set colormode to RGB value
 
-# Function that makes the roof
+
 def roof(shape):
+    """
+    Function that makes the roof
+    """
     shape.color(255, 182, 193)  # RGB values for unnamed color
     shape.begin_fill()
     for side in range(3):       # Loop for triangular roof
@@ -21,8 +23,11 @@ def roof(shape):
     shape.end_fill()  # Tells Python the shape is complete; now fill it
     shape.penup()
 
-# Function that makes the main house rectangle
+
 def house(shape):
+    """
+    Function that makes the main house rectangle
+    """
     shape.color('pink')
     shape.pendown()
     for side in range(2):   # Makes the square frame for the house
@@ -32,8 +37,11 @@ def house(shape):
         shape.right(90)
     shape.end_fill()
 
-# Function that make windows
+
 def window(shape):
+    """
+    Function that makes window
+    """
     shape.penup()
     shape.color('pink')
     for side in range(2):
@@ -56,8 +64,12 @@ def window(shape):
         shape.forward(-40)
         shape.right(90)
     shape.penup()
-# Function that makes door
+
+
 def door(shape):
+    """
+    Function that makes door
+    """
     shape.color('pink')
     shape.forward(-160)
     shape.right(-90)
@@ -71,16 +83,23 @@ def door(shape):
     shape.forward(80)
     shape.penup()
 
-# Function that makes 'floor'
+
 def floor(shape):
+    """
+    Function that makes floor
+    """
     shape.pendown()
     shape.right(90)
     shape.forward(-500)
     shape.forward(1500)
     shape.penup()
     shape.forward(-80)
-# Function that makes flowers
+
+
 def flowers(flower):
+    """
+    Function that makes flowers
+    """
     flower = turtle.Turtle()
     flower.penup()
     flower.right(90)
@@ -121,12 +140,14 @@ def flowers(flower):
                 id3 = flower.stamp()
                 flower.backward(i)
 
+
 def main():
     wn = turtle.Screen()
     wn.bgcolor("gray")
     shape = turtle.Turtle()
     shape.hideturtle()
     flower = turtle.Turtle()
+    turtle.colormode(255)  # Set colormode to RGB value
 
     # Function calls to roof, house, window, door, floor, and flowers
     roof(shape)
@@ -137,5 +158,6 @@ def main():
     flowers(flower)
 
     wn.exitonclick()
+
 
 main()
