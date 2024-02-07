@@ -27,7 +27,6 @@ def crest_triangles(tri):
     """
     # Draw Triangle 1
     tri.pendown()
-    tri.speed(0)
     tri.begin_fill()
     for i in range(3):
         tri.forward(150)
@@ -57,7 +56,6 @@ def crest_left_wing(clw):
     """
     Doc string for crest_left_wing function. Calls the crescent_left turtle and draws the associated image.
     """
-    clw.speed(0)
     clw.right(120)
     clw.forward(30)
     clw.pendown()
