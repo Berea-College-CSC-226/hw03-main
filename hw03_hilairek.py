@@ -189,7 +189,7 @@ def sun():
 
 def main():
     """
-    This function calls the other functi
+    This function calls the other functions
     """
     wn = turtle.Screen()
     wn.bgcolor("#87ceeb")
