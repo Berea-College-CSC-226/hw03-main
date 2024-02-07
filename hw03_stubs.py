@@ -19,32 +19,104 @@
 import turtle
 
 
-def function_1():
+def draw_heart(bob):
+    bob.begin_fill()
+    bob.penup()
+    bob.color("red")
+    bob.goto(0, -100)
+    bob.pendown()
+    bob.left(45)
+    bob.forward(200)
+    bob.circle(100, 200)
+    bob.right(125)
+    bob.circle(100, 200)
+    bob.goto(0, -100)
+    bob.end_fill()
     """
-    Example docstring for function_1. function_1 is not a good function name and should be changed.
+    Draws and fills heart
     """
-    pass
-    # ....
 
 
-def function_2():
-    """
-    Example docstring for function_2. function_2 is not a good function name and should be changed.
-    """
-    pass
-    # ...
+def draw_h(bob):
+    bob.begin_fill()
+    bob.penup()
+    bob.goto(-150, 100)
+    bob.color("black")
+    bob.pendown()
+    bob.left(130)
+    bob.forward(50)
+    bob.right(180)
+    bob.forward(25)
+    bob.left(90)
+    bob.forward(25)
+    bob.left(90)
+    bob.forward(25)
+    bob.right(180)
+    bob.forward(50)
 
+
+def draw_a(bob):
+    bob.penup()
+    bob.left(100)
+    bob.forward(25)
+    bob.pendown()
+    bob.left(60)
+    bob.forward(50)
+    bob.right(140)
+    bob.forward(50)
+    bob.right(180)
+    bob.forward(25)
+    bob.left(75)
+    bob.forward(15)
+
+
+def draw_p1(bob):
+    bob.penup()
+    bob.left(90)
+    bob.forward(25)
+    bob.left(90)
+    bob.forward(40)
+    bob.pendown()
+    bob.left(85)
+    bob.forward(45)
+    bob.right(45)
+    bob.circle(-15, 250)
+
+
+def draw_p2(bob):
+    bob.penup()
+    bob.left(120)
+    bob.forward(25)
+    bob.left(90)
+    bob.forward(40)
+    bob.pendown()
+    bob.left(85)
+    bob.forward(45)
+    bob.right(45)
+    bob.circle(-15, 250)
+
+
+def draw_y(bob):
+    bob.penup()
+    bob.forward(5)
 
 def main():
     """
     Docstring for main. Should describe the main functionality of this file.
     """
+    wn = turtle.Screen()
+    wn.bgcolor('#1D7F19')
 
-    # Function calls to function_1 and function_2.
-    function_1()            # TODO  Remove when you replace it with your function
-    function_2()            # TODO  Remove when you replace it with your function
+    bob = turtle.Turtle()
+    bob.pensize(5)
+    bob.speed(10)
+    draw_heart(bob)
+    draw_h(bob)
+    draw_a(bob)
+    draw_p1(bob)
+    draw_p2(bob)
+    draw_y(bob)
+    wn.exitonclick()
 
 
-main()  # Starts the program!
-
-
+main()
