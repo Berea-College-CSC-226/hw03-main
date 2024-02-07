@@ -4,7 +4,7 @@
 #
 # Assignment: HW03 Gitty
 # Purpose:
-# Google Doc Link:
+# Google Doc Link: https://docs.google.com/document/d/13Jex3ZkqC03fEM9GkJspY7uE_Sa9_u_LsR-daa-SSo8/edit?usp=sharing
 # 1
 #################################################################################
 # Acknowledgements:
