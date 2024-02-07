@@ -5,7 +5,7 @@
 # Assignment: HW03 Gitty
 # Purpose:
 # Google Doc Link:
-#
+# 1
 #################################################################################
 # Acknowledgements:
 #  https://stackoverflow.com/questions/20320921/python-turtle-pen-colour
