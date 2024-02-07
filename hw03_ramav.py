@@ -12,9 +12,11 @@
 #
 #################################################################################
 
-# TESTING PUSH FEATURE IN TA HOURS
+# Corrected the mistakes after feedback given.
+
 
 import turtle
+
 
 def draw_ears(cat_turtle):
     """
@@ -22,7 +24,6 @@ def draw_ears(cat_turtle):
     to be drawn at a certain position that allows for the ears to be drawn. The fillcolor allows so the spce where the
     ears are drawn they are filled with the color "gray" in this instance.
     """
-
     cat_turtle.penup()
     cat_turtle.goto(-25, 100)
     cat_turtle.pendown()
@@ -46,36 +47,33 @@ def draw_ears(cat_turtle):
     cat_turtle.left(45)
     cat_turtle.end_fill()
 
-def draw_cat(cat_turtle):
 
+def draw_cat(cat_turtle):
     """
     The function draw cat makes it possible for the cat to be drawn on the screen. In this function there are most of
     the components(Head,body,eyes etc.) that allow the cat to be displayed on the screen, and the for it to take shape
     as a 2d cat drawing.
     """
-
-    #Drawing a cat
-    #Body
-
+    # Drawing a cat
+    # Body
     cat_turtle.fillcolor("gray")
     cat_turtle.begin_fill()
     cat_turtle.circle(50)
     cat_turtle.end_fill()
 
-    #Head
+    # Head
     cat_turtle.fillcolor("gray")
     cat_turtle.begin_fill()
     cat_turtle.circle(30)
     cat_turtle.end_fill()
 
-    #Eyes
+    # Eyes
     cat_turtle.penup()
     cat_turtle.goto(-15, 70)
     cat_turtle.pendown()
     cat_turtle.fillcolor("blue")
     cat_turtle.begin_fill()
     cat_turtle.circle(5)
-
 
     # Nose
     cat_turtle.penup()
@@ -96,11 +94,16 @@ def draw_cat(cat_turtle):
     cat_turtle.pendown()
     cat_turtle.right(45)
     cat_turtle.forward(40)
-
     # Closing the turtle graphics on when clicked!
 
-def main():
 
+def main():
+    """
+    The function main hold the important parts of the code that run through this program.
+    Its use is for the controlling the drawing of the cat. This section contains creating the screen for the cat to show
+    up and the background color through screen.bgcolor("yellow"), and in this section are included the functions
+    that are called to draw the cat (draw_cat).
+    """
     # Turtle screen
     screen = turtle.Screen()
     screen.bgcolor("yellow")
@@ -110,10 +113,8 @@ def main():
 
     # Setting the turtle properties
     cat_turtle.shape("turtle")
-    cat_turtle.color((0,0,0))
+    cat_turtle.color((0, 0, 0))
     cat_turtle.pensize(2)
-
-
 
     # Function call to draw_cat
     draw_cat(cat_turtle)
@@ -123,6 +124,5 @@ def main():
 
 if __name__ == "__main__":
     main()
- # Starts the program!
 
-
+# Starts the program!
