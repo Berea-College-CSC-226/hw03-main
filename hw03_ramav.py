@@ -15,19 +15,44 @@
 # TESTING PUSH FEATURE IN TA HOURS
 
 import turtle
-def draw_cat():
 
-    #Turtle screen
-    screen = turtle.Screen()
-    screen.bgcolor("white")
+def draw_ears(cat_turtle):
+    """
+    The function draw_ears allows for the drawing of the cat to draw the ears. using goto allows for the ears
+    to be drawn at a certain position that allows for the ears to be drawn. The fillcolor allows so the spce where the
+    ears are drawn they are filled with the color "gray" in this instance.
+    """
 
-    #creating turtle object
-    cat_turtle = turtle.Turtle()
+    cat_turtle.penup()
+    cat_turtle.goto(-25, 100)
+    cat_turtle.pendown()
+    cat_turtle.fillcolor("gray")
+    cat_turtle.begin_fill()
+    cat_turtle.forward(20)
+    cat_turtle.right(90)
+    cat_turtle.forward(20)
+    cat_turtle.left(45)
+    cat_turtle.end_fill()
 
-    #Setting the turtle properties
-    cat_turtle.shape("turtle")
-    cat_turtle.color("black")
-    cat_turtle.pensize(2)
+    cat_turtle.penup()
+    cat_turtle.goto(0, 100)
+    cat_turtle.pendown()
+    cat_turtle.fillcolor("gray")
+    cat_turtle.begin_fill()
+    cat_turtle.left(45)
+    cat_turtle.forward(20)
+    cat_turtle.right(90)
+    cat_turtle.forward(20)
+    cat_turtle.left(45)
+    cat_turtle.end_fill()
+
+def draw_cat(cat_turtle):
+
+    """
+    The function draw cat makes it possible for the cat to be drawn on the screen. In this function there are most of
+    the components(Head,body,eyes etc.) that allow the cat to be displayed on the screen, and the for it to take shape
+    as a 2d cat drawing.
+    """
 
     #Drawing a cat
     #Body
@@ -50,31 +75,7 @@ def draw_cat():
     cat_turtle.fillcolor("blue")
     cat_turtle.begin_fill()
     cat_turtle.circle(5)
- #Ears
 
-    cat_turtle.penup()
-    cat_turtle.goto(-25, 100)
-    cat_turtle.pendown()
-    cat_turtle.fillcolor("gray")
-    cat_turtle.begin_fill()
-    cat_turtle.left(45)
-    cat_turtle.forward(20)
-    cat_turtle.right(90)
-    cat_turtle.forward(20)
-    cat_turtle.left(45)
-    cat_turtle.end_fill()
-
-    cat_turtle.penup()
-    cat_turtle.goto(0, 100)
-    cat_turtle.pendown()
-    cat_turtle.fillcolor("gray")
-    cat_turtle.begin_fill()
-    cat_turtle.left(45)
-    cat_turtle.forward(20)
-    cat_turtle.right(90)
-    cat_turtle.forward(20)
-    cat_turtle.left(45)
-    cat_turtle.end_fill()
 
     # Nose
     cat_turtle.penup()
@@ -97,15 +98,28 @@ def draw_cat():
     cat_turtle.forward(40)
 
     # Closing the turtle graphics on when clicked!
-    screen.exitonclick()
 
 def main():
-    """
-    Docstring for main. Should describe the main functionality of this file.
-    """
+
+    # Turtle screen
+    screen = turtle.Screen()
+    screen.bgcolor("yellow")
+
+    # creating turtle object
+    cat_turtle = turtle.Turtle()
+
+    # Setting the turtle properties
+    cat_turtle.shape("turtle")
+    cat_turtle.color((0,0,0))
+    cat_turtle.pensize(2)
+
+
 
     # Function call to draw_cat
-    draw_cat()
+    draw_cat(cat_turtle)
+    draw_ears(cat_turtle)
+    screen.exitonclick()
+
 
 if __name__ == "__main__":
     main()
