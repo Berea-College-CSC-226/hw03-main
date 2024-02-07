@@ -1,6 +1,3 @@
-
-
-
 #################################################################################
 # Author: Juno Smith
 # Username: smithj
@@ -12,8 +9,10 @@
 #################################################################################
 # Acknowledgements:
 # Happy meal
-#
-#################################################################################import turtle
+###############################
+
+import turtle
+
 def drawsquare(JK):     ##Draws House
     """
     Drawing the Square Turtle
@@ -78,7 +77,7 @@ def drawletterC(JK):        ##Draws "c" in MC sign
     JK.right(90)
     JK.forward(60)
 def main(): #sets up main
-    import turtle
+    # import turtle
     turtle.colormode(255)
     wn = turtle.Screen()
     wn.bgcolor("light blue")
