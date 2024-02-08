@@ -97,6 +97,9 @@ def pattern(shape):
 
 
 def main():
+    """
+    this function calls other functions to run the code
+    """
     turtle.colormode(255)
 
     wn = turtle.Screen()
