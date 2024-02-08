@@ -12,7 +12,7 @@
 #
 #################################################################################
 
-# Corrected the mistakes after feedback given.
+# Corrected mistakes after given feedback.
 
 
 import turtle
@@ -54,20 +54,20 @@ def draw_cat(cat_turtle):
     the components(Head,body,eyes etc.) that allow the cat to be displayed on the screen, and the for it to take shape
     as a 2d cat drawing.
     """
-    # Drawing a cat
-    # Body
+    #  Section that draws a cat.
+    #  This section of the code draws the body of the cat.
     cat_turtle.fillcolor("gray")
     cat_turtle.begin_fill()
     cat_turtle.circle(50)
     cat_turtle.end_fill()
 
-    # Head
+    # This section of the code draws the head of the cat
     cat_turtle.fillcolor("gray")
     cat_turtle.begin_fill()
     cat_turtle.circle(30)
     cat_turtle.end_fill()
 
-    # Eyes
+    # This section of the code draws the eyes of the cat.
     cat_turtle.penup()
     cat_turtle.goto(-15, 70)
     cat_turtle.pendown()
@@ -75,26 +75,26 @@ def draw_cat(cat_turtle):
     cat_turtle.begin_fill()
     cat_turtle.circle(5)
 
-    # Nose
+    # This section of the code draws the nose of the cat.
     cat_turtle.penup()
     cat_turtle.goto(0, 50)
     cat_turtle.pendown()
     cat_turtle.dot(10, "pink")
 
-    # Mouth
+    # This section of the code draws the mouth of the cat.
     cat_turtle.penup()
     cat_turtle.goto(0, 50)
     cat_turtle.pendown()
     cat_turtle.right(90)
     cat_turtle.circle(10, -180)
 
-    # Tail
+    # This section of the code draws the tail of the cat.
     cat_turtle.penup()
     cat_turtle.goto(60, 50)
     cat_turtle.pendown()
     cat_turtle.right(45)
     cat_turtle.forward(40)
-    # Closing the turtle graphics on when clicked!
+    # Closing the turtle graphic on clicked.
 
 
 def main():
@@ -104,25 +104,30 @@ def main():
     up and the background color through screen.bgcolor("yellow"), and in this section are included the functions
     that are called to draw the cat (draw_cat).
     """
-    # Turtle screen
+    # This section allows for the turtle to appear on the screen through turtle.Screen()
     screen = turtle.Screen()
     screen.bgcolor("yellow")
 
-    # creating turtle object
+    # This code allows us to create a turtle object
     cat_turtle = turtle.Turtle()
 
-    # Setting the turtle properties
+    # This section describes the properties of the cat such as the shape of the pen that draws the cat, the color of
+    # the pen, and the pensize is the width of the pen to draw the cat
     cat_turtle.shape("turtle")
     cat_turtle.color((0, 0, 0))
     cat_turtle.pensize(2)
 
-    # Function call to draw_cat
+    # The function draw_cat holds the code for the cat to be drawn on the screen.
+    # The function daw_ears allows to store the code that makes up the ears of the cat.
+    # the pen, and the pensize is the width of the pen to draw the cat
     draw_cat(cat_turtle)
     draw_ears(cat_turtle)
+
+    # The turtle graphics close on click
     screen.exitonclick()
 
 
 if __name__ == "__main__":
     main()
 
-# Starts the program!
+# Program to draw a cat beings here.
