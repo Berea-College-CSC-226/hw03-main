@@ -98,7 +98,85 @@ def draw_p2(bob):
 
 def draw_y(bob):
     bob.penup()
-    bob.forward(5)
+    bob.left(120)
+    bob.forward(25)
+    bob.left(90)
+    bob.forward(50)
+    bob.pendown()
+    bob.left(85)
+    bob.forward(30)
+    bob.left(35)
+    bob.forward(25)
+    bob.penup()
+    bob.right(130)
+    bob.forward(25)
+    bob.right(115)
+    bob.pendown()
+    bob.forward(20)
+
+
+def draw_v(bob):
+    bob.penup()
+    bob.goto(-150, 70)
+    bob.left(50)
+    bob.pendown()
+    bob.forward(40)
+    bob.left(140)
+    bob.forward(40)
+
+
+
+def draw_dash(bob):
+    bob.penup()
+    bob.goto(-110, 50)
+    bob.pendown()
+    bob.right(70)
+    bob.forward(20)
+
+
+def draw_d(bob):
+    bob.penup()
+    bob.goto(-80,50)
+    bob.pendown()
+    bob.left(90)
+    bob.forward(20)
+    bob.right(180)
+    bob.forward(40)
+    bob.left(50)
+    bob.circle(25, 250)
+
+
+
+def draw_a2(bob):
+    bob.penup()
+    bob.goto(-25, 25)
+    bob.pendown()
+    bob.right(140)
+    bob.forward(50)
+    bob.right(140)
+    bob.forward(50)
+    bob.right(180)
+    bob.forward(25)
+    bob.left(75)
+    bob.forward(15)
+
+
+def draw_y2(bob):
+    bob.penup()
+    bob.goto(35, 25)
+    bob.right(95)
+    bob.pendown()
+    bob.forward(30)
+    bob.left(35)
+    bob.forward(25)
+    bob.penup()
+    bob.right(130)
+    bob.forward(25)
+    bob.right(115)
+    bob.pendown()
+    bob.forward(20)
+    bob.penup()
+    bob.goto(500, 500)
 
 def main():
     """
@@ -116,6 +194,11 @@ def main():
     draw_p1(bob)
     draw_p2(bob)
     draw_y(bob)
+    draw_v(bob)
+    draw_dash(bob)
+    draw_d(bob)
+    draw_a2(bob)
+    draw_y2(bob)
     wn.exitonclick()
 
 
