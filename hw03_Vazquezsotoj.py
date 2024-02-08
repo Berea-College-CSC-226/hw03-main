@@ -8,8 +8,8 @@
 #
 #################################################################################
 # Acknowledgements:
-#T03_Function_house.py
-#Hw02-loopy-turtles-loopy-languages.py
+# T03_Function_house.py
+# Hw02-loopy-turtles-loopy-languages.py
 #################################################################################
 
 import turtle
@@ -111,7 +111,7 @@ def whiskers2(x):
     x.left(165)
     x.forward(100)
     x.penup()
-    x.goto(0,-5)
+    x.goto(0, -5)
     x.pendown()
     x.left(20)
     x.forward(100)
