@@ -16,6 +16,7 @@ import turtle
 
 
 def meow(t):
+    """Makes my cat Blaise meow"""
     t.penup()
     t.goto(-200, 0)
     t.pendown()
@@ -24,6 +25,7 @@ def meow(t):
 
 
 def cat_head(x):
+    """Creates my cat Blaise's head"""
     x.penup()
     x.goto(0, -70)
     x.pendown()
@@ -167,6 +169,3 @@ def main():
 
 
 main()
-
-
-
