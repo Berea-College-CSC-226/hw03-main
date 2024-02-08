@@ -1,15 +1,33 @@
+#################################################################################
+# Author: Nadia Barkovska
+# Username: barkovskan
+#
+# Assignment: to create a creative project using functions, turtles, loops and etc.
+# Purpose: to practice what I have learned
+# Google Doc Link: https://docs.google.com/document/d/1D4g2xz0JzRCXfvOkGUlMte5aEAw4f--9gXS_3KenPJY/edit?usp=sharing
+#
+# ################################################################################
+# Acknowledgements:
+# https://colorspire.com/rgb-color-wheel/   (used to find the numbers for the color)
+# https://cs111.wellesley.edu/archive/cs111_spring21T4/public_html/reference/turtle (to set my position in a list form"
+# https://stackoverflow.com/questions/21717206/trying-to-draw-a-checkerboard-using-turtle-in-python-how-do-i-fill-in-every-ot
+# (used it as an example code)
+#################################################################################
+
 import turtle
+
 
 def drawsquare(bubbles, size):
     """Draw a square using turtle."""
-    for _ in range(4):
+    for i in range(4):
         bubbles.forward(size)
         bubbles.left(90)
 
+
 def draw_row(bubbles, color1, color2):
     """Draw a row of squares with alternating colors."""
-    for _ in range(8):
-        if _ % 2 == 0:
+    for i in range(8):
+        if i % 2 == 0:
             bubbles.fillcolor(color1)
         else:
             bubbles.fillcolor(color2)
@@ -17,6 +35,7 @@ def draw_row(bubbles, color1, color2):
         drawsquare(bubbles, 60)
         bubbles.forward(60)
         bubbles.end_fill()
+
 
 def main():
     """Main function to set up turtle and draw the pattern."""
@@ -36,6 +55,7 @@ def main():
         draw_row(bubbles, color1, color2)
 
     wn.exitonclick()
+
 
 if __name__ == "__main__":
     main()
