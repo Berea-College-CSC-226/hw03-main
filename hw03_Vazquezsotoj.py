@@ -14,7 +14,26 @@
 
 import turtle
 
-def Ear1(x):
+
+def meow(t):
+    t.penup()
+    t.goto(-200, 0)
+    t.pendown()
+    t.color('black')
+    t.write("Meow", font=("Arial", 20, "bold"))
+
+
+def cat_head(x):
+    x.penup()
+    x.goto(0, -70)
+    x.pendown()
+    x.begin_fill()
+    x.fillcolor("orange")
+    x.circle(100)
+    x.end_fill()
+
+
+def ear1(x):
     """draws right ear"""
     x.pensize(10)
     x.begin_fill()
@@ -25,7 +44,8 @@ def Ear1(x):
     x.forward(70)
     x.end_fill()
 
-def Ear2(y):
+
+def ear2(y):
     """Draws left ear"""
     y.pensize(10)
     y.begin_fill()
@@ -37,8 +57,7 @@ def Ear2(y):
     y.end_fill()
 
 
-# Makes eye and colors the eyes
-def EyeColor(z):
+def eye_color(z):
     """draws eyes and makes them black"""
     z.pendown()
     z.begin_fill()
@@ -47,8 +66,9 @@ def EyeColor(z):
     z.end_fill()
     z.penup()
 
+
 def mouth(b):
-    "draws mouth and nose"
+    """draws mouth and nose"""
     b.penup()
     b.goto(-40, -10)
     b.pensize(5)
@@ -66,6 +86,7 @@ def mouth(b):
     b.circle(10, 360)
     b.end_fill()
 
+
 def whiskers1(x):
     """Draws right whiskers"""
     x.penup()
@@ -78,6 +99,7 @@ def whiskers1(x):
     x.pendown()
     x.right(20)
     x.forward(100)
+
 
 def whiskers2(x):
     """draws left whiskers"""
@@ -94,6 +116,8 @@ def whiskers2(x):
 
 
 def main():
+    """main function calls all functions to make a cat face"""
+
     """sets window and turtles"""
     wn = turtle.Screen()
     wn.bgcolor("#65A2FD")
@@ -109,44 +133,37 @@ def main():
     Tux.color('orange')
     Cat.pensize(3)
     Tux.pensize(3)
+
     """Draws Cat's head"""
-    Cat.penup()
-    Cat.goto(0, -70)
-    Cat.pendown()
-    Cat.begin_fill()
-    Cat.fillcolor("orange")
-    Cat.circle(100)
-    Cat.end_fill()
+    cat_head(Cat)
+
     """Right Ear"""
     Tux.penup()
     Tux.goto(30, 120)
     Tux.pendown()
-    Ear1(Tux)
+    ear1(Tux)
 
     """Left Ear"""
     Tux.penup()
     Tux.goto(-50, 120)
     Tux.pendown()
-    Ear2(Tux)
+    ear2(Tux)
 
     """Creates Eyes"""
     Bob.penup()
     Bob.goto(35, 40)
-    EyeColor(Bob)
+    eye_color(Bob)
     Bob.goto(-35, 40)
-    EyeColor(Bob)
+    eye_color(Bob)
+
     """Mouth and nose"""
     mouth(Bob)
     whiskers1(Bob)
     whiskers2(Bob)
     """Says meow"""
-    Cat.penup()
-    Cat.goto(-200, 0)
-    Cat.pendown()
-    Cat.color('black')
-    Cat.write("Meow", font=("Arial", 20, "bold"))
-    wn.exitonclick()
+    meow(Cat)
 
+    wn.exitonclick()
 
 
 main()
