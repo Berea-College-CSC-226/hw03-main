@@ -14,13 +14,6 @@
 import turtle
 
 
-def screen(wn):
-    """
-    Changes the screen color
-    """
-    wn.bgcolor("#7B68EE")
-
-
 def housebody(turti):
     """
     Given a position of house's upper right corner then started drawing frame then fills it
@@ -142,7 +135,7 @@ def main():
 
     alpha = turtle.Turtle()
     wn = turtle.Screen()
-    screen(wn)
+    wn.bgcolor("#7B68EE")
     housebody(alpha)
     roofy(alpha)
     doory(alpha)
