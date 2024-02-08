@@ -1,4 +1,3 @@
-
 #################################################################################
 # Author:Finagnon Adjagbodjou
 # Username: Fin
@@ -14,8 +13,8 @@
 #################################################################################
 
 import turtle
-import turtle
 import random
+
 
 def rightturn(shape):
     """
@@ -24,8 +23,6 @@ def rightturn(shape):
     shape.right(90)
     shape.forward(5)
     shape.right(90)
-    pass
-    # ...
 
 
 def leftturn(shape):
@@ -36,8 +33,6 @@ def leftturn(shape):
     shape.forward(5)
     shape.left(90)
 
-    pass
-    # ...
 
 def createrectangle(shape):
     """
@@ -57,21 +52,12 @@ def createrectangle(shape):
     shape.right(90)
     shape.forward(500)
 
-    pass
-    # ...
-def forwardmovement(shape):
-    """
-    moved the turtle forward
-    """
-    shape.forward(460)
 
 def stamper(shape):
     """
     stamps the turtle's shape on the screen
     """
     shape.stamp()
-    pass
-
 
 
 def finishup(shape):
@@ -85,6 +71,7 @@ def finishup(shape):
     for i in range(460):
         shape.stamp()
         shape.forward(1)
+
 
 def makehouse(shape):
     """
@@ -116,6 +103,7 @@ def makehouse(shape):
     shape.forward(40)
     shape.penup()
 
+
 def makemoon(shape):
     """
     makes a swirly moon in the background
@@ -127,9 +115,10 @@ def makemoon(shape):
         shape.forward(1 + i)
         shape.right(30)
 
+
 def maketree(shape):
     """
-    draws a simple christmas tree
+    draws a simple Christmas tree
     """
     shape.penup()
     shape.setpos(200, -100)
@@ -160,6 +149,7 @@ def maketree(shape):
         shape.left(120)
     shape.end_fill()
 
+
 def doorsnwindows(shape):
     """
     draws doors and windows on the house
@@ -184,6 +174,7 @@ def doorsnwindows(shape):
         shape.right(90)
     shape.stamp()
 
+
 def christmaslights(shape):
     """
     covers tree in colorful Christmas tree lights
@@ -207,6 +198,7 @@ def christmaslights(shape):
     shape.color("yellow")
     shape.setpos(225, -40)
     shape.stamp()
+
 
 def makesnow(shape):
     """
@@ -247,7 +239,7 @@ def makesnow(shape):
     finishup(shape)
 
 
-def fillRectangle(shape):
+def fillrectangle(shape):
     """
     fills rectangle with a color
     """
@@ -264,15 +256,16 @@ def fillRectangle(shape):
         if i != 46:
 
             stamper(shape)
-            forwardmovement(shape)
+            shape.forward(460)
             stamper(shape)
             rightturn(shape)
             stamper(shape)
-            forwardmovement(shape)
+            shape.forward(460)
             leftturn(shape)
         else:
             finishup(shape)
-    pass
+
+
 def main():
     """
     This is the main function of the program. It creates a display window in which a snowy
@@ -282,7 +275,7 @@ def main():
 
     shape = turtle.Turtle()
     createrectangle(shape)
-    fillRectangle(shape)
+    fillrectangle(shape)
     makehouse(shape)
     makemoon(shape)
     maketree(shape)
@@ -290,10 +283,6 @@ def main():
     christmaslights(shape)
     makesnow(shape)
     wn.exitonclick()
-    #
-
 
 
 main()
-
-
