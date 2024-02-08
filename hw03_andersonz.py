@@ -19,7 +19,6 @@ def draw_triangle(bob):
     """
     Draws a triangle
     """
-
     bob.pencolor("black")
     bob.pensize(15)
     bob.forward(200)
@@ -29,9 +28,6 @@ def draw_triangle(bob):
     bob.forward(311.145)
     bob.left(130)
     bob.forward(200)
-
-
-
 
 
 def white_line(bob):
@@ -48,8 +44,6 @@ def white_line(bob):
     bob.pensize(10)
     bob.pendown()
     bob.forward(313)
-
-    # ...
 
 
 def red_line(bob):
