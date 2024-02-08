@@ -17,8 +17,8 @@ import turtle
 
 def draw_triangle(bob):
     """
-Draws a triangle
-   """
+    Draws a triangle
+    """
 
     bob.pencolor("black")
     bob.pensize(15)
@@ -31,12 +31,12 @@ Draws a triangle
     bob.forward(200)
 
 
-# ....
+
 
 
 def white_line(bob):
     """
-Connects white line to triangle
+    Connects white line to triangle
     """
     bob.pencolor("white")
     bob.penup()
@@ -55,7 +55,7 @@ Connects white line to triangle
 def red_line(bob):
     """
     Connects red line to triangle
-        """
+    """
     bob.pencolor("red")
     bob.penup()
     bob.goto(-87.00, 135.00)
@@ -73,7 +73,7 @@ def red_line(bob):
 def yellow_line(bob):
     """
     Connects yellow line to triangle
-        """
+    """
     bob.pencolor("yellow")
     bob.penup()
     bob.goto(-87.00, 132.500)
@@ -92,7 +92,7 @@ def yellow_line(bob):
 def green_line(bob):
     """
     Connects green line to triangle
-        """
+    """
     bob.pencolor("green")
     bob.penup()
     bob.goto(-87.00, 130.00)
@@ -110,7 +110,7 @@ def green_line(bob):
 def blue_line(bob):
     """
     Connects blue line to triangle
-        """
+    """
     bob.pencolor("blue")
     bob.penup()
     bob.goto(-87.00, 127.500)
@@ -129,7 +129,7 @@ def blue_line(bob):
 def purple_line(bob):
     """
     Connects purple line to triangle
-        """
+    """
     bob.pencolor("purple")
     bob.penup()
     bob.goto(-87.00, 125.00)
@@ -147,8 +147,11 @@ def purple_line(bob):
 
 def main():
     """
-    Docstring for main. Should describe the main functionality of this file.
+    Fist sets up the canvas and sets the color to gray, then defines turlte to be named bob, then draws a triangle,
+    then connects a white line to that triangle, and finaly runs through five functions all drawing different colored
+    lines to make it look like a prism.
     """
+
     wn = turtle.Screen()
     wn.bgcolor("gray")
 
