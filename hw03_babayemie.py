@@ -20,7 +20,7 @@ import turtle
 
 def make_house(house_turtle):
     """
-This function draws the main body of the house
+    This function draws the main body of the house
     """
 
     house_turtle.penup()
