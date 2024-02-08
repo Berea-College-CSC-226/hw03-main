@@ -3,12 +3,12 @@
 #        hw03_username.py and copy this code into it!
 
 #################################################################################
-# Author:
-# Username:
+# Author: michael
+# Username: vargas
 #
-# Assignment:
-# Purpose:
-# Google Doc Link:
+# Assignment: hw03
+# Purpose: exploring how to use git
+# Google Doc Link: https://docs.google.com/document/d/1N8o9ARVBX-O5GMWZkPOXhTASRz2FqRt-0w56s1F24e0/edit?usp=sharing
 #
 #################################################################################
 # Acknowledgements:
