@@ -208,7 +208,6 @@ def crest_crystal(cry):
     cry.forward(90)
     cry.end_fill()
     cry.hideturtle()
-    # ...
 
 
 def crest_left_leg(ll):
@@ -237,7 +236,6 @@ def crest_left_leg(ll):
     ll.left(75)
     ll.forward(54)
     ll.end_fill()
-    # ....
 
 
 def crest_right_leg(rl):
@@ -323,4 +321,4 @@ def main():
     wn.exitonclick()
 
 
-main()  # Starts the program!
+main()  # Starts the program (Calls variable main).
