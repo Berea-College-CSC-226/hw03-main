@@ -2,8 +2,9 @@
 # Author: Elijah Babayemi
 # Username: babayemie
 #
-# Assignment:HW03: Fully Functional Gitty Psychedelic Robotic Turtles
-# Purpose: Continue practicing creating and using functions, more practice on using the turtle library, learn about how computers represent colors, and learn about source control and Git.
+# Assignment:HW03: Fully Functional Gitty Psychedelic Robotic Turtles Purpose: Continue practicing creating and using
+# functions, more practice on using the turtle library, learn about how computers represent colors, and learn about
+# source control and Git.
 #
 # Google Doc Link: https://docs.google.com/document/d/1X9d90s3RxZa3LG8GFm7Y8XtmVSOv1ai_OpNtu0xGtpk/edit?usp=sharing
 #
@@ -19,7 +20,7 @@ import turtle
 
 def make_house(house_turtle):
     """
-  Draws the main body of the house
+  This function draws the main body of the house
    """
     house_turtle.penup()
     house_turtle.goto(-50, -50)
@@ -46,7 +47,7 @@ def make_house(house_turtle):
 
 def draw_roof(shape):
     """
-   Draws a roof for the square to make it look like a house.
+   This function draws a roof for the square to make it look like a house.
    """
     shape.penup()
     shape.fillcolor("#898685")
@@ -62,7 +63,7 @@ def draw_roof(shape):
 
 def draw_tree(tree_turtle):
     """
-   Draws a tree beside the house.
+   This function draws a tree beside the house.
    """
     tree_turtle.fillcolor("#4A3209")
     tree_turtle.begin_fill()
@@ -81,18 +82,17 @@ def draw_tree(tree_turtle):
     tree_turtle.fillcolor("#2FA118")
     tree_turtle.begin_fill()
     tree_turtle.penup()
-    tree_turtle.goto(140,
-                -10)  # Putting the circle in a location close to coordinates I got from "print(turtle.pos())" thats in the center of the rectangle.
+    tree_turtle.goto(140, -10)  # Putting the circle in a location close to coordinates I got from "print(turtle.pos(
+    # ))" that's in the center of the rectangle.
     tree_turtle.pendown()
     tree_turtle.circle(30)
     tree_turtle.end_fill()
     tree_turtle.hideturtle()
 
 
-
 def sun(sun_turtle):
     """
-   Draws a sun.
+   This function draws a sun.
    """
     sun_turtle.penup()
     sun_turtle.goto(-150, 100)
@@ -106,6 +106,9 @@ def sun(sun_turtle):
 
 
 def main():
+    """
+    This function starts the drawing process for the house, tree, and sun.
+    """
     shape = turtle.Turtle()
     sun_turtle = turtle.Turtle()
     house_turtle = turtle.Turtle()
