@@ -16,7 +16,7 @@ import turtle
 
 
 def tierra_ciel(t):
-    # This function makes the green surface on the bottom of the screen simulating the ground.
+    """This function makes the green surface on the bottom of the screen simulating the ground"""
     t.speed(5)
     t.penup()
     t.setposition(-385, -80)
@@ -39,7 +39,7 @@ def tierra_ciel(t):
 
 
 def filled_circle(t, radius, color):
-    # This function allows the circle drawn to be filled with the assigned color on the other function when called.
+    """This allows the circle drawn to be filled with the assigned color on the other function when called\""""
     t.color(color, color)
     t.begin_fill()
     t.circle(radius)
@@ -47,7 +47,7 @@ def filled_circle(t, radius, color):
 
 
 def cloud(t, radius, x, y):
-    # This function draws the clouds (circles) on the top of the screen (sky).
+    """This function draws the clouds (circles) on the top of the screen (sky)"""
     t.penup()
     t.goto(x, y)
     t.pendown()
@@ -69,7 +69,7 @@ def cloud(t, radius, x, y):
 
 
 def heat(t, radio, x, y):
-    # Draw and fill a circle that crosses the border of the screen and only shows part of the circle simulating the sun.
+    """Draw and fill a circle that crosses the border of the screen and only shows part of the circle (Sun)"""
     t.penup()
     t.setposition(x, y)
     t.penup()
@@ -80,7 +80,7 @@ def heat(t, radio, x, y):
 
 
 def hills(t, x, y):
-    # This function draws the two hills at the middle left part simulating mountains.
+    """This function draws the two hills at the middle left part simulating mountains"""
     t.penup()
     t.goto(x, y)
     for i in range(2):
@@ -103,7 +103,7 @@ def hills(t, x, y):
 
 
 def lago(t, x, y):
-    # This functions draws and fills it color blue simulating a pond or a little lake.
+    """This functions draws and fills it color blue simulating a pond or a little lake"""
     t.penup()
     t.goto(x, y)
     t.pendown()
@@ -117,7 +117,7 @@ def lago(t, x, y):
 
 
 def main():
-    # The function where all the extra code is. Turtles, variables, attributes, etc.
+    """The function where all the extra code is. Turtles, variables, attributes, etc\""""
 
     # Screen and its attributes
     pantalla = turtle.Screen()
