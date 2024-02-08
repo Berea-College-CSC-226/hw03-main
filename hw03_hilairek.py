@@ -117,38 +117,31 @@ def door():
     t.pendown()
     t.pencolor("white")
     t.pensize(3)
-    for i in range(1):
+    for i in range(2):
         t.forward(70)
         t.right(90)
         t.forward(50)
         t.right(90)
-        t.forward(70)
-        t.right(90)
-        t.forward(50)
-        t.right(90)
-        t.forward(35)
-        t.right(90)
-        t.forward(50)
-        t.penup()
-        t.backward(149)
-        t.pensize(9)
-        t.pencolor("brown")
-        t.pendown()
+    t.forward(35)
+    t.right(90)
+    t.forward(50)
+    t.penup()
+    t.backward(149)
+    t.pensize(9)
+    t.pencolor("brown")
+    t.pendown()
+    for i in range(2):
         t.right(90)
         t.forward(142)
         t.right(90)
         t.fd(100)
-        t.right(90)
-        t.forward(142)
-        t.right(90)
-        t.fd(100)
-        t.penup()
-        t.right(90)
-        t.fd(70)
-        t.right(90)
-        t.forward(20)
-        t.pendown()
-        t.circle(1)
+    t.penup()
+    t.right(90)
+    t.fd(70)
+    t.right(90)
+    t.forward(20)
+    t.pendown()
+    t.circle(1)
 
 
 def grass():
@@ -189,7 +182,7 @@ def sun():
 
 def main():
     """
-    This function calls the other functions
+    This function draws my beautiful house
     """
     wn = turtle.Screen()
     wn.bgcolor("#87ceeb")
