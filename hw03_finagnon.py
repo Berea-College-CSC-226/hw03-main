@@ -53,13 +53,6 @@ def createrectangle(shape):
     shape.forward(500)
 
 
-def stamper(shape):
-    """
-    stamps the turtle's shape on the screen
-    """
-    shape.stamp()
-
-
 def finishup(shape):
     """
     stamps the turtle's shape on the screen for the width of the display window
@@ -255,11 +248,11 @@ def fillrectangle(shape):
     for i in range(47):
         if i != 46:
 
-            stamper(shape)
+            shape.stamp()
             shape.forward(460)
-            stamper(shape)
+            shape.stamp()
             rightturn(shape)
-            stamper(shape)
+            shape.stamp()
             shape.forward(460)
             leftturn(shape)
         else:
