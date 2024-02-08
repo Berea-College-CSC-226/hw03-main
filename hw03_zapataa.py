@@ -1,4 +1,3 @@
-
 #################################################################################
 # Author: Adolfo Zapata
 # Username: zapataa
@@ -9,31 +8,23 @@
 #
 #################################################################################
 # Acknowledgements:
-#https://docs.python.org/3/library/turtle.html
+# https://docs.python.org/3/library/turtle.html
 #
 #################################################################################
 
 import turtle
 
+
 def drawHouse(t):
     """
     Draw house with turtle including roof
     """
-    # t.left(90)
-    # t.forward(80)
-    # t.right(90)
-    # t.forward(70)
-    # t.right(90)
-    # t.forward(80)
-    # t.right(90)
-    # t.forward(70)
     t.fillcolor("black")
     t.begin_fill()          # begins to draw House (square)
     for i in range(4):
         t.forward(85)
         t.right(90)
     t.end_fill()
-
     t.fillcolor("red")      # begins to draw roof
     t.begin_fill()
     t.left(180)
@@ -43,9 +34,6 @@ def drawHouse(t):
     t.right(75)
     t.forward(65)
     t.end_fill()
-
-    pass
-    # ....
 
 
 def drawDoor(t):
@@ -67,8 +55,8 @@ def drawDoor(t):
     t.left(90)
     t.forward(30)
     t.end_fill()
-    pass
-    # ...
+
+
 def drawDoorKnob(t):
     """
     Draw a doorknob on the door to house
@@ -80,6 +68,8 @@ def drawDoorKnob(t):
     t.begin_fill()
     t.circle(3)
     t.end_fill()
+
+
 def addText(t):
     """
     Draw "Adolfo's House" above the house
@@ -88,6 +78,7 @@ def addText(t):
     t.goto(-40, 35)
     t.pendown()
     t.write("Adolfo's House", font=("Times New Roman", 20, "bold"))
+
 
 def drawStickPerson(t):
     """
@@ -136,7 +127,6 @@ def main():
     t = turtle.Turtle()
     t.speed(0)
     wn.bgcolor("lightblue")
-
     # Function calls.
     drawHouse(t)
     drawDoor(t)
@@ -147,5 +137,3 @@ def main():
 
 
 main()  # Starts the program!
-
-
