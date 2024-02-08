@@ -34,8 +34,6 @@ def tierra_ciel(t):
     t.penup()
     t.home()
     t.hideturtle()
-    pass
-    # ....
 
 
 def filled_circle(t, radius, color):
