@@ -2,6 +2,10 @@
 
 ## Instructions
 
+**_<span style="color:red">
+    VERY IMPORTANT: Make a copy of this file. DO NOT EDIT IT DIRECTLY!
+</span>_**
+
 Please replace each `Replace this text with your answer` 
 with your answer to the question above.
 
@@ -140,8 +144,7 @@ with your answer to the question above.
     Replace this text with your answer
 ```
 
-
-
+---
 
 ## SECTION 5
 - A lot happened in this assignment, and often, you do things without fully 
