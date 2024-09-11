@@ -1,0 +1,1 @@
+This folder is dedicated to holding all of the PDF versions of your Google docs. 
