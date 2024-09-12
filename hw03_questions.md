@@ -25,7 +25,7 @@ with your answer to the question above.
     Replace this text with your answer
 ```
 
-1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/). 
+1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
