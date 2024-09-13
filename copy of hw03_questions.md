@@ -87,28 +87,31 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    It lets you make a copy on your computer so you can work on it on your environment.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    It can exist on github and we can clone it into our computer. A repository has all the files of a program and it
+    shows the different versions (updates to that code) so you can implement changes or revert at any time.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit captures the current state of your files so you can save it as a certain version of the repository 
+    after you've made changes. Commit messages are crucial because they let us know what that certain version of our
+    repository achieved / what changes where made.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing code is sending the changes we've made to a remote repository we can access on the cloud (github)
 ```
 
 ---
@@ -120,7 +123,8 @@ with your answer to the question above.
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Because that updates your computer's version of the program so its synchronized with github, then you implement your changes.
+    If you do it backwards you could create merge conflicts if someone else has also made changes and tries to push as well.
 ```
 
 4.b. How many branches are in the repository?

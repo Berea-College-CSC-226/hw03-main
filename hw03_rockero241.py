@@ -43,7 +43,7 @@ def draw_windows(windows):
     windows.fillcolor('gold')
     windows.hideturtle()
     # make an entire row of windows
-    def make_window_row():
+    def make_window_row(windows):
         windows.pendown()
         makeSquare(windows, 15, 15)
         windows.penup()
