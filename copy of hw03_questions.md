@@ -111,7 +111,7 @@ with your answer to the question above.
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Pushing code is sending the changes we've made to a remote repository we can access on the cloud (github)
+    Pushing code is sending the changes we've made to a remote repository we can access on the cloud (github).
 ```
 
 ---

@@ -3,7 +3,7 @@
 # Author: Luis Olivas
 # Username: rockero241
 #
-# Assignment: hw03
+# Assignment: hw03 - Fully Functional Gitty Psychedelic Robot Turtles
 # Purpose:
 # Google Doc Link: https://docs.google.com/document/d/1mrc8WmON440HpzEmCvNJ3uzkPaZT3mTe7Op433ShEAs/edit?usp=sharing
 #
