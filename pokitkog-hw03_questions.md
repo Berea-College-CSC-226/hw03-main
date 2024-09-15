@@ -117,14 +117,14 @@ with your answer to the question above.
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    109 *I don't see mine yet because I didn't pull/push/commit anything yet
+    109, yes and I do see others who have committed/pushed
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+   My own branch and the master branch are different as the master only portrays what the professor has initially given us for the homework while mine has my code and work on it.
 ```
 
 
