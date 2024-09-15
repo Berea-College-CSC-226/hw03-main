@@ -62,13 +62,13 @@ with your answer to the question above.
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    turtle.pencolor(94, 131, 102)
+    turtle.pencolor(115,134,120)
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    turtle.fillcolor((94, 131, 102))   or  turtle.fillcolor('xanadu')
+    turtle.fillcolor((115,134,120))   or  turtle.fillcolor('xanadu')
     turtle.begin_fill()
     ...
     turtle.end_fill()
