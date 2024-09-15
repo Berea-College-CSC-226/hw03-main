@@ -134,7 +134,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    It takes me back to the Master Branch where only the professors work is shown. It isn't in the main folder, the files I work in are still located in my branch.
 ```
 
 
@@ -142,7 +142,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes my file is back. Branching helps seperate a teams work from individual. If a group wants to have main components accessible and/or worked on by all, that will be located in main branch while each other seperate branch helps an individual write their own code.
 ```
 
 ---
