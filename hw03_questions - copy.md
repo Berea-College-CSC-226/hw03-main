@@ -41,32 +41,37 @@ with your answer to the question above.
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    Move the turtle forward by the specified distance, in the direction the turtle is headed.
+    I can use command turtle.fd(distance) or turtle.backward(-distance).
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    turtle.position()
+    Return the turtle’s current location (x,y)
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    either turtle.speed(10) or turtle.speed('fast')
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    turtle.pencolor(94, 131, 102)
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    turtle.fillcolor((94, 131, 102))   or  turtle.fillcolor('xanadu')
+    turtle.begin_fill()
+    ...
+    turtle.end_fill()
 ```
 
 ---
