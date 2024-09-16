@@ -114,21 +114,21 @@ turtle.end_fill()
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    I think it is important to pull before you push so that when you push you don't have merge conflicts with the version of the file that's on github.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    There are 112 branches. I do see mine, and I can look at all the other branches in the repo if I like.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, they are different. My branch has answers to the questions, my code, and an image file added to it.
 ```
 
 
