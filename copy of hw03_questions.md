@@ -159,7 +159,7 @@ with your answer to the question above.
 
 ```
    It's very useful so everyone can work on a different version of an existing codebase
-   and implement changes as needed.
+   and implement changes as needed. 
 ```
 
 ---
