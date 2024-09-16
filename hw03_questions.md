@@ -110,21 +110,21 @@ with your answer to the question above.
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Avoiding conflicts
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    11 branches. I see others and mine.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes. I have one more hw03_melnichenkaa.py file
 ```
 
 
@@ -134,7 +134,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    the file that was unique to your branch may disappear from the Project pane
 ```
 
 
@@ -142,7 +142,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+        Yes, the file reappears when you switch back to your branch
 ```
 
 ---
@@ -154,7 +154,7 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1726456790877419
 ```
 
 
