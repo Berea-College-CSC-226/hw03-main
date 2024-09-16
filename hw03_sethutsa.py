@@ -8,8 +8,8 @@
 #
 #################################################################################
 # Acknowledgements: Learned how to add images and text from t03_functions_house.py
-# provided with t03 assignment
-#
+# provided with t03 assignment. Took the idea of changing Dory's "just keep swimming"
+# to "just keep coding" from Nicholas Hamilton.
 #
 #################################################################################
 import turtle
