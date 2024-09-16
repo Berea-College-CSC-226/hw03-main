@@ -158,7 +158,7 @@ turtle.end_fill()
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1726454243628389 
 ```
 
 
