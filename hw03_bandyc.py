@@ -1,10 +1,10 @@
 #################################################################################
-# Author:
-# Username:
+# Author: Cody Bandy
+# Username: bandyc
 #
-# Assignment:
-# Purpose:
-# Google Doc Link:
+# Assignment: HW03
+# Purpose: Draw something and use functions
+# Google Doc Link: https://docs.google.com/document/d/1NKZj9D6Pb3AakT7FzAY3_hwjKZ2PUx8db1sWfIzOIiU/edit?usp=sharing
 #
 #################################################################################
 # Acknowledgements:
@@ -16,30 +16,56 @@
 import turtle
 
 
-def function_1():
-    """
-    Example docstring for function_1. function_1 is not a good function name and should be changed.
-    """
-    pass
-    # ....
+def draw_house(length, color):
+    jimbo.fillcolor(color)
+    jimbo.begin_fill()
+    for h in range(4):
+        jimbo.forward(length)
+        jimbo.right(90)
+    jimbo.end_fill()
 
+def draw_roof(length, color):
+    jimbo.fillcolor(color)
+    jimbo.begin_fill()
+    for r in range(3):
+        jimbo.forward(length)
+        jimbo.left(120)
+    jimbo.end_fill()
 
-def function_2():
-    """
-    Example docstring for function_2. function_2 is not a good function name and should be changed.
-    """
-    pass
-    # ...
+def draw_door(width, height, color):
+    jimbo.fillcolor(color)
+    jimbo.begin_fill()
+    for d in range(2):
+        jimbo.forward(width)
+        jimbo.right(90)
+        jimbo.forward(height)
+        jimbo.right(90)
+    jimbo.end_fill()
 
+def draw_window(length, color):
+    jimbo.fillcolor(color)
+    jimbo.begin_fill()
+    for w in range(4):
+        jimbo.forward(length)
+        jimbo.right(90)
+    jimbo.end_fill()
+    jimbo.forward(length/2)
+    jimbo.right(90)
+    jimbo.forward(length)
+    for b in range(2):
+        jimbo.right(90)
+        jimbo.forward(length/2)
+    jimbo.right(90)
+    jimbo.forward(length)
 
 def main():
-    """
-    Docstring for main. Should describe the main functionality of this file.
-    """
+    screen = turtle.Screen()
+    screen.colormode(255)
+    screen.bgcolor((41, 187, 216))
 
-    # Function calls to function_1 and function_2.
-    function_1()            # TODO  Remove when you replace it with your function
-    function_2()            # TODO  Remove when you replace it with your function
+    jimbo = turtle.Turtle()
+    jimbo.pensize(10)
+    draw_house(100, "green")
+    screen.exitonclick()
 
-
-main()  # Starts the program!
+main()

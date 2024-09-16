@@ -110,21 +110,21 @@ with your answer to the question above.
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    So that your code is up to date and you can avoid any merging conflicts.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    There are currently 116 branches, including mine and many other students'.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    They are different. Mine has changes from a few minutes ago, while the master branch was updated days ago. My branch is also 1 commit ahead of master.
 ```
 
 
@@ -134,7 +134,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When checking out master, all my changes went away, including my python file that I created. 
 ```
 
 
@@ -142,7 +142,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, my file and changes are back. Branching is useful because it lets you work on changes in their own separate environment that doesn't effect master. If the changes are good, you can merge them into master, but if they are bad or don't work out, you can scrap them and master will be untouched still.
 ```
 
 ---
