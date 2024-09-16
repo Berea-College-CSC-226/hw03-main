@@ -76,28 +76,28 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    To clone a repo means to create a lococal file of the remote or online repo.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    The repository is a place where code is kept, it'S also a place allows for team work and collaboration.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+   you commit when you are communicating changes made to a file or code. you need a commit message to tell the other team members what you have done different.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    to push is to officially send the changes to everyone else .
 ```
 
 ---
