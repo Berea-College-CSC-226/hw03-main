@@ -131,14 +131,15 @@ with your answer to the question above.
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+   118 branches. I can see mine and the others.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    They are different branches. Mine is a copy of the main branch with the added edits
+    I've made since working on this assignment.
 ```
 
 
@@ -148,7 +149,8 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    It closed the copy of the questions on my branch because it didnt exist in the main branch.
+    I was able to open it again after checking out my branch again.
 ```
 
 
@@ -156,7 +158,8 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+   It's very useful so everyone can work on a different version of an existing codebase
+   and implement changes as needed.
 ```
 
 ---
@@ -168,7 +171,7 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1726511750504399
 ```
 
 
