@@ -3,7 +3,7 @@
 # Username: bandyc
 #
 # Assignment: HW03
-# Purpose: Draw something and use functions
+# Purpose: Draw a colorful house using functions.
 # Google Doc Link: https://docs.google.com/document/d/1NKZj9D6Pb3AakT7FzAY3_hwjKZ2PUx8db1sWfIzOIiU/edit?usp=sharing
 #
 #################################################################################
@@ -16,7 +16,10 @@
 import turtle
 
 
-def draw_house(length, color):
+def draw_house(jimbo, length, color):
+    """
+    Draws the base structure of the house.
+    """
     jimbo.fillcolor(color)
     jimbo.begin_fill()
     for h in range(4):
@@ -24,7 +27,10 @@ def draw_house(length, color):
         jimbo.right(90)
     jimbo.end_fill()
 
-def draw_roof(length, color):
+def draw_roof(jimbo, length, color):
+    """
+    Draws the roof of the house.
+    """
     jimbo.fillcolor(color)
     jimbo.begin_fill()
     for r in range(3):
@@ -32,7 +38,10 @@ def draw_roof(length, color):
         jimbo.left(120)
     jimbo.end_fill()
 
-def draw_door(width, height, color):
+def draw_door(jimbo, width, height, color):
+    """
+    Draws the front door of the house.
+    """
     jimbo.fillcolor(color)
     jimbo.begin_fill()
     for d in range(2):
@@ -42,7 +51,10 @@ def draw_door(width, height, color):
         jimbo.right(90)
     jimbo.end_fill()
 
-def draw_window(length, color):
+def draw_window(jimbo, length, color):
+    """
+    Draws a window for the house.
+    """
     jimbo.fillcolor(color)
     jimbo.begin_fill()
     for w in range(4):
@@ -59,13 +71,36 @@ def draw_window(length, color):
     jimbo.forward(length)
 
 def main():
-    screen = turtle.Screen()
-    screen.colormode(255)
-    screen.bgcolor((41, 187, 216))
+    """
+    Sets attributes for the turtle and screen, then performs the steps needed to draw the entire house using the other functions.
+    """
+    wn = turtle.Screen()
+    wn.colormode(255)     # enables the use of RGB values to set a color attribute
+    wn.bgcolor((41, 187, 216))     # baby blue background, or close enough
 
-    jimbo = turtle.Turtle()
+    jimbo = turtle.Turtle()     # named him jimbo because why not?
     jimbo.pensize(10)
-    draw_house(100, "green")
-    screen.exitonclick()
 
-main()
+    jimbo.penup()
+    jimbo.goto(-100,50)     # get into position to draw the base of the house
+    jimbo.pendown()
+    draw_house(jimbo, 400, (216, 41, 99))     # draw a red house base
+    draw_roof(jimbo, 400, (226, 194, 34))     # no repositioning needed for the yellow roof, draw it immediately
+    jimbo.penup()
+    jimbo.goto(50, -200)     # getting into position for the door
+    jimbo.pendown()
+    draw_door(jimbo, 100, 150, (18, 131, 26))     # draws a door that is green
+    jimbo.penup()
+    jimbo.goto(-50, -50)     # gets into position for the first window
+    jimbo.pendown()
+    draw_window(jimbo, 100, (255, 255, 255))     # draw a white window, split into panes
+    jimbo.penup()
+    jimbo.goto(150, -50)     # getting ready for the second one
+    jimbo.pendown()
+    draw_window(jimbo, 100, (255, 255, 255))     # a matching twin for the first window
+    jimbo.hideturtle()     # hidden for your viewing pleasure
+
+
+    wn.exitonclick()     # take your time to bask in the magnificence
+
+main()     # without this function call, nothing would happen
