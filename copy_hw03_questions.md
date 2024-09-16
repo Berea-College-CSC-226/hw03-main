@@ -138,7 +138,7 @@ turtle.end_fill()
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    My file disappeared. Further, if I hadn't commited my changes to this file, my work might have disappeared I think.
 ```
 
 
@@ -146,7 +146,7 @@ turtle.end_fill()
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, my file is back. Branching is useful because it can allow a lot of people to have access to the same primary information while they change and modify their copies of the primary version.
 ```
 
 ---
