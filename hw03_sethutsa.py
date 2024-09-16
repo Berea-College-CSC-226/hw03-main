@@ -9,13 +9,17 @@
 #################################################################################
 # Acknowledgements: Learned how to add images and text from t03_functions_house.py
 # provided with t03 assignment. Took the idea of changing Dory's "just keep swimming"
-# to "just keep coding" from Nicholas Hamilton.
-#
+# to "just keep coding" from Nicholas Hamilton. Modified by adding more inputs to functions
+# and reduced the number of functions
+
 #################################################################################
 import turtle
 
 
 def draw_fish(t):
+    """
+       draws blue and yellow fish using ocean
+    """
     t.pensize(4)
     t.color('yellow')
     t.lt(90)
@@ -39,23 +43,12 @@ def draw_fish(t):
         t.rt(120)
         t.fd(30)
     t.end_fill()
-    """
-    draws orange and pink fish using ocean
-    """
 
-def draw_fish_2(t):
-    t.penup()
-    t.goto(-70,-70)
-    t.lt(45)
-    t.pendown()
-    draw_fish(t)
-    """
-    draws second fish using ocean
-    """
 
-def draw_bubbles(t):
-    x = 50
-    y = 70
+def draw_bubbles(t, x, y):
+    """
+        draws bubbles using ocean
+    """
     position = (x,y)
     t.penup()
     t.goto(position)
@@ -66,26 +59,12 @@ def draw_bubbles(t):
         x = x - 20
         y = y + 15
         t.goto(x,y)
-    ''' draws bubbles using ocean
-    '''
 
-def draw_bubbles2(t):
-    x = 0
-    y = -20
-    position = (x, y)
-    t.penup()
-    t.goto(position)
-    t.pendown()
-    for i in range(5):
-        t.dot(15, 'navy')
-        t.penup()
-        x = x - 20
-        y = y + 15
-        t.goto(x, y)
-    ''' draws bubbles using ocean
-    '''
 
 def drawstarfish(t):
+    """
+        draws a row of starfish using turtles
+    """
     t.pensize(5)
     t.color('IndianRed1')
     x = -250
@@ -102,14 +81,14 @@ def drawstarfish(t):
         t.end_fill()
         t.penup()
         x = x + 100
-    ''' draws a row of starfish using turtles
-    '''
 
-def drawseaweed(t):
-    t.color('DarkGreen')
+
+def drawseaweed(t, x, length, color):
+    """
+    draws seaweed using ocean
+    """
+    t.color(color)
     t.pensize(5)
-    x = 80
-    length = 5
     for i in range (3):
         position = (x, -178)
         t.goto(position)
@@ -124,74 +103,41 @@ def drawseaweed(t):
         length = length - 1
         t.penup()
 
-def drawseaweed2(t):
-    t.color('green4')
-    t.pensize(5)
-    x = 180
-    length = 5
-    for i in range (3):
-        position = (x, -178)
-        t.goto(position)
-        t.pendown()
-        t.seth(60)
-        for i in range(length):
-            t.fd(15)
-            t.lt(100)
-            t.fd(15)
-            t.rt(100)
-        x = x + 15
-        length = length - 1
-        t.penup()
-
-def drawseaweed3(t):
-    t.color('green4')
-    t.pensize(5)
-    x = - 220
-    length = 7
-    for i in range (3):
-        position = (x, -178)
-        t.goto(position)
-        t.pendown()
-        t.seth(60)
-        for i in range(length):
-            t.fd(15)
-            t.lt(100)
-            t.fd(15)
-            t.rt(100)
-        x = x + 15
-        length = length - 1
-        t.penup()
 
 def make_text(t, txt):
+    """
+        Writes text to the screen.
+    """
     t.color('navy')
     t.setpos(-100,180)
     t.write(txt, move=False, align='center', font=("Times New Roman", 20,))
-    """
-    Writes text to the screen.
-    """
+
 
 
 def main():
+    """
+    creates screen and turtle objects. holds all the function calls
+    """
     wn = turtle.Screen()
     wn.bgpic('ocean.gif')
 
     ocean = turtle.Turtle()
     ocean.speed(0)
 
-    """
-    creates a screen object and a turtle object to make ocean artwork
-    """
-
     draw_fish(ocean)
-    draw_fish_2(ocean)
-    draw_bubbles(ocean)
-    draw_bubbles2(ocean)
+    ocean.penup()
+    ocean.goto(-70, -70)
+    ocean.lt(45)
+    ocean.pendown()
+    draw_fish(ocean)
+    draw_bubbles(ocean, 50, 70)
+    draw_bubbles(ocean, 0, -20)
     drawstarfish(ocean)
-    drawseaweed(ocean)
-    drawseaweed2(ocean)
-    drawseaweed3(ocean)
+    drawseaweed(ocean, 80, 5, 'DarkGreen')
+    drawseaweed(ocean, 180, 5, 'green4')
+    drawseaweed(ocean, -220, 7, 'green4')
     make_text (ocean, '"Just keep coding, just keep coding!"')
 
     wn.exitonclick()
 
-main()  # Starts the program!
+main()
