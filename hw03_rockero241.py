@@ -45,11 +45,11 @@ def draw_windows(windows):
     # make an entire row of windows
     def make_window_row(windows):
         windows.pendown()
-        makeSquare(windows, 15, 15)
+        makeRectangle(windows, 15, 15)
         windows.penup()
         windows.fd(52.5)
         windows.pendown()
-        makeSquare(windows, 15, 15)
+        makeRectangle(windows, 15, 15)
 
     b = -25 # for row position
     for i in range(4):
@@ -59,19 +59,19 @@ def draw_windows(windows):
         windows.penup()
         windows.goto(row_position)
         windows.begin_fill()
-        make_window_row()
+        make_window_row(windows)
         windows.end_fill()
         b -= 55
     # ...
 
-def makeSquare(turtle, a, b):
+def makeRectangle(windows, a, b):
     """"
-    Basic square making function. Used in making the building's windows
+    Basic rectangle making function. Used in making the building's windows
     """
     for i in range(4):
-        turtle.fd(a)
-        turtle.right(90)
-        turtle.fd(b)
+        windows.fd(a)
+        windows.right(90)
+        windows.fd(b)
 
 
 def main():
