@@ -1,16 +1,5 @@
 # Fully Functional Gitty Psychedelic Robotic Turtles
 
-## Instructions
-
-**_<span style="color:red">
-    VERY IMPORTANT: Make a copy of this file. DO NOT EDIT IT DIRECTLY!
-</span>_**
-
-Please replace each `Replace this text with your answer`
-with your answer to the question above.
-
-## SECTION 1:
-
 1.a. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color purple.
      What are the R, G, and B values?
 
