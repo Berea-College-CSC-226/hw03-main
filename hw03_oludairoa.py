@@ -3,7 +3,7 @@
 # Username: oludairoa
 #
 # Assignment: HW03: Fully Functional Gitty Psychedelic Robotic Turtles
-# Purpose: Learn how to use git push and pull requests
+# Purpose: Learn how to use github push and pull requests
 # Google Doc Link: https://docs.google.com/document/d/1yX8V99iRkV56ZTmNQmI9XwANLQ7LLj5dzj0nO0i1hgw/edit?usp=sharing
 #
 #################################################################################
