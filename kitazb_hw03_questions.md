@@ -152,7 +152,8 @@ with your answer to the question above.
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    
+    Yes, they are different. I see that there is a seperate copy of questions.md with my user name on it that I created, and pushed 
+    to my branch, while it doesn't exist in the master one.
 ```
 
 
@@ -162,7 +163,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    It went away. 
 ```
 
 
@@ -170,7 +171,9 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    It is back :) 
+    It is useful in a way that everyone works on their own version to avoid mess when developing a project.
+    It is also helpful if I want to go back to older versions.
 ```
 
 ---
