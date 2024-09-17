@@ -16,7 +16,10 @@
 import turtle
 
 
-def house1():
+def draw_house():
+    """
+       creates turtle called house, colors the turle red, draws a box, fills box
+        """
     house = turtle.Turtle()
     house.color('red')  #Set house color
     house.penup()
@@ -28,7 +31,10 @@ def house1():
         house.left(90)
     house.end_fill()
 
-def house_extra():
+def draw_roof():
+    """
+        creates a turtle called extra, colors it green, creates a roof the is slanted on two sides with a flat top, fills roof color
+        """
     extra = turtle.Turtle()
     extra.color('green') #Setting color
     extra.penup()
@@ -45,6 +51,10 @@ def house_extra():
     extra.goto(-150,100)
     extra.end_fill()
 
+def draw_door():
+    """
+           creates a turtle called door, changes color to brown, creates square, fills color
+           """
     #Door Creation
     door = turtle.Turtle()
     door.penup()
@@ -57,7 +67,10 @@ def house_extra():
         door.left(90)
     door.end_fill()
 
-def windows():
+def draw_windows():
+    """
+        creates a turtle called window. colors window blue, creates 3 windows, and fills the color in with blue
+        """
     window = turtle.Turtle()
     window.penup()
     window.color('blue')
@@ -81,7 +94,10 @@ def windows():
         window.left(90)
     window.end_fill()
 
-def outside(): #creating the grass outside the house
+def draw_outside(): #creating the grass outside the house
+    """
+        creates a turtle called out. turtle is turned green, creates a box for grass, fills in the green color
+        """
     out = turtle.Turtle()
     out.color('green')
     out.penup()
@@ -93,7 +109,10 @@ def outside(): #creating the grass outside the house
         out.right(90)
     out.end_fill()
 
-def sunshine(): #Creating the sun
+def draw_sunshine(): #Creating the sun
+    """
+        creates turtle called sun, sets color to yellow, makes circle, fills the circles color in.
+        """
     sun = turtle.Turtle()
     sun.color('yellow')
     sun.penup()
@@ -105,14 +124,18 @@ def sunshine(): #Creating the sun
 
 
 def main():
+    """
+            creates screen and the color of the background using rgb. calls all other functions
+            """
     wn = turtle.Screen() #Brings up turtle screen
     turtle.colormode(255) #Uses RGB to choose color
     wn.bgcolor(144,222,225) #Creates a blue/tealish color
-    house1()
-    house_extra()
-    windows()
-    outside()
-    sunshine()
+    draw_house()
+    draw_roof()
+    draw_door()
+    draw_windows()
+    draw_outside()
+    draw_sunshine()
     wn.exitonclick()
 
 main()  # Starts the program!
