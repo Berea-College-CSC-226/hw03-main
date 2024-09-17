@@ -15,21 +15,27 @@ with your answer to the question above.
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    R: 128
+    G:0
+    B:142
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+    R:142
+    G:85
+    B:0
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    R:115
+    G:134
+    B:119
 ```
 
 ---
@@ -41,32 +47,38 @@ with your answer to the question above.
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    forward() Move the turtle forward by the specified distance, in the direction the turtle is headed.
+    we can also use backward(-x), then using a negative value moves the turtle forward
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+   print(turtle.position())
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    turtle.speed(0)
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    turtle.color("xanadu")
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+####for example, to fill a circle shape 
+
+    turtle.fillcolor("xanadu")
+    turtle.begin_fill()
+    turtle.circle(30)
+    turtle.end_fill()
 ```
 
 ---
@@ -76,28 +88,28 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    creating a copy of the codes to your local machine 
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+     a repository is a storage location. It can exist on your local machine (local repository) or in Github(remote repository)
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    to commit is like tagging changes in a document/ code. Commit messages are to records what changes have been made since the last commit. 
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    push saves the changes made. The code is being pushed to github from your local machine. 
 ```
 
 ---
@@ -109,21 +121,21 @@ with your answer to the question above.
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    so you can make sure you have all the updates that have been made to the code. 
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    there are 122 branches as of now. yes, I see mine and I see my classmates' too. 
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    the master branch is the clean version. yes mine ans the master branch is different 
 ```
 
 
@@ -133,7 +145,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    my file that contains the code that I just wrote disappear when I am in the master branch
 ```
 
 
@@ -141,7 +153,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, the file is back. branching is useful i think if you want to test some new code but you do not want to include it in the master yet. So it is just like a scratch code until you commit and push and merge it into the master branch. 
 ```
 
 ---
@@ -153,8 +165,5 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1726531407120249
 ```
-
-
-
