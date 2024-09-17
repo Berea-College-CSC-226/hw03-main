@@ -82,32 +82,25 @@ with your answer to the question above.
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
-```Replace this text with your answer```
+```No```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
-```
-    Replace this text with your answer
-```
+``` Yes, they are. My branch has my code in it and master branch is empty```
 
 
 4.d. Go back to PyCharm, and go back to the Branches interface from before. Checkout the 
-     master branch.
-     Describe what happens to your file in the Project pane of PyCharm. Is it still 
+     master branch. Describe what happens to your file in the Project pane of PyCharm. Is it still 
      there? Did it change?
 
-```
-    Replace this text with your answer
-```
+```Yes, it is still there```
 
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations
      here, describe how branching is useful:
 
-```
-    Replace this text with your answer
-```
+```Branching is useful because it seperates your work from the main work without conflict.```
 
 ---
 
