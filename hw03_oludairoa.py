@@ -12,7 +12,6 @@
 #
 #################################################################################
 
-
 import turtle
 
 def draw_rect(t, sz, sz2):
@@ -62,14 +61,14 @@ def main():
     Initialize two separate turtles that will create the body of the shed and a door.
     """
     wn = turtle.Screen()
-    wn.bgcolor("lightblue")
-
+    wn.colormode(225) # Enables the use of RGB color identification mode
+    wn.bgcolor((173/255, 216/255, 230/255)) # Colors in rgb mode are represented in bits (0-1)
 
     james = turtle.Turtle()             # Creating the james turtle and changing its color
-    james.color("orange")
+    james.color((255/255, 165/255, 0))
 
     suzie = turtle.Turtle()             # Creating the suzie turtle and changing its color
-    suzie.color("black")
+    suzie.color((0, 0, 0))
 
     # Move James more to the bottom left corner of the screen
     james.penup()
