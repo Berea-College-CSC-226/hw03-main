@@ -154,7 +154,8 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://app.slack.com/client/T3RM3MK1D/C3QACGH8R
+    "My question is if a company is coding a huge project and there are over hundreds of separate branches, how would the main leader in charge of the main branch work on going through all of those separate codes to know which should be applied?"
 ```
 
 

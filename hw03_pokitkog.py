@@ -14,11 +14,10 @@
 
 import turtle
 
-#my functions
 
-def window(w):
+def draw_window(w):
     """
-       Draws two windows for the house (plus door).
+       Draws two windows for the house.
     """
 
     w.fillcolor("#BCE6E6")
@@ -42,62 +41,35 @@ def window(w):
     w.forward(75)
 
 
-#2nd window
-    w.penup()
-    w.forward(250)
-    w.pendown()
 
-    w.begin_fill()
+def draw_door(d):
+    """
+    Draws door for house.
+    """
+    d.penup()
+    d.left(180)
+    d.fd(150)
+    d.left(90)
+    d.fd(82)
+    d.pendown()
 
-    w.right(90)
-    w.forward(37.5)
-    w.left(90)
-
-    for i in range(2):
-        w.forward(75)
-        w.left(90)
-        w.forward(75)
-        w.left(90)
-    w.end_fill()
-
-    w.forward(37.5)
-    w.left(90)
-    w.forward(75)
-
-    for i in range(2):
-        w.left(90)
-        w.forward(37.5)
-
-    w.left(90)
-    w.forward(75)
-
-
-#draw door
-    w.penup()
-    w.left(180)
-    w.fd(150)
-    w.left(90)
-    w.fd(82)
-    w.pendown()
-
-    w.fillcolor("#8E674D")
-    w.begin_fill()
-    w.left(180)
-    w.forward(200)
-    w.left(90)
-    w.forward(100)
-    w.left(90)
-    w.forward(200)
-    w.end_fill()
+    d.fillcolor("#8E674D")
+    d.begin_fill()
+    d.left(180)
+    d.forward(200)
+    d.left(90)
+    d.forward(100)
+    d.left(90)
+    d.forward(200)
+    d.end_fill()
 
 
 
-def house(h):
+def draw_house(h):
         """
         Draws a house using a square and triangle for the roof.
         """
 
-        #square body
         h.begin_fill()
         for i in range(2):
             h.forward(500)
@@ -106,7 +78,6 @@ def house(h):
             h.left(90)
         h.end_fill()
 
-        # triangle roof
         h.penup()
         h.left(90)
         h.forward(300)
@@ -126,35 +97,42 @@ def main():
     wn = turtle.Screen()
     wn.bgpic("landscape.png")
 
-    #turtle (house) object 1
-
     houseObject = turtle.Turtle()
     houseObject.pensize(10)
-    houseObject.speed(5)
+    houseObject.speed(10)
     houseObject.fillcolor("#AAAF89")
 
-
-#position start of house shape
     houseObject.up()
     houseObject.goto(-250, -200)
     houseObject.down()
 
-    house(houseObject)
+    draw_house(houseObject)
 
 
-
-
-
-#turtle (window) object 2
     windowObject = turtle.Turtle()
     windowObject.speed(10)
 
-#change position of where window is drawn
     windowObject.up()
     windowObject.goto(-200,-150)
     windowObject.down()
 
-    window(windowObject)
+    draw_window(windowObject)
+
+    windowObject.up()
+    windowObject.goto(120, -150)
+    windowObject.down()
+
+    draw_window(windowObject)
+
+
+    doorObject = turtle.Turtle()
+    doorObject.speed(10)
+
+    doorObject.up()
+    doorObject.goto(200, -113)
+    doorObject.down()
+
+    draw_door(doorObject)
 
     wn.exitonclick()
 main()
