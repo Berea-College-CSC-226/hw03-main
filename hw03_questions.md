@@ -13,23 +13,22 @@ with your answer to the question above.
 
 1.a. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color purple. 
      What are the R, G, and B values?
-
 ```
-    Replace this text with your answer
+    Red: 137, Green: 22, Blue: 195
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+    Red: 82, Green: 69, Blue: 16
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    Red: 61, Green: 105, Blue: 61
 ```
 
 ---
@@ -41,32 +40,32 @@ with your answer to the question above.
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+You can use turtle.fd() instead 
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
-```
-
+You would use turtle.setposition()
+    
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+`You would use the code turtle.speed(speed=10) because it's the highest` 
+
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    You would do your normal code turtle.color() and enter xanadu. 
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    Turtle.begin_fill() is to start the fill of th shape and and you have to use turtle.end_fil(). 
 ```
 
 ---
