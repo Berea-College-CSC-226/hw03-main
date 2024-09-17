@@ -124,7 +124,7 @@ with your answer to the question above.
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+   My branch and the master branch are mainly the same, the only difference is the answers PDF file in both branches. It shows a change by me in my own branch in the answers PDf file.
 ```
 
 
@@ -134,7 +134,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    Everything disappears in the master branch, except the README.md file. So basically the master branch changed, except the README.md file.
 ```
 
 
@@ -142,7 +142,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, my file is back. Branching useful because it allows teams to track different versions of the codebase, allows for a structured code review process, and allows collaborative work.
 ```
 
 ---
@@ -154,7 +154,7 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1726546070666829 
 ```
 
 
