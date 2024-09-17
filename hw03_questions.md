@@ -40,34 +40,18 @@ with your answer to the question above.
      `forward()` method. What alternate command can be used to move the turtle forward, 
      besides the `turtle.forward()` command you are used to using?
 
-```
-    Replace this text with your answer
-```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
-```
-    Replace this text with your answer
-```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
-```
-    Replace this text with your answer
-```
 
 2.d. How would you change the turtle's color to xanadu? 
 
-```
-    Replace this text with your answer
-```
-
 2.e. How would you fill a shape with the color xanadu?
 
-```
-    Replace this text with your answer
-```
 
 ---
 

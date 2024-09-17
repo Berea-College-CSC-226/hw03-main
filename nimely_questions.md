@@ -82,10 +82,7 @@ with your answer to the question above.
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
-
-```
-    Replace this text with your answer
-```
+```Replace this text with your answer```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
