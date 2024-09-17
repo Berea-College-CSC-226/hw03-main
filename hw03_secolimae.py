@@ -15,12 +15,6 @@
 
 import turtle
 
-wn = turtle.Screen() # Set the screen
-wn.screensize(600, 600)
-wn.colormode(255) # Define color mode to RGB
-wn.bgcolor((135, 206, 235)) # RGB color mode for blue
-
-
 def create_grass(t):
     """This functions creates the grass and adds it to t"""
     t.penup()
@@ -148,6 +142,11 @@ def create_window(t):
 
 
 def main():
+    wn = turtle.Screen()  # Set the screen
+    wn.screensize(600, 600)
+    wn.colormode(255)  # Define color mode to RGB
+    wn.bgcolor((135, 206, 235))  # RGB color mode for blue
+
     """This function sets the turtle and create objects such as grass, trunk, leaves, walls, roofs, door, and window."""
     t = turtle.Turtle()
     create_grass(t)
@@ -158,6 +157,7 @@ def main():
     create_door(t)
     create_window(t)
 
+    wn.exitonclick()
 main()
 
-wn.exitonclick()
+
