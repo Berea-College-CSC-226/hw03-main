@@ -2,7 +2,6 @@
 #################################################################################
 # Author: Kai Vaught
 # Username: VaughtK
-#
 # Assignment: Homework 3
 # Purpose: To learn how branches work.
 # Google Doc Link: https://docs.google.com/document/d/1OvsmR456y61n3UzwBlIlVE13IBz0tF39Vyv10F24ZGI/edit?usp=sharing
@@ -12,7 +11,6 @@
 #
 #
 #################################################################################
-
 
 import turtle
 
@@ -165,7 +163,6 @@ def draw_stars():
 
     turtle2.penup()
     turtle2.setpos(140,210)
-    turtle2.color("white")
 
     turtle.exitonclick()
 
