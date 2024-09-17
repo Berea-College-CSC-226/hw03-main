@@ -35,7 +35,7 @@ def draw_main_house(t):
     t.end_fill()
 
 
-def window(wn,t):
+def draw_window(wn,t):
     """
     import the window gif
 
@@ -71,7 +71,7 @@ def draw_roof(t):
     t.end_fill()
 
 
-def sun(wn,t):
+def draw_sun(wn,t):
     """
     import the sun gif
 
@@ -166,7 +166,7 @@ def draw_person(t):
     t.forward(14)
 
 
-def text(t, arg):
+def write_text(t, arg):
     """
     Writes text to the screen.
     :param t: a Turtle object
@@ -200,10 +200,10 @@ def main():
 
     draw_main_house(t)
     draw_roof(t)
-    window(wn, t)
-    sun(wn,t)
+    draw_window(wn, t)
+    draw_sun(wn,t)
     draw_person(t)
-    text(t, "Aro's Perfect Day :)")
+    write_text(t, "Aro's Perfect Day :)")
 
     wn.exitonclick()
 
