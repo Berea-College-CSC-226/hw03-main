@@ -31,8 +31,6 @@ def draw_building(building):
         building.fd(240)
         building.right(90)
     building.end_fill()
-    # ....
-
 
 def draw_windows(windows):
     """
@@ -42,14 +40,6 @@ def draw_windows(windows):
     windows.color(0, 0, 0)
     windows.fillcolor('gold')
     windows.hideturtle()
-    # make an entire row of windows
-    def make_window_row(windows):
-        windows.pendown()
-        makeRectangle(windows, 15, 15)
-        windows.penup()
-        windows.fd(52.5)
-        windows.pendown()
-        makeRectangle(windows, 15, 15)
 
     b = -25 # for row position
     for i in range(4):
@@ -62,7 +52,6 @@ def draw_windows(windows):
         make_window_row(windows)
         windows.end_fill()
         b -= 55
-    # ...
 
 def makeRectangle(windows, a, b):
     """"
@@ -73,6 +62,16 @@ def makeRectangle(windows, a, b):
         windows.right(90)
         windows.fd(b)
 
+def make_window_row(windows):
+    """
+    Makes an entire row of windows.
+    """
+    windows.pendown()
+    makeRectangle(windows, 15, 15)
+    windows.penup()
+    windows.fd(52.5)
+    windows.pendown()
+    makeRectangle(windows, 15, 15)
 
 def main():
     """
