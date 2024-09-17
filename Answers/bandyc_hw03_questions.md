@@ -15,21 +15,21 @@ with your answer to the question above.
      What are the R, G, and B values?
 
 ```
-    The R value is 160, the G is 20, and B is 240.
+    213, 0, 255
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    The R value is 101, the G is 55, and the B is 0.
+    101, 47, 27
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    The R value is 115, the G is 134, and the B is 120.
+    102, 154, 123
 ```
 
 ---
@@ -41,33 +41,33 @@ with your answer to the question above.
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    The alternate command used to make a turtle move forward is fd()
+    turtle.fd()
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    The command that can be used to print the location of a turtle is turtle.position() or
     turtle.pos()
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    We would make use of the speed() method
+    turtle.speed("fastest")
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    I would run the command turtle.color("xanadu") with turtle being a variable created 
+    screen.colormode(255)
+    turtle.pencolor((102, 154, 123))
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    I would use the fillcolor() method and do something like turtle.fillcolor("xanaud") and then I would need to place the begin_fill() and end_fill() methods at the appropriate sections in the code.
+    turtle.fillcolor((102, 154, 123))
 ```
 
 ---
@@ -77,54 +77,54 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-    Cloning the repo is the process of creating a personal copy of a pre-existing file of code
+    Replicates the code so that it can be modified/iterated on it's own environment without interfering with the main code. The clone can be merged into the main repo to carry over the changes if applicable.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    The repository is the github storage area for all related code and files. It exists in github and can be accessed from any computer device that has the repo link.
+    The repository is where the code is being stored on Github. It can be accessed by multiple people and iterated upon or otherwise changed.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    A commit is the process of saving code to ones personal computer for later use
+    A commit is basically saving your work. If you don't commit, your changes won't be carried forward. A commit message is needed so that you can know what was worked/on or changed, or the current state of the code.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Pushing the code is the process of sending saved code to the guthub repository to be stored so others can use the working code later on. It is being pushed to the github repository and from your commit.
+    To push your code means to force your changes onto the repo. The changes are being pushed to the repo from your clone.
 ```
 
 ---
 
-## SECTION 4_oludairoa
+## SECTION 4
 
 ## Pull Master Into Your Local
 
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    So that your code is up to date and you can avoid any merging conflicts.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    There are currently 116 branches, including mine and many other students'.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    They are different. Mine has changes from a few minutes ago, while the master branch was updated days ago. My branch is also 1 commit ahead of master.
 ```
 
 
@@ -134,7 +134,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When checking out master, all my changes went away, including my python file that I created. 
 ```
 
 
@@ -142,7 +142,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, my file and changes are back. Branching is useful because it lets you work on changes in their own separate environment that doesn't effect master. If the changes are good, you can merge them into master, but if they are bad or don't work out, you can scrap them and master will be untouched still.
 ```
 
 ---
@@ -154,7 +154,7 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1726463162607969
 ```
 
 
