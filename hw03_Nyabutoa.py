@@ -51,7 +51,7 @@ def Draw_eyes(eye1):
     e_r=30
 
 # The variable 'e_r' stands for eye radius.
-# It defines the size of the eyes to be drawn in relation to the other elements of the drawing.
+# It defines the size of the eyes to be drawn in relation to the other elements of the drawing
 
     eye1.pensize(4)
     for i in range(5):
