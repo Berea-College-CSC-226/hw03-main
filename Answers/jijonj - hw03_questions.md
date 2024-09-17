@@ -108,21 +108,21 @@ with your answer to the question above.
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    so that you have to most recent changes to the file you are working on
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    114 branches // yes i see mine and others
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    yes they are because I have my own copy of the questions
 ```
 
 
@@ -132,7 +132,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    my questions file is not visible on the master branch, only the original file is visible on the master branch
 ```
 
 
@@ -140,7 +140,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    yes, my questions file is visible on my branch // branching can be useful because you would be able to compare someone's old code to your new code
 ```
 
 ---
