@@ -15,21 +15,21 @@ with your answer to the question above.
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    The R value is 160, the G is 20, and B is 240.
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+    The R value is 101, the G is 55, and the B is 0.
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    The R value is 115, the G is 134, and the B is 120.
 ```
 
 ---
@@ -41,32 +41,33 @@ with your answer to the question above.
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    The alternate command used to make a turtle move forward is fd()
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    The command that can be used to print the location of a turtle is turtle.position() or
+    turtle.pos()
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    We would make use of the speed() method
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    I would run the command turtle.color("xanadu") with turtle being a variable created 
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    I would use the fillcolor() method and do something like turtle.fillcolor("xanaud") and then I would need to place the begin_fill() and end_fill() methods at the appropriate sections in the code.
 ```
 
 ---
@@ -76,33 +77,33 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Cloning the repo is the process of creating a personal copy of a pre-existing file of code
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    The repository is the github storage area for all related code and files. It exists in github and can be accessed from any computer device that has the repo link.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit is the process of saving code to ones personal computer for later use
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing the code is the process of sending saved code to the guthub repository to be stored so others can use the working code later on. It is being pushed to the github repository and from your commit.
 ```
 
 ---
 
-## SECTION 4
+## SECTION 4_oludairoa
 
 ## Pull Master Into Your Local
 
