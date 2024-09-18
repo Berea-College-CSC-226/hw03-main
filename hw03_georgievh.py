@@ -97,20 +97,108 @@ def draw_background(turty):
     turty.end_fill()
 
 
+def draw_square(turty, side):
+    for i in range(4):
+        turty.fd(side)
+        turty.left(90)
+
+def draw_roof(turty):
+    # reorient
+    turty.penup()
+    turty.home()
+    turty.setposition(-120, 90)
+    turty.pendown()
+
+    #set color
+    turty.fillcolor("yellow")
+    turty.pencolor("orange")
+
+    #draw roof
+    turty.begin_fill()
+    for i in range(7):
+        turty.left(30)
+        turty.fd(19.5)
+        turty.right(60)
+        turty.fd(19.5)
+        turty.left(30)
+
+    turty.left(140)
+    turty.fd(160)
+    turty.left(82)
+    turty.fd(160)
+    turty.fd(-160)
+    for i in range(6):
+        turty.left(15)
+        turty.fd(145)
+        turty.fd(-145)
+    turty.end_fill()
+
+def draw_window(turty):
+    # reorient
+    turty.penup()
+    turty.home()
+    turty.setposition(20, 10)
+    turty.pendown()
+
+    #setting color
+    turty.pencolor("blue")
+    turty.fillcolor("lightblue")
+
+    #drawing window
+    turty.begin_fill()
+    draw_square(turty,60)
+    turty.end_fill()
+
+    #draw window bar things
+    turty.fd(30)
+    turty.left(90)
+    turty.fd(60)
+    turty.fd(-30)
+    turty.left(90)
+    turty.fd(-30)
+    turty.fd(60)
+
+    #return to original position
+    turty.left(90)
+    turty.fd(30)
+    turty.left(90)
+
+def draw_house(turty):
+    # reorient
+    turty.penup()
+    turty.home()
+    turty.setposition(-100, -100)
+    turty.pendown()
+
+    #start drawing house
+    turty.begin_fill()
+    turty.fillcolor("lightgreen")
+    turty.pencolor("green")
+    draw_square(turty, 200)
+    turty.end_fill()
+
+
+
+
 def main():
     """
-    Draws picture.
+    Draws house.
     """
     #setup code
     chris = turtle.Turtle()
     window = turtle.Screen()
     chris.speed("fastest")
+    chris.pensize(3)
 
     #set sky color
     window.bgcolor("lightblue")
 
-    #do something...
-    draw_background(chris)
+    #begin drawing
+    #draw_background(chris)
+
+    draw_house(chris)
+    draw_window(chris)
+    draw_roof(chris)
     #draw_curve(chris, 15, 20, "left")
 
 
