@@ -18,7 +18,6 @@ t = turtle.Turtle()
 
 turtle2 = turtle.Turtle()
 
-
 def draw_house():
     """
     Draws green lines in the shape of a house.
