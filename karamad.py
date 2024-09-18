@@ -108,7 +108,7 @@ def main():
     makes_windows(bob)
 
     bob.penup()
-    bob.goto(-800, -358)
+    bob.goto(-800, -359)
     bob.pendown()
     bob.color("green")
 
