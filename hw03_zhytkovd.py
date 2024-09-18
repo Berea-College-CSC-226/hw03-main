@@ -20,7 +20,7 @@
 import turtle
 
 
-def rectangle(w,l,t):
+def draw_rectangle(w, l, t):
     """
     function receives three parameters (width, length and turtle) and draws an appropriate rectangle
     """
@@ -31,7 +31,7 @@ def rectangle(w,l,t):
         t.right(90)
 
 
-def background(t):
+def draw_background(t):
     """
     This function accepts turtle and draws a rectangle which I will use as a background for my drawing.
     """
@@ -44,7 +44,7 @@ def background(t):
     turtle.colormode(255)
     t.fillcolor((23,204,240)) # random color
     t.begin_fill()
-    rectangle(700,500,t)
+    draw_rectangle(700, 500, t)
     t.end_fill()
 
     # draws green ground for house
@@ -55,7 +55,7 @@ def background(t):
     t.left(90)
     t.fillcolor('light green')
     t.begin_fill()
-    rectangle(700, 250, t)
+    draw_rectangle(700, 250, t)
     t.end_fill()
 
     #returns turtle to neutral position
@@ -64,7 +64,7 @@ def background(t):
     t.down()
 
 
-def window(x,y,t):
+def draw_window(x, y, t):
     """
     Accepts turtle and coordinates (x,y). Draws a window on the appropriate coordinates
     """
@@ -78,7 +78,7 @@ def window(x,y,t):
     # draws main window
     t.fillcolor('light blue')
     t.begin_fill()
-    rectangle(70,100,t)
+    draw_rectangle(70, 100, t)
     t.end_fill()
 
     #draws frame of the window
@@ -93,7 +93,7 @@ def window(x,y,t):
     t.forward(70)
 
 
-def house(t):
+def draw_house(t):
     """
     Accepts turtle and draws house using functions from turtle module
     """
@@ -103,7 +103,7 @@ def house(t):
     t.down()
     t.fillcolor("beige")
     t.begin_fill()
-    rectangle(400,300,t)
+    draw_rectangle(400, 300, t)
     t.end_fill()
 
     # draws a roof
@@ -114,7 +114,7 @@ def house(t):
     t.right(135)
     t.fillcolor('brown')
     t.begin_fill()
-    rectangle(450,50,t)
+    draw_rectangle(450, 50, t)
     t.end_fill()
 
     # draws a chimney
@@ -125,16 +125,16 @@ def house(t):
     t.left(225)
     t.fillcolor('dark red')
     t.begin_fill()
-    rectangle(20,60,t)
+    draw_rectangle(20, 60, t)
     t.end_fill()
 
     # draws three top windows
     for i in (0,130,260):
-        window(i,150,t)
+        draw_window(i, 150, t)
 
     # draws two down windows
     for i in (0,260):
-        window(i,30,t)
+        draw_window(i, 30, t)
 
     # draws door in the middle of the house
     t.up()
@@ -143,7 +143,7 @@ def house(t):
     t.seth(0)
     t.fillcolor('brown')
     t.begin_fill()
-    rectangle(70,130,t)
+    draw_rectangle(70, 130, t)
     t.end_fill()
 
     # draws the handle
@@ -157,7 +157,7 @@ def house(t):
     t.end_fill()
 
 
-def flower(x,y,t):
+def draw_flower(x, y, t):
     """
     Accepts turtle and coordinates (x,y). Draws a flower in the appropriate coordinates
     """
@@ -195,13 +195,13 @@ def main():
     alex = turtle.Turtle()
     alex.speed(10)
 
-    background(alex) # draws background with earth and sky
-    house(alex) # draws house
+    draw_background(alex) # draws background with earth and sky
+    draw_house(alex) # draws house
 
     # draws 15 flowers nearby house
     x = -200
     for i in range(15):
-        flower(x, -150, alex)
+        draw_flower(x, -150, alex)
         x += 40
 
     wn.exitonclick()
