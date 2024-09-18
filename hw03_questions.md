@@ -15,21 +15,21 @@ with your answer to the question above.
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    160,0,160
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+    140,65,15
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    115,135,120
 ```
 
 ---
@@ -41,32 +41,32 @@ with your answer to the question above.
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    fd()
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    turtle.position()
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    turtle.speed('fastest')
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    turtle.pencolor((115.0, 135.0, 120.0))
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    turtle.fillcolor((115.0, 135.0, 120.0)) 
 ```
 
 ---
