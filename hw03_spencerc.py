@@ -1,3 +1,18 @@
+#################################################################################
+# Author:CJ Spencer
+# Username:spencerc
+#
+# Assignment:HW03
+# Purpose:Draw picture and learn collaborative Github
+# Google Doc Link:https://docs.google.com/document/d/152Rw1JpNvbbuw87RRWGGLysXNf_UNEKe0uls69uLH50/edit?usp=sharing
+#
+#################################################################################
+# Acknowledgements:https://docs.python.org/3/library/turtle.html#turtle.fillcolor, RGB Color Wheel
+#
+#
+#################################################################################
+
+
 import turtle
 
 
