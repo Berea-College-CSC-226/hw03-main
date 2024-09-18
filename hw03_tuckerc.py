@@ -7,7 +7,7 @@
 # Google Doc Link: https://docs.google.com/document/d/1Xw1e0TFWaXDlRICmIxsiKXDqgC0jr2wqghk2cMqD0TE/edit?usp=sharing
 #
 #################################################################################
-# Acknowledgements:
+# Acknowledgements: The Python Documentation, hw03_stubs.py
 #
 #
 #################################################################################
@@ -16,17 +16,29 @@
 import turtle
 
 
-def function_1():
+def draw_bg():
     """
-    Example docstring for function_1. function_1 is not a good function name and should be changed.
+    Creates the required colored background.
     """
-    pass
-    # ....
+    turtle.fillcolor('#00BFFF') # Blue
+    turtle.penup() # To prevent random line
+    turtle.goto (-100, -100)
+    turtle.left(90)
+    turtle.begin_fill() # Begins filling the shape
+    turtle.forward(200)
+    turtle.right(90)
+    turtle.forward(200)
+    turtle.right(90)
+    turtle.forward(200)
+    turtle.right(90)
+    turtle.forward(200)
+    turtle.end_fill() # Ends filling the shape
+    turtle.right(180) # Turns to original position
 
 
-def function_2():
+def draw_duck():
     """
-    Example docstring for function_2. function_2 is not a good function name and should be changed.
+    Draws the duck.
     """
     pass
     # ...
@@ -34,12 +46,12 @@ def function_2():
 
 def main():
     """
-    Docstring for main. Should describe the main functionality of this file.
+    The main function that calls the other two functions, which draw the background and then the duck.
     """
 
-    # Function calls to function_1 and function_2.
-    function_1()            # TODO  Remove when you replace it with your function
-    function_2()            # TODO  Remove when you replace it with your function
+    draw_bg()
+    draw_duck()
+    turtle.exitonclick() # Waits until the user clicks to exit the program
 
 
 main()  # Starts the program!
