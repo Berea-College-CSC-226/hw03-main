@@ -138,7 +138,7 @@ Lots, over 30 in remote. I see mine there as well as my classmates' branches
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+Yes, my files are not in master yet because my pull request has not been approved yet
 ```
 
 
@@ -148,7 +148,7 @@ Lots, over 30 in remote. I see mine there as well as my classmates' branches
      there? Did it change?
 
 ```
-    Replace this text with your answer
+It is not there, since master doesn't have my changes merged into it yet.
 ```
 
 
@@ -156,7 +156,8 @@ Lots, over 30 in remote. I see mine there as well as my classmates' branches
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+Yes, my file is back. Branching is useful since you can experiment as much as you want with no
+risk of breaking code for everyone else besides yourself
 ```
 
 ---
@@ -168,7 +169,7 @@ Lots, over 30 in remote. I see mine there as well as my classmates' branches
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1726700540054349
 ```
 
 
