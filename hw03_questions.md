@@ -90,14 +90,14 @@ with your answer to the question above.
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    Commit is saving the most recent progress outside of the local device. A useful message informs what changes were made and why they are important.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    The code is being shown to others in the repository and requesting to be added to the master branch. It sends it to Github.
 ```
 
 ---
@@ -109,7 +109,7 @@ with your answer to the question above.
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    This ensures that your code works with the already added code from other developers.
 ```
 
 4.b. How many branches are in the repository?
