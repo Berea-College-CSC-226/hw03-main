@@ -76,7 +76,7 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    A user creates their own separate copy of the document. 
 ```
 
 
