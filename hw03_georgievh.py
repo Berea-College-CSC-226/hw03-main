@@ -30,8 +30,6 @@ def draw_curve(turty, turn_amount, iterations, direction = "right", line_length 
         if direction == "right": turty.right(turn_amount)
         if direction == "left": turty.left(turn_amount)
 
-    # ....
-
 
 def white_circle(turty, radius, forward):
     turty.begin_fill()
@@ -102,6 +100,7 @@ def draw_square(turty, side):
         turty.fd(side)
         turty.left(90)
 
+
 def draw_roof(turty):
     # reorient
     turty.penup()
@@ -141,6 +140,7 @@ def draw_roof(turty):
 
     turty.end_fill()
 
+
 def draw_window(turty):
 
     #setting color
@@ -166,6 +166,7 @@ def draw_window(turty):
     turty.fd(30)
     turty.left(90)
 
+
 def draw_walls(turty):
     # reorient
     turty.penup()
@@ -179,6 +180,7 @@ def draw_walls(turty):
     turty.pencolor(12,200,29)
     draw_square(turty, 200)
     turty.end_fill()
+
 
 def draw_door(turty):
     # reorient
@@ -212,6 +214,7 @@ def draw_door(turty):
     turty.pendown()
     turty.circle(1)
 
+
 def draw_path(turty):
     turty.penup()
     turty.setposition(-35,-100)
@@ -227,7 +230,6 @@ def draw_path(turty):
     turty.setposition(300, -400)
     turty.setposition(35,-100)
     turty.end_fill()
-
 
 
 def main():
@@ -248,7 +250,7 @@ def main():
     draw_background(chris)
     draw_walls(chris)
 
-    #reorient
+    #drawing windows
     chris.penup()
     chris.setposition(20, 10)
     chris.pendown()
