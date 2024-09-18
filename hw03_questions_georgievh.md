@@ -131,7 +131,7 @@ actually integrating.
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+Lots, over 30 in remote. I see mine there as well as my classmates' branches
 ```
 
 
