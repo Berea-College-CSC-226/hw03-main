@@ -140,7 +140,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    Before I checkedout the master branch, I had made some changes to my branch and I had to commit before checking the master branch. Once I checked out the master branch, I didn't see my things. 
 ```
 
 
@@ -148,7 +148,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Once I was back on my own branch I see all my files. Branching is useful because it lets you pull from the master branch without having to make copies and importing them into your own branch. It lets a bunch of people pull from the master branch onto their own branches for them to edit.
 ```
 
 ---
