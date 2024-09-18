@@ -185,7 +185,15 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    Posted:
+    
+Hi all,
+
+My question is about the following:
+
+When I need to start working, I need to pull the master branch to ensure anything my teammate did is updated on my local branch, and then I can push. This is clear to me so far.
+
+However, what if we are working on the project simultaneously? I can make pull the code from master, but it will change while I am working on the project, and by the time I push, conflict may happen. How do we avoid/resolve this?
 ```
 
 
