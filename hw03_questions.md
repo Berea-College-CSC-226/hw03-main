@@ -117,14 +117,14 @@ with your answer to the question above.
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    Currently there are 134 branches including mine 
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes there are differences from the master branch and mine. The master branch doesn't have any writing or changes I made in my branch 
 ```
 
 
