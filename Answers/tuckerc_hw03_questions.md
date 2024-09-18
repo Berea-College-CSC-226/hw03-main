@@ -125,7 +125,7 @@ with your answer to the question above.
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-Yes. My branch contains my homework files that the master branch doesn't. The master branch also contains homework files from one person that for some reason didn't merge into my branch.
+    Yes. My branch contains my homework files that the master branch doesn't. The master branch also contains homework files from one person that for some reason didn't merge into my branch.
 ```
 
 
@@ -135,7 +135,7 @@ Yes. My branch contains my homework files that the master branch doesn't. The ma
      there? Did it change?
 
 ```
-    
+    It completely disappeared.
 ```
 
 
@@ -143,7 +143,7 @@ Yes. My branch contains my homework files that the master branch doesn't. The ma
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, it's back. Changes from one branch don't affect another branch until you want it to, which provides a failsafe.
 ```
 
 ---
