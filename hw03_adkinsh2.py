@@ -7,18 +7,16 @@
 # Google Doc Link: https://docs.google.com/document/d/1DqjcrDnNRH_vvrzYEIaPAd95IWsKW53YRXWLzz5ADKw/edit
 #
 #################################################################################
-# Acknowledgements:
+# Acknowledgements: Python documentation
 #
 #
 #################################################################################
 
-
 import turtle
-
 
 def drawStar():
     """
-    Example docstring for function_1. function_1 is not a good function name and should be changed.
+    Draws six 5-pointed stars
     """
     bigStar = turtle.Turtle()
     bigStar.pensize(4)
@@ -39,15 +37,9 @@ def drawStar():
         bigStar.forward(100)
         bigStar.pendown()
 
-
-
-    pass
-    # ....
-
-
 def drawMoon():
     """
-    Example docstring for function_2. function_2 is not a good function name and should be changed.
+    Draws a crescent moon
     """
     moon = turtle.Turtle()
     moon.pensize(5)
@@ -64,13 +56,10 @@ def drawMoon():
     moon.circle(-25,-200)
     moon.right(35)
     moon.circle(-23,160)
-    pass
-    # ...
-
 
 def main():
     """
-    Docstring for main. Should describe the main functionality of this file.
+    Main function
     """
     wn = turtle.Screen()
     wn.colormode(255)
