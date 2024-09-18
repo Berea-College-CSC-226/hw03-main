@@ -60,12 +60,14 @@ with your answer to the question above.
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
+    turtle.colormode(255)
     turtle.color(115,134,120)
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
+    turtle.colormode(255)
     turtle.fillcolor(115,134,120)
 ```
 
@@ -152,7 +154,8 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1726623785625959
+    
 ```
 
 

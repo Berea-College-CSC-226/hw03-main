@@ -9,9 +9,10 @@ import turtle
 
 def drawSquare(t, size):
     ''' put in a for loop for a square'''
-    for i in range(6):
+    for i in range(4):
         t.fd(size)
         t.left(90)
+
 
 def drawTriangle(t):
     ''' code for the roof of the house '''
@@ -56,6 +57,10 @@ def main():
     house.begin_fill()
     drawSquare(house, 125)
     house.end_fill()
+    house.fd(125)
+    house.left(90)
+    house.fd(125)
+    house.left(90)
     house.color(115,134,120)
     house.fillcolor(115,134,120)
     house.begin_fill()
