@@ -17,10 +17,7 @@
 
 import turtle
 
-giraffe = turtle.Turtle()
-wn=turtle.Screen()
-wn.bgcolor('green')
-giraffe.speed(0.1)
+
 
 
 def drawbackground(giraffe):
@@ -66,13 +63,10 @@ def drawbackground(giraffe):
     giraffe.end_fill()
 
 
-    # ....
-
-
 def drawgiraffe(giraffe):
     """
-       Draws a simple giraffe using basic shapes.
-       """
+    Draws a simple giraffe using basic shapes.
+    """
     # Draw body
     giraffe.penup()
     giraffe.goto(-50, -100)
@@ -174,15 +168,20 @@ def drawgiraffe(giraffe):
     giraffe.begin_fill()
     giraffe.circle(10)  # Spot 4
     giraffe.end_fill()
+
+
 def main():
     """
     draws the picture of the safari background and mr giraffe
     """
-
+    giraffe = turtle.Turtle()
+    wn = turtle.Screen()
+    wn.bgcolor('green')
+    giraffe.speed(0.1)
     # Function calls to function_1 and function_2.
     drawbackground(giraffe)
     drawgiraffe(giraffe)
+    wn.exitonclick()
 
 
 main()  # Starts the program!
-wn.exitonclick()
