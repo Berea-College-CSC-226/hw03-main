@@ -195,6 +195,3 @@ When I need to start working, I need to pull the master branch to ensure anythin
 
 However, what if we are working on the project simultaneously? I can make pull the code from master, but it will change while I am working on the project, and by the time I push, conflict may happen. How do we avoid/resolve this?
 ```
-
-
-

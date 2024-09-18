@@ -47,7 +47,7 @@ def draw_rooftop(t):
 def draw_window_square(t):
     """
         gets a turtle object to draw a square shape for the window
-        :args: t, turtle object, px, for the position of the window horizontally, and py for vertical position
+        :args: t, turtle object to draw the square
         :returns: None
     """
     t.fillcolor('yellow')
