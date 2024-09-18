@@ -72,7 +72,7 @@ def create_window(turtle_instance, window_size, window_color):
     turtle_instance.forward(window_size)
 
 
-def setup_scene():
+def main():
     """
     Configures the turtle screen and initiates the drawing process.
     """
@@ -109,4 +109,4 @@ def setup_scene():
     screen.exitonclick()
 
 
-setup_scene()  # Start the drawing process
+main()  # Start the drawing process
