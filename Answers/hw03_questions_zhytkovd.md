@@ -138,7 +138,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When I changed branch to the master, I saw my and other student's files. 
 ```
 
 
@@ -146,7 +146,8 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    My files are still in my branch. 
+    Branching is useful for writing your own code without affecting the main version of the fact
 ```
 
 ---
@@ -158,7 +159,7 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    I don't have any questions
 ```
 
 
