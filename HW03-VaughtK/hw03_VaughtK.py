@@ -74,7 +74,9 @@ def draw_detail():
     t.forward(20)
     t.forward(-20)
     t.right(-90)
-    t.forward(215)
+    t.forward(115)
+    t.color("green")
+    t.forward(100)
     t.right(90)
     t.forward(30)
     t.right(90)
@@ -105,10 +107,8 @@ def draw_stars():
     turtle2.setpos(150,150)
     turtle2.speed(0)
     turtle2.pendown()
-
     turtle2.pensize(25)
     turtle2.pencolor("white")
-
     turtle2.right(30)
     turtle2.forward(5)
     turtle2.right(30)
