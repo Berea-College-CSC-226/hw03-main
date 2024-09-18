@@ -116,7 +116,7 @@ with your answer to the question above.
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+   18
 ```
 
 
