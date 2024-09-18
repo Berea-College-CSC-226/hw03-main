@@ -76,14 +76,14 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-    A user creates their own separate copy of the document. 
+    Taking the same document and placing it in a local/unshared area
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    The repository exists in Github
 ```
 
 
@@ -123,7 +123,7 @@ with your answer to the question above.
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes
 ```
 
 
@@ -133,7 +133,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    It changes, but it lets me deicide what changes to add.
 ```
 
 
@@ -141,7 +141,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    It allows me to see updates on the master code and see if they work with my code.
 ```
 
 ---
