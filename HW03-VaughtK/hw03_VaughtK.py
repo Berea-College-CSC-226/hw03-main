@@ -47,6 +47,9 @@ def draw_house():
     t.left(35)
     t.forward(-90)
     t.left(-90)
+
+def draw_detail():
+    t.color("red")
     t.forward(120)
     t.left(-100)
     t.forward(-80)
@@ -55,6 +58,7 @@ def draw_house():
     t.left(70)
     t.forward(90)
     t.right(70)
+    t.color("green")
     t.forward(40)
     t.right(90)
     t.forward(20)
@@ -65,6 +69,7 @@ def draw_house():
     t.right(90)
     t.forward(60)
     t.forward(-210)
+    t.color("red")
     t.right(90)
     t.forward(20)
     t.forward(-20)
@@ -76,6 +81,7 @@ def draw_house():
     t.penup()
     t.forward(15)
     t.pendown()
+    t.color("white")
     t.forward(30)
     t.right(90)
     t.forward(20)
@@ -175,6 +181,12 @@ def main():
     """
     Draws green lines in the shape of a house.
     """
+
+    draw_detail()
+    """
+    Draws multicolored building elements: the white window and red lot.
+    """
+
     draw_stars()
     """
     Draws white lines in the shape of the moon and stars.
