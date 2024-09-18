@@ -147,7 +147,7 @@ It is important to pull before you push to ensure your local repository is up to
      here, describe how branching is useful:
 
 ```
-    Yes my file is still here. Branching is useful because it allows me to work on new features, experiments, or bug fixes without affecting the main codebase. I can make changes in a separate branch, and once everything works as expected, I can merge it back into the main branch. This keeps the project stable and helps manage different versions of the code.
+    Yes my file is still here, branching is useful because it allows me to work on new features, experiments, or bug fixes without affecting the main codebase. I can make changes in a separate branch, and once everything works as expected, I can merge it back into the main branch. This keeps the project stable and helps manage different versions of the code.
 ```
 
 ---
