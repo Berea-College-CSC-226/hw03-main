@@ -142,11 +142,6 @@ def draw_roof(turty):
     turty.end_fill()
 
 def draw_window(turty):
-    # reorient
-    turty.penup()
-    turty.home()
-    turty.setposition(20, 10)
-    turty.pendown()
 
     #setting color
     turty.pencolor("blue")
@@ -171,7 +166,7 @@ def draw_window(turty):
     turty.fd(30)
     turty.left(90)
 
-def draw_house(turty):
+def draw_walls(turty):
     # reorient
     turty.penup()
     turty.home()
@@ -181,10 +176,57 @@ def draw_house(turty):
     #start drawing house
     turty.begin_fill()
     turty.fillcolor("lightgreen")
-    turty.pencolor("green")
+    turty.pencolor(12,200,29)
     draw_square(turty, 200)
     turty.end_fill()
 
+def draw_door(turty):
+    # reorient
+    turty.penup()
+    turty.setposition(-35, -100)
+    turty.pendown()
+
+    #set colors
+    turty.pencolor(105,20,5)
+    turty.fillcolor(172, 112, 60)
+
+    #draw door
+    turty.begin_fill()
+    draw_square(turty,70)
+    turty.end_fill()
+    turty.fd(35)
+    turty.left(90)
+    turty.fd(70)
+
+    #draw door handles
+    turty.fd(-35)
+    turty.penup()
+    turty.color("lightgrey")
+    turty.left(-90)
+    turty.penup()
+    turty.fd(4)
+    turty.pendown()
+    turty.circle(1)
+    turty.penup()
+    turty.fd(-8)
+    turty.pendown()
+    turty.circle(1)
+
+def draw_path(turty):
+    turty.penup()
+    turty.setposition(-35,-100)
+
+    #set colors
+    turty.pencolor(69,69,69)
+    turty.fillcolor(100,100,100)
+
+    #draw path
+    turty.begin_fill()
+    turty.pendown()
+    turty.setposition(-300,-400)
+    turty.setposition(300, -400)
+    turty.setposition(35,-100)
+    turty.end_fill()
 
 
 
@@ -197,18 +239,30 @@ def main():
     window = turtle.Screen()
     chris.speed("fastest")
     chris.pensize(3)
+    window.colormode(255)
 
     #set sky color
     window.bgcolor("lightblue")
 
     #begin drawing
-    #draw_background(chris)
+    draw_background(chris)
+    draw_walls(chris)
 
-    draw_house(chris)
+    #reorient
+    chris.penup()
+    chris.setposition(20, 10)
+    chris.pendown()
     draw_window(chris)
-    draw_roof(chris)
-    #draw_curve(chris, 15, 20, "left")
+    #reorient
+    chris.penup()
+    chris.setposition(-80, 10)
+    chris.pendown()
+    draw_window(chris)
 
+    #draw rest of house
+    draw_roof(chris)
+    draw_door(chris)
+    draw_path(chris)
 
     #last thing in main
     turtle.exitonclick()
