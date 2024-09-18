@@ -116,21 +116,29 @@ def draw_roof(turty):
     #draw roof
     turty.begin_fill()
     for i in range(7):
+        pre_jump = 0             #temp var for coords
         turty.left(30)
         turty.fd(19.5)
+
+        #draw peak of corrugated roof
+        pre_jump = turty.pos()   #save current coordinates so return is possible
+        turty.setposition(0, 200)
+        turty.setposition(pre_jump)
         turty.right(60)
         turty.fd(19.5)
+
+        #draw trough of corrugated roof with smaller pensize, giving an illusion of depth
+        turty.pensize(1)
+        pre_jump = turty.pos()
+        turty.setposition(0, 200)
+        turty.setposition(pre_jump)
+        turty.pensize(3)
+
         turty.left(30)
 
-    turty.left(140)
-    turty.fd(160)
-    turty.left(82)
-    turty.fd(160)
-    turty.fd(-160)
-    for i in range(6):
-        turty.left(15)
-        turty.fd(145)
-        turty.fd(-145)
+    turty.setposition(0, 200)
+    turty.setposition(-120, 90)
+
     turty.end_fill()
 
 def draw_window(turty):
