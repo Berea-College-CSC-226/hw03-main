@@ -134,7 +134,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    All my work went away including any files I had created. 
 ```
 
 
@@ -142,7 +142,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    When I go back to PyCharm the changes that I made are still here including any files I made. Branching is useful in the sense that if you made a change in the branch it would not affect the master branch. This allows you to practice on scratch files and whenever you think you have something you can at last incorporate it into the master branch and if you don't you can keep working on the other branches. 
 ```
 
 ---
