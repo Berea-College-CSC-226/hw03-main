@@ -1,6 +1,6 @@
 #################################################################################
-# Author: [Your Name]
-# Username: [Your Username]
+# Author: Sonam Tsering
+# Username: Sonam867
 #
 # Assignment: HW03
 # Purpose: Create a colorful house using functions.
