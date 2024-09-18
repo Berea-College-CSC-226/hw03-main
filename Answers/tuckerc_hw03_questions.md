@@ -99,7 +99,7 @@ with your answer to the question above.
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    To push your code means to upload it to the repository from your local system.
+    To push your code is to upload it to the repository from your local system.
 ```
 
 ---
