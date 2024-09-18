@@ -116,21 +116,21 @@ with your answer to the question above.
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    To make sure the pull request goes to the right repository.
+    To make sure the pull request goes to the right repository and to make sure that the merge doesn't have an issue with the master or other people.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    I see 122. I see my branch as well as other people's branches.
+    I see 136. I see my branch as well as other people's branches.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    The master branch and my branch are different. The master branch doesn't have my homework on it.
 ```
 
 
@@ -160,5 +160,5 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://app.slack.com/client/T3RM3MK1D/C3QACGH8R
 ```
