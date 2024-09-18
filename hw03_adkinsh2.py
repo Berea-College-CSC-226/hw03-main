@@ -59,7 +59,7 @@ def drawMoon():
 
 def main():
     """
-    Main function
+    Main body, runs my other functions
     """
     wn = turtle.Screen()
     wn.colormode(255)
