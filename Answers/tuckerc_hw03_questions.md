@@ -78,28 +78,28 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    It means to copy the contents of the repository onto your local machine so you can build or edit it to your needs.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    The repository exists on Github and it is where the original up-to-date code lives.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit is like saving your progress - it's a marker of an important change to code. It needs a message so anyone else viewing the commit can see what has changed more easily.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    To push your code means to upload it to the repository from your local system.
 ```
 
 ---
