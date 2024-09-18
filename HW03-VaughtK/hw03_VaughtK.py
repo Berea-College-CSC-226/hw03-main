@@ -172,7 +172,6 @@ def main():
     Main channel
     """
 
-    # Function calls to function_1 and function_2.
     draw_house()
     """
     Draws green lines in the shape of a house.
@@ -183,4 +182,4 @@ def main():
     """
 
 
-main()  # Starts the program!
+main()
