@@ -15,21 +15,23 @@ with your answer to the question above.
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    (171, 0, 255)
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+    (87, 79, 92) 
 ```
 
-1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
+1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/). 
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    (115, 134, 120) makes the color Xanadu
+    
+    used to find the color: https://www.color-hex.com/color/738678
 ```
 
 ---
@@ -41,20 +43,27 @@ with your answer to the question above.
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    You could use tutle.fd() method
+    or
+    You could use turtle.backward() method with a negative value
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    You can use the pos() method and the write() method to display the position
+    while using the turtle module.
+    
+    example
+    position = turtle.pos()
+    turtle.write(position)
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    by using the speed(0) method with the value of 0.
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
@@ -66,7 +75,9 @@ with your answer to the question above.
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    1. by setting the fill color to xanadu: t.fillcolor(115, 134, 120)
+    2. by using the begin_fill() method before crafting a shape.
+    3. by using the end_fill() method after finishing the shape.
 ```
 
 ---
@@ -76,28 +87,31 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    It lets you make a copy on your computer so you can work on it on your environment.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    It can exist on github and we can clone it into our computer. A repository has all the files of a program and it
+    shows the different versions (updates to that code) so you can implement changes or revert at any time.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit captures the current state of your files so you can save it as a certain version of the repository 
+    after you've made changes. Commit messages are crucial because they let us know what that certain version of our
+    repository achieved / what changes where made.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing code is sending the changes we've made to a remote repository we can access on the cloud (github).
 ```
 
 ---
@@ -109,21 +123,23 @@ with your answer to the question above.
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Because that updates your computer's version of the program so its synchronized with github, then you implement your changes.
+    If you do it backwards you could create merge conflicts if someone else has also made changes and tries to push as well.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+   118 branches. I can see mine and the others.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    They are different branches. Mine is a copy of the main branch with the added edits
+    I've made since working on this assignment.
 ```
 
 
@@ -133,7 +149,8 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    It closed the copy of the questions on my branch because it didnt exist in the main branch.
+    I was able to open it again after checking out my branch again.
 ```
 
 
@@ -141,7 +158,8 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+   It's very useful so everyone can work on a different version of an existing codebase
+   and implement changes as needed. 
 ```
 
 ---
@@ -153,5 +171,8 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1726511750504399
 ```
+
+
+
