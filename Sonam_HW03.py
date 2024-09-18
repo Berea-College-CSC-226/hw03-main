@@ -1,10 +1,9 @@
 #################################################################################
-# Author: Sonam Tsering
-# Username: Sonam
+# Author: [Your Name]
+# Username: [Your Username]
 #
 # Assignment: HW03
-# Purpose: Draw a colorful house using functions.
-# Google Doc Link: https://docs.google.com/document/d/17rrspYRGOVC_dS5D5XEZPSUfPYHl2pfgNTMXdx2hg_A/edit?usp=sharing
+# Purpose: Create a colorful house using functions.
 #################################################################################
 # Acknowledgements:
 #
@@ -14,91 +13,100 @@
 import turtle
 
 
-def draw_house(jimbo, length, color):
+def create_house(turtle_instance, size, house_color):
     """
-    Draws the base structure of the house.
+    Constructs the main structure of the house.
     """
-    jimbo.fillcolor(color)
-    jimbo.begin_fill()
-    for h in range(4):
-        jimbo.forward(length)
-        jimbo.right(90)
-    jimbo.end_fill()
-
-def draw_roof(jimbo, length, color):
-    """
-    Draws the roof of the house.
-    """
-    jimbo.fillcolor(color)
-    jimbo.begin_fill()
-    for r in range(3):
-        jimbo.forward(length)
-        jimbo.left(120)
-    jimbo.end_fill()
-
-def draw_door(jimbo, width, height, color):
-    """
-    Draws the front door of the house.
-    """
-    jimbo.fillcolor(color)
-    jimbo.begin_fill()
-    for d in range(2):
-        jimbo.forward(width)
-        jimbo.right(90)
-        jimbo.forward(height)
-        jimbo.right(90)
-    jimbo.end_fill()
-
-def draw_window(jimbo, length, color):
-    """
-    Draws a window for the house.
-    """
-    jimbo.fillcolor(color)
-    jimbo.begin_fill()
-    for w in range(4):
-        jimbo.forward(length)
-        jimbo.right(90)
-    jimbo.end_fill()
-    jimbo.forward(length/2)
-    jimbo.right(90)
-    jimbo.forward(length)
-    for b in range(2):
-        jimbo.right(90)
-        jimbo.forward(length/2)
-    jimbo.right(90)
-    jimbo.forward(length)
-
-def main():
-    """
-    Sets attributes for the turtle and screen, then performs the steps needed to draw the entire house using the other functions.
-    """
-    wn = turtle.Screen()
-    wn.colormode(255)     # enables the use of RGB values to set a color attribute
-    wn.bgcolor((41, 187, 216))     # baby blue background, or close enough
-
-    jimbo = turtle.Turtle()     # named him jimbo because why not?
-    jimbo.pensize(10)
-
-    jimbo.penup()
-    jimbo.goto(-100,50)     # get into position to draw the base of the house
-    jimbo.pendown()
-    draw_house(jimbo, 400, (216, 41, 99))     # draw a red house base
-    draw_roof(jimbo, 400, (226, 194, 34))     # no repositioning needed for the yellow roof, draw it immediately
-    jimbo.penup()
-    jimbo.goto(50, -200)     # getting into position for the door
-    jimbo.pendown()
-    draw_door(jimbo, 100, 150, (18, 131, 26))     # draws a door that is green
-    jimbo.penup()
-    jimbo.goto(-50, -50)     # gets into position for the first window
-    jimbo.pendown()
-    draw_window(jimbo, 100, (255, 255, 255))     # draw a white window, split into panes
-    jimbo.penup()
-    jimbo.goto(150, -50)     # getting ready for the second one
-    jimbo.pendown()
-    draw_window(jimbo, 100, (255, 255, 255))     # a matching twin for the first window
-    jimbo.hideturtle()     # hidden for your viewing pleasure
+    turtle_instance.fillcolor(house_color)
+    turtle_instance.begin_fill()
+    for _ in range(4):
+        turtle_instance.forward(size)
+        turtle_instance.right(90)
+    turtle_instance.end_fill()
 
 
-    wn.exitonclick()
+def create_roof(turtle_instance, size, roof_color):
+    """
+    Constructs the roof of the house.
+    """
+    turtle_instance.fillcolor(roof_color)
+    turtle_instance.begin_fill()
+    for _ in range(3):
+        turtle_instance.forward(size)
+        turtle_instance.left(120)
+    turtle_instance.end_fill()
 
-main()     # without this function call, nothing would happen
+
+def create_door(turtle_instance, door_width, door_height, door_color):
+    """
+    Constructs the door of the house.
+    """
+    turtle_instance.fillcolor(door_color)
+    turtle_instance.begin_fill()
+    for _ in range(2):
+        turtle_instance.forward(door_width)
+        turtle_instance.right(90)
+        turtle_instance.forward(door_height)
+        turtle_instance.right(90)
+    turtle_instance.end_fill()
+
+
+def create_window(turtle_instance, window_size, window_color):
+    """
+    Constructs a window for the house.
+    """
+    turtle_instance.fillcolor(window_color)
+    turtle_instance.begin_fill()
+    for _ in range(4):
+        turtle_instance.forward(window_size)
+        turtle_instance.right(90)
+    turtle_instance.end_fill()
+
+    turtle_instance.forward(window_size / 2)
+    turtle_instance.right(90)
+    turtle_instance.forward(window_size)
+    for _ in range(2):
+        turtle_instance.right(90)
+        turtle_instance.forward(window_size / 2)
+    turtle_instance.right(90)
+    turtle_instance.forward(window_size)
+
+
+def setup_scene():
+    """
+    Configures the turtle screen and initiates the drawing process.
+    """
+    screen = turtle.Screen()
+    screen.colormode(255)
+    screen.bgcolor((200, 240, 255))  # Light sky blue background
+
+    artist = turtle.Turtle()  # Turtle named artist
+    artist.pensize(5)
+
+    artist.penup()
+    artist.goto(-150, 100)  # Position for the house base
+    artist.pendown()
+    create_house(artist, 300, (102, 204, 255))  # Light blue house base
+    create_roof(artist, 300, (255, 128, 0))  # Orange roof
+
+    artist.penup()
+    artist.goto(-30, -100)  # Position for the door
+    artist.pendown()
+    create_door(artist, 60, 120, (139, 69, 19))  # Brown door
+
+    artist.penup()
+    artist.goto(-100, -30)  # Position for the first window
+    artist.pendown()
+    create_window(artist, 60, (255, 255, 0))  # Yellow window
+
+    artist.penup()
+    artist.goto(40, -30)  # Position for the second window
+    artist.pendown()
+    create_window(artist, 60, (255, 255, 0))  # Matching yellow window
+
+    artist.hideturtle()  # Hide the turtle for better view
+
+    screen.exitonclick()
+
+
+setup_scene()  # Start the drawing process
