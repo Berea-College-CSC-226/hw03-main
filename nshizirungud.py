@@ -5,7 +5,7 @@
 # Username: nshizirungud
 #
 # Assignment: HW03 Fully Functional Gitty
-# Purpose:
+# Purpose: Draw a house using functions.
 # Google Doc Link:
 #
 #################################################################################
