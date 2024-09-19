@@ -2,18 +2,23 @@
 # TODO Instead, create a new file called hw03_username.py and copy this code into it!
 
 #################################################################################
-# Author:
-# Username:
+# Author: Janee Amig
+# Username: Amigj
 #
-# Assignment:
+# Assignment: HW03
 # Purpose:
-# Google Doc Link:
+# Google Doc Link: https://docs.google.com/document/d/1ZubPrhdobqaMp-9kqOMK8lZNzvwYkhv42pZEmzof-wU/edit
 #
 #################################################################################
 # Acknowledgements:
 #
 #
 #################################################################################
+#Has at least one complex thing which looks like something; a building, animal,  person, etc.
+#Is set against a background which is not white. You can use an image or a color as your background.
+#Has some embellishments or interesting details, such as windows, text, trees, flowers in front of a house, intricate windows, smoke out of the chimney, or something; these are not all required, they are just suggestions. Be creative!
+#Use an unnamed color using either RGB or Hexadecimal.
+#Use creativity (such as the use of color, an intricate shape, a cool design…)
 
 
 import turtle
