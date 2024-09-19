@@ -1,15 +1,14 @@
 
-
 #################################################################################
 # Author: DieuMerci Nshizirungu
 # Username: nshizirungud
 #
 # Assignment: HW03 Fully Functional Gitty
 # Purpose: Draw a house using functions.
-# Google Doc Link:
+# Google Doc Link:https://docs.google.com/document/d/14LpAoaUVgzTeZggO48ESCbo-fBJblJJHy6wyXrFfIok/edit?usp=sharing
 #
 #################################################################################
-# Acknowledgements:
+# Acknowledgements: Gagan Phuyal TA
 #
 #
 #################################################################################
@@ -19,10 +18,10 @@ import turtle
 
 
 def show_coordinates(x, y):
-    print(f"Coordinates: ({x}, {y})")
+    print(f"Coordinates: ({x}, {y})")            # shows me the coordinates when I click on the screen
 
 
-def draw_house(merci):
+def draw_house(merci):     # This function draws the house
     merci.pendown()
     merci.color("orange")
     merci.begin_fill()
@@ -36,7 +35,7 @@ def draw_house(merci):
     merci.end_fill()
 
 
-def draw_roof(merci):
+def draw_roof(merci):  # This function draws the Roof
     merci.penup()
     merci.goto(5, 1)
     merci.pendown()
@@ -52,7 +51,7 @@ def draw_roof(merci):
     merci.end_fill()
 
 
-def draw_chimney(merci):
+def draw_chimney(merci):    # This function draws a chimney
     merci.color("red")
     merci.penup()
     merci.goto(120, 60)
@@ -64,7 +63,7 @@ def draw_chimney(merci):
     merci.end_fill()
 
 
-def draw_window(merci, merci2):
+def draw_window(merci, merci2):            # This function draws the windows using two turtles, merci and merci02
     merci.penup()
     merci.color("lightblue")
     merci.goto(230, -50)

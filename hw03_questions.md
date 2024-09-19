@@ -15,21 +15,21 @@ with your answer to the question above.
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    213, 0 255
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+    101, 47, 27
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    102, 154, 123
 ```
 
 ---
