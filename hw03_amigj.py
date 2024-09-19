@@ -24,15 +24,15 @@
 import turtle
 
 
-def function_1():
+def oval ():
     """
-    Example docstring for function_1. function_1 is not a good function name and should be changed.
+    Draws an oval and fills in with any color.
     """
     pass
     # ....
 
 
-def function_2():
+def round ():
     """
     Example docstring for function_2. function_2 is not a good function name and should be changed.
     """
@@ -44,6 +44,13 @@ def main():
     """
     Docstring for main. Should describe the main functionality of this file.
     """
+    wn = turtle.Screen()
+    jimmy = turtle.Turtle()
+
+
+    wn.exitonclick()
+
+
 
     # Function calls to function_1 and function_2.
     function_1()            # TODO  Remove when you replace it with your function

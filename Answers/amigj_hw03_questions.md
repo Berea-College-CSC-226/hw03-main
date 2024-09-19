@@ -76,28 +76,28 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Making your own duplicate of the code.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    A respository is where code and data is stored. It mainly exist on Github. In addition the programmer has a small and local repository in their machine.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit saves your work, and a commit message describes what the file contains or/and any changes made.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing the code sends it to the Git repository from your local computer.
 ```
 
 ---
