@@ -12,21 +12,19 @@
 #
 #################################################################################
 
-import turtle
 
-t = turtle.Turtle()
 
-turtle2 = turtle.Turtle()
 
-def draw_house():
+def draw_house(t):
     """
     Draws green lines in the shape of a house.
     """
+def main(t):
     t.setpos(0,-100)
     t.color("green")
     t.width(4)
     t.speed(0)  # 1:slowest, 3:slow, 5:normal, 10:fast, 0:fastest
-    t.screen.bgcolor("black")
+    t.screen.bgcolor()
     t.left(60)
     t.forward(90)
     t.left(30)
@@ -34,7 +32,6 @@ def draw_house():
     t.left(85)
     t.forward(90)
     t.left(55)
-
     t.forward(90)
     t.left(35)
     t.forward(90)
@@ -48,7 +45,7 @@ def draw_house():
     t.forward(-90)
     t.left(-90)
 
-def draw_detail():
+def draw_detail(t):
     t.color("red")
     t.forward(120)
     t.left(-100)
@@ -97,7 +94,7 @@ def draw_detail():
     t.pendown()
 
 
-def draw_stars():
+def draw_stars(turtle2):
     """
     Draws white lines in the shape of the moon and stars.
     """
@@ -169,28 +166,33 @@ def draw_stars():
     turtle2.penup()
     turtle2.setpos(140,210)
 
-    turtle.exitonclick()
+    turtle2.exitonclick()
 
 
 def main():
+    import turtle
+
+    t = turtle.Turtle()
+
+    turtle2 = turtle.Turtle()
+
     """
     Main channel
     """
 
-    draw_house()
+    draw_house(t)
     """
     Draws green lines in the shape of a house.
     """
 
-    draw_detail()
+    draw_detail(t)
     """
     Draws multicolored building elements: the white window and red lot.
     """
 
-    draw_stars()
+    draw_stars(turtle2)
     """
     Draws white lines in the shape of the moon and stars.
     """
-
 
 main()
