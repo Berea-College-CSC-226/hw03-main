@@ -40,8 +40,6 @@ def draw_window(w):
     w.left(90)
     w.forward(75)
 
-
-
 def draw_door(d):
     """
     Draws door for house.
@@ -66,33 +64,36 @@ def draw_door(d):
 
 
 def draw_house(h):
-        """
-        Draws a house using a square and triangle for the roof.
-        """
+    """
+    Draws a house using a square and triangle for the roof.
+    """
 
-        h.begin_fill()
-        for i in range(2):
-            h.forward(500)
-            h.left(90)
-            h.forward(300)
-            h.left(90)
-        h.end_fill()
-
-        h.penup()
+    h.begin_fill()
+    for i in range(2):
+        h.forward(500)
         h.left(90)
         h.forward(300)
-        h.pendown()
+        h.left(90)
+    h.end_fill()
 
-        h.fillcolor("#B31F29")
-        h.begin_fill()
-        h.right(65)
-        h.forward(290)
-        h.right(52)
-        h.forward(265)
-        h.end_fill()
+    h.penup()
+    h.left(90)
+    h.forward(300)
+    h.pendown()
+
+    h.fillcolor("#B31F29")
+    h.begin_fill()
+    h.right(65)
+    h.forward(290)
+    h.right(52)
+    h.forward(265)
+    h.end_fill()
 
 
 def main():
+    """
+    Sets up the screen and uses turtles to draw a house with windows and a door.
+    """
 
     wn = turtle.Screen()
     wn.bgpic("landscape.png")
