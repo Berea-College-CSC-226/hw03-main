@@ -1,11 +1,11 @@
 
 #################################################################################
-# Author:
-# Username:
+# Author: Gloire Muzeba
+# Username:muzebag
 #
-# Assignment:
-# Purpose:
-# Google Doc Link:
+# Assignment:hw03
+# Purpose:Learn about source control and Git
+# Google Doc Link:https://docs.google.com/document/d/1Cc8hE9zoNiUNEWM6DXcvrsf9pb6mtfM_NMNJyaw85Go/edit
 #
 #################################################################################
 # Acknowledgements:
@@ -20,7 +20,7 @@ import turtle
 def draw_square(muzebag):
 
 
-    # we will utilize the for loop function to draw it instead of writing so much code.
+    """" we will utilize the for loop function to draw it instead of writing so much code."""
 
     muzebag.pensize(10)
     muzebag.penup()
@@ -77,7 +77,7 @@ def main():
     wn = turtle.Screen()
     wn.bgcolor('blue')
 
-    # Function calls to function_1 and function_2.
+
     draw_square(muzebag)
     draw_triangle(muzebag)
     draw_rectangle(muzebag)

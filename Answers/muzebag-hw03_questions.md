@@ -82,28 +82,28 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-   Replace this text with your answer 
+   Cloning a repository (repo) means creating a local copy of a remote version-controlled project (often hosted on sites like GitHub).
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    A repository is the storage area for a project's files and version history. It may live locally on your system or remotely on services such as GitHub. Local and distant repositories can sync for working together.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit represents a snapshot of changes in a Git repository. A commit message summarizes the changes, allowing monitoring and communication.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+   When you push your code, you are transferring changes from your local machine (local repository) to a remote repository (such as GitHub). This makes your updates visible to others or stores them centrally.
 ```
 
 ---
@@ -115,21 +115,21 @@ with your answer to the question above.
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Pulling before pushing keeps your code up to current with the remote version, avoiding conflicts and coordinating changes.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    142 branches, yes I see others and mine as well.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes they are different.
 ```
 
 
@@ -139,7 +139,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When I checkout the master branch in PyCharm, the file remains visible but may return to its previous state if no changes were made.
 ```
 
 
@@ -147,7 +147,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, the file returns when you switch back to your branch. Branching lets you work on different features separately, switch contexts easily, and experiment safely.
 ```
 
 ---
@@ -159,7 +159,7 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    I am not in a group on slack there is no way i can ask.
 ```
 
 
