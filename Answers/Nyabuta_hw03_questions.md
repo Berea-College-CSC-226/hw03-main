@@ -110,21 +110,21 @@ with your answer to the question above.
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+you pull before push so that youre up to date.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    there are 142 branches, and i do see mine and many other branches.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+   The differnce is the codes thath everyone has written but the platform is the same.
 ```
 
 
@@ -134,7 +134,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    mine sort of changes and deletes thing unless i commit and push and also it shwos me everyines things.
 ```
 
 
@@ -142,7 +142,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    branching is useful becasue it allows yout ot see what your peers are doing and also seprate yours from theirs.
 ```
 
 ---
