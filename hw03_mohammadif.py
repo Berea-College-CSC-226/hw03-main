@@ -6,7 +6,6 @@
 import turtle
 
 def draw_car_body():
-
     turtle.colormode(255)
     turtle.fillcolor(0, 130, 130)
     turtle.begin_fill()
@@ -21,7 +20,6 @@ def draw_car_body():
     turtle.left(90)
 
     turtle.end_fill()
-
 
 def draw_wheels():
     turtle.colormode(255)
@@ -40,7 +38,6 @@ def draw_wheels():
     turtle.begin_fill()
     turtle.circle(20)
     turtle.end_fill()
-
 
 def draw_windows():
     turtle.colormode(255)
@@ -72,7 +69,6 @@ def draw_windows():
 
     turtle.end_fill()
 
-
 def draw_a_man():
     turtle.penup()
     turtle.goto(0, 80)
@@ -92,7 +88,6 @@ def draw_a_man():
     turtle.pensize(2)
     turtle.goto(0, 70)
 
-    # Draw the arms
     turtle.penup()
     turtle.goto(-10, 85)
     turtle.pendown()
@@ -103,7 +98,6 @@ def draw_a_man():
     turtle.pendown()
     turtle.goto(-10, 75)
 
-    # Draw the legs
     turtle.penup()
     turtle.goto(0, 70)
     turtle.pendown()
@@ -124,13 +118,10 @@ def draw_a_man():
     turtle.pendown()
     turtle.goto(10, 45)
 
-def set_background_color():
-    turtle.bgcolor("orange")
-
-
 def main():
+    wn = turtle.Screen()
+    wn.bgcolor("orange")
 
-    set_background_color()
     turtle.speed(1)
     turtle.penup()
     turtle.goto(-100, 0)
@@ -141,7 +132,6 @@ def main():
     draw_a_man()
 
     turtle.hideturtle()
-    turtle.done()
-
+    wn.exitonclick()
 
 main()
