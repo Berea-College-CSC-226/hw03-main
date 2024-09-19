@@ -34,7 +34,30 @@ def function_2():
     """
     pass
     # ...
+    for n in range(4):
+        t_house.forward(400)
+        t_house.left(90)
+    t_house.end_fill()
 
+
+
+
+
+    for side in range(2):
+        t_tree.forward(100)
+        t_tree.left(90)
+        t_tree.forward(200)
+        t_tree.left(90)
+    t_tree.end_fill()
+
+
+    for n in range(1):
+        t_draw_roof.left(140)
+        t_draw_roof.forward(250)
+        t_draw_roof.left(77)
+        t_draw_roof.forward(260)
+        t_draw_roof.left(143)
+        t_draw_roof.forward(390)
 
 def main():
     """
@@ -44,6 +67,11 @@ def main():
     # Function calls to function_1 and function_2.
     function_1()            # TODO  Remove when you replace it with your function
     function_2()            # TODO  Remove when you replace it with your function
-
+    for side in range(2):
+        t_tree.forward(100)
+        t_tree.left(90)
+        t_tree.forward(200)
+        t_tree.left(90)
+    t_tree.end_fill()
 
 main()  # Starts the program!
