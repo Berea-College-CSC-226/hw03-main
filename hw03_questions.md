@@ -134,7 +134,7 @@ mines and my stuff
      there? Did it change?
 
 ```
-    I ended up needing help with this part so i really don't know what it means by this. 
+    I ended up needing help with this part so i really don't know what it means by this.  
 ```
 
 
