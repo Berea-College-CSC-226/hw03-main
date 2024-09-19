@@ -82,7 +82,6 @@ def draw_door(goober):
 def draw_grass(goober):
     """draws the landscape"""
     goober.fillcolor('lightgreen')
-    """not quite kentucky bluegrass, but it'll do"""
     goober.begin_fill()
     goober.forward(300)
     goober.right(90)
@@ -122,7 +121,6 @@ def main():
     goober = turtle.Turtle()
     turtle.bgcolor('lightblue')
     goober.speed(9)
-    """faster means less time spent waiting on certain parts of testing"""
     draw_wall(goober)
     draw_roof(goober)
     draw_chimney(goober)
@@ -131,6 +129,5 @@ def main():
     draw_sun(goober)
 
     wn.exitonclick()
-    """Game over man!!! This just closes the program"""
 
 main()

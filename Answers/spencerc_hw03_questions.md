@@ -41,7 +41,7 @@ with your answer to the question above.
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    fd()
+    turtle.fd()
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
