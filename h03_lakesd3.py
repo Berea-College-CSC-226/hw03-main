@@ -11,15 +11,10 @@
 import turtle
 
 
-wn = turtle.Screen()
-wn.bgcolor("blue")
 
 
-stickman = turtle.Turtle()
-stickman.pensize(10)
 
-
-def draw_square_head():
+def draw_square_head(stickman):
     stickman.penup()
     stickman.goto(-30, 100)
     stickman.pendown()
@@ -30,7 +25,7 @@ def draw_square_head():
 
 
 
-def draw_body():
+def draw_body(stickman): #draws the body of the stickman, one line down
     stickman.penup()
     stickman.goto(0, 100)
     stickman.pendown()
@@ -39,7 +34,7 @@ def draw_body():
 
 
 
-def draw_arms():
+def draw_arms(stickman):# draws the legs of the stickman, two lines moving out of the torso
     stickman.penup()
     stickman.goto(0, 50)
     stickman.pendown()
@@ -53,8 +48,8 @@ def draw_arms():
     stickman.fd(50)
 
 
-# draws the legs of the stickman
-def draw_legs():
+
+def draw_legs(stickman): # draws the legs of the stickman
     stickman.penup()
     stickman.goto(0, 0)
     stickman.pendown()
@@ -68,7 +63,7 @@ def draw_legs():
     stickman.fd(70)
 
 
-def draw_balloon():
+def draw_balloon(stickman): #draws the balloon of the stickman, using a circle and another stick
     stickman.penup()
     stickman.goto(50, 50)  # Position near the stickman's hand
     stickman.pendown()
@@ -87,12 +82,17 @@ def draw_balloon():
 
 
 def main():
+    wn = turtle.Screen()
+    wn.bgcolor("blue")
+
+    stickman = turtle.Turtle()
+    stickman.pensize(10)
     stickman.pencolor("black")
-    draw_square_head()
-    draw_body()
-    draw_arms()
-    draw_legs()
-    draw_balloon()  # Draw the balloon after the stickman
+    draw_square_head(stickman)
+    draw_body(stickman)
+    draw_arms(stickman)
+    draw_legs(stickman)
+    draw_balloon(stickman)  # Draw the balloon after the stickman
     wn.exitonclick()
 
 
