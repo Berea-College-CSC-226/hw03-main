@@ -72,7 +72,7 @@ def create_turtle(pensize, color):
 
 def main():
     """
-        This is where the house, door, and tree is where it's being commanded from
+        This is where the house, door, and tree is where it's being commanded from.
         """
     wn=turtle.Screen()     #Set up the window and it's attributes
     wn.bgcolor('lightblue')

@@ -142,7 +142,7 @@ mines and my stuff
      here, describe how branching is useful:
 
 ```
-        I ended up needing help with this part so i really don't know what it means by this. 
+        I ended up needing help with this part so I really don't know what it means by this. 
 
 ```
 
