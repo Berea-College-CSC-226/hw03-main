@@ -116,7 +116,7 @@ def main():
     wn.onscreenclick(show_coordinates)
     turtle.mainloop()
 
-    # merci.penup()
+
     merci.goto(300, 200)
 
 
