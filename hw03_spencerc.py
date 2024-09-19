@@ -12,9 +12,7 @@
 #
 #################################################################################
 
-
 import turtle
-
 
 def draw_wall(goober):
     """draws and fills the square that will be the walls/base of the house"""
@@ -127,7 +125,6 @@ def main():
     draw_door(goober)
     draw_grass(goober)
     draw_sun(goober)
-
     wn.exitonclick()
 
 main()
