@@ -1,4 +1,3 @@
-
 #################################################################################
 # Author: DieuMerci Nshizirungu
 # Username: nshizirungud
@@ -18,10 +17,10 @@ import turtle
 
 
 def show_coordinates(x, y):
-    print(f"Coordinates: ({x}, {y})")            # shows me the coordinates when I click on the screen
+    print(f"Coordinates: ({x}, {y})")  # shows me the coordinates when I click on the screen
 
 
-def draw_house(merci):     # This function draws the house
+def draw_house(merci):  # This function draws the house
     merci.pendown()
     merci.color("orange")
     merci.begin_fill()
@@ -51,7 +50,7 @@ def draw_roof(merci):  # This function draws the Roof
     merci.end_fill()
 
 
-def draw_chimney(merci):    # This function draws a chimney
+def draw_chimney(merci):  # This function draws a chimney
     merci.color("red")
     merci.penup()
     merci.goto(120, 60)
@@ -63,7 +62,7 @@ def draw_chimney(merci):    # This function draws a chimney
     merci.end_fill()
 
 
-def draw_window(merci, merci2):            # This function draws the windows using two turtles, merci and merci02
+def draw_window(merci, merci2):  # This function draws the windows using two turtles, merci and merci02
     merci.penup()
     merci.color("lightblue")
     merci.goto(230, -50)
@@ -114,7 +113,6 @@ def main():
     draw_door(merci)
     wn.onscreenclick(show_coordinates)
     turtle.mainloop()
-
 
     merci.goto(300, 200)
 
