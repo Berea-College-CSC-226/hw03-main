@@ -15,21 +15,21 @@ with your answer to the question above.
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    213, 0 255
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+    101, 47, 27
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    102, 154, 123
 ```
 
 ---
@@ -41,32 +41,33 @@ with your answer to the question above.
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+   turtle.fd()
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    turtle.pos()
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    turtle.speed("fastest")
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    screen.colormode(255)
+    turtle.pencolor(102,154, 123)
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    turtle.fillcolor(102,154, 123)
 ```
 
 ---
@@ -76,28 +77,28 @@ with your answer to the question above.
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Cloning the Repo means were making our own personal copy of the code to our computers without changing the Original copy. 
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    The repository is the place the code os being stored in Github. It can exist on your local machine where it includes your .git It also exists in Github as a remote repository as a sort of backup.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit is essentially you saving your code or whatever you changed in your clone. A commit message is needed so other people who are programming with you can know what changes you made to the code and they can easily pick off where you left off.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    You are pushing from you local repository where you made the changes to the remote respository where people can view your changes. 
 ```
 
 ---
@@ -109,21 +110,21 @@ with your answer to the question above.
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    I'ts important to pull before you push to not cause merge conflicts. If your teammate made changes to the same file as you and you both pushed without confirming the updates youll get a merge conflict. This can all be avoided however if you pulled and confirmed your partner made changes before you push. 
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    Currently there are 134 branches including mine 
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes there are differences from the master branch and mine. The master branch doesn't have any writing or changes I made in my branch 
 ```
 
 
@@ -133,7 +134,7 @@ with your answer to the question above.
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    All my work went away including any files I had created. 
 ```
 
 
@@ -141,7 +142,7 @@ with your answer to the question above.
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    When I go back to PyCharm the changes that I made are still here including any files I made. Branching is useful in the sense that if you made a change in the branch it would not affect the master branch. This allows you to practice on scratch files and whenever you think you have something you can at last incorporate it into the master branch and if you don't you can keep working on the other branches. 
 ```
 
 ---
@@ -153,7 +154,7 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1726717793385269
 ```
 
 
