@@ -153,7 +153,7 @@ with your answer to the question above.
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    Is there a better way to edit previously merged/pulled files after getting comments?
 ```
 
 
