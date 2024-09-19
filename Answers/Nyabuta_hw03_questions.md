@@ -60,7 +60,8 @@ with your answer to the question above.
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    screen.colormode()
+    screen.colormode(255)
+    tutrle.pencolor((107,166,117))
 ```
 
 2.e. How would you fill a shape with the color xanadu?
