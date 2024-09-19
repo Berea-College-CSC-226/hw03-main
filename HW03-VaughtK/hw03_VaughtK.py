@@ -24,7 +24,7 @@ def main(t):
     t.color("green")
     t.width(4)
     t.speed(0)  # 1:slowest, 3:slow, 5:normal, 10:fast, 0:fastest
-    t.screen.bgcolor()
+    t.screen.bgcolor("black")
     t.left(60)
     t.forward(90)
     t.left(30)
