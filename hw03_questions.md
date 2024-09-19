@@ -43,8 +43,7 @@ with your answer to the question above.
 You can use turtle.fd() instead 
 ```
 
-2.b. What command from the turtle library can be used to print the turtle's current 
-   location?
+```2.b. What command from the turtle library can be used to print the turtle's current location?
    
 ```
 You would use turtle.setposition()
@@ -52,20 +51,20 @@ You would use turtle.setposition()
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-`You would use the code turtle.speed(speed=10) because it's the highest` 
+You would use the code turtle.speed(speed=10) because it's the highest` 
 
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    You would do your normal code turtle.color() and enter xanadu. 
+You would do your normal code turtle.color() and enter xanadu. 
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Turtle.begin_fill() is to start the fill of th shape and and you have to use turtle.end_fil(). 
+Turtle.begin_fill() is to start the fill of th shape and and you have to use turtle.end_fil(). 
 ```
 
 ---
@@ -75,28 +74,30 @@ You would use turtle.setposition()
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    It's were you are getting a replica of or copy of the original code. 
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    It is storage that keeps all project files and resources, it's located in your github. 
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    Commit is a file that is tagging changes, or revisions in a document. It's important process when it comes to developers.
+    Commits are only useful when they have a message because they indicate what changes had been done. 
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    A push saves your changes on github servers, so you can then use the code for their contined developement of software 
+    you're creating. 
 ```
 
 ---
@@ -108,21 +109,22 @@ You would use turtle.setposition()
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    I think it's important because of the changes that we make and so that we have the most updated version. 
 ```
 
-4.b. How many branches are in the repository?
+4.b. How many branches are in the repository? 
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+There is 142 branches currently. Yes, I do see mines and my classmates. 
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
-```
-    Replace this text with your answer
+``` 
+The difference between the master branch and mines is that in master i see everyones branch, but in mines i only see
+mines and my stuff
 ```
 
 
@@ -132,7 +134,7 @@ You would use turtle.setposition()
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    I ended up needing help with this part so i really don't know what it means by this. 
 ```
 
 
@@ -140,7 +142,8 @@ You would use turtle.setposition()
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+        I ended up needing help with this part so i really don't know what it means by this. 
+
 ```
 
 ---
@@ -152,7 +155,8 @@ You would use turtle.setposition()
   will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://app.slack.com/client/T3RM3MK1D/C3QACGH8R
+    
 ```
 
 
