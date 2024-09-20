@@ -47,7 +47,7 @@ def draw_door():
     for _ in range(2):  # Drawing a rectangle for the door
         zak.forward(100)  # Width of the door
         zak.left(90)
-        zak.forward(200)  # Height of the door
+        zak.forward(201)  # Height of the door
         zak.left(90)
     zak.end_fill()
 
