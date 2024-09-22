@@ -1,6 +1,6 @@
 #################################################################################
-# Author: flower stem
-# Username:stem
+# Author: Joyce Nimely
+# Username: Nimely
 #
 # Assignment:Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose:
@@ -17,11 +17,12 @@ import turtle
 
 #define function to draw background
 def  draw_background(screen: turtle.TurtleScreen ):
+    """Set up the background for the screen"""
     screen.colormode(255)
     screen.bgcolor(127,103,103)
 
-
 def draw_house(house: turtle.Turtle):
+    """Draw a square house with a roof."""
     house.penup()
     house.pensize(4)
     house.goto(-50,-50) #move turtle to a starting position
@@ -43,6 +44,7 @@ def draw_house(house: turtle.Turtle):
     house.forward(70)
 
 def draw_flower(flower:turtle.Turtle, stem: turtle.Turtle):
+    """ Draw a flower with petal and stem."""
     flower.color(239, 255, 0)
     flower.speed(20)
     flower.pensize(3)
@@ -70,20 +72,24 @@ def draw_flower(flower:turtle.Turtle, stem: turtle.Turtle):
     stem.forward(100)
 
 def main():
-    wn = turtle.Turtle()
-    screen = wn.screen
+    """Set up the screen and draw the house and flower."""
+    house = turtle.Turtle()
+    screen = turtle.Screen()
     turtle.speed('fast')
     draw_background(screen)
 
-    house = turtle.Turtle()
     draw_house(house)
 
     flower = turtle.Turtle()
     stem = turtle.Turtle()
     draw_flower(flower, stem)
 
+    screen.exitonclick()
+
 
 main()
+
+
 
 
 
