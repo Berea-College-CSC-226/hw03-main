@@ -15,7 +15,6 @@
 
 import turtle
 
-
 def drawSquare(bob, sz):
     """Make turtle t draw a square with side sz."""
     for _ in range(4):
