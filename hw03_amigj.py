@@ -6,7 +6,7 @@
 # Username: Amigj
 #
 # Assignment: HW03
-# Purpose:
+# Purpose: Complex turtling
 # Google Doc Link: https://docs.google.com/document/d/1ZubPrhdobqaMp-9kqOMK8lZNzvwYkhv42pZEmzof-wU/edit
 #
 #################################################################################
@@ -24,37 +24,44 @@
 import turtle
 
 
-def oval ():
+def round (t,r):
     """
-    Draws an oval and fills in with any color.
+    Draws a circle and fills in with any color.
     """
-    pass
+
+    t.begin_fill()
+    t.circle(radius = r)
+    t.color("yellow")
+    t.end_fill()
+
     # ....
 
 
-def round ():
+def quad (t,l,w):
     """
-    Example docstring for function_2. function_2 is not a good function name and should be changed.
+        Make a qualuilatural shape (rectangle or squares can be made.
     """
-    pass
+    for q in range(2):
+        t.forward(l)
+        t.right(90)
+        t.forward(w)
+        t.right(90)
     # ...
 
 
 def main():
     """
-    Docstring for main. Should describe the main functionality of this file.
+
     """
     wn = turtle.Screen()
     jimmy = turtle.Turtle()
+    round(jimmy,100)
+    quad(jimmy, 150,70)
+
 
 
     wn.exitonclick()
 
-
-
-    # Function calls to function_1 and function_2.
-    function_1()            # TODO  Remove when you replace it with your function
-    function_2()            # TODO  Remove when you replace it with your function
 
 
 main()  # Starts the program!
