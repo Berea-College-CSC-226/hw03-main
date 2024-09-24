@@ -11,6 +11,12 @@
 #
 #################################################################################
 # Acknowledgements:
+#T03_functions_house
+#https://docs.python.org/3/library/turtle.html#turtle.colormode
+#https://docs.python.org/2/library/turtle.html#turtle.colormode
+#https://docs.python.org/3/library/turtle.html#turtle.circle
+#
+#
 #
 #
 #################################################################################
@@ -22,43 +28,109 @@
 
 
 import turtle
+import random
 
-
-def round (t,r):
+def round (t, a, r, g, b):
     """
     Draws a circle and fills in with any color.
     """
-
+    t.penup()
+    t.pendown()
+    turtle.colormode(255)
     t.begin_fill()
-    t.circle(radius = r)
-    t.color("yellow")
+    t.circle(radius = a)
+    t.color(r, g, b)
     t.end_fill()
+    t.penup()
 
     # ....
 
 
-def quad (t,l,w):
+def quad (t, l, w, r, g, b):
     """
         Make a qualuilatural shape (rectangle or squares can be made.
     """
+    t.penup()
+    t.pendown()
+    t.begin_fill()
     for q in range(2):
         t.forward(l)
         t.right(90)
         t.forward(w)
         t.right(90)
-    # ...
+    t.color(r, g, b)
+    t.end_fill()
+    t.penup()
 
+    # ...
+def arc (t, a, c, s):
+    """
+        makes arcs/curves
+        """
+    t.penup()
+    t.pendown()
+    t.pensize(s)
+    t.circle(radius = a, extent = c)
+    t.penup()
+
+def water (t):
+    """
+       Draws water ripples
+       """
+
+for count in range(10):
+    turtle.speed(0)
+    turtle.pencolor("#FFFFFF")
+    rando = random.randrange(-200,200)
+    turtle.goto(rando, rando)
+    c = random.randrange(90,270)
+    arc(turtle, 90,c,3)
 
 def main():
     """
-
+    draw the froggy boyo and fly
     """
     wn = turtle.Screen()
     jimmy = turtle.Turtle()
-    round(jimmy,100)
-    quad(jimmy, 150,70)
 
+    wn.bgcolor("cyan") #change color
 
+    jimmy.speed(0)
+    water(jimmy)
+
+    #head
+    round(jimmy,100, 100, 255, 0)
+    #eyel
+    jimmy.pencolor(0,0,0)
+    jimmy.goto(-75 ,150)
+    round(jimmy,35, 255,255,255)
+    round(jimmy, 15,0,0,0)
+    #eyer
+    jimmy.goto(75, 150)
+    round(jimmy, 35, 255, 255, 255)
+    round(jimmy, 15, 0, 0, 0)
+    #mouth
+    jimmy.goto(-70,100)
+    jimmy.right(90)
+    arc(jimmy, 70,180,3)
+    #tongue
+    jimmy.pensize(1)
+    jimmy.left(90)
+    jimmy.goto(20,-120)
+    quad(jimmy, 40,150,255,150,255)
+
+    #fly
+    jimmy.goto(0,-100)
+    round(jimmy, 30,100,100,100)
+    jimmy.goto(0,-120)
+    for eyes in range(2):
+        round(jimmy, 15, 255,0,0)
+        jimmy.forward(-30)
+    jimmy.goto(-35,-120)
+    for wings in range(2):
+        jimmy.pencolor("#FFFFFF")
+        arc(jimmy,20,270,4)
+        jimmy.forward(25)
 
     wn.exitonclick()
 
