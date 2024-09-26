@@ -89,7 +89,7 @@ def main():
 
     bob.fillcolor("light yellow")
     bob.begin_fill()
-    drawSquare(bob, 500)
+    drawSquare(bob, 501)
     bob.end_fill()
 
     bob.penup()
