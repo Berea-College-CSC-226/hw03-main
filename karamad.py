@@ -23,6 +23,7 @@ def drawSquare(bob, sz):
 
 
 def window(bob):
+    """ Makes bob draw the windows"""
     drawSquare(bob, 80)
     bob.forward(40)
     bob.left(90)
@@ -34,6 +35,7 @@ def window(bob):
 
 
 def roof(bob):
+    """ Makes bob draw the roof of the house"""
     bob.fillcolor("gray")
     bob.begin_fill()
     bob.left(45)
@@ -44,6 +46,7 @@ def roof(bob):
 
 
 def door(bob):
+    """ Makes bob draw the doors to the house"""
     bob.penup()  # makes the door
     bob.right(130)
     bob.forward(300)
@@ -60,6 +63,7 @@ def door(bob):
 
 
 def makes_windows(bob):
+    """ Makes bob draw the window where I want  """
     bob.penup()
     bob.goto(-210, 60)
     bob.pendown()
@@ -68,16 +72,6 @@ def makes_windows(bob):
     bob.goto(30, -23)
     bob.pendown()
     window(bob)
-
-
-def grass(bob):
-    bob.left(45)
-    bob.forward(30)
-    bob.right(90)
-    bob.forward(30)
-    bob.backward(30)
-    bob.left(90)
-    bob.backward(30)
 
 
 def main():
@@ -110,13 +104,6 @@ def main():
     bob.goto(-800, -359)
     bob.pendown()
     bob.color("green")
-
-    # for _ in range(2):
-    #     grass(bob)
-    #     bob.right(45)
-    #     bob.forward(20)
-    #     bob.left(90)
-    #     bob.forward(20)
 
     wn.exitonclick()
 
