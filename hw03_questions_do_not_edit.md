@@ -6,10 +6,12 @@
     VERY IMPORTANT: Make a copy of this file. DO NOT EDIT IT DIRECTLY!
 </span>_**
 
-Please replace each `Replace this text with your answer` 
-with your answer to the question above.
+1. Make a copy of this file by selecting the file and hitting CTRL+C. 
+2. Paste your copy into the `Answers` folder.
+3. Name the file `hw03_username.md` replacing `username` with your username.
+4. Replace each `Replace this text with your answer` with your answer to the question above it.
 
-## SECTION 1: 
+## SECTION 1
 
 1.a. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color purple. 
      What are the R, G, and B values?
