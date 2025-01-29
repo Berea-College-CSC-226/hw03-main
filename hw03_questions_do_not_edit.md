@@ -149,14 +149,13 @@
 ---
 
 ## SECTION 5
-- A lot happened in this assignment, and often, you do things without fully 
-  understanding them. Your last task is to formulate a question and ask it. 
-  To do this, put your question into the [Slack channel](https://bereacs.slack.com/archives/C3QACGH8R) and the TAs and the instructor 
-  will do our best to answer them. Paste the link to your question in Slack here:
+
+A lot happened in this assignment, and often, you do things without fully understanding them. Your last task is to 
+formulate a question and ask it. To do this, put your question into the [Slack channel](https://bereacs.slack.com/archives/C3QACGH8R) and the TAs and the 
+instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
     Replace this text with your answer
 ```
 
-
-
+---
