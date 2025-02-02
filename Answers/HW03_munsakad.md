@@ -117,21 +117,21 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+To update the changes made by others so as to avoid the merge conflict
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    There are four braches including mine
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Its kinda the same except that mine has an extra python file and some answered questions, otherwise the layout is the same.
 ```
 
 
@@ -141,7 +141,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+  My file is no longer there, I can't see it.
 ```
 
 
@@ -149,7 +149,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes but the question I had answered on section 4 has all disappeared so I had to redo them which sucks, in this case, branching helps saving coppies of our files such that when events like this happens, you will be having a backup plan rather than restarting the whole file. 
 ```
 
 ---
@@ -161,7 +161,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1738473945425329
 ```
 
 ---
