@@ -3,7 +3,7 @@
 
 #################################################################################
 # Author:Liz Miller
-# Username:millere4
+# Username: millere4
 #
 # Assignment:HW03:Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose:Practice using functions and turtle library, learn about computer coloring, and learn about source control and git.
