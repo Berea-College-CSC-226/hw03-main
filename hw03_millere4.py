@@ -169,7 +169,7 @@ def traveling_turt_named_burt():
 
 def not_a_tiger():
 
-
+    pass
 
 def main():
     import turtle
@@ -198,7 +198,7 @@ def main():
     """
     sets RGB color mode
     """
-    turtle.penup()  ###do i even need this?!
+    turtle.penup()  ###do i even need this?!##############check
     """
     lifts turtle pen at origin
     """
@@ -207,10 +207,10 @@ def main():
     thee_answer()
     pleurodira_playlist()
     traveling_turt_named_burt()
-    not_a_tiger()
+    #not_a_tiger()
 
+    wn = turtle.Screen()
+    wn.exitonclick()
     turtle.done()
 if __name__ == "__main__":
     main() # Starts the program
-    wn=turtle.Screen()
-    wn.exitonclick()
