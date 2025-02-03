@@ -155,7 +155,8 @@
      there? Did it change?
 
 ```
-    The main
+    When I checked out the master branch, my new file was not there anymore. However, when I checked out my branch again
+    then my file came back.
 ```
 
 
@@ -163,7 +164,9 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+   Yes when I went back to my branch then the file was back. Based on that, I can say that branching is useful because I
+   can try new things without it having an impact on the main branch so that if the things I am trying don't work then
+   I can still go back to the main to see the original version that I initially did not modify.
 ```
 
 ---
