@@ -43,7 +43,7 @@ def angry_brow():
 
 
 def protect_ya_neck():
-    pygame.mixer.init()
+    pygame.init()
     """
     initializes pygame mixer
     """
