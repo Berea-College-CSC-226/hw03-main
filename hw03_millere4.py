@@ -3,7 +3,7 @@
 
 #################################################################################
 # Author:Liz Miller
-# Username: millere4
+# Username:millere4
 #
 # Assignment:HW03:Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose:Practice using functions and turtle library, learn about computer coloring, and learn about source control and git.
@@ -16,7 +16,7 @@
 #################################################################################
 
 
-import turtle
+
 
 
 def function_1():
@@ -36,6 +36,9 @@ def function_2():
 
 
 def main():
+    import turtle
+    wn = turtle.Screen()
+    wn.colormode()
     """
     Docstring for main. Should describe the main functionality of this file.
     """
