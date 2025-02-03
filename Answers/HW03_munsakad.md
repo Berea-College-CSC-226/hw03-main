@@ -136,7 +136,7 @@ To update the changes made by others so as to avoid the merge conflict
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Its kinda the same except that mine has an extra python file and some answered questions, otherwise the layout is the same.
+    No, theya are the same
 ```
 
 
