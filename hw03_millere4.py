@@ -14,38 +14,203 @@
 #
 #
 #################################################################################
+######################################################################################
+
+import turtle
+
+from pygame.examples.scrap_clipboard import screen
+
+"""
+    imports turtle library
+"""
+import pygame               #attaching chatgpt thread I used to learn how to add this and threading into the script to incorporate music. https://chatgpt.com/share/67a01c5c-7b34-800b-8f00-c6f6b55c6526
+"""                         
+    imports pygame library. 
+"""
+import threading            #just having a little fun :)
+"""
+    imports threading library.
+"""
+
+####turtle fact no.1, turtles have a limiting membrane around their lungs that is attached via muscles to their fore and hind limbs. Walking/swimming, movement of legs, assists their breathing.
+def angry_brow():
+    turtle.Turtle()
+    turtle.hideturtle()
+    turtle.penup()
+    turtle.left(180)
+    turtle.backward(22)
+    turtle.stamp()
 
 
-
-
-
-def function_1():
+def protect_ya_neck():
+    pygame.mixer.init()
     """
-    Example docstring for function_1. function_1 is not a good function name and should be changed.
+    initializes pygame mixer
     """
+    pygame.mixer.music.load("Protect ya neck.mp3")
+    """
+    song path/loads this specific song
+    """
+    pygame.mixer.music.play(-1)
+    """
+    plays music on an indefinite loop
+    """
+wu_tang_magic=threading.Thread(target=protect_ya_neck)
+"""
+    creates thread for protect ya neck, attaches variable to it.
+"""
+wu_tang_magic.daemon=True
+"""
+makes the dream a daemon thread, so it will terminate when the main thread terminates.
+"""
+wu_tang_magic.start()
+"""
+starts music thread
+"""
+
+#### I wasted way too much time on this, but it was fun and I learned a lot.
+#### turtle fact no.2, turtles have temperature dependent sex determination. temperature fluctuations during incubation can result in only one sex turtle hatching from a clutch.
+###########################################################################################################
+###########################################################################################################
+def thee_answer():
+    turtle.Turtle()
+    """
+    defines the_answer as a turtle object
+    """
+    turtle.hideturtle()
+    """
+    hides turtle shape
+    """
+    turtle.color((116, 201, 32))
+    turtle.setpos(0, 200)
+    """
+    sets turtle position
+    """
+    turtle.write("Side neck turts gotta, ", move=False, align='center', font=("Bold", 50, ("bold")))
+    """
+    writes answer on turtle screen
+    """
+    pass
+
+def pleurodira_playlist():
+    turtle.Turtle()
+    """
+    defines pleurodira as a turtle object
+    """
+    turtle.hideturtle()
+    """
+    hides turtle shape
+    """
+    turtle.color((87,112,92))
+    """
+    sets turtle color to a dark green
+    """
+    turtle.setpos(40, 158)
+    """
+    pretty neat! sets position of text
+    """
+
+    turtle.write("Protect ya neck!", move=False, align='center', font=("Bold", 40, ("bold")))
+    """
+    writes text on screen
+    """
+
     pass
     # ....
 
+def traveling_turt_named_burt():
+    burt=turtle.Turtle()
+    burt.shape("turtle")
+    burt.color(2,154,68)
+    burt.speed(2)
+    burt.pensize(40)
+    burt.penup()
+    burt.setpos(-255, -150)
+    """
+    sets turtle position
+    """
+    # Rectangle dimensions
+    width = 17  # Width of the rectangle (in stamps)
+    height = 10  # Height of the rectangle (in stamps)
 
-def function_2():
+    # Bottom side (move right)
+    for _ in range(width):
+        burt.stamp()  # Stamp
+        burt.forward(30)  # Move forward by 30 units before stamping
+
+    burt.left(90)  # Turn left by 90 degrees to go up
+
+    # Right side (move up)
+    for _ in range(height):
+        burt.stamp()  # Stamp
+        burt.forward(30)  # Move up by 30 units
+
+    burt.left(90)  # Turn left by 90 degrees to go left
+
+    # Top side (move left)
+    for _ in range(width):
+        burt.stamp()  # Stamp
+        burt.forward(30)  # Move left by 30 units
+
+    burt.left(90)  # Turn left by 90 degrees to go down
+
+    # Left side (move down)
+    for _ in range(height):
+        burt.stamp()  # Stamp
+        burt.forward(30)
+
+
     """
-    Example docstring for function_2. function_2 is not a good function name and should be changed.
+    results in turtle stamp frame around picture
     """
+
     pass
     # ...
+
+def not_a_tiger():
+
 
 
 def main():
     import turtle
+    """
+    imports turtle library
+    """
     wn = turtle.Screen()
-    wn.colormode()
     """
-    Docstring for main. Should describe the main functionality of this file.
+    Creates screen and assigns it the variable wn
     """
+    wn.setup(800,600)
+    """ 
+    sets up the screen size
+    """
+    wn.colormode(255)
+    wn.bgcolor("Black")
+    wn.bgpic("Wave Swimming GIF by Roger Williams Park Zoo.gif")
+    """
+    Sets background image
+    """
+    turtle.hideturtle()
+    """
+    hides turtle shape
+    """
+    turtle.colormode(255)
+    """
+    sets RGB color mode
+    """
+    turtle.penup()  ###do i even need this?!
+    """
+    lifts turtle pen at origin
+    """
+    angry_brow()
+    protect_ya_neck()
+    thee_answer()
+    pleurodira_playlist()
+    traveling_turt_named_burt()
+    not_a_tiger()
 
-    # Function calls to function_1 and function_2.
-    function_1()            # TODO  Remove when you replace it with your function
-    function_2()            # TODO  Remove when you replace it with your function
-
-
-main()  # Starts the program
+    turtle.done()
+if __name__ == "__main__":
+    main() # Starts the program
+    wn=turtle.Screen()
+    wn.exitonclick()
