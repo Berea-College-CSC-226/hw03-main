@@ -34,7 +34,7 @@ def draw_mouth():
 
     s = turtle.Turtle()
     s.pensize(10)
-    s.color("black")
+    s.color("green")
     s.penup()
     s.setposition(-30, -100)
     s.pendown()
@@ -59,7 +59,7 @@ def draw_eyes():
     """ draws the eyes and ears of panda
     :return: None (void function)"""
     r = turtle.Turtle()
-    r.color("black")
+    r.color("purple")
     r.pensize(10)
     r.penup()
     r.setposition(85, 130)
@@ -92,10 +92,10 @@ def draw_eyes():
 
 def main():
     wn = turtle.Screen()
-    wn.bgcolor('grey')
+    wn.bgcolor('light blue')
     t = turtle.Turtle()
     t.pensize(10)
-    t.pencolor("black")
+    t.pencolor("orange")
     t.penup()
     t.setposition(0,-120)
     t.pendown()
