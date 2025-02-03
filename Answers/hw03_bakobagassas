@@ -93,29 +93,32 @@
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+  Cloning the repo means making an identical copy of a file/folder from Github to the computer.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+   The repository is were our work is being stored, it first exists in Github then we can clone it
+   into our machine.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit is when we save any progress we have made on our work. It needs a message so that we can come
+    back to each previous version as needed.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
-```
+    Pushing our code means that any changes we made will be saved to the Github’s servers themselves from our
+    local machine. This also enables other people which our repository link to access our work.
+ ```
 
 ---
 
@@ -126,14 +129,16 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    So that if a collaborator made any changes when we were away then we can access them before starting to work.
+    This also enables us to avoid working on something they already worked on because it will cause an issue when
+    it will come to pushing our work.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    I can see 8 branches in the repository. Yes, I can see them.
 ```
 
 
