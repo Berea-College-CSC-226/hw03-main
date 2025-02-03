@@ -122,21 +122,23 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    To make sure your local version is up to date with the main version before pushing.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    Currently there are 10 branches including mine and 9 others from classmates
+    and the professor.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, my branch has an additional python file for the turtle drawing and an additional
+    file for the homework questions.
 ```
 
 
@@ -146,7 +148,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    Yes, my file is no longer in the project pane when I checkout the master branch.
 ```
 
 
@@ -154,7 +156,8 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes. Branching is useful since it allows you to create seperate versions of code 
+    while still keeping the original file(s) in case you need a fresh start.
 ```
 
 ---
@@ -166,7 +169,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1738562078037709
 ```
 
 ---
