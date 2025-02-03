@@ -1,3 +1,11 @@
+################################################
+# Name: Dingani Munsaka
+#Title: Fully Functional Gitty Psychedelic Robotic Turtles
+#Google doc link: https://docs.google.com/document/d/1_QtOsvS1fWH7XksrLDKD0NqiDHW8SSyqDkNQlqv7ePw/edit?usp=sharing
+#Acknoledgements: None for this code, I made it on my own.
+#
+#######################################################
+
 import turtle
 
 
@@ -6,18 +14,27 @@ s=turtle.Turtle()
 
 
 def draw_rectangle(t,s):
+    """
+    This function draws the recurring rectangle with the length of the side being i increment.
+    """
     for i in range(100):
         t.forward(i)
         t.left(90)
 
 
 def triangle():
+    """
+    This function does the same as the rectangle only that this time is triangles
+    """
     for i in range(50):
         w.forward(i * 5)
         w.left(120)
 
 
-def flower():
+def sun_rays():
+    """
+    This function draws the sun rays besides the triangles and rectangles for decoration purposes
+    """
     t = turtle.Turtle()
     t.speed(8)
     t.color('red', 'blue')
@@ -31,7 +48,10 @@ def flower():
         t.left(169)
 
 
-def star():
+def flower():
+    """
+    This function draws a flower on the other side of the rectangles and triangles for decorative purposes
+    """
     s.pencolor('orange')
     s.penup()
     s.fd(-100)
@@ -44,6 +64,9 @@ def star():
 
 
 def main():
+    """
+    Here in the main is where I defined all my turtles and calling the functions above
+    """
     wn = turtle.Screen()
     wn.bgcolor('blue')
     tess = turtle.Turtle()
@@ -59,8 +82,8 @@ def main():
     w.pendown()
     draw_rectangle(tess, 50)
     triangle()
+    sun_rays()
     flower()
-    star()
     wn.exitonclick()
 
 main()

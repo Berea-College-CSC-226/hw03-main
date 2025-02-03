@@ -1,5 +1,10 @@
 # Fully Functional Gitty Psychedelic Robotic Turtles
-
+#
+# Name: Dingani Munsaka
+#Title: Fully Functional Gitty Psychedelic Robotic Turtles
+#Google doc link: https://docs.google.com/document/d/1_QtOsvS1fWH7XksrLDKD0NqiDHW8SSyqDkNQlqv7ePw/edit?usp=sharing
+#Acknoledgements: I used google to confirm some of the answers 
+#
 ## Instructions
 
 **_<span style="color:red">
