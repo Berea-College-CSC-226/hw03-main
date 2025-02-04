@@ -124,14 +124,14 @@
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    I see two of mine (orginal,copy branch) and one other person.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    My branch has copy files with code while main has its own files with no code.
 ```
 
 
@@ -141,7 +141,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+   It is not there anymore the only files in the main branch are the do not edits.
 ```
 
 
@@ -149,7 +149,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes my file is back. From the looks of branching allows users to keep their work separate from main but still be able to you to go into main.
 ```
 
 ---
@@ -161,7 +161,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://app.slack.com/client/T3RM3MK1D/C3QACGH8R 
 ```
 
 ---
