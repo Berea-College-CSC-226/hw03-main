@@ -160,7 +160,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    If I were to accidentally push the wrong changes how can I undo a git push?
 ```
 
 ---
