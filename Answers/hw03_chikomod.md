@@ -146,7 +146,7 @@
      there? Did it change?
 
 ```
-    
+    My changes were not saved to the original branch. All the prompts reverted back to the original state.
 ```
 
 
@@ -154,7 +154,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, you get to work on your own without interfering in the whole project.
 ```
 
 ---
@@ -166,7 +166,8 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    I wanted to ask this question but when i opened slack i found out that Ahna Watt had already asked it so I read Dr. Scott's response to the question. 
+    https://bereacs.slack.com/archives/C3QACGH8R/p1738673977169939?thread_ts=1738640407.489679&cid=C3QACGH8R
 ```
 
 ---
