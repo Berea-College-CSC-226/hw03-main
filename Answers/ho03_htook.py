@@ -3,7 +3,7 @@ import turtle
 kh1 = turtle.Turtle
 wn = turtle.Screen()
 wn.bgcolor('lightblue')
-print(wn.screensize())
+
 kh1.penup()
 kh1.setposition(200,100)
 kh1.pendown()
