@@ -26,7 +26,7 @@ def foundation(base):
         base.forward(100)
         base.left(90)
         base.forward(100)
-    base.end_fill()
+    base.end_fill() #ends the filling
 
 def roof(base):
     base.penup()

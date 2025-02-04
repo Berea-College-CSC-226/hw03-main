@@ -80,28 +80,28 @@
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    cloning the repository means taking the latest copy of whatever repository you are copying and making it a local one
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    After cloning it is local normally it is in github
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    Commiting is essentailly a save point where you are saying this is what I did here and that is what the commit message is for
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing your code is taking your code and putting it into github from your local to the main repository
 ```
 
 ---
@@ -113,21 +113,21 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    So you are the most up to date therfore insuring no issues with merge conflicts
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    23 branches and I see mine and my classmates
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes one is starred and you can not throw away the main branch
 ```
 
 
@@ -137,7 +137,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+   it is gone but now is in the remote set of branches
 ```
 
 
@@ -145,7 +145,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    it s not back showing how it is now in the remote and branching is useful as to not have conflicts with all your files missing
 ```
 
 ---
@@ -157,7 +157,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1738702708430519 
 ```
 
 ---
