@@ -11,7 +11,7 @@
 # Scheme color: https://www.schemecolor.com/psychedelic-art.php
 # Pinterest: https://www.pinterest.com/pin/how-to-draw-bart-simpson-step-by-step--787989266073274494/
 #################################################################################
-# useless change: import the turtle module
+# useless change - import the turtle module
 
 import turtle
 
