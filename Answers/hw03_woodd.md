@@ -118,14 +118,14 @@
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    there are 11 branches located in the Remote
+    there are 11 branches located in the Remote section. I do, its located in the local/recent section.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    They are different. My branch has a couple extra files.
 ```
 
 
@@ -135,7 +135,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+   All of my files have dissapeard except for the ones that were already in main
 ```
 
 
@@ -143,7 +143,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Branching allows for multiple people to create and add files and work together to try and not mess up eachothers work or the main work.
 ```
 
 ---
