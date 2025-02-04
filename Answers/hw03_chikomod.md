@@ -129,14 +129,14 @@
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    24
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes
 ```
 
 
@@ -146,7 +146,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    
 ```
 
 
