@@ -1,11 +1,9 @@
 ########################################################################################################################
 # Author: Liz Miller
 # Username: millere4
-#
 # Assignment: HW03:Fully Functional Gitty Psychedelic Robotic Turtles
 # Purpose: Practice using functions and turtle library, learn about computer coloring, and learn about source control and git.
 # Google Doc Link: https://docs.google.com/document/d/1UjeAgNqt2sr6U5eQ6sAq0yWgOL2Su_GQgJ_tg0iqL-o/edit?usp=sharing
-#
 ########################################################################################################################
 #Acknowledgements:
 #Thread for learning how to add music into script from chatGPT https://chatgpt.com/share/67a01c5c-7b34-800b-8f00-c6f6b55c6526
@@ -15,8 +13,6 @@
 ########################################################################################################################
 
 import turtle
-
-from pygame.examples.cursors import image
 
 """
     imports turtle library
@@ -28,7 +24,7 @@ import pygame               #attaching chatgpt thread I used to learn how to add
 """                         
     imports pygame library. 
 """
-import threading            #just having a little fun :)
+import threading
 """
     imports threading library.
 """
