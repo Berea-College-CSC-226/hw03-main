@@ -8,8 +8,40 @@
 # h.j4414z2ufr72
 #
 #################################################################################
-# Acknowledgements:
-#
+# Acknowledgements:OpenAI's ChatGPT. (2025). Example of Python code to draw a flower with five petals using turtle.
+# Retrieved from: https://chat.openai.com
+# Example given:
+#import turtle
+
+# Set up the turtle screen
+#screen = turtle.Screen()
+#screen.bgcolor("white")
+
+# Create the turtle object
+#flower = turtle.Turtle()
+#flower.shape("turtle")
+#flower.speed(10)  # Fast drawing speed
+
+# Function to draw a single petal
+#def draw_petal():
+#   flower.color("red")
+#   flower.circle(100, 60)  # Draw a circle with 100 radius and 60 degrees arc
+#   flower.left(120)  # Turn the turtle to the left by 120 degrees
+#   flower.circle(100, 60)
+#   flower.left(120)
+
+# Draw five petals
+#for _ in range(5):
+#    draw_petal()
+#    flower.left(72)  # Turn the turtle to make space for the next petal
+
+# Hide the turtle after drawing
+#flower.hideturtle()
+
+# Keep the window open until it is closed by the user
+#turtle.done()
+
+# *I couldn't figure out how to get the exact link to the page*
 #
 #################################################################################
 
@@ -20,8 +52,18 @@ def draw_grass(g):
     draws grass
     :param g:
     """
+    g.penup()
+    g.setposition(-318, -220)
+    g.pendown()
+    for grass in range(2):
+        g.begin_fill()
+        g.forward(630)
+        g.right(90)
+        g.forward(150)
+        g.right(90)
+        g.end_fill()
 
-#run
+#run circle in the middle of the flower and then draw flower stem with another petal
 def draw_circle(c):
     """
     draws a circle and stem
@@ -50,10 +92,11 @@ def draw_circle(c):
     c.left(120)
     c.end_fill()
 
-
-
 #run flower petals
 def main():
+    """
+    draws flower petals
+    """
     wn = turtle.Screen()
     wn.bgcolor("lightblue")
     petal = turtle.Turtle()
@@ -72,10 +115,6 @@ def main():
         petal.end_fill()
     draw_circle(c)
     draw_grass(g)
-
-
-
-
 
     wn.exitonclick()
 

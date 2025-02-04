@@ -60,19 +60,26 @@
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    You put the command turtle.speed() and set the speed to 10 
+    You put the command turtle.speed() and set the speed to 0 because that makes it 
+    go the fastest.  
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    You would use the commands. turtle.color
+    Once you create your turtle and name the turtle, I will use (t) you 
+    would set up the command t.colormode(225) because that is the default and then
+    on the next line you will put t.color( 100, 127, 111). This works because in the 
+    parenthases with the 3 numbers represent (r, g, b).
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    You need to use the command fillcolor(100, 127, 111). Befor your shape there
+    should be begin_fill() and after there should be a end_fill() commands. (the name
+    of your turtle should be before those commands followed by a period.
+    
 ```
 
 ---
@@ -119,21 +126,25 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    It is important to pull before you push so that you are in sync with the main. 
+    You will have the changes of the main to your branch. 
+ 
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+   There are currently 17 branches in the repository. I do see mine and the other 
+   branches. 
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes they are different because mine has been edited. Under the Answers file mine 
+    has this in it but on the main the are no files under the Answers file. 
 ```
 
 
@@ -143,7 +154,8 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    It is not there. It went back to the original state that it was in before my 
+    changes. 
 ```
 
 
@@ -151,7 +163,10 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes my file is back. Branching is useful because it allows us to keep an original
+    copy with out any edits so that if you can refer back to it if needed. Branching 
+    also allows us to work on the main with out changing it so that people can 
+    collaborate and work on in independintly and more efficiently.   
 ```
 
 ---
@@ -163,7 +178,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1738639038045889
 ```
 
 ---
