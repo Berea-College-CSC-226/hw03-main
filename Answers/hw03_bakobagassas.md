@@ -22,6 +22,7 @@
     G: 48
     B: 220
 
+#AE30DC
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
@@ -31,7 +32,7 @@
     R: 112
     G: 67
     B: 67
-
+#704343
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
@@ -41,7 +42,7 @@
     R: 102
     G: 148
     B: 125
-
+#66947D
 ```
 
 ---
@@ -178,7 +179,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+https://bereacs.slack.com/archives/C3QACGH8R/p1738642994559549
 ```
 
 ---
