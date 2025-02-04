@@ -128,21 +128,21 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    It helps to avoid conflicts, prevent overwriting others’ work, and keep your code up to date. Also, it ensures smooth collaboration while working on the project.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    17 branches. I see mine and also I can see others.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    In my branch there are already edited files and written code. Also, there are some PDFs that I used for the background in my code.
 ```
 
 
@@ -152,7 +152,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    My files disappeared in the Project pane of PyCharm when I switched to the master branch.
 ```
 
 
@@ -160,7 +160,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    When I went back to my branch in PyCharm, my files are back. Branching is useful because it allows you to work on the project, making individual changes without direct effect on others work.
 ```
 
 ---
@@ -172,7 +172,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1738632836010539
 ```
 
 ---
