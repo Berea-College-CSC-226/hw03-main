@@ -181,5 +181,4 @@ def main():
     turtle.done()
 
 main()
-
 #pulled my hair out trying to figure out the right (X,Y) coordinates
