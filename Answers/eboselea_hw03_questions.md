@@ -84,28 +84,28 @@
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Cloning creates a copy of the files in github for your own personal computer.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    The reposity is where your files are kept. It's located in Guthub.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    Commit saves changes to your code, and a message tells what changes have been made.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing your code backs it up to Github, and it also allows other people to save.
 ```
 
 ---
@@ -117,21 +117,21 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    To make sure the files in your branch are in sync with the main branch
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    I counted 30 branches in the repository. I can see mine as well as others.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    The only thing different is the scratch code I added for writing code on my house.
 ```
 
 
@@ -141,7 +141,7 @@
      there? Did it change?
 
 ```
-    I can still see my file
+    I can still see my file.
 ```
 
 
@@ -149,7 +149,7 @@
      here, describe how branching is useful:
 
 ```
-    Branching is useful because it allows you to have your own code seperate from t
+    Branching is useful because it allows you to have your own code seperate from the main code.
 ```
 
 ---
