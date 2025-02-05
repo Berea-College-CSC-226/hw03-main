@@ -189,7 +189,7 @@ def draw_eyes(self):
     positions = [(-60, 30), (60, 50)]  # Eye positions
 
     if user_input == "yes":
-     # Nested loop: outer loop go to positions while inside loop draws hypnotic pupils
+     # Nested loop: outer loop go to positions while inside loop draws hypnotic or regular pupils
         for eye in range(2):
             self.penup()
             self.goto(positions[eye])  # Got to left (-60, 30) then right (60, 50)
