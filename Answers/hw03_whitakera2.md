@@ -121,21 +121,21 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    It is important to pull before we push to ensure that our code is up to date with the main.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    there are currently 9 branches in the respository including mine and some of the other students.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    There was no conflict merging so the only difference is the work I did.
 ```
 
 
@@ -145,7 +145,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    All the files that I created are not a part of the master branch.
 ```
 
 
@@ -153,7 +153,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    The files are saved within my branch. This makes branching useful because we can work on our own branch without affecting the main and affecting other peoples work
 ```
 
 ---
@@ -165,7 +165,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    
 ```
 
 ---
