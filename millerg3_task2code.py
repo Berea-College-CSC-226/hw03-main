@@ -1,19 +1,19 @@
-# Gavin Miller, millerg3
-# https://docs.google.com/document/d/1ubqCXVn_pfDmnt3cz7FQ8piWil1egG5pBuyEQEn9wbA/edit?tab=t.0
-
-# Set up turtle and it's methods
+# Author: Gavin Miller
+# Username: millerg3
+#
+# Assignment: HW03
+# Purpose: Create a complicated drawing (in this case, a measured person) using clean, conside code, functions, and loops
+# Google Doc Link: https://docs.google.com/document/d/1ubqCXVn_pfDmnt3cz7FQ8piWil1egG5pBuyEQEn9wbA/edit?tab=t.0
+#
+#################################################################################
+# Acknowledgements:
+# None
+#
+#################################################################################
 
 import turtle
-screen = turtle.Screen()
-screen.bgcolor("pink")
-alex = turtle.Turtle()
-print(alex.pos())
-alex.speed(0)
 
-'''
-Draw the head of person
-'''
-def draw_head(size):
+def draw_head(size, alex):
     alex.penup()
     alex.goto(0,100)
     alex.pendown()
@@ -21,9 +21,11 @@ def draw_head(size):
         alex.forward(5)
         alex.right(5)
 '''
-Draw body of the person
+Draw the head of person
+Parameter 'size' = size of head, how many times turtle moves forward and right
+Parameter 'alex' = turtle
 '''
-def draw_body():
+def draw_body(alex):
     alex.penup()
     alex.goto(0, -15)
     alex.pendown()
@@ -31,11 +33,12 @@ def draw_body():
     alex.forward(150)
     alex.right(180)
     alex.forward(75)
+'''
+Draw body of the person
+Parameter 'alex' = turtle
+'''
 
-'''
-Draw the arms and legs of the body using a for loop
-'''
-def draw_limbs(length, limbs):
+def draw_limbs(length, limbs, alex):
     for i in range(limbs):
         alex.left(135)
         alex.forward(length)
@@ -50,10 +53,13 @@ def draw_limbs(length, limbs):
         alex.forward(length)
         alex.pendown()
         alex.setheading(90)
-'''
-Draw the mouth!
-'''
-def draw_mouth():
+    '''
+    Draw the arms and legs of the body using a for loop
+    Length = how far forward alex moves
+    Limbs = how many limbs the person has (4)
+    Parameter 'alex' = turtle
+    '''
+def draw_mouth(alex):
     alex.penup()
     alex.goto(10, 10)
     alex.pendown()
@@ -67,12 +73,12 @@ def draw_mouth():
     alex.goto(-20, 65)
     alex.pendown()
 '''
-Draw the eyes using rgb color, for loop, and filled eyes.
+Draw the mouth!
+Parameter 'alex' = turtle
 '''
-def draw_eyes(size):
+def draw_eyes(size, alex):
     alex.begin_fill()
     alex.color("blue")
-    screen.colormode(255)
     alex.fillcolor(87, 142, 73)
     for i in range(size):
         alex.forward(1)
@@ -85,9 +91,12 @@ def draw_eyes(size):
         alex.right(5)
     alex.end_fill()
 '''
-Draw ruler to measure his pixel height
+Draw the eyes using rgb color, for loop, and filled eyes.
+Parameter 'size' = how many times the commands in the for loop (moving forward and looking right) are executed;
+in other words, the size of his eyes. In future, naming this something like length likely makes more sense
+Parameter 'alex' = turtle
 '''
-def draw_ruler():
+def draw_ruler(alex):
     alex.penup()
     alex.goto(-75, -217)
     print(alex.pos())
@@ -105,16 +114,27 @@ def draw_ruler():
     alex.left(90)
     alex.forward(50)
     alex.write("This guy is just under 316 pixels tall!")
+'''
+Draw ruler to measure his pixel height
+Parameter 'alex' = turtle
+'''
 
 def main():
-    draw_head(72)
-    draw_body()
-    draw_limbs(75, 2)
-    draw_mouth()
-    draw_eyes(72)
-    draw_ruler()
+    screen = turtle.Screen()
+    screen.bgcolor("pink")
+    screen.colormode(255)
+    alex = turtle.Turtle()
+    print(alex.pos())
+    alex.speed(0)
+    draw_head(72, alex)
+    draw_body(alex)
+    draw_limbs(75, 2, alex)
+    draw_mouth(alex)
+    draw_eyes(72, alex)
+    draw_ruler(alex)
+    screen.exitonclick()
 
 main()
-screen.exitonclick()
+
 
 
