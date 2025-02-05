@@ -35,7 +35,6 @@ import threading
 def angry_brow():
     turtle.Turtle()
     turtle.hideturtle()
-    turtle.penup()
     turtle.left(180)
     turtle.backward(22)
     turtle.stamp()
@@ -61,7 +60,7 @@ wu_tang_magic=threading.Thread(target=protect_ya_neck)
 """
 wu_tang_magic.daemon=True
 """
-makes the dream a daemon thread, so it will terminate when the main thread terminates.
+makes the mp3 a daemon thread, so it will terminate when the main thread terminates.
 """
 wu_tang_magic.start()
 """
@@ -141,7 +140,7 @@ def traveling_turt_named_burt(): #first frame
     """
     sets height of turtle
     """
-    for _ in range(width): #starting from left corner of the picture, turtle moves right.
+    for _ in range(width): #starting from left corner of the picture, turtle moves right while stamping first side of frame
         burt.stamp()
         """
         Stamps turtle print
@@ -154,21 +153,21 @@ def traveling_turt_named_burt(): #first frame
     """
     Turn left by 90 degrees to go up
     """
-    for _ in range(height): #right side, up
+    for _ in range(height): #right side, up while stamping
         burt.stamp()
         burt.forward(30)
         """
         move up by 30 pixels
         """
-    burt.left(90)
+    burt.left(90) ###gotta be a way to repeat this instead of writing code out again for the second set of sides
     """
     turn left by 90 degrees
     """
-    for _ in range(width): #move left across top
+    for _ in range(width): #move left across top while stamping
         burt.stamp()
         burt.forward(30)
     burt.left(90)
-    for _ in range(height):# Left side (move down)
+    for _ in range(height):# Left side (move down) while stamping
         burt.stamp()
         burt.forward(30)
     """
@@ -188,10 +187,16 @@ def not_a_tiger(): #second frame
     tiger.penup()
     tiger.left(180)
     tiger.setpos(285, -200)
-    tiger.shape("turtle")
+
 
     width =19
+    """
+    sets width of rectangle
+    """
     height=14
+    """
+    sets height of rectangle
+    """
 
     for i in range (width): # i and _ used interchangeably??
         tiger.stamp()
