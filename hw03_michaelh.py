@@ -1,5 +1,3 @@
-
-
 #################################################################################
 # Author: Hope Michael
 # Username: michaelh
@@ -33,65 +31,64 @@ def make_turtle(size, color,shape):
     t.speed(0)
     return t
 
-def setpos(turtle, x, y):
+def setpos(t, x, y):
     '''
     set turtle object position
-    :param turtle: turtle object
+    :param t: turtle object
     :param x: x position
     :param y: y position
     '''
-    turtle.penup()
-    turtle.setpos(x, y)
-    turtle.pendown()
+    t.penup()
+    t.setpos(x, y)
+    t.pendown()
 
-def draw_rectangle(turtle,filcol,width,height):
+def draw_rectangle(t,filcol,width,height):
     '''
     draws a rectangle
-    :param turtle: turtle object
+    :param t: turtle object
     :param filcol: color of the rectangle
     :param width: width of the rectangle
     :param height: height of the rectangle
     '''
-    turtle.setheading(270)
-    turtle.fillcolor(filcol)
-    turtle.begin_fill()
+    t.setheading(270)
+    t.fillcolor(filcol)
+    t.begin_fill()
     for i in range(2):
-        turtle.forward(height)
-        turtle.right(90)
-        turtle.forward(width)
-        turtle.right(90)
-    turtle.end_fill()
-    return turtle
+        t.forward(height)
+        t.right(90)
+        t.forward(width)
+        t.right(90)
+    t.end_fill()
 
-def draw_tree(turtle,filcol):
+def draw_tree(t,filcol):
     """
     draws tree head
-    :param turtle: turtle object
+    :param t: turtle object
     :param filcol: color of the tree
     """
-    turtle.fillcolor(filcol)
-    turtle.begin_fill()
+    t.fillcolor(filcol)
+    t.begin_fill()
     for i in range(6):
-        turtle.circle(80,140,30)
-        turtle.left(-80)
-    turtle.end_fill()
+        t.circle(80,140,30)
+        t.left(-80)
+    t.end_fill()
 
-def draw_trapezoid(turtle,filcol):
+def draw_trapezoid(t,filcol):
     '''
     draws a trapezoid
-    :param turtle: turtle object
+    :param t: turtle object
     :param filcol: color of the trapezoid
     '''
-    turtle.fillcolor(filcol)
-    turtle.begin_fill()
-    turtle.forward(350)
-    turtle.left(120)
-    turtle.forward(100)
-    turtle.left(60)
-    turtle.forward(250)
-    turtle.left(60)
-    turtle.forward(100)
-    turtle.end_fill()
+    t.fillcolor(filcol)
+    t.begin_fill()
+    t.forward(350)
+    t.left(120)
+    t.forward(100)
+    t.left(60)
+    t.forward(250)
+    t.left(60)
+    t.forward(100)
+    t.end_fill()
 
 def main():
     """
