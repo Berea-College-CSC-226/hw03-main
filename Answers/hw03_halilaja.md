@@ -118,21 +118,21 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Pulling before pushing is important because other collaborators may have made changes to the repository. Pulling ensures that the local branch has the most recent updates from the remote branch, preventing potential merge conflicts when someone pushes their changes.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    31. I see mine, main and classmates' branches.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    They are different as I have been editing and adding stuff onto mine.
 ```
 
 
@@ -142,7 +142,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When I switch to the master branch, my branch dissapears from the Project Pane.
 ```
 
 
@@ -150,7 +150,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes. Branching is useful because it allows to work on code without affecting the main branch.
 ```
 
 ---
