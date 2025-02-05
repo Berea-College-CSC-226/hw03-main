@@ -114,21 +114,23 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    to make sure you have your program is updated with any of the changes that other may have made before 
+    you add your word. 
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    there are 2 branches in the repository local that has my branch which is Hw03-Megan-Lucas and Main 
+    while the other branch has main and fix-a03-stubs, hw03-kornrumpf, and spring-2024.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    
 ```
 
 
