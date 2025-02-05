@@ -141,7 +141,7 @@
      there? Did it change?
 
 ```
-    
+    my file is no longer there because it has not been merged.
 ```
 
 
@@ -149,7 +149,8 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    it is not there because I have not merged it. However this is helpful to keep changes from ones
+    file from merging into someone elses or simply to keep more orginized. 
 ```
 
 ---
@@ -161,7 +162,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1738516626983659
 ```
 
 ---
