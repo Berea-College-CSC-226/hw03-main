@@ -120,21 +120,21 @@ A commit is a snapshot of your changes in a Git repository, which  represents a 
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    It’s important to "pull" before you "push" to ensure that you're working with the most up-to-date version of the codebase and avoid conflict
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    28, yes I see mine and others
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, in mine there are files like Answers and a python file with my program
 ```
 
 
@@ -144,7 +144,7 @@ A commit is a snapshot of your changes in a Git repository, which  represents a 
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    
 ```
 
 
@@ -164,7 +164,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1738715332093799 
 ```
 
 ---
