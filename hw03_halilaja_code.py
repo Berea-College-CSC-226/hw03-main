@@ -231,7 +231,7 @@ def main():
     draw_window1()
     draw_window2()
     draw_tree()
-    turtle.done()
+    turtle.exitonclick()
 
 # Call the main function to execute the program
 main()
