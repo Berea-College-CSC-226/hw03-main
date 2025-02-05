@@ -91,6 +91,8 @@ def draw_eyes():
 
 
 def main():
+    """ Create turtles r and s and draw the face, eyes, ears, and mouth
+    :return: None (void function)"""
     wn = turtle.Screen()
     wn.bgcolor('light blue')
     t = turtle.Turtle()
@@ -102,12 +104,6 @@ def main():
     draw_hexagon(t,500)
     draw_mouth()
     draw_eyes()
-
-
-
-
-
-
 
     wn.exitonclick()
 
