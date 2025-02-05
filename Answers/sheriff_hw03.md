@@ -18,21 +18,31 @@
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+   R=152
+   G=14
+   B=168
+   
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+    R=110
+    G=60
+    B=11
+   
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    R=114
+   G=134
+   B=120
+   
+   source: https://artincontext.org/xanadu-color/
 ```
 
 ---
@@ -44,32 +54,34 @@
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+   You can use fd() or backward(negative number)
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    print(turtle.pos())
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    using the functon turtle.speed() and passing the value to 0.
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+   turtle.colormode(255)  to enable RGB mode
+   turtle.pencolor(115, 134, 120)  to set pen color to Xanadu
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    turtle.colormode(255)  to enable RGB mode
+   turtle.fillcolor(115, 134, 120)  to fill color to Xanadu
 ```
 
 ---
@@ -79,28 +91,34 @@
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Cloning a repository means making a copy of a remote Git repository from GitHub onto your local machine. This 
+    allows you to work on the project locally while keeping it linked to the remote repository for version control.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    A repository (repo) is a storage location for a software project, containing all the files, folders, and version
+    history. And it exists on both the local machine and in GitHub.
+
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit is a saving order of changes made to a project. A commit message is important because it describes what
+    changes were made and helps track the project's version history.  
+
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing means uploading your local changes (commits) to the repository on GitHub. A code is pushed from the
+    local computer to GitHub.
 ```
 
 ---
@@ -112,14 +130,14 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    to get all the changes made on the project on your computer before pushing your own.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    I see 28 branches. 
 ```
 
 
