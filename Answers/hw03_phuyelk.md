@@ -127,7 +127,7 @@
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    not really. 
 ```
 
 
@@ -137,7 +137,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    Yes it did change. It gives me a heads up that things have changed. 
 ```
 
 
@@ -145,7 +145,8 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    yes the file is back, branching is useful because it allows multiple people to work on different 
+    features or fixes without affecting the main code.
 ```
 
 ---
@@ -157,7 +158,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1738782596559499
 ```
 
 ---
