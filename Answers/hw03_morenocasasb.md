@@ -87,25 +87,25 @@ turtle.end_fill()
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+Cloning the repo would mean to make my own copy of the repo, but in a different branch name. Kind of like the way we use Google Docs.
 ```
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+The repository is like a project. It could exist anywhere (like a folder) you want to work on.
 ```
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+Committing is like showing what you currently have, whether it's a draft or it's finished. Commit messages can be used to describe or write what is associated with what you're committing to.
 ```
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+To push your code means to send your code to Github instead of keeping it inside the computer.
 ```
 
 ---
@@ -117,20 +117,20 @@ turtle.end_fill()
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+We can pull our code from Github so that you can see if there is any changes or suggestions being made. Then we push so we can give what we currently have of our code (as in any changes we've made or added some things).
 ```
 
 4.b. How many branches are in the repository?
 Click the link to look at the branches. Do you see yours? Do you see any others?
 
 ```
-    Replace this text with your answer
+I know that there are 2 class period worth of branches including the main/master. I see mine and I also see others!
 ```
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+They are different. My branch has my own editing while the master branch is basically like a template.
 ```
 
 4.d. Go back to PyCharm, and go back to the Branches interface from before. Checkout the
@@ -139,14 +139,14 @@ Describe what happens to your file in the Project pane of PyCharm. Is it still
 there? Did it change?
 
 ```
-    Replace this text with your answer
+My project is still there, but inside the "Answers" folder. Nothing changes, except when it's blue because it indicates that I'm changing something in the file.
 ```
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations
 here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+My files are there in the "Answers" folder. It doesn't have the changes I'm doing now before the previous commit and push.
 ```
 
 ---
@@ -159,7 +159,7 @@ the [Slack channel](https://bereacs.slack.com/archives/C3QACGH8R) and the TAs an
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+Is there anything I need to look after the pull request?
 ```
 
 ---
