@@ -113,7 +113,7 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    So that your files can stay up to date. 
 ```
 
 4.b. How many branches are in the repository?
