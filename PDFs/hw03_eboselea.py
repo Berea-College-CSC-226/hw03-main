@@ -6,7 +6,7 @@
 # Username: eboselea
 #
 # Assignment: HW03  - Fully Functioning Gitty Pychedelic Robotic Turtles
-# Purpose: Gain more pratice with turtles and fuctions,
+# Purpose: Gain more pratice with turtles and fuctions, and make a complex creation in Github.
 # Google Doc Link: https://docs.google.com/document/d/16Y0xEFJ3f_ICamBh3k_8JRpmHmy1obomjudzBOIt6rE/edit?usp=sharing
 #
 #################################################################################
