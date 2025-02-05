@@ -122,21 +122,23 @@ turtle.end_fill()
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Pulling before pushing ensures your local repo is up to date with the remote version, preventing conflicts.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    The number of branches depends on the repository. If my branch exists, I should see it along with any others.
+
+
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    If changes were made in my branch but not in the master branch, they will be different. Otherwise, they will be the same.
 ```
 
 
@@ -146,7 +148,7 @@ turtle.end_fill()
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    Checking out the master branch updates the project to match that branch. If my changes were only in my branch, they might disappear.
 ```
 
 
@@ -154,7 +156,7 @@ turtle.end_fill()
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Switching back to my branch restores my changes. Branching is useful for working on features separately without affecting the main project.
 ```
 
 ---
@@ -166,7 +168,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+   what are the best strategies for preventing and resolving conflicts when merging branches in Git?
 ```
 
 ---

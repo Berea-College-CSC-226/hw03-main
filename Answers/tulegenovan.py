@@ -1,10 +1,16 @@
-"""
-CSC 226
-Name: Naz Tulegenova
-Google Doc Link: https://docs.google.com/document/d/1b-g8DrpL_k0uf6yBpqkftCK4IqIwC72G-Nw-RtOOWH0/edit?tab=t.0
-
-This program uses the turtle library to draw a house and a blue sky background.
-"""
+#################################################################################
+# Author: Naz Tulegenova
+# Username: tulegenovan
+#
+# Assignment: HW03: Fully Functional Gitty Psychedelic Robotic Turtles
+# Purpose: drawing a house with blue sky background
+# Google Doc Link:
+#
+#################################################################################
+# Acknowledgements: ChatGPT for debugging errors
+#
+#
+#################################################################################
 
 import turtle
 
@@ -14,7 +20,9 @@ def setup_background():
 
 # Function to draw a rectangle
 def draw_rectangle(x, y, width, height, color):
-    """Draws a filled rectangle at (x, y) with given width, height, and color."""
+    """
+    Draws a filled rectangle at (x, y) with given width, height, and color.
+    """
     turtle.penup()
     turtle.goto(x - width // 2, y - height // 2)
     turtle.pendown()
@@ -33,7 +41,9 @@ def draw_house():
 
 # Function to draw the roof
 def draw_roof():
-    """Draws a triangular roof closer to the house."""
+    """
+    Draws a triangular roof closer to the house.
+    """
     turtle.penup()
     turtle.goto(-100, 25)
     turtle.pendown()
@@ -55,6 +65,9 @@ def draw_window(x, y):
 
 # Main function
 def main():
+    """
+       maim function to set up and draw a house.
+    """
     turtle.speed(3)
     turtle.colormode(255)  # Enable RGB mode for unnamed colors
     setup_background()
