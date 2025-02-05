@@ -15,21 +15,22 @@
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    RGB(128, 0, 128)
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+     RGB(165, 42, 42)
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
+          
 
 ```
-    Replace this text with your answer
+    rgb(115, 135, 120)
 ```
 
 ---
@@ -133,7 +134,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    The pycharm changes, but I do not understand the changes.
 ```
 
 
@@ -141,7 +142,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    My files seem restored back.
 ```
 
 ---
@@ -153,6 +154,6 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+   https://bereacs.slack.com/archives/C3QACGH8R/p1738734970968669
 ```
 
