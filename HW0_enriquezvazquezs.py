@@ -50,24 +50,24 @@ import turtle
 def draw_grass(g):
     """
     draws grass
-    :param g:
+    :param g: a turtle object
     """
     g.penup()
     g.setposition(-318, -220)
     g.pendown()
+    g.begin_fill()
     for grass in range(2):
-        g.begin_fill()
         g.forward(630)
         g.right(90)
         g.forward(150)
         g.right(90)
-        g.end_fill()
+    g.end_fill()
 
 #run circle in the middle of the flower and then draw flower stem with another petal
 def draw_circle(c):
     """
     draws a circle and stem
-    :param c:
+    :param c: a turtle object
     """
     c.penup()
     c.setposition(100,35)
