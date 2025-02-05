@@ -91,7 +91,6 @@ def long_neck_body_turtle():
     """
     writes answer on turtle screen
     """
-    pass
     #This creates the wording at the top of the picture, "side neck turts gotta,"
 
 ########################################################################################################################
@@ -116,7 +115,7 @@ def pleurodira_playlist():
     """
     turtle.write("Protect ya neck!", move=False, align='center', font=("Bold", 37, ("bold")))
     """
-    writes text on screen
+    turtle displays text on screen
     """
     # This creates the wording above the picture, "Protect ya neck!"
 ########################################################################################################################
