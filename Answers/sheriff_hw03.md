@@ -137,7 +137,7 @@
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    I see 28 branches. 
+    I see 28 branches. I don't
 ```
 
 
