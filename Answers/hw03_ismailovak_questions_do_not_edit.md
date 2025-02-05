@@ -117,21 +117,23 @@ turtle.end_fill()
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+     Pulling before pushing makes sure you have the latest updates from the main repository.  
+    If someone else made changes, pulling helps you avoid conflicts when you push your own changes.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+     The number of branches can be found by clicking on the "Branches" section of the repository. If I see my branch, it means my changes have been pushed successfully, and i also see others.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+     Yes, they are different. My branch contains the new changes I made, while the master branch does not have them yet.  
+    This shows that my work is separate from the main project until it is merged.
 ```
 
 
@@ -141,7 +143,8 @@ turtle.end_fill()
      there? Did it change?
 
 ```
-    Replace this text with your answer
+      When I switch to the master branch, my new file (or changes) disappears because the master branch does not have them yet.  
+    This confirms that each branch maintains its own version of the project.
 ```
 
 
@@ -149,7 +152,9 @@ turtle.end_fill()
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    When I switch back to my branch, my file (or changes) reappears.  
+    This proves that branching allows multiple versions of a project to exist at the same time without interfering with each other.  
+    It is useful for working on features separately before merging them into the main project.
 ```
 
 ---
@@ -161,7 +166,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+     https://bereacs.slack.com/archives/C3QACGH8R/p1738730623065289
 ```
 
 ---
