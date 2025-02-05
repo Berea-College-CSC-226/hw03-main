@@ -144,7 +144,7 @@ A commit is a snapshot of your changes in a Git repository, which  represents a 
      there? Did it change?
 
 ```
-    
+    It went back to the version when I just cloned the repo 
 ```
 
 
@@ -152,7 +152,7 @@ A commit is a snapshot of your changes in a Git repository, which  represents a 
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, my changes are still here. Branches are useful to save the code and do not make merge conflicts
 ```
 
 ---
