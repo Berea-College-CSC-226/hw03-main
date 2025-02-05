@@ -109,7 +109,6 @@
 ---
 
 ## SECTION 4
-
 ## Pull Master Into Your Local
 
 4.a. Why do you think it is important to pull before you push?

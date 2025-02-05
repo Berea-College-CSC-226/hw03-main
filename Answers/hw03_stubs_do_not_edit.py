@@ -64,15 +64,17 @@ def draw_flower(petal1):
 
 
 def main():
+#middle flower drawing
     m.penup()
     m.goto(0, 100)
     m.pendown()
     draw_flower(20)
-    #
+#right flower drawing
     m.penup()
     m.goto(60, 100)
     m.pendown()
     draw_flower(20)
+#left flower drawing
     m.penup()
     m.goto(-60, 100)
     m.pendown()
