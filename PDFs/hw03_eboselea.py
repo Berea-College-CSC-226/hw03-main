@@ -18,24 +18,11 @@
 
 import turtle
 
-# def make_roof(wn, shape):
-"""
-    Creates the roof with a navy blue color
 
-    :param wn: a turtle Screen object
-    :param shape: a Turtle object
-    :return: None
-    """
-    # wn.register_shape()  # Registers a shape so it can be used by the turtle library
-    # shape.penup()
-    # shape.setpos(20, 20)
-    # shape.pendown()
-    # shape.shape("navy blue")  # Sets the shape to the image registered above
-    # shape.stamp()
 
 def make_main_house(shape):
     """
-    Creates the base of the house in the shape of a square
+    Creates the base of the house in the shape of a rectangle
 
     :param shape: aTurtle object
     :return: None
@@ -63,16 +50,57 @@ def make_door(shape):
     :return: None
     """
     shape.penup()
-    shape.setpos(-8, -30)
+    shape.setpos(-10, -30)
     shape.pendown()
     shape.color('#1C1C25')
     shape.begin_fill()
     for side in range(2):
         shape.forward(40)
         shape.left(90)
-        shape.forward(65)
+        shape.forward(80)
         shape.left(90)
     shape.end_fill()
+
+def make_window(shape, x, y):
+    """
+    Adds a window to the house.
+
+    :param shape: a Turtle object
+    :param x: the x coordinate of the window
+    :param y: the y coordinate of the window
+    :return: None
+    """
+    shape.penup()
+    shape.setpos(x, y)             # TODO fix this to use X, Y
+    shape.pendown()
+    shape.color('#EFF0F0')
+    shape.begin_fill()
+    for side in range(2):
+        shape.forward(30)
+        shape.right(90)
+        shape.forward(20)
+        shape.right(90)
+    shape.end_fill()
+
+def make_roof(shape):
+    """
+    Creates a grey roof on screen
+
+    :param wn: a turtle Screen object
+    :param shape: a Turtle object
+    :return: None
+    """
+
+    shape.penup()
+    shape.setpos(-20, 120)
+    shape.pendown()
+    shape.color('#686161')
+    shape.begin_fill()
+    for side in range(3):
+        shape.forward(60)
+        shape.left(120)
+    shape.end_fill()
+
 
 
 def main():
@@ -85,15 +113,16 @@ def main():
     shape = turtle.Turtle()
     shape.hideturtle()
 
-    # make_roof(wn, shape)
+
     make_main_house(shape)
     make_door(shape)
+    make_roof(shape)
+    make_window(shape, -30, 80)
+    make_window(shape, 20, 80)
     wn.exitonclick()
     
     
-    # Function calls to function_1 and function_2.
-    # function_1()
-    # function_2()
+
 
 
 main()  # Starts the program!

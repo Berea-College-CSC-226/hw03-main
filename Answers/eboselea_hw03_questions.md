@@ -141,7 +141,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    I can still see my file
 ```
 
 
@@ -149,7 +149,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Branching is useful because it allows you to have your own code seperate from t
 ```
 
 ---
