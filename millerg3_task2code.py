@@ -85,7 +85,7 @@ def draw_eyes(size):
         alex.right(5)
     alex.end_fill()
 '''
-Draw stars in the background 
+Draw ruler to measure his pixel height
 '''
 def draw_ruler():
     alex.penup()
