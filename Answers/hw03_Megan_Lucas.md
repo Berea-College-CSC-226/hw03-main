@@ -130,7 +130,8 @@
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    
+    they are different because the master branch only has the document that show up for everyone 
+    that we are advised to not change while my branch has all the changes iv'e made to it. 
 ```
 
 
@@ -140,7 +141,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    
 ```
 
 
