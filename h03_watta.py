@@ -1,13 +1,10 @@
-
-
-
 #################################################################################
 # Author: Ahna Watt
 # Username: watta
 #
 # Assignment: hw03
-# Purpose:
-# Google Doc Link:
+# Purpose: Make a house using the turtles, and make a tree in the background.
+# Google Doc Link: https://docs.google.com/document/d/10mM268FLbMkQ00aMCzRf5z27e-7DZyTQ6ressDTDV5w/edit?usp=sharing
 #
 #################################################################################
 # Acknowledgements:
