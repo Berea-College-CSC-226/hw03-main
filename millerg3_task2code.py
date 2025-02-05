@@ -102,6 +102,9 @@ def draw_ruler():
     print(alex.pos())
     alex.forward(100)
     print("This guy is just under 316 pixels tall!")
+    alex.left(90)
+    alex.forward(50)
+    alex.write("This guy is just under 316 pixels tall!")
 
 def main():
     draw_head(72)

@@ -170,7 +170,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+https://bereacs.slack.com/archives/C3QACGH8R/p1738714153117809
 ```
 
 ---
