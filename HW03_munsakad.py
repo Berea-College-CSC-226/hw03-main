@@ -18,7 +18,6 @@ def draw_rectangle(t,s):
         t.forward(i)
         t.left(90)
 
-
 def triangle(w):
     """
     This function does the same as the rectangle only that this time is triangles
@@ -26,7 +25,6 @@ def triangle(w):
     for i in range(50):
         w.forward(i * 5)
         w.left(120)
-
 
 def sun_rays():
     """
@@ -44,7 +42,6 @@ def sun_rays():
         t.forward(100)
         t.left(169)
 
-
 def flower(s):
     """
     This function draws a flower on the other side of the rectangles and triangles for decorative purposes
@@ -57,7 +54,6 @@ def flower(s):
     for i in range(100):
         s.forward(100)
         s.left(169)
-
 
 def main():
     """
