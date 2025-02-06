@@ -110,28 +110,32 @@ turtle.done()
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Cloning a repo refers to the process of creating a local copy of a remote repository (repo) from a version control platform like GitHub. 
+    This local copy includes all of the project's files, history, branches, and commit information, allowing you to work on it locally.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    A repository is a storage location for all files and version history of a project. It can exist remotely (on platforms like GitHub) or locally (on your computer after cloning). 
+    The remote repository stores the official version, while the local repository allows you to make changes and sync them back.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+  A commit saves changes in a project like a checkpoint. It helps keep track of updates and previous versions. 
+  A commit message explains what was changed so everyone understands the update.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    To push your code means to upload your committed changes from your local repository (on your computer) to a remote repository (like GitHub). 
+    This updates the remote repo with your latest changes so others can see and collaborate on them
 ```
 
 ---
@@ -143,21 +147,22 @@ turtle.done()
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    It is important to **pull before you push** to ensure your local repository is up to date with the latest changes from the remote repository. 
+    This helps prevent conflicts, avoids overwriting others' work, and ensures smooth collaboration.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    There are 38 brances. Yes, Isee mine and others.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+   Yes, My brach includes my changes but the master branch is holding space for all the changes made by other students.
 ```
 
 
@@ -167,7 +172,7 @@ turtle.done()
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    My branch is not shwing but I have the option to checkout my branch.
 ```
 
 
@@ -175,7 +180,7 @@ turtle.done()
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+  Yes, my file is back. Branching is helping us all do our own thing whilw not changes others work.
 ```
 
 ---
@@ -187,7 +192,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1738812244240909
 ```
 
 ---
