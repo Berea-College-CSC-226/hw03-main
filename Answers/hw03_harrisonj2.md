@@ -122,14 +122,14 @@
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    yes i see my branch and many others
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    yes they are different.
 ```
 
 
@@ -139,7 +139,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    my file was not there and when i got back on it i did not commit so it rolled back some information.
 ```
 
 
@@ -147,7 +147,8 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    yes my file is back but it was missing little information,
+    branching can be useful when you want to try out something but not break the whole code you already have.
 ```
 
 ---
@@ -159,7 +160,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    how do you use the (RGB) color system in code?
 ```
 
 ---
