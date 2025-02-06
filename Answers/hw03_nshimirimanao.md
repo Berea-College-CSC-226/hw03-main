@@ -126,7 +126,8 @@
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    The difference I realized was that under the anser folder the main only had Answers.md, but mine has 
+    that as well as hw03_nshimirimanao.md
 ```
 
 
