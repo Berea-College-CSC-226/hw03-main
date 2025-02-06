@@ -154,7 +154,7 @@
      there? Did it change?
 
 ```
-   My file was not in the project pane of pycharm. 
+   My file was not in the project pane of pycharm.
 ```
 
 
