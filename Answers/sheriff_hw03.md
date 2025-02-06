@@ -137,14 +137,14 @@
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    I see 28 branches. I don't
+    I see 28 branches. I do see mine and others' branches.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+   I see my file and all the committs I have done on my branch but not on the main branch.
 ```
 
 
@@ -154,7 +154,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+   My file was not in the project pane of pycharm. 
 ```
 
 
@@ -162,7 +162,9 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    I see my file now after I switched back to my branch. Branching is useful because it allows developers to work on
+    different features or fixes independently without affecting the main project. This ensures that experimental or 
+    unfinished changes do not disrupt the main working code.
 ```
 
 ---
