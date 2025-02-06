@@ -1,19 +1,16 @@
 #################################################################################
 # Username:woodd
+from turtle import Turtle
+
 
 # Google Doc Link: https://docs.google.com/document/d/1hR3vQZg9h3VkzSt2vV9erAGYUh89hPb0rmL-ib4MJRc/edit?usp=sharing
 ################################################################################
 
-import turtle
-wn = turtle.Screen()
-wn.bgcolor("lightblue")
 
-wn.colormode(255)
-
-
-
-def draw_grass():
-    greg = turtle.Turtle()
+def draw_grass(greg):
+    """
+    draws a green box at the bottom of the screen for grass
+    """
     greg.speed(100)
     greg.pencolor(20,235,90)
     greg.fillcolor(20,235,90)
@@ -26,15 +23,13 @@ def draw_grass():
         greg.right(90)
         greg.forward(680)
     greg.end_fill()
-    """
-    I am drawing a grass on the screen
-    """
-    pass
-    # ....
 
 
-def draw_house():
-    david = turtle.Turtle()
+
+def draw_house(david):
+    """
+    draws a house on the grass
+    """
     david.speed(100)
     david.pencolor(180,0,0)
     david.fillcolor(180,0,0)
@@ -52,13 +47,11 @@ def draw_house():
         david.forward(90)
         david.left(120)
     david.end_fill()
-    """
-    draws a house on the grass
-    """
-    pass
-    # ...
-def draw_tree():
-    tree = turtle.Turtle()
+
+def draw_tree(tree):
+    '''
+    A function that draws the tree on the grass
+    '''
     tree.speed(100)
     tree.pencolor(140,70,10)
     tree.fillcolor(140,70,10)
@@ -81,19 +74,25 @@ def draw_tree():
     tree.begin_fill()
     tree.circle(100) #draws a circle for the tree top
     tree.end_fill()
-'''
-A function that draws the tree on the grass 
-'''
+
 
 def main():
-    """
-    The main function of the program. I have it set to where when its called it calls the other functions.
-    """
-    # Main is calling the other functions
-    draw_grass()
-    draw_house()
-    draw_tree()
+    import turtle
+    wn = turtle.Screen()
+    wn.bgcolor("lightblue")
 
+    wn.colormode(255)
+    """
+    The main function of the program. Draws a house and tree on the grass.
+    """
+    # Main is creating the turtle and screen then runs the other functions.
+
+    tree = turtle.Turtle()
+    david = turtle.Turtle()
+    greg = turtle.Turtle()
+    draw_grass(greg)
+    draw_house(david)
+    draw_tree(tree)
+    wn.exitonclick() # makes it to where you can click on the screen to close it
 
 main()  # Starts the program
-wn.exitonclick() # makes it to where you can click on the screen to close it
