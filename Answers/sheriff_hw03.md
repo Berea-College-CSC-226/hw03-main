@@ -160,7 +160,7 @@
 
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations
-     here, describe how branching is useful:
+     here, describe how branching is useful: 
 
 ``` 
     I see my file now after I switched back to my branch. Branching is useful because it allows developers to work on
