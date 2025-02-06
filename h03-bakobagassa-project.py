@@ -22,7 +22,7 @@ def drawTriangle(elle, size):
     for i in range(3):
         elle.forward(size)
         elle.right(120)
-
+        
 def draw_figure(elle):
     '''This function is to draw a person.
     It will start by the head then the stick arms and finally the legs'''
