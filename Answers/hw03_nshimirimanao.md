@@ -56,19 +56,19 @@
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    You would put 0 as the input.--> turtle.speed(0)
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    turtle.color('#738678')
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    turtle.fillcolor()
 ```
 
 ---
@@ -78,28 +78,29 @@
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Making a copy of the repository.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+   Where all project files and their history of changes are held, that exists in Github.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    a commit is saving a change to the file as you work. It needs a commit message because, it helps you keep on track of your revisions .
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    To push your code means to send your commited changes to the repo located remotely on Github. 
+    You push on your branch to the remote repo in Github.
 ```
 
 ---
@@ -111,14 +112,14 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    That way you are up to date with recent changes and can avoid a possible merge conflict.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    39 branches. I do not see mine but, I do see others.
 ```
 
 
