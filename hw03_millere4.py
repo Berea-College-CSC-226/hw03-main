@@ -484,7 +484,7 @@ def wu_tang_for_life(): #this is my turtle spelling chaos, turtle moves about, l
 ########################################################################################################################
 ######################################################-spirals-#########################################################
 ########################################################################################################################
-def create_spiral(x, y): #heck yeah, fancy spirals thingies. Like spiracles, elasmobranch external opening of the otic capsule represent
+def create_spiral(x, y): #heck yeah, fancy spirals thingies.  Like spiracles, elasmobranch external opening of the otic capsule represent
     spiraclez = turtle.Turtle()
     spiraclez.pensize(3)
     spiraclez.color(118, 255, 242)
