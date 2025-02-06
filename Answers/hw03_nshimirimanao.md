@@ -137,7 +137,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    I did not see anything.
 ```
 
 
@@ -145,7 +145,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+   My file was back. Branching is useful because it allows you to make changes without affecting the main file initially.
 ```
 
 ---
