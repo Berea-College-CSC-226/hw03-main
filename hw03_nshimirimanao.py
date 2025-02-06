@@ -3,7 +3,7 @@
 # Username: nshimirimanao
 #
 # Assignment: HW03_ Fully Functional Gitty Psychedelic Robotic Turtles
-# Purpose:
+# Purpose: Creating a house with a shooting star behind in the background of the house.
 # Google Doc Link:
 #
 #################################################################################
@@ -16,15 +16,15 @@
 import turtle
 
 
-def function_1():
+def body_of_house():
     """
-    Example docstring for function_1. function_1 is not a good function name and should be changed.
+    Creating the rectangle for the body of the house.
     """
     pass
     # ....
 
 
-def function_2():
+def roof_of_house():
     """
     Example docstring for function_2. function_2 is not a good function name and should be changed.
     """
