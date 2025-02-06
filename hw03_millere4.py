@@ -8,6 +8,7 @@
 #Acknowledgements:
 #Thread for learning how to add music into script from chatGPT https://chatgpt.com/share/67a01c5c-7b34-800b-8f00-c6f6b55c6526
 #Google Doc for HWO3
+#Python turtle-Turtle Graphics https://docs.python.org/3/library/turtle.html#compound-shapes
 #Turtle senseis of note- Dr.Ballou, Dr.Scudder-Davis, Dr.Heggen
 ########################################################################################################################
 ########################################################################################################################
@@ -60,7 +61,7 @@ wu_tang_magic=threading.Thread(target=protect_ya_neck)
 """
 wu_tang_magic.daemon=True
 """
-makes the mp3 a daemon thread, so it will terminate when the main thread terminates.
+makes the mp3 a daemon thread, so it will only terminate when the main thread terminates.
 """
 wu_tang_magic.start()
 """
@@ -134,41 +135,52 @@ def traveling_turt_named_burt(): #first frame
     """
     width = 17
     """
-    sets width of turtle
+    width in number of turtles
     """
     height = 10
     """
-    sets height of turtle
+    height in number of turtles
     """
     for _ in range(width): #starting from left corner of the picture, turtle moves right while stamping first side of frame
         burt.stamp()
         """
         Stamps turtle print
         """
+        burt.tilt(15)  #neat, saw this in the python turtle graphics manual
+        """
+        tilts turtle, but keeps direction
+        """
         burt.forward(30)
         """
         Move forward by 30 units before stamping
         """
+        #The turtle moves thirty pixels before stamping and repeating that 17 times(width=17). burt.tilt tilts the turtle 15 degrees after each stamp
     burt.left(90)
     """
     Turn left by 90 degrees to go up
     """
     for _ in range(height): #right side, up while stamping
         burt.stamp()
+        burt.tilt(15)
+        """
+        tilts turtle, but keeps direction
+        """
         burt.forward(30)
         """
         move up by 30 pixels
         """
-    burt.left(90) ###gotta be a way to repeat this instead of writing code out again for the second set of sides
+    burt.left(90) ###gotta be a way to repeat this instead of writing code out again for the second set of sides. Tried and could not make it fit in time, but it is possible and would be better.
     """
     turn left by 90 degrees
     """
     for _ in range(width): #move left across top while stamping
         burt.stamp()
+        burt.tilt(15)
         burt.forward(30)
     burt.left(90)
     for _ in range(height):# Left side (move down) while stamping
         burt.stamp()
+        burt.tilt(15)
         burt.forward(30)
     """
     results in turtle stamp frame around picture
@@ -191,20 +203,22 @@ def not_a_tiger(): #second frame
 
     width =19
     """
-    sets width of rectangle
+    sets width of rectangle in turtles
     """
     height=14
     """
-    sets height of rectangle
+    sets height of rectangle in turtles
     """
 
     for i in range (width): # i and _ used interchangeably??
         tiger.stamp()
+        tiger.tilt(20)
         tiger.forward(30)
     tiger.right(90)
 
     for _ in range(height):  # right side, going up
         tiger.stamp()
+        tiger.tilt(20)
         tiger.forward(30)
         """
         move up by 30 pixels
@@ -215,6 +229,7 @@ def not_a_tiger(): #second frame
     """
     for i in range(width):  # move across, toward left side
         tiger.stamp()
+        tiger.tilt(20)
         tiger.forward(30)
 
     tiger.right(90)  # Turn left by 90 degrees to go down to start position
@@ -222,6 +237,7 @@ def not_a_tiger(): #second frame
     # Left side (move down)
     for i in range(height):
         tiger.stamp()
+        tiger.tilt(20)
         tiger.forward(30)
 ########################################################################################################################
 ####################################-Write "Wu Tang Forever with turtle "wu"-###########################################
@@ -468,7 +484,7 @@ def wu_tang_for_life(): #this is my turtle spelling chaos, turtle moves about, l
 ########################################################################################################################
 ######################################################-spirals-#########################################################
 ########################################################################################################################
-def create_spiral(x, y): #heck yeah, spiracles! elasmobranch external opening of the otic capsule represent
+def create_spiral(x, y): #heck yeah, fancy spirals thingies. Like spiracles, elasmobranch external opening of the otic capsule represent
     spiraclez = turtle.Turtle()
     spiraclez.pensize(3)
     spiraclez.color(118, 255, 242)
@@ -476,17 +492,17 @@ def create_spiral(x, y): #heck yeah, spiracles! elasmobranch external opening of
     spiraclez.hideturtle()
     spiraclez.setpos(x, y)
     spiraclez.pendown()
-    spiraclez.speed(6)
+    spiraclez.speed(0)
 
     distance = 1
     """
     starting distance turtle will move before turning
     """
-    angle = 50
+    angle = 137.5 #apparently this is the golden angel for spirals
     """
     angle turtle turns after each move
     """
-    num_steps = 49
+    num_steps = 150
     """
     total number of steps the turtle will take
     """
@@ -496,6 +512,13 @@ def create_spiral(x, y): #heck yeah, spiracles! elasmobranch external opening of
         runs the loop for what ever number "num_steps" is set to
         """
         spiraclez.forward(distance)
+        spiraclez.color(20,100,200)
+        spiraclez.right(angle)
+        spiraclez.forward(distance)
+        spiraclez.color(200, 100, 20)
+        spiraclez.right(angle)
+        spiraclez.forward(distance)
+        spiraclez.color(118, 255, 242)
         spiraclez.right(angle)
         """
         angle at which the turtle moves after each movement
@@ -539,12 +562,12 @@ def main():
     traveling_turt_named_burt()
     not_a_tiger()
     wu_tang_for_life()
-    create_spiral(-350,-150)
-    create_spiral(350,150)
-    create_spiral(-350,0)
-    create_spiral(350, 0)
-    create_spiral(-350,150)
-    create_spiral(350,-150)
+    create_spiral(-380,-150)
+    create_spiral(380,150)
+    create_spiral(-380,0)
+    create_spiral(380, 0)
+    create_spiral(-380,150)
+    create_spiral(380,-150)
     """
     create spirals at these locations
     """
