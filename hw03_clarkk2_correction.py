@@ -2,36 +2,31 @@
 # Author: Kamau Clark
 # Username: clarkk2
 #
-# Assignment: HW03 - Draw a House with cool scenery
+# Assignment: HW03 - Draw a House with cool Scenery
 # Purpose: Demonstrates drawing skills using Python's turtle module by creating a dynamic scene with a house and landscape.
-# Google Doc Link: https://docs.google.com/document/d/1LZ3DV3lAJDGKOAQcKRvpJAOLilXaLWfjOhu-GKiDgs0/edit?usp=sharing
+# Google Doc Link: [Insert your Google Doc link here]
 #################################################################################
 # Acknowledgements:
-# https://www.geeksforgeeks.org/print-a-spirograph-using-turtle-in-python/
-# https://www.geeksforgeeks.org/python-turtle-pencolor-method/
-# https://www.w3schools.com/python/module_random.asp
-# https://docs.python.org/3/library/turtle.html
-# https://www.geeksforgeeks.org/turtle-circle-method-in-python/
-# https://cs111.wellesley.edu/labs/lab02/colors
 # Based on initial template and discussions in class.
 #################################################################################
+
 import turtle
 import random
 
 def draw_square(t, size):
-    """Draws a square of specified size using a specific turtle object."""
+    """Draws a square using a turtle object."""
     for _ in range(4):
         t.forward(size)
         t.right(90)
 
 def draw_triangle(t, size):
-    """Draws an equilateral triangle of specified size using a specific turtle object."""
+    """Draws an equilateral triangle using a turtle object."""
     for _ in range(3):
         t.forward(size)
         t.left(120)
 
 def draw_rectangle(t, width, height):
-    """Draws a rectangle with given width and height using a specific turtle object."""
+    """Draws a rectangle using a turtle object."""
     for _ in range(2):
         t.forward(width)
         t.right(90)
@@ -39,7 +34,7 @@ def draw_rectangle(t, width, height):
         t.right(90)
 
 def draw_sky(t):
-    """Fills the top canvas with sky blue to set the background using a specific turtle object."""
+    """Fills the top canvas with sky blue to set the background."""
     t.penup()
     t.goto(-400, 300)
     t.pendown()
@@ -49,7 +44,7 @@ def draw_sky(t):
     t.end_fill()
 
 def draw_cloud(t, x, y):
-    """Places a fluffy cloud at my specified coordinates using a specific turtle object."""
+    """Places fluffy clouds at specified coordinates using a turtle object."""
     t.penup()
     t.goto(x, y)
     t.pendown()
@@ -61,7 +56,7 @@ def draw_cloud(t, x, y):
     t.end_fill()
 
 def draw_sun(t, x, y):
-    """Draws a bright sun at the location using a specific turtle object."""
+    """Draws a bright sun at the given location using a turtle object."""
     t.penup()
     t.goto(x, y)
     t.pendown()
@@ -71,7 +66,7 @@ def draw_sun(t, x, y):
     t.end_fill()
 
 def draw_hill(t, x, y, size):
-    """Creates a hill using a semicircle at the provided coordinates and size using this turtle object."""
+    """Creates a hill using a semicircle at the provided coordinates and size."""
     t.penup()
     t.goto(x, y)
     t.pendown()
@@ -84,7 +79,7 @@ def draw_hill(t, x, y, size):
     t.end_fill()
 
 def draw_landscape(t):
-    """Draws the base landscape with grass and hills using a specific turtle object."""
+    """Generates the base landscape with grass and hills using a turtle object."""
     t.penup()
     t.goto(-400, -200)
     t.pendown()
@@ -93,18 +88,19 @@ def draw_landscape(t):
     draw_rectangle(t, 800, 200)
     t.end_fill()
 
+    # Creating hills with varying positions and sizes
     for pos in range(-300, 301, 100):
         draw_hill(t, pos, -200, random.choice([80, 100, 120, 150]))
 
 def draw_house(t):
-    """Draws the house, complete with roof, chimney, and windows, using the given turtle."""
+    """Constructs a detailed house with multiple features using a turtle object."""
     # Base of the house
     t.fillcolor("#FAEBD7")
     t.begin_fill()
     draw_square(t, 200)
     t.end_fill()
 
-    # Roof
+    # Roof of the house
     t.fillcolor("#8B4513")
     t.begin_fill()
     t.setheading(90)
@@ -113,7 +109,7 @@ def draw_house(t):
     draw_triangle(t, 200)
     t.end_fill()
 
-    # Chimney
+    # Chimney on top of the house
     t.fillcolor("#A9A9A9")
     t.penup()
     t.goto(70, 70)
@@ -122,43 +118,42 @@ def draw_house(t):
     draw_rectangle(t, 30, 70)
     t.end_fill()
 
-    # Door
+    # Door and windows
     t.penup()
     t.goto(-30, -200)
     t.setheading(90)
     t.pendown()
     t.fillcolor("#8B4513")
     t.begin_fill()
-    draw_rectangle(t, 40, 60)  # Door
+    draw_rectangle(t, 40, 60)
     t.end_fill()
 
-    # Windows on either side of the door
     for x in [-80, 40]:
         t.penup()
         t.goto(x, -70)
         t.pendown()
         t.fillcolor("white")
         t.begin_fill()
-        draw_square(t, 40)  # Windows
+        draw_square(t, 40)
         t.end_fill()
 
-    # Path
+    # Path leading to the house
     t.penup()
     t.goto(30, -200)
     t.setheading(270)
     t.pendown()
     t.fillcolor("#A9A9A9")
     t.begin_fill()
-    t.forward(200)
+    t.forward(100)
     t.right(90)
     t.forward(60)
     t.right(90)
-    t.forward(200)
+    t.forward(100)
     t.right(90)
     t.forward(60)
     t.end_fill()
 
-    # A simple tree
+    # A simple tree next to the house
     t.penup()
     t.goto(-230, -110)
     t.pendown()
@@ -175,7 +170,7 @@ def draw_house(t):
     t.end_fill()
 
 def main():
-    """Sets up the scene and draws everything: the house, sun, clouds, and hills."""
+    """Main function orchestrates the drawing operations."""
     wn = turtle.Screen()
     t = turtle.Turtle()
     wn.title("KamKam House")
