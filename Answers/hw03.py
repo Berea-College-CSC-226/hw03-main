@@ -94,5 +94,6 @@ def main():
    t.hideturtle()
    screen.exitonclick()
 
+#welp i had to comment this so i could push
 main()
 
