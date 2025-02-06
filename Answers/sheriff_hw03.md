@@ -145,7 +145,7 @@
 
 ```
    I see my file and all the committs I have done on my branch but not on the main branch.
-```
+``` 
 
 
 4.d. Go back to PyCharm, and go back to the Branches interface from before. Checkout the 
