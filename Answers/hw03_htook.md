@@ -161,7 +161,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    
+    When doing a pull request, would the everyone's work be transferred to our own separate projects?
 ```
 
 ---
