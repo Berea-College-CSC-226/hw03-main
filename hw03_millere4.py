@@ -213,7 +213,7 @@ def not_a_tiger(): #second frame
     """
     turn right by 90 degrees
     """
-    for i in range(width):  # move across to left
+    for i in range(width):  # move across, toward left side
         tiger.stamp()
         tiger.forward(30)
 
@@ -531,6 +531,7 @@ def main():
     """
     lifts turtle pen at origin
     """
+
     angry_brow()
     protect_ya_neck()
     long_neck_body_turtle()
