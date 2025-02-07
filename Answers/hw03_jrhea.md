@@ -43,32 +43,32 @@
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    t.backward() with a negative value
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+   t.stamp
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    t.speed(10)
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    t.pencolor((115, 134, 120))
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    t.fillcolor((115, 134, 120))
 ```
 
 ---
