@@ -164,5 +164,4 @@ instructor will do our best to answer them. Paste the link to your question in S
 ```
     https://bereacs.slack.com/archives/C3QACGH8R/p1738516626983659
 ```
-
 ---

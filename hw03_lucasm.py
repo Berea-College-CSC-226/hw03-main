@@ -77,6 +77,5 @@ main()  # Starts the program!
 
 '''
  I got help from Javier Soto he helped me understand my red squiggle line errors. 
-
 '''
 
