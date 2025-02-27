@@ -78,28 +78,30 @@
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    you are making a copy of the repository from Github, on your computer or laptop
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    the repository is a file or group of files stored somewhere, in our case Github. 
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    a commit is like a save that, well, saves your code. it needs a message because other people who are working in 
+    the same repository and the owner of the repository can see what you've done before merging
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    a push is taking your code and moving it from your local repository and putting it a section of the main repository.
+    from your computer to Github
 ```
 
 ---
@@ -111,21 +113,21 @@
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    to make sure your local repository is updated and anything you push is not going to conflict
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    my branch and main
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    yes, my branch has all my code, i have to submit a pr to merge my branch into main
 ```
 
 
@@ -135,7 +137,7 @@
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    it transferred all of my code to the main branch and put me in the main branch
 ```
 
 
@@ -143,7 +145,7 @@
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    yes, when you need to change priority on what code takes priority
 ```
 
 ---
@@ -155,7 +157,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will do our best to answer them. Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+   is turtles useful anywhere outside of class?
 ```
 
 ---
