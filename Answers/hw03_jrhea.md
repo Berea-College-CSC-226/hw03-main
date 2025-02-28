@@ -17,7 +17,7 @@
      What are the R, G, and B values?
 
 ```
-   R:160 G:32 B:240
+   R:160 G:32 B:240 
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
