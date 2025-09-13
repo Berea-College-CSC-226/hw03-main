@@ -130,21 +130,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    So you see the work your parnter/teamates did and dont run into a code conflict.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    I see mine and two other peoples.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes mine has my work, and the main has none of the changes I've made.
 ```
 
 
@@ -153,7 +153,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    It is still there, but the changes I made a couple seconds ago didnt save.
 ```
 
 
@@ -161,7 +161,7 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    It is back and all my changes are back.
 ```
 
 _Return to the Google Doc to continue this assignment._
