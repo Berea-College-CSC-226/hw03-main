@@ -116,7 +116,7 @@ _Return to the Google Doc to continue this assignment._
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Pushing moves your code back to Github from your machine so that your partner can work on it.
+    Pushing moves your code back to Github from your machine so that your partner can work on it after.
 ```
 
 _Return to the Google Doc to continue this assignment._
