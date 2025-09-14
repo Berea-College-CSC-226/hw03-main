@@ -96,28 +96,31 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Cloning the repo makes a copy of the code on the local computer.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    The repository is the area where GitHub keeps the current code and all the older versions of it. It exists in
+    GitHub, though we can clone it. 
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit is where the coder makes a note that they completed an important part of the program, saving the work
+    they've done so far. A commit message is necessary to know what was accomplished since the last commit.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing your code sends it from your computer to GitHub and tells GitHub to update the original code with your
+    changes.
 ```
 
 _Return to the Google Doc to continue this assignment._
