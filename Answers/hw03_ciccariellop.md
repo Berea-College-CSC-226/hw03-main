@@ -64,13 +64,13 @@ _Return to the Google Doc to continue this assignment._
    location?
    
 ```
-    print(turtle.pos())
+    turtle.pos()
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    set the turtles speed to 0, meaning no animation takes place
+    By setting the turtles speed to 0, meaning no animation takes place
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
@@ -94,28 +94,28 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Cloning the repo means to clone all of the files and info in the associated repository to a local instance (on your computer)
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    The repository resides in Github, but can be accessed locally by, for example, cloning it. The repository is a storage space for a given project. The github repository is a form of "cloud storage"
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit is essentially the coder's form of "saving" a document. It creates a snapshot of any changes made, with the message helping clarify what the changes might be/why they were made.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing your code means to send the committed code from your local computer file back to the remote Github repository. This updates the remote repository with any of the changes that have been made locally. 
 ```
 
 _Return to the Google Doc to continue this assignment._
