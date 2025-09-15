@@ -54,8 +54,8 @@ def main():
     leg(20, "right")
     t.forward(1)
     t.left(90)
-    t.forward(-25)
-    t.forward(25)
+    t.forward(-23)
+    t.forward(23)
 
 
     wn.exitonclick()
