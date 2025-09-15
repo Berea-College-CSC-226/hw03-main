@@ -162,7 +162,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    My file was gone.
 ```
 
 
@@ -170,7 +170,8 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    My file is now back. Branching allows you to create new files and code that you aren't sure you want to use and 
+    easily keep a copy of your work without those testing files so you don't accidentally mix them up.
 ```
 
 _Return to the Google Doc to continue this assignment._
