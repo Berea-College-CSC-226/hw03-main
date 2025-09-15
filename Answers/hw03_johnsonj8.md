@@ -59,32 +59,33 @@ _Return to the Google Doc to continue this assignment._
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    I could use 'turtle.fd()' instead.
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    turtle.pos() or turtle.position()
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    turtle.speed(0). Numbers greater than 10 or smaller than 0.5 when used as an input also set speed to 0.
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    First enter the command "screen.colormode(255)" then enter "turtle.color(115,134,120)".
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    First enter the command "screen.colormode(255)", then enter "turtle.fillcolor(115,134,120)". Next, enter
+    "turtle.begin_fill()", draw the shape, then enter "turtle.end_fill()".
 ```
 
 _Return to the Google Doc to continue this assignment._
