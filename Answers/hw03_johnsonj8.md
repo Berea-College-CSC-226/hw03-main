@@ -135,21 +135,25 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    If you don't pull beforehand, you may accidentally create a merge conflict. If someone changed the code between your
+    last pull and this push, then whether or not you changed that section, it's different from what's on GitHub.
+    However, even if it doesn't create a merge conflict, the changes may cause your code to no longer work, and as such
+    you would want to fix it to work with the new code.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    There are seven branches at the moment that I am answering this question. Main, my branch, santosb2's branch, 
+    two of ciccariellop's branches, Kirkpatrickm's branch, and "fix_a03_stubs".
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    They are different, mine has two more items in the "Answers" folder.
 ```
 
 
