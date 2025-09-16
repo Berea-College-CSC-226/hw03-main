@@ -102,28 +102,31 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    You're making a local copy of the project/files into your computer that allows you to make your own changes.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    A repository is a storage location that includes your files, work, and the software packages. When you're making a clone repository of a file, for example 
+    the classroom git is located in the Remote Repository but when you clone it onto your computer, it would be in the local repository. So they're both located in Github, just ogranized differently. 
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    Commit is a button that helps you save the changes you've made in your code. Leaving a commit message let's you know what changes you made for that specific commit
+    which makes it easier to go back and refine/find which specific code change/version you're looking for.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Once you've finish making your changes and commiting your new updated code, you would need to push these new updates to the main branch that holds your whole code (Github)
+    which then allows whoever is a collaborator see these new changes and can pull these new changes into their computer or branch. 
 ```
 
 _Return to the Google Doc to continue this assignment._
