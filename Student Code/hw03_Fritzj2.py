@@ -84,5 +84,5 @@ def main():
     Trunk_texture()
     Trunk_Hole()
     #TODO Add the final function with the leaves
-
+    # Now progreess done after making the pull from the main
 main()  # Starts the program!
