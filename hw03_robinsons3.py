@@ -4,7 +4,7 @@
 #
 # Assignment: HW03
 # Purpose: Draws Dog
-# Google Doc Link:
+# Google Doc Link:https://docs.google.com/document/d/1lRSgoW_Gg7SrYQViLRa_tQG-xF-1Zxu8ZkNeYjRlKl8/edit?usp=sharing
 #
 #################################################################################
 
