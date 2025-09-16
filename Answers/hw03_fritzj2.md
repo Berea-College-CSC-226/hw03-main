@@ -57,32 +57,32 @@ _Return to the Google Doc to continue this assignment._
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    turtle.fd()
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    turtle.pos() or turtle.position()
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    turtle.speed()
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    turtle.pencolor("xanadu")
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    turtle.begin_fill() and turtle.end_fill()
 ```
 
 _Return to the Google Doc to continue this assignment._
