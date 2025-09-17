@@ -126,8 +126,6 @@ def main():
     draw_teeth(s)
     draw_gill(s)
 
-
-
     wn.exitonclick()
 
 main() # calling functions to draw the shark
