@@ -129,21 +129,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    It is important to make sure that the code you are working on is up to date with any other changes that could've been made on the main branch. 
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    Theres about 16, including main. I see both of mine that I created, as well as all of my classmates'.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, any of the pushes that I did on my work already show up, while the main branch is largely unedited for the last few months. 
 ```
 
 
