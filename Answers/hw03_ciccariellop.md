@@ -152,7 +152,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    The contents of the project changed to reflect what is currently in the main branch when I changed it, and vice versa. It did not include my personally created python file in the main branch, but the files are largely the same, since I didn't edit the majority of them
 ```
 
 
@@ -160,7 +160,7 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+   Yes, it is still there. Branching is useful because it creates different environments with (at least at first) the same conditions. Using multiple branches, you can experiment what may happen as you change your code, without ever losing access to your original code.
 ```
 
 _Return to the Google Doc to continue this assignment._
