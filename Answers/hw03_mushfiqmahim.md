@@ -57,32 +57,35 @@ _Return to the Google Doc to continue this assignment._
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    turtle.fd()
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    turtle.position()   # or turtle.pos()
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    turtle.speed(0)
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    turtle.color("xanadu")
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+   turtle.fillcolor("xanadu")
+turtle.begin_fill()
+# draw shape here
+turtle.end_fill()
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -94,28 +97,32 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Cloning a repo means copying all the code and history from GitHub (online) to our local computer so we can work on it.
+
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    A repository (repo) is where project files and history are stored. It exists on GitHub (remote) and can also exist on our computer (local).
+
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+   A commit is like saving a snapshot of the code changes. The message explains what we changed so others understand the update.
+
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing means sending our local commits from our computer to the remote repo on GitHub so the online version is updated.
+
 ```
 
 _Return to the Google Doc to continue this assignment._
