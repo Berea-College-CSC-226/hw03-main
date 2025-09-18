@@ -148,14 +148,15 @@ _Return to the Google Doc to continue this assignment._
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    I believe I only see mine unless I go on the Github website and see my other classmates branches.
+    I believe I only see my files (hw03_manabatl3_galaxy.py , hw03_manabatl3.md) unless I go on the 
+    Github website and see my other classmates branches.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, they are different. My branch only has my edits and files.
 ```
 
 
@@ -164,7 +165,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    It changes because the main doesn't hold my files but my branch does. 
 ```
 
 
@@ -172,7 +173,8 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes it is because it's my branch that I created and inputed the files/work. Which again shows 
+    how branching works and organizes people's work within their own branhc.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -186,7 +188,8 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    Is there a way to indicate if we did our pull requests right, and if so, 
+    how could we fix them if there was an issue? 
 ```
 
 ---
