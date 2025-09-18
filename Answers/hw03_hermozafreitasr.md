@@ -170,7 +170,7 @@ _Return to the Google Doc to continue this assignment._
 
 ```
     branching is useful in terms of upgrades or maintainance. If you already have some code that works 
-    properly you'll want to keep it as it is, so that previous functionality doesn't dissapear
+    properly you'll want to keep it as it is, so that previous functionality doesn't dissapear.
 ```
 
 _Return to the Google Doc to continue this assignment._
