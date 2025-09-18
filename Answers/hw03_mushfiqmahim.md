@@ -136,21 +136,25 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Pulling first makes sure the local code is up to date with GitHub before we push, so we don’t overwrite or lose other people’s changes.
+
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    There are three branches: main, hw03_mushfiqmahim, and hw03_mushfiqs_house. Yes, I see my branch and also another one besides main.
+
+
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, they are different. My branch has my file and edits, while the main branch does not.
+
 ```
 
 
@@ -159,7 +163,8 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When I checkout the main branch in PyCharm, my file disappears because main doesn’t include it. It looks like it’s gone from the project pane.
+
 ```
 
 
@@ -167,7 +172,8 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+   When I switch back to my branch, my file returns. This shows branching is useful because it keeps each person’s changes separate and avoids conflicts.
+
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -181,7 +187,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    "What if we pull from the main and there's other peoples work in the branch? Do we keep it or delete?"
 ```
 
 ---
