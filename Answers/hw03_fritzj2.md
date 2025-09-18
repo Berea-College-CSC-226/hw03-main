@@ -94,28 +94,28 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    It means to make a local clone of the main. This comes from the repository.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    The repository is the main hub for the code. It exists within gitHub.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    Commit means to save it to the database. It means commiting the act of one code to the repository
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing the code means to give it to gitHub and pushing it figurativley from your computer to the server. 
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -129,21 +129,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+   It is important to do this to make sure that the code you have written is aligned with the new version of the main.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+   There are currently 13 requests that I can see. I do in fact see mine after the pull request.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    There are two codes that are different and they do happen to be the ones that I have added.
 ```
 
 
@@ -152,7 +152,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    There are now the other branches that other people have made. There is also now a #207 next to my branch that align with the pull request.
 ```
 
 
@@ -160,7 +160,7 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+   It is nice to see how many branches you have made in Pycharm. The thing that I like is that it gives you the last pushed revision to gitHub.
 ```
 
 _Return to the Google Doc to continue this assignment._
