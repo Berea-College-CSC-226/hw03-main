@@ -134,21 +134,24 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+It makes sure that my local branch has the newest changes from GitHub so that there are
+no merge conflicts.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    There is the main branch and them my brancg which is hw03_alia2. I can see my branch
+    and others that were created.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    They are different because mine has my code i wrote for the shark but the main one does
+    not have it.
 ```
 
 
@@ -157,7 +160,8 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    My files do not exist in the main branch. They only exist in my personal branch. Pycharm is
+    showing em what is in the main branch and that does not include my files.
 ```
 
 
@@ -165,7 +169,9 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    My files are there when i return to my branch. Branches are useful because i can make 
+    changes and experiment without ruining the main project and it is easy to switch between
+    them.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -179,7 +185,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1758154008056429
 ```
 
 ---
