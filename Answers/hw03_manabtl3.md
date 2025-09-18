@@ -140,14 +140,15 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    I think it's important to pull because there could be new changes and your file isn't up to date which could
+    cause conflicts. If you push without pulling you're not making sure your files are the same.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    I believe I only see mine unless I go on the Github website and see my other classmates branches.
 ```
 
 
