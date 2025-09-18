@@ -150,7 +150,7 @@ _Return to the Google Doc to continue this assignment._
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    my code would disappear if I go to main branch, if I don't commit and push. So I can't see any changes in the main.
 ```
 
 
@@ -159,7 +159,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    it would revert back to what main has.
 ```
 
 
@@ -167,7 +167,8 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    My file should reappear.
+    It helps you to work on your own thing without changing ogs work.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -181,7 +182,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    If merging can conflict an issue, and we need to ask for pull request anyway, why there's option to merge from our local server?
 ```
 
 ---

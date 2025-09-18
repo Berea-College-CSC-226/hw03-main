@@ -20,6 +20,7 @@ def draw_house():
     This function draws a square house.
     """
     house = turtle.Turtle()
+
     house.penup()
 
     house.goto(-100, -100)
