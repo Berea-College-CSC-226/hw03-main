@@ -149,21 +149,25 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+To make sure my local branch has the newest commits from the remote. Pulling first prevents
+errors and reduces merge conflicts.
+
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+I see 2 branches: master (main) and my hw03_alemuy branch.
+
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+Yes. My branch has my latest commit(s) for this assignment, while master doesn’t have those changes yet.
+
 ```
 
 
