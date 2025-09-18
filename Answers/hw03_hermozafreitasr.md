@@ -99,28 +99,32 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    It is making a copy of a project locally in your computer
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    The repository is like a container that stores all the files of a project, it exists in Github
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    a commit is a way of saving the changes you've made. It needs a message
+    because you're modifying a project and we need to identify the kind of changes or 
+    additions to the original code so that later in the future it is easier to understand
+    and to debug.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing the code is like updating your changes into the remote version of the repository.
+    It goes from your local clone to the original repository in github
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -180,7 +184,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1758162654002539
 ```
 
 ---
