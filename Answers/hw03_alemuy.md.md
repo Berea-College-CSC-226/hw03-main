@@ -176,7 +176,7 @@ Yes. My branch has my latest commit(s) for this assignment, while master doesnâ€
      there? Did it change?
 
 ```
-    Replace this text with your answer
+When I switched to main, my files disappeared because I hadnâ€™t merged my branch changes yet.
 ```
 
 
@@ -184,7 +184,7 @@ Yes. My branch has my latest commit(s) for this assignment, while master doesnâ€
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+Switching back to my branch brought my files back branching keeps work separate until merged.
 ```
 
 _Return to the Google Doc to continue this assignment._
