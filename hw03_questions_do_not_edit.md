@@ -29,21 +29,21 @@ Replace each `Replace this text with your answer` with your answer to the questi
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    rgb(128, 0, 128)
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+    rgb(165, 42, 42)
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    rgb(107,135,117)
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -57,32 +57,38 @@ _Return to the Google Doc to continue this assignment._
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    turtle.fd()
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    turtle.position()
+    turtle.pos()
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    turtle.speed(0)
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    screen.colormode(255)
+    turtle.color(115,134,120)
+    
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    screen.colormode(255)
+    turtle.fillcolor(115,134,120)
+    turtle.begin_fill()
+    turtle.end_fill()
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -94,28 +100,29 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    copying the main work from the cloud, and placing that in my local pc.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+     Repo is a central storage location for a project's files. On github, but after 
+     cloning in local machine.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    saving your changes. Indicating your changes via a message before saving.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    sending your local commit to cloud storage. push to github and from local branch
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -129,21 +136,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    to get the updated version and avoid conflicts.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    20. Yes. Yes
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    my code would disappear if I go to main branch, if I don't commit and push. So I can't see any changes in the main.
 ```
 
 
@@ -152,7 +159,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    it would revert back to what main has.
 ```
 
 
@@ -160,7 +167,8 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    My file should reappear.
+    It helps you to work on your own thing without changing ogs work.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -174,7 +182,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    If merging can conflict an issue, and we need to ask for pull request anyway, why there's option to merge from our local server?
 ```
 
 ---
