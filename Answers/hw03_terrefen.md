@@ -36,7 +36,7 @@ Replace each `Replace this text with your answer` with your answer to the questi
      What are the R, G, and B values? 
 
 ```
-    rbg(150, 75, 0)
+    rgb(165, 42, 42)
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
@@ -66,31 +66,27 @@ _Return to the Google Doc to continue this assignment._
 ```
     turtle.pos()
     turtle.position()
-    
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    turtle.speed(0)
+   turtle.speed(0)
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    turtle.colormode(255)
+    screen.colormode(225)
     turtle.color(107,135,117)
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    turtle.colormode(255)
-    turtle.color(107,135,117)
+    turtle.fillcolor(107,135,117)
     turtle.begin_fill()
-    "we got to have a shape here"
     turtle.end_fill()
-    
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -102,29 +98,28 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    copying the project to your local machine from remote or cloud.
+    Replace this text with your answer
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    It's the file to that stores our code and it's located on our github 
+    Replace this text with your answer
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Commit is like saving a file in our local machine and the message is to help us know the 
-    stage we saved it
+    Replace this text with your answer
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    To upload it to our online repository and we are pushing it from our local machine to gihub repository
+    Replace this text with your answer
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -138,21 +133,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Because we need to see the changes that have been made so that we don't creats a merge conflict when we push
+    Replace this text with your answer
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    10 and yes I do.
+    Replace this text with your answer
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Yes there isn't the changes I did on the main branch
+    Replace this text with your answer
 ```
 
 
@@ -161,7 +156,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    it changed since i was in the main branch and the main branch doesn't have the changes yet
+    Replace this text with your answer
 ```
 
 
@@ -169,7 +164,7 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    It can help mantian a smooth development when we code especially we are working on a specifc feature.
+    Replace this text with your answer
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -183,7 +178,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    https://bereacs.slack.com/archives/C3QACGH8R/p1758167551788509
+    Replace this text with your answer
 ```
 
 ---
