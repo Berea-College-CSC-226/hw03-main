@@ -8,11 +8,11 @@
 import turtle
 
 # function to draw a square
-def draw_square(color, x, y, size):
+def draw_square ( color, x, y, size ):
     turtle.penup()
     turtle.goto(x, y)
     turtle.pendown()
-    turtle.fillcolor(color)
+    turtle.fillcolor("tan")
     turtle.begin_fill()
     for i in range(4):
         turtle.forward(size)
@@ -42,6 +42,7 @@ def draw_window(color, x, y, size):
         turtle.forward(size)
         turtle.left(90)
     turtle.end_fill()
+
 
 def main():
     turtle.bgcolor("#87CEEB")  # background color (sky blue)
