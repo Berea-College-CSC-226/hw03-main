@@ -43,7 +43,7 @@ berea_blue.forward(40)
 berea_blue.pendown()
 berea_blue.right(60)
 
-for j in range(6):
+for j in range(6): #last little circle loop.
    berea_blue.forward(30)
    berea_blue.left(60)
 
