@@ -143,7 +143,7 @@ _Return to the Google Doc to continue this assignment._
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Yes, any of the pushes that I did on my work already show up, while the main branch is largely unedited for the last few months. 
+    Yes, any of the pushes that I did on my work already show up, while the main branch is largely unedited for the last few months.  
 ```
 
 
