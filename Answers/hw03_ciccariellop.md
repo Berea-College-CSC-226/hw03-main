@@ -149,7 +149,7 @@ _Return to the Google Doc to continue this assignment._
 
 4.d. Go back to PyCharm, and go back to the Branches interface from before. Checkout the 
      master branch. Describe what happens to your file in the Project pane of PyCharm. Is it still 
-     there? Did it change?
+     there? Did it change? 
 
 ```
     The contents of the project changed to reflect what is currently in the main branch when I changed it, and vice versa. It did not include my personally created python file in the main branch, but the files are largely the same, since I didn't edit the majority of them
