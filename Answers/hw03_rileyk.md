@@ -135,14 +135,15 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Because if you don't then it will cause a merge conflict due to your local
+    version of main being out of sync with the main in the github server.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    I do see many others
 ```
 
 
