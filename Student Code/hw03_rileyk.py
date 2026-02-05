@@ -16,7 +16,7 @@ import turtle
 
 
 def ufo(alien):
-    alien.pensize(10)
+    alien.pensize(20)
     alien.pencolor('green')
     alien.forward(50)
 
