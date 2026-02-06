@@ -143,14 +143,14 @@ _Return to the Google Doc to continue this assignment._
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    I do see mmine and many others
+    I do see mmine and many others from previous classses
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Yes they are different
+    Yes they are different, some have their files in different places and have different names
 ```
 
 
