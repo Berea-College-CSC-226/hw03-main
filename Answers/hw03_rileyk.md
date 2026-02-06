@@ -143,14 +143,15 @@ _Return to the Google Doc to continue this assignment._
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    I do see mmine and many others from previous classses
+    There are 24 branches; I do see mmine as well many others from previous classses
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Yes they are different, some have their files in different places and have different names
+    Yes they are different because I have edited things and added some files in my branch but
+    main stays the same as when I first cloned the repo
 ```
 
 
@@ -159,7 +160,8 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    It now shows every other branch from the repo
+    Yes, my files are no longer there and it is just showing the original state of the repo
+    because all of my changes were on a branch and had no affect on the main
 ```
 
 
@@ -167,9 +169,10 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Branching is useful because it saves everyone's versions of the
-    repo and it saves everyone's versions so they can be compared 
-    and or implemented via pull request
+    Branching is useful because you can make your own branch of the repo which includes
+    all of the same files that main has but you can edit them now without it affecting main.
+    But now if you make some changes that you thing should be included in the main branch you
+    must create a pull request for it to be included.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -183,8 +186,8 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Do huge tech companies like Google, Facebook, etc. really use Git? Or do they use a similar
-    program that maybe they made themselves to work better for their needs specifically?
+    Do huge tech companies like Google, Facebook, etc. really use Github and Git? Or do they use similar
+    programs that maybe they programmed themselves to work better for their needs specifically?
 ```
 
 ---
