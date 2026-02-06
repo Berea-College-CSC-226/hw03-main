@@ -143,14 +143,14 @@ _Return to the Google Doc to continue this assignment._
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    I do see many others
+    I do see mmine and many others
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes they are different
 ```
 
 
@@ -159,7 +159,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    It now shows every other branch from the repo
 ```
 
 
@@ -167,7 +167,9 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Branching is useful because it saves everyone's versions of the
+    repo and it saves everyone's versions so they can be compared 
+    and or implemented via pull request
 ```
 
 _Return to the Google Doc to continue this assignment._
