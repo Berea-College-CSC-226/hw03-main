@@ -138,21 +138,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-     
+    To be updated with the main branch in Github
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    
+    25,  yes, yes 
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    
+    If I click on main branch same old files appears. They are different 
 ```
 
 
@@ -161,7 +161,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    It shows what main has?
 ```
 
 
@@ -169,7 +169,7 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, It is helpful because we can make changes seperately without making changes in original file. 
 ```
 
 _Return to the Google Doc to continue this assignment._
