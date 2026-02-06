@@ -183,7 +183,8 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    Do huge tech companies like Google, Facebook, etc. really use Git? Or do they use a similar
+    program that maybe they made themselves to work better for their needs specifically?
 ```
 
 ---
