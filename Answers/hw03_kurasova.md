@@ -58,20 +58,23 @@ _Return to the Google Doc to continue this assignment._
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    Turns out that we can use the turtle.fd() function instead of turtle.forward(), and both methods 
+    do the same thing!
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    To find the turtle's current location, we can use turtle.position() or turtle.pos().
+    It will return two values: the x and y coordinates. If you want to print these two values, 
+    you can do this: print(turtle.position()) or print(turtle.pos()).
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    To set the turtle's spped to maximum speed, we use turtle.speed(0)
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
