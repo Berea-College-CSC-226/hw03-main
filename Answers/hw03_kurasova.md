@@ -43,8 +43,14 @@ Replace each `Replace this text with your answer` with your answer to the questi
      What are the R, G, and B values?
 
 ```
-    There's no such color as "xanadu" among the colors on the given website. There is probably a typo
-    in the name of the color.  
+    There's no such color as "xanadu" among the colors on the given website. Initially I thought
+    that there was a typo in the name of the color, but I looked it up, and this color actually
+    exists. Here are its RGB values: 
+    
+    R = 115, G = 134, B = 120
+    
+    This time I used the website below to answer this question: 
+    https://www.figma.com/colors/xanadu/  
 ```
 
 _Return to the Google Doc to continue this assignment._
