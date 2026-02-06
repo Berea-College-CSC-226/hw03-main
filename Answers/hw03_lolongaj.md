@@ -144,7 +144,7 @@ _Return to the Google Doc to continue this assignment._
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    Replace this t
 ```
 
 
