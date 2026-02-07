@@ -64,8 +64,8 @@ _Return to the Google Doc to continue this assignment._
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Turns out that we can use the turtle.fd() function instead of turtle.forward(), and both methods 
-    do the same thing!
+    Turns out that we can use the turtle.fd() function instead of turtle.forward(), and 
+    both methods do the same thing!
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
@@ -86,13 +86,37 @@ _Return to the Google Doc to continue this assignment._
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    To change turtle's color to xanadu, we have to make two steps. First of all,
+    we have to set the screen colormode to 255 (so we can use RGB values to set the 
+    turtle's color): 
+    
+    screen.colormode(255)
+    
+    Then we use the following method: 
+    
+    turtle.color(115, 134, 120)
+    
+    I forgot the method above, so to answer the question, I looked up in the 
+    Python documentation: https://docs.python.org/3/library/turtle.html#turtle.color
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    First, we set the fill color: 
+    
+    turtle.fillcolor(115, 134, 120) 
+    
+    Then we begin filling the shape we are about to draw: 
+    
+    turtle.begin_fill()
+    
+    Then we outline the shape, and use another method at the end: 
+    
+    turtle.fillcolor(115, 134, 120)
+    
+    Once again, I conculted the Python documentation to answer the question: 
+    https://docs.python.org/3/library/turtle.html#turtle.color
 ```
 
 _Return to the Google Doc to continue this assignment._
