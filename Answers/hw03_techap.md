@@ -29,21 +29,20 @@ Replace each `Replace this text with your answer` with your answer to the questi
      What are the R, G, and B values?
 
 ```
-    R = 179, G = 0, B = 255
+    rgb(179, 0, 255)
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    R = 153, G = 97, B = 0
+    rgb(153, 97, 0)
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    R = 102, G = 153, B = 153
     rgb(102, 153, 153)
 ```
 
@@ -144,14 +143,14 @@ _Return to the Google Doc to continue this assignment._
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    There are 27 branches. I see mine and 26 other branches.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, they are. The master branch doesn't have the changes I made on my branch.
 ```
 
 
@@ -160,7 +159,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+   The files I created (hw03_techap.md and hw03_techap.p) are not on the master branch.
 ```
 
 
@@ -168,7 +167,9 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, my files are back on my branch.
+    Branching helps in maintaining order, especially when many programmers are working on the same repo. It also reduces 
+    the possibility of merge conflicts.
 ```
 
 _Return to the Google Doc to continue this assignment._
