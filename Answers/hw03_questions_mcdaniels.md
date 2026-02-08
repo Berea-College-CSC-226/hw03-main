@@ -157,7 +157,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When checking out the main branch, my created files don't technically exist within it, only within my user branch.
 ```
 
 
@@ -165,7 +165,7 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Once back in my branch, so are my files. This method of saving-via-branches allows us to work individually on grou projects without stepping on toes and deleting progress. By having individual branches store progress rather than attempting to shove all progress on the main branch at a time, users can work more efficiently without fear of overlap.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -179,7 +179,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    When I attempted to checkout the main branch without having commit and pushed my own, a "Git checkout problem" would occur--offering a Smart checkout. If I accepted the smart checkout, it would then end up resulting in offering a Rollback. Upon checking out my personal branch again, progress would be lost. My question is: "why?"
 ```
 
 ---
