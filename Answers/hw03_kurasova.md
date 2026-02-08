@@ -128,28 +128,35 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Cloning the repo means creating its copy on your own local drive. 
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    A repo is a project Git tracks the files and folders of. It might exist both on our local drive 
+    and GitHub.  
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit is capturing (all or some of) the changes you have made to the files in the repo. Just like,
+    you take photos to capture memorable moments, developers commit changes to be able to go back to those 
+    changes for various reasons. 
+    
+    We need to write commit messages so that we and other developers can understand what changes have been
+    made to the project at a certain commit.  
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing code means uploading it from your local drive into the cloud (usually GitHub, but it might any 
+    online service that hosts git repos). 
 ```
 
 _Return to the Google Doc to continue this assignment._
