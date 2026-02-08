@@ -36,14 +36,14 @@ Replace each `Replace this text with your answer` with your answer to the questi
      What are the R, G, and B values? 
 
 ```
-    104, 59, and 43
+    104, 59, 43
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    117, 135, 117
+    115, 134, 120
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -57,32 +57,37 @@ _Return to the Google Doc to continue this assignment._
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    Replace this text with your answer
+    turtle.fd()
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    Replace this text with your answer
+    turtle.pos()
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    Replace this text with your answer
+    turtle.speed(0)
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    Replace this text with your answer
+    screen.colormode(255)
+    turtle.color(115, 134, 120)
+    
+    # if you just wanted the pen of the turtle:
+    turtle.pencolor(115, 134, 120)
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    screen.colormode(255)
+    turtle.fillcolor(115, 134, 120)
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -94,28 +99,28 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Cloning a repository is the practice of copying a file from Github onto one's computer on a local scale. This is so that individuals can work on the same projects without crossing paths and dsetroying progress.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    The repository is the area in which all the project's files are stored on a versional-basis. They exist locally, sending information back to the cloud version of Git.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    Commits represent the different versions of the repository. They are the "saves" an individual makes to their local project that get saved as an "update," aka: commit. These are the entire purpose of Git, allowing for individuals to go to different versions of their work for editing and backup purposes. The commits stay local without a push.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    A push moves the git commits to their remote counterparts, moving past just a local status. Local changes are pushed TO git, while changes saved on git (e.g. by another individual that has pusehd their own work to git) are pulled FROM git TO the local computer.
 ```
 
 _Return to the Google Doc to continue this assignment._
