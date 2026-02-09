@@ -144,14 +144,14 @@ _Return to the Google Doc to continue this assignment._
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    
+    33 branches and I can see others and mine
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    the difference is that the main branch have the new file I have created in branch.
 ```
 
 
