@@ -134,21 +134,26 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+     Because pulling first makes sure I have the newest changes so I don’t overwrite other people’s 
+     work when I push.
+
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+     There are two branches, the master branch and my branch and yes I can see mine.
+
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+      Yes, they are different because my branch has my changes but the main branch does not yet.
+
+
 ```
 
 
@@ -157,7 +162,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When I switched to main, my file changed because main does not have my new edits.
 ```
 
 
@@ -165,7 +170,9 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+      Yes, my file came back and branching is useful because I can work safely without changing 
+      the main project.
+
 ```
 
 _Return to the Google Doc to continue this assignment._
