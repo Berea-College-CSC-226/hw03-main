@@ -57,7 +57,7 @@ _Return to the Google Doc to continue this assignment._
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    turtle.backwards() with a negative distance. 
+    turtle.fd()
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
