@@ -145,7 +145,7 @@ _Return to the Google Doc to continue this assignment._
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    It shows 2 changed files with 227 additions, the amount of commits are different, and the Student Code and Answer files have been updated in the branch.
 ```
 
 
