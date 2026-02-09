@@ -12,8 +12,6 @@
 #
 #
 #################################################################################
-
-
 import turtle
 def setup():
     """Set up screen and turtle."""
@@ -22,7 +20,6 @@ def setup():
     screen.title("UFO Beam")
     screen.colormode(255)
     screen.bgcolor(15, 15, 40)  # non-white background (RGB)
-
     t = turtle.Turtle()
     t.hideturtle()
     t.speed(0)
@@ -45,7 +42,6 @@ def box(t,x,y,w,h,color):
         t.forward(h)
         t.left(90)
     t.end_fill()
-
 def circle(t, x, y, r, color):
     """This function will draw the circle with radius r"""
     jumpTo(t, x, y-r)
@@ -54,14 +50,12 @@ def circle(t, x, y, r, color):
     t.begin_fill()
     t.circle(r)
     t.end_fill()
-
 def drawUFO(t, x, y):
     """This will make a UFO from circle and box"""
     circle(t, x, y, 40, (180, 180, 200))
     box(t, x - 50, y - 10, 100, 20, (80, 80, 100))
     for z in [-20, 0, 20]:
         circle(t, x + z, y - 10, 5, (255, 255, 0))
-
 def draw_stars(t):
     """A few stars."""
     t.pencolor(255, 255, 200)
@@ -71,12 +65,9 @@ def draw_stars(t):
         (150, 180), (200, 220), (250, 190), (300, 140), (350, 210)]:
         jumpTo(t, x, y)
         t.dot(10)
-
-
-
 def main():
     """
-    Docstring for main. Should describe the main functionality of this file.
+    This will setup for turtle and screen and make a UFO from circle and box
     """
     screen, t = setup()
     drawUFO(t,0,120)
@@ -84,7 +75,4 @@ def main():
     drawUFO(t, -50, -50)
     draw_stars(t)
     screen.exitonclick()
-
-
-
 main()  # Starts the program!
