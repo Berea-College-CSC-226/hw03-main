@@ -16,12 +16,20 @@ import turtle
 import random
 
 def move_to(tess, x, y):
+    """
+    Moves turtle to a specified (x,y) location with pin up so no mark is made while moving
+    """
+
     tess.penup()
     tess.goto(x, y)
     tess.pendown()
 
 
 def draw_circle(tess, radius, color):
+    """
+    Draws the windows for the body of the UFO and colors them in
+    """
+
     tess.fillcolor(color)
     tess.begin_fill()
     tess.circle(radius)
@@ -29,6 +37,10 @@ def draw_circle(tess, radius, color):
 
 # Base of UFO
 def draw_ufo_body(tess):
+    """
+    Draws entire body of UFO and fills it in
+    """
+
     move_to(tess, -120, -50)
     tess.setheading(0)
     tess.fillcolor("#7F8C8D")
@@ -53,6 +65,11 @@ def draw_ufo_body(tess):
 
 
 def draw_ufo_windows(tess):
+    """
+    Draws the windows on the body of the UFO, includes the 'draw_circle' function to draw
+    the circles in this function
+    """
+
     move_to(tess, -80, -20)
     tess.setheading(0)
 
@@ -62,8 +79,11 @@ def draw_ufo_windows(tess):
         tess.forward(40)
         tess.pendown()
 
-# Draws the yellow light beam coming from UFO
 def draw_beam(tess):
+    """
+    Draws the yellow light beam coming from the UFO
+    """
+
     move_to(tess, -40, -50)
     tess.fillcolor("#F4D03F")
     tess.begin_fill()
@@ -73,9 +93,14 @@ def draw_beam(tess):
     tess.goto(-40, -50)
     tess.end_fill()
 
-# Adds 'stars' varying in size on random spots
-# across the window
+
+
 def draw_stars(tess):
+    """
+    Adds 'stars' varying in size on random spots across the window
+    utilizing the 'random' import
+    """
+
     tess.pencolor("white")
     for i in range(80):
         x = random.randint(-300, 300)
@@ -85,6 +110,11 @@ def draw_stars(tess):
         tess.dot(random.randint(3, 6))
 
 def main():
+    """
+    This main function calls all other functions in the correct order
+    to make the drawing
+    """
+
     wn = turtle.Screen()
     wn.bgcolor("#0B1C2D")
     tess = turtle.Turtle()
