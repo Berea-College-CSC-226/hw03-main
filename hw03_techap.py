@@ -15,9 +15,6 @@
 
 from turtle import*
 
-wn = Screen()
-wn.bgcolor("#99CCFF")
-
 def draw_house(turt1):
     """
     Draws a house.
@@ -148,6 +145,9 @@ def main():
     """
     Calls all previously defined functions and writes a message at the bottom of the page.
     """
+    wn = Screen()
+    wn.bgcolor("#99CCFF")
+
     jana = Turtle()
     draw_house(jana)
 
@@ -171,7 +171,7 @@ def main():
     jada.write("Welcome Home :)", move=False, align="center", font=("Courier", 30, "italic"))
     jada.hideturtle()
 
+    wn.exitonclick()
 
 main()  # Starts the program!
 
-wn.exitonclick()
