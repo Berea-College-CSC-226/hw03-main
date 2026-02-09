@@ -160,7 +160,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    Some of the files are not there in the master branch
 ```
 
 
@@ -168,7 +168,8 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes the files are back. Branching is useful because we are able to make changes to files without altering the main
+    branch and its files.
 ```
 
 _Return to the Google Doc to continue this assignment._
