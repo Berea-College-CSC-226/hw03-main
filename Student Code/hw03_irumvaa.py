@@ -61,11 +61,7 @@ wn.exitonclick()
 #     """
 #     Docstring for main. Should describe the main functionality of this file.
 #     """
-#
-#     # Function calls to function_1 and function_2.
-#     function_1()            # TODO  Remove when you replace it with your function
-#     function_2()            # TODO  Remove when you replace it with your function
-#
+
 #
 # main()  # Starts the program!
 # shape.write("My House",move=False,align='center',font=("Arial",30,("bold","normal")))
