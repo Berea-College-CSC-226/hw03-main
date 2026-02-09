@@ -13,6 +13,7 @@
 #
 #################################################################################
 import turtle
+
 def setup():
     """Set up screen and turtle."""
     screen = turtle.Screen()
@@ -25,11 +26,13 @@ def setup():
     t.speed(0)
     t.penup()
     return screen, t
+
 def jumpTo(t,x,y):
     """This function will jump to another place without mark """
     t.penup()
     t.goto(x, y)
     t.pendown()
+
 def box(t,x,y,w,h,color):
     """This function will draw a box around the circle"""
     jumpTo(t, x, y)
@@ -42,6 +45,7 @@ def box(t,x,y,w,h,color):
         t.forward(h)
         t.left(90)
     t.end_fill()
+
 def circle(t, x, y, r, color):
     """This function will draw the circle with radius r"""
     jumpTo(t, x, y-r)
@@ -50,12 +54,14 @@ def circle(t, x, y, r, color):
     t.begin_fill()
     t.circle(r)
     t.end_fill()
+
 def drawUFO(t, x, y):
     """This will make a UFO from circle and box"""
     circle(t, x, y, 40, (180, 180, 200))
     box(t, x - 50, y - 10, 100, 20, (80, 80, 100))
     for z in [-20, 0, 20]:
         circle(t, x + z, y - 10, 5, (255, 255, 0))
+
 def draw_stars(t):
     """A few stars."""
     t.pencolor(255, 255, 200)
@@ -65,6 +71,7 @@ def draw_stars(t):
         (150, 180), (200, 220), (250, 190), (300, 140), (350, 210)]:
         jumpTo(t, x, y)
         t.dot(10)
+
 def main():
     """
     This will setup for turtle and screen and make a UFO from circle and box
