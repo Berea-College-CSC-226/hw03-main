@@ -43,7 +43,7 @@ Replace each `Replace this text with your answer` with your answer to the questi
      What are the R, G, and B values?
 
 ```
-    no such color exist 
+    no such color exist on color spice 
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -76,7 +76,7 @@ _Return to the Google Doc to continue this assignment._
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    turtle.color("xanadu")
+    turtle.color("xanadu") or you can enter the RGB numbers of that color if they exist.
 ```
 
 2.e. How would you fill a shape with the color xanadu?
@@ -84,6 +84,9 @@ _Return to the Google Doc to continue this assignment._
 ```
     turtle.color('red')
 turtle.fillcolor('xanadu')
+turtle.begin_fill
+then you draw and object 
+turtle.end_fill
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -96,7 +99,7 @@ _Return to the Google Doc to continue this assignment._
 
 ```
     creating a copy of the main code, which allows you to work on it,
-    without editing the entire and original source code. 
+    without editing the entire and original source code or file. 
 ```
 
 
@@ -133,21 +136,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-you pull before you psuh to avoid merge conflicts and to equally update your code.
+you pull before you push to avoid merge conflicts and to equally update your code.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    
+    29 and i saw mine and those of my peers from different sections of the class. 
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+   yes they are different, mine is personalized to my name 
 ```
 
 
@@ -156,7 +159,7 @@ you pull before you psuh to avoid merge conflicts and to equally update your cod
      there? Did it change?
 
 ```
-    Replace this text with your answer
+   i had quite an issue trying to do this section of the problems
 ```
 
 
@@ -164,7 +167,9 @@ you pull before you psuh to avoid merge conflicts and to equally update your cod
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    branching is helpful because it permits everyone to work on different portions of the same document
+    it lets you test different codes on a copy before deciding to make those changes on the branch
+    you can use it to update your document if you and your partner are working on the same project 
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -178,7 +183,8 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    i had a lot of issue with checking out and in of the main branch and my branch. 
+    it kept on resseting my work to zero, after displaying a bunch of errors. 
 ```
 
 ---

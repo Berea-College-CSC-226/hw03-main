@@ -127,7 +127,7 @@ def main():
             t.forward(35)
             t.pendown()
             t.forward(15)
-        sun_rays()
+    sun_rays()
 
     t.hideturtle()
     wn.exitonclick()
