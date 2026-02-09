@@ -27,7 +27,7 @@ def main():
         t.color("green")
         t.begin_fill()
 
-        for _ in range(2):
+        for i in range(2):
             t.forward(600)
             t.left(90)
             t.forward(120)
@@ -43,7 +43,7 @@ def main():
         t.color("black", "burlywood")
         t.begin_fill()
 
-        for _ in range(2):
+        for i in range(2):
             t.forward(200)
             t.left(90)
             t.forward(140)
@@ -76,7 +76,7 @@ def main():
         t.goto(-70, -20)
         t.pendown()
         t.begin_fill()
-        for _ in range(4):
+        for i in range(4):
             t.forward(40)
             t.left(90)
         t.end_fill()
@@ -88,7 +88,7 @@ def main():
         t.goto(30, -20)
         t.pendown()
         t.begin_fill()
-        for _ in range(4):
+        for i in range(4):
             t.forward(40)
             t.left(90)
         t.end_fill()
@@ -101,7 +101,7 @@ def main():
         t.color("black", "saddlebrown")
         t.begin_fill()
 
-        for _ in range(2):
+        for i in range(2):
             t.forward(30)
             t.left(90)
             t.forward(70)
@@ -120,10 +120,10 @@ def main():
         t.end_fill()
 
         # Sun rays
-        for _ in range(12):
+        for i in range(12):
             t.penup()
             t.goto(180, 175)
-            t.setheading(_ * 30)
+            t.setheading(i * 30)
             t.forward(35)
             t.pendown()
             t.forward(15)
