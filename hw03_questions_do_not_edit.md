@@ -118,7 +118,7 @@ _Return to the Google Doc to continue this assignment._
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    To push your code means to send all your cimmited changes to Github from your local machine.
+    To 'push' your code means to send all your cimmited changes to Github from your local machine.
 ```
 
 _Return to the Google Doc to continue this assignment._
