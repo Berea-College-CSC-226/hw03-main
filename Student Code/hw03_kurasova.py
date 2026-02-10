@@ -20,15 +20,15 @@
 from turtle import *
 from math import pi
 
-def move(turtle: Turtle, x: float, y: float) -> None:
+def move(t, x, y):
     """
     moves the turtle to the specified coordinates without leaving any trace.
     """
-    turtle.up()
-    turtle.goto(x, y)
-    turtle.down()
+    t.up()
+    t.goto(x, y)
+    t.down()
 
-def bottlecap(turtle: Turtle, n: int, radius: float) -> None:
+def bottlecap(t, n, radius):
     """
     draws a star-like shape, reminiscent of a bottle cap.
     """
@@ -43,24 +43,24 @@ def bottlecap(turtle: Turtle, n: int, radius: float) -> None:
     # this is an actual length of each side of the bottle-cap shape
     # this is a math formula for the leg of an isosceles right triangle
 
-    move(turtle, turtle.xcor() - part/2, turtle.ycor() + radius)
+    move(t, t.xcor() - part/2, t.ycor() + radius)
     # when being drawn, the bottle-cap shape goes a little off of the center
     # that's why I decided to move it a bit to the left and to the up
     # (using the turtle's current coordinates: turtle.xcor() and turtle.ycor())
 
-    turtle.begin_fill()
+    t.begin_fill()
     for _ in range(n):
-        turtle.left(45)
-        turtle.forward(step)
-        turtle.right(90)
-        turtle.forward(step)
-        turtle.left(45)
-        turtle.right(360 // n)
-    turtle.end_fill()
+        t.left(45)
+        t.forward(step)
+        t.right(90)
+        t.forward(step)
+        t.left(45)
+        t.right(360 // n)
+    t.end_fill()
     # two 45-degree turns to the left and one 90-degree turn to the right is
     # what allows us to draw the bottle-cap shape, not just a polygon
 
-def arched_text(turtle: Turtle, radius, phrase, degree = 180):
+def arched_text(t, radius, phrase, degree = 180):
     """
     writes text like an arch.
     """
@@ -72,24 +72,24 @@ def arched_text(turtle: Turtle, radius, phrase, degree = 180):
     # distributes the symbols equally across the arch.
 
     for i in phrase:
-        turtle.up()
-        turtle.forward(step/2)
-        turtle.down()
-        turtle.write(i, font = ("Arial", 12, "bold"), align = "center")
-        turtle.up()
-        turtle.forward(step/2)
-        turtle.right(degree // len(phrase))
-        turtle.down()
+        t.up()
+        t.forward(step/2)
+        t.down()
+        t.write(i, font = ("Arial", 12, "bold"), align = "center")
+        t.up()
+        t.forward(step/2)
+        t.right(degree // len(phrase))
+        t.down()
     # making two half steps forward ensures the text is center-aligned.
 
 
 def main():
     s = Screen()
-    t = Turtle()
+    tess = Turtle()
 
-    t.shape("circle")
-    t.pensize(5)
-    t.speed(0)
+    tess.shape("circle")
+    tess.pensize(5)
+    tess.speed(0)
 
     s.colormode(255)
     s.bgcolor(100, 0, 0)
@@ -97,25 +97,25 @@ def main():
     s.addshape("kfc.png")
     s.addshape("flowers.png")
 
-    t.color("white")
-    move(t, 0, 0)
-    bottlecap(t, 20, 100)
-    move(t, 0, 0)
-    t.shape("kfc.png")
-    t.stamp()
-    t.shape("circle")
+    tess.color("white")
+    move(tess, 0, 0)
+    bottlecap(tess, 20, 100)
+    move(tess, 0, 0)
+    tess.shape("kfc.png")
+    tess.stamp()
+    tess.shape("circle")
 
-    t.left(84)
-    move(t, -140, -10)
-    arched_text(t, 135, "THE BEST FRIED CHICKEN")
+    tess.left(84)
+    move(tess, -140, -10)
+    arched_text(tess, 135, "THE BEST FRIED CHICKEN")
 
-    t.shape("flowers.png")
-    move(t, 0, -200)
-    t.stamp()
-    t.shape("circle")
+    tess.shape("flowers.png")
+    move(tess, 0, -200)
+    tess.stamp()
+    tess.shape("circle")
 
-    t.color(100, 0, 0)
-    move(t, 0, 200)
+    tess.color(100, 0, 0)
+    move(tess, 0, 200)
 
     s.exitonclick()
 
