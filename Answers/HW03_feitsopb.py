@@ -7,20 +7,26 @@
 # Google Doc Link: https://docs.google.com/document/d/1uAakEGkZq1KC7OyOWdHyhTWRtLaLklQSOeIZ5m73O_8/edit?usp=sharing
 #
 #################################################################################
-# Acknowledgements:
+# Acknowledgements
 #
 #
 #################################################################################
 
 
 import turtle
-wn = turtle.Screen()
-wn.bgcolor("skyblue")
 
-t = turtle.Turtle()
-t.speed(0)
 def main():
+    """
+    this function draws a house in daylight, with the sun shining Bright, standing on green lawn
+    """
+    wn = turtle.Screen()
+    wn.bgcolor("skyblue")
+    t = turtle.Turtle()
+    t.speed(0)
     def lawn():
+        """
+        draws a lawn colored green
+        """
         t.penup()
         t.goto(-300, -200)
         t.pendown()
@@ -37,6 +43,9 @@ def main():
     lawn()
 
     def house_base():
+        """
+        draws the structure of the house with a mixture of 2 colors
+        """
         t.penup()
         t.goto(-100, -80)   # just above the lawn
         t.pendown()
@@ -53,6 +62,9 @@ def main():
     house_base()
 
     def roof():
+        """
+        draws the structure of the roof
+        """
         t.penup()
         t.goto(-100, 60)
         t.pendown()
@@ -71,6 +83,9 @@ def main():
 
     t.color("black", "lightyellow")
     def window_left():
+        """
+        draws the window left
+        """
 
         t.penup()
         t.goto(-70, -20)
@@ -83,6 +98,9 @@ def main():
     window_left()
 
     def window_right():
+        """
+        draws the window right
+        """
 
         t.penup()
         t.goto(30, -20)
@@ -95,6 +113,9 @@ def main():
     window_right()
 
     def door():
+        """
+        draws the door
+        """
         t.penup()
         t.goto(-15, -80)   # centered at bottom of house
         t.pendown()
@@ -111,6 +132,9 @@ def main():
     door()
 
     def sun_rays():
+        """
+        draws the sun with sun rays around it.
+        """
         t.penup()
         t.goto(180, 140)
         t.pendown()
