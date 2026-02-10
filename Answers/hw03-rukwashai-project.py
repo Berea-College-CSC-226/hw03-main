@@ -1,3 +1,6 @@
+## CSC 226
+## Daniel Rukwasha
+## link to the doc: https://docs.google.com/document/d/1qerRtPi3EMTcMuRWiiZvx7bcrKqj_BnofJ4Sg2V1Zac/edit?usp=sharing
 import turtle
 
 alex=turtle.Turtle()
