@@ -159,7 +159,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    No, it is not there it is only the info from the original branch I made a copy of to change.
+    No,it is not there it is only the info from the original branch I made a copy of to change.
 ```
 
 
