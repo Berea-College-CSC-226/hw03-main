@@ -1,27 +1,29 @@
-
 import turtle
 
 
 def draw_background():
     screen = turtle.Screen()
-    screen.bgcolor("#87CEEB")
+    screen.bgcolor("#87CEEB")  # RGB sky blue
+    return screen
 
 
-def draw_house(x, y):
+def draw_house(a, b):
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
-    t.goto(x, y)
+    t.goto(a, b)
     t.pendown()
 
-    t.fillcolor((178, 34, 34))
+    # House base
+    t.fillcolor("#B22222")  # firebrick red
     t.begin_fill()
     for _ in range(4):
         t.forward(200)
         t.left(90)
     t.end_fill()
 
-    t.fillcolor("#8B4513")
+    # Roof
+    t.fillcolor("#8B4513")  # brown
     t.begin_fill()
     t.left(45)
     for _ in range(2):
@@ -37,7 +39,7 @@ def draw_door(x, y):
     t.goto(x, y)
     t.pendown()
 
-    t.fillcolor("#654321")
+    t.fillcolor("#654321")  # dark brown
     t.begin_fill()
     for _ in range(2):
         t.forward(50)
@@ -54,13 +56,14 @@ def draw_window(x, y):
     t.goto(x, y)
     t.pendown()
 
-    t.fillcolor("#FFFF99")
+    t.fillcolor("#FFFF99")  # light yellow
     t.begin_fill()
     for _ in range(4):
         t.forward(50)
         t.left(90)
     t.end_fill()
 
+    # Window panes
     t.forward(25)
     t.left(90)
     t.forward(50)
@@ -71,14 +74,13 @@ def draw_window(x, y):
 
 
 def draw_tree(x, y):
-
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
     t.goto(x, y)
     t.pendown()
 
-
+    # Trunk
     t.fillcolor("#8B4513")
     t.begin_fill()
     for _ in range(2):
@@ -99,7 +101,6 @@ def draw_tree(x, y):
 
 
 def draw_sun(x, y):
-    """Draw the sun at (x, y)."""
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
@@ -112,13 +113,17 @@ def draw_sun(x, y):
     t.end_fill()
 
 
-
 def main():
-    draw_background()
+    screen = draw_background()
+
     draw_house(-100, -100)
     draw_door(-25, -100)
     draw_window(-80, -30)
     draw_window(20, -30)
     draw_tree(200, -100)
+    draw_sun(-250, 200)
+
+    screen.exitonclick()  # keeps window open
 
 
+main()
