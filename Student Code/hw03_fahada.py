@@ -32,7 +32,7 @@ def draw_rectangle(t, width, height, color):
     """Draw a filled rectangle."""
     t.fillcolor(color)
     t.begin_fill()
-    for _ in range(2):
+    for i in range(2):
         t.forward(width)
         t.left(90)
         t.forward(height)
@@ -49,7 +49,7 @@ def draw_triangle(t, size, color):
     """Draw a filled equilateral triangle."""
     t.fillcolor(color)
     t.begin_fill()
-    for _ in range(3):
+    for i in range(3):
         t.forward(size)
         t.left(120)
     t.end_fill()
@@ -127,7 +127,8 @@ def draw_ground(t):
 
 
 def main():
-    setup_screen()
+    """Draw the background, the house, the sun, the island, and the trees"""
+    wn = setup_screen()
     t = setup_turtle()
 
     # Scene
@@ -137,7 +138,7 @@ def main():
     draw_tree(t, -300, -100)
     draw_tree(t, 250, -100)
 
-    turtle.exitonclick()
+    wn.exitonclick()
 
 
 main()
