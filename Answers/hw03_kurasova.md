@@ -170,21 +170,26 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Pulling before pushing is a safety feature that prevents us from merge conflicts (it decreases 
+    the chance of getting a conflict of this kind). 
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    There are 38 branches in the repo at the moment I'm writing the answer, and the 
+    number is always increasing as more and more people push their branches up into the GitHub
+    server. And as I said earlier, there are not only my branches, but also branches of other 
+    CSC 226 students.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    These branches are different since the main branch is emptier That's because this branch 
+    is supposed to be a starting point for every student that does homework 03.  
 ```
 
 
@@ -193,7 +198,8 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    All of the file that I previously created on my branch (hw03_kurasova.md, kfc.png, flowers.png, 
+    hw03_kurasova.py) disappear when I checkout to the main branch. 
 ```
 
 
@@ -201,7 +207,10 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    All of my created files reappear once I checkout to my branch. 
+    
+    Branching is what I would call "the best of both worlds" because it allows us to work together
+    and also void code conflicts/rewriting. 
 ```
 
 _Return to the Google Doc to continue this assignment._
