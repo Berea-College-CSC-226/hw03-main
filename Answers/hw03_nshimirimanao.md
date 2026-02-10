@@ -164,7 +164,7 @@ _Return to the Google Doc to continue this assignment._
 
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations
-     here, describe how branching is useful:
+     here, describe how branching is useful:.
 
 ```
    Yes, it is back. Branching can be useful when you want to manipulate a specific file but don't want it to affect the master branch.
