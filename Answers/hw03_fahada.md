@@ -99,28 +99,33 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+Cloning a repository means making a copy of the entire GitHub 
+repository on my local computer so I can work on the code locally.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+A repository is a collection of files, code, and version history for a project. 
+It exists on GitHub (online), and when cloned, it also exists on my local computer.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+A commit is saving changes to a code. It needs a commit message
+so that for anyone reviewing the code, they can know what changes you
+saved before opening to see the code. 
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+Pushing your code means uploading my local saves to the remote respository from my 
+local computer.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -134,21 +139,22 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+It is important to pull before pushing so I get the most recent changes from the remote repository
+and avoid conflicts with other people's work. 
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+There are multiple branches in the repository, including the main branch and my own branch.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, they are different. My branch contains my changes, while the main branch does not. 
 ```
 
 
@@ -157,7 +163,8 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When I switch to the master branch, my file disappears or reverts 
+    because it does not exist in the master branch.
 ```
 
 
@@ -165,7 +172,8 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes, my file comes back when I switch back to my branch. Branching is useful because it
+     allows me to work on changes independently without affecting the main codebase.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -179,7 +187,9 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    I don't have a question right now related to the assignment. But I will be sure
+    to post in the Slack channel in case I have questions in the future. I want
+    to play around with the code a bit more. 
 ```
 
 ---
