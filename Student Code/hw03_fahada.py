@@ -125,6 +125,20 @@ def draw_ground(t):
     t.pendown()
     draw_rectangle(t, 900, 120, "#32CD32")
 
+def draw_cloud(t):
+    "Draw a cloud."
+    start_x = -200
+    y = 200
+    for i in range(3):
+        t.penup()
+        t.goto(start_x - i*35,y)
+        t.pendown()
+        t.fillcolor("#FFFFFF")
+        t.begin_fill()
+        t.circle(40)
+        t.end_fill()
+
+
 
 def main():
     """Draw the background, the house, the sun, the island, and the trees"""
@@ -135,6 +149,7 @@ def main():
     draw_ground(t)
     draw_house(t)
     draw_sun(t)
+    draw_cloud(t)
     draw_tree(t, -300, -100)
     draw_tree(t, 250, -100)
 
