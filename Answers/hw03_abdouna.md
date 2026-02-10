@@ -155,7 +155,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    my student code file is not there, it only exists in my branch, except for these other students' stuff i guess
 ```
 
 
@@ -163,7 +163,8 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    yes my file is back, branching is useful because you can utilize them to test out different functions and things you want to implement into your main code,
+    without messing up its position.
 ```
 
 _Return to the Google Doc to continue this assignment._
