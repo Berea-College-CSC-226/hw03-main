@@ -85,8 +85,9 @@ _Return to the Google Doc to continue this assignment._
 ```
     screen.colormode(255)
     turtle.fillcolor((115, 134, 120))
-    with turtle.fill():
+    with turtle.fill(): # or turle.begin_fll() followed by turtle.end_fill()
       # draw shape
+      
 ```
 
 _Return to the Google Doc to continue this assignment._
