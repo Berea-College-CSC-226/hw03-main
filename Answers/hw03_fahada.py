@@ -11,9 +11,6 @@
 import turtle
 
 
-import turtle
-
-
 def setup_screen():
     """Set up the turtle screen and background."""
     screen = turtle.Screen()
