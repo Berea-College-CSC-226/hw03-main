@@ -132,21 +132,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    because the main branch may have updated and its important that everything matches up except for specifically what you want to change
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    40, i see mine as well as the few most recent branches added.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    everything is the same except for the answers and student code folder's last commit 
 ```
 
 

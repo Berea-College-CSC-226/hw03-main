@@ -12,7 +12,8 @@
 #
 #################################################################################
 import turtle
-wn= turtle.Screen()
+
+
 def create_hut():
     hut = turtle.Turtle()
     hut.penup()
