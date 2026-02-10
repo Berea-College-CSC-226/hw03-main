@@ -56,8 +56,10 @@ def build_my_roof():
         alain.right(80)
         alain.fd(280)
         alain.right(90)
-        alain.fd(23)
+        alain.fd(15)
         alain.pendown()
+        alain.color("blue")
+        alain.fd(100)
 
 build_my_roof()
 
