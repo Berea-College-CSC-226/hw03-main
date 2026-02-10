@@ -188,8 +188,9 @@ _Return to the Google Doc to continue this assignment._
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    These branches are different since the main branch is emptier That's because this branch 
-    is supposed to be a starting point for every student that does homework 03.  
+    These branches are different since the main branch is supposed to be emptier. That's because this branch 
+    should be a starting point for every student that does homework 03. Nonetheless, I saw some students 
+    adding their files into the main branch.  
 ```
 
 
@@ -224,7 +225,12 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    Hello. I'm a little confused about homework 3. I read in the group chat that there should be 2 branches (besides the main/master branch)
+    and some merge conflicts occurring while doing this assignment. However, I have only created one branch, where I have put
+    all of my files and the answers to all the questions. Also, I didn't get any merge conflict and already made a pull request.
+    Is it OK that I did the homework the way I did?
+    
+    https://bereacs.slack.com/archives/C3QACGH8R/p1770737691525429
 ```
 
 ---
