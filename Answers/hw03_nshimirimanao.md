@@ -135,21 +135,22 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Its important to pull before you push so you can recieve any changes made in the master branch
+    before pushing the changes.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    There are 36 branches. I see both mine and others.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes they are different.
 ```
 
 
@@ -158,7 +159,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    No, it is not there it is only the info from the original branch I made a copy of to change.
 ```
 
 
@@ -166,7 +167,7 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+   Yes, it is back. Branching can be useful when you want to manipulate a specific file but don't want it to affect the master branch.
 ```
 
 _Return to the Google Doc to continue this assignment._
