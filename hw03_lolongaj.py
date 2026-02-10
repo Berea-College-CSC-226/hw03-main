@@ -123,7 +123,7 @@ def draw_house(pen, base_x, base_y):
         fill=(140, 60, 60)  # RGB Color Wheel tool
     )
 
-    #  Door
+    # Door
     draw_filled_rect(
         pen,
         base_x + 150, base_y,
