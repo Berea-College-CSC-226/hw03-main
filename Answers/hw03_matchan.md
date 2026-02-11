@@ -44,7 +44,7 @@ Replace each `Replace this text with your answer` with your answer to the questi
      What are the R, G, and B values?
 
 ```
-   
+   rgb(115, 134, 120)
 ```
 
 _Return to the Google Doc to continue this assignment._
