@@ -137,14 +137,14 @@ _Return to the Google Doc to continue this assignment._
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    No I do not see my branch
+    No I do not see my branch but I do see others
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes they are different because there are different files in the branch.
 ```
 
 
@@ -153,7 +153,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+   My file is not in project pane, it just reverted back to the do not edit version
 ```
 
 
@@ -161,7 +161,8 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    Yes my file is back and branching is helpful because it allows you to make changes without changing everyone elses
+    work.
 ```
 
 _Return to the Google Doc to continue this assignment._
