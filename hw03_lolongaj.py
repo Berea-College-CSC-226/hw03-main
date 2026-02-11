@@ -98,11 +98,11 @@ def draw_house(pen, base_x, base_y):
     draw_filled_rect(pen,base_x + 150, base_y, w=70, h=120, fill=(80, 55, 40))
 
     #  Windows (2 of them)
-    for wx in (base_x + 50, base_x + 240):
-        draw_filled_rect(pen,wx, base_y + 95,w=70, h=60,fill=(180, 235, 255))
+    for x in (base_x + 50, base_x + 240):
+        draw_filled_rect(pen,x, base_y + 95,w=70, h=60,fill=(180, 235, 255))
         # Window cross
-        draw_line(pen, wx, base_y + 125, wx + 70, base_y + 125, color="black")
-        draw_line(pen, wx + 35, base_y + 95, wx + 35, base_y + 155, color="black")
+        draw_line(pen, x, base_y + 125, x + 70, base_y + 125, color="black")
+        draw_line(pen, x + 35, base_y + 95, x + 35, base_y + 155, color="black")
 
 def draw_ground(pen):
     """Draw the ground as a rectangle."""
