@@ -19,28 +19,28 @@
 _Return to the Google Doc to continue this assignment._
 
 ---
- ## SECTION 1
+
+## SECTION 1
 
 1.a. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color purple. 
      What are the R, G, and B values?
 
 ```
-    rgb(128, 0, 128). R,G, and B values represent how much of each color is in the combination to make the color 
-    purple. r= red, G = green, and b=blue
+    Replace this text with your answer
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    rgb(165, 42, 42). r=red, g=green, and b=blue
+    Replace this text with your answer
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    rgb(115, 134, 120)
+    Replace this text with your answer
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -54,32 +54,32 @@ _Return to the Google Doc to continue this assignment._
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    You can use turtle.fd()
+    Replace this text with your answer
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    print(turtle.pos())
+    Replace this text with your answer
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    turtle.speed(0)
+    Replace this text with your answer
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    turtle.color(115, 134, 120)
+    Replace this text with your answer
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    turtle.fillcolor(115, 134, 120)
+    Replace this text with your answer
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -91,31 +91,28 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Cloning the repo means bring the project code from GitHub to your local computer.
+    Replace this text with your answer
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    The repository is where all your work is stored. it exist in Github and on your local machine after you 
-    clone it.
+    Replace this text with your answer
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    A commit helps programmers save they code they have created or changed made in the
-    loccal machine. Commit messages are like tags, they help you know what was your last change and maybe why
-     you made the change.
+    Replace this text with your answer
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    To 'push' your code means to send all your cimmited changes to Github from your local machine.
+    Replace this text with your answer
 ```
 
 _Return to the Google Doc to continue this assignment._
