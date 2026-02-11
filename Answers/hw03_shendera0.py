@@ -7,11 +7,11 @@ def draw_background():
     return screen
 
 
-def draw_house(a, b):
+def draw_house(Beni, beni,):
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
-    t.goto(a, b)
+    t.goto(Beni,beni)
     t.pendown()
 
     # House base
@@ -32,11 +32,11 @@ def draw_house(a, b):
     t.end_fill()
 
 
-def draw_door(x, y):
+def draw_door(B, S):
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
-    t.goto(x, y)
+    t.goto(B, S)
     t.pendown()
 
     t.fillcolor("#654321")  # dark brown
