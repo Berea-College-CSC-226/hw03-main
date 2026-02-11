@@ -8,30 +8,31 @@
 #
 #################################################################################
 # Acknowledgements
-#
-#
+#I watched a Youtube video on how to pass a turtle down into the next function while keeping it defined in main.
+# I made some research on how to properly navigate the turtle to the exact screen coordinates
 #################################################################################
 
-
 import turtle
-t = turtle.Turtle()
+
 
 def main():
     """
-    this function draws a house in daylight, with the sun shining Bright, standing on green lawn
+    This function draws a house in daylight with the sun shining bright,
+    standing just before a green lawn.
     """
     wn = turtle.Screen()
     wn.bgcolor("skyblue")
+
+    t = turtle.Turtle()
     t.speed(7)
-    coordinator()
+
+    coordinator(t)
+
     t.hideturtle()
     wn.exitonclick()
 
-
-def lawn():
-    """
-    draws a lawn colored green
-    """
+def draw_lawn(t):
+    """Draws a green lawn."""
     t.penup()
     t.goto(-300, -200)
     t.pendown()
@@ -46,12 +47,10 @@ def lawn():
 
     t.end_fill()
 
-def house_base():
-    """
-    draws the structure of the house with a mixture of 2 colors
-    """
+def draw_house_base(t):
+    """Draws the base of the house."""
     t.penup()
-    t.goto(-100, -80)  # just above the lawn
+    t.goto(-100, -80)
     t.pendown()
     t.color("black", "burlywood")
     t.begin_fill()
@@ -64,10 +63,8 @@ def house_base():
 
     t.end_fill()
 
-def roof():
-    """
-    draws the structure of the roof
-    """
+def draw_roof(t):
+    """Draws the roof."""
     t.penup()
     t.goto(-100, 60)
     t.pendown()
@@ -83,41 +80,38 @@ def roof():
 
     t.end_fill()
 
-
-def window_left():
-    """
-    draws the window left
-    """
+def draw_window_left(t):
+    """Draws the left window."""
     t.color("black", "lightyellow")
     t.penup()
     t.goto(-70, -20)
     t.pendown()
     t.begin_fill()
+
     for i in range(4):
         t.forward(40)
         t.left(90)
+
     t.end_fill()
 
-def window_right():
-    """
-    draws the window right
-    """
-
+def draw_window_right(t):
+    """Draws the right window."""
+    t.color("black", "lightyellow")
     t.penup()
     t.goto(30, -20)
     t.pendown()
     t.begin_fill()
+
     for i in range(4):
         t.forward(40)
         t.left(90)
+
     t.end_fill()
 
-def door():
-    """
-    draws the door
-    """
+def draw_door(t):
+    """Draws the door."""
     t.penup()
-    t.goto(-15, -80)  # centered at bottom of house
+    t.goto(-15, -80)
     t.pendown()
     t.color("black", "saddlebrown")
     t.begin_fill()
@@ -130,13 +124,8 @@ def door():
 
     t.end_fill()
 
-
-
-
-def sun_rays():
-    """
-    draws the sun with sun rays around it.
-    """
+def draw_sun_rays(t):
+    """Draws the sun and its rays."""
     t.penup()
     t.goto(180, 140)
     t.pendown()
@@ -145,7 +134,6 @@ def sun_rays():
     t.circle(35)
     t.end_fill()
 
-    # Sun rays
     for i in range(12):
         t.penup()
         t.goto(180, 175)
@@ -154,18 +142,14 @@ def sun_rays():
         t.pendown()
         t.forward(15)
 
-def coordinator ():
-    """
-    call the functions in order as they line up.
-    """
-    lawn()
-    house_base()
-    roof()
-    window_left()
-    window_right()
-    door()
-    sun_rays()
-
-
+def coordinator(t):
+    """Calls the drawing functions in order."""
+    draw_lawn(t)
+    draw_house_base(t)
+    draw_roof(t)
+    draw_window_left(t)
+    draw_window_right(t)
+    draw_door(t)
+    draw_sun_rays(t)
 
 main()
