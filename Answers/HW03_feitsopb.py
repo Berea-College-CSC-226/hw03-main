@@ -14,11 +14,18 @@
 
 
 import turtle
-
-wn = turtle.Screen()
-wn.bgcolor("skyblue")
 t = turtle.Turtle()
-t.speed(7)
+
+def main():
+    """
+    this function draws a house in daylight, with the sun shining Bright, standing on green lawn
+    """
+    wn = turtle.Screen()
+    wn.bgcolor("skyblue")
+    t.speed(7)
+    coordinator()
+    t.hideturtle()
+    wn.exitonclick()
 
 
 def lawn():
@@ -148,6 +155,9 @@ def sun_rays():
         t.forward(15)
 
 def coordinator ():
+    """
+    call the functions in order as they line up.
+    """
     lawn()
     house_base()
     roof()
@@ -156,11 +166,5 @@ def coordinator ():
     door()
     sun_rays()
 
-def main():
-    """
-    this function draws a house in daylight, with the sun shining Bright, standing on green lawn
-    """
-    coordinator()
-    t.hideturtle()
-    wn.exitonclick()
+
 main()
