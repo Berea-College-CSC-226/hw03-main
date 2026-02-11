@@ -13,16 +13,15 @@
 #################################################################################
 
 
-from turtle import*
+from turtle import *
 
-def draw_house(turt1):
+def draw_house(x1, y1):
     """
     Draws a house.
     """
-    x1_pos = -150
-    y1_pos = -150
+    turt1 = Turtle()
     turt1.penup()
-    turt1.goto(x1_pos, y1_pos)
+    turt1.goto(x1, y1)
     turt1.pendown()
     turt1.color("white")
     turt1.begin_fill()
@@ -36,14 +35,13 @@ def draw_house(turt1):
     turt1.end_fill()
     turt1.hideturtle()
 
-def door_windows (turt2):
+def door_windows (x2, y2):
     """
     Draws a door and two windows.
     """
-    x1=-35
-    y1=-150
+    turt2 = Turtle()
     turt2.penup()
-    turt2.goto(x1, y1)
+    turt2.goto(x2, y2)
     turt2.pendown()
     turt2.color("#CC9999")
     turt2.begin_fill()
@@ -57,7 +55,7 @@ def door_windows (turt2):
 
     turt2.end_fill()
     turt2.penup()
-    turt2.goto(x1-75, y1+125)
+    turt2.goto(x2-75, y2+125)
     turt2.pendown()
     turt2.begin_fill()
 
@@ -68,18 +66,19 @@ def door_windows (turt2):
             turt2.left(90)
 
         turt2.penup()
-        turt2.goto(x1+100, y1+125)
+        turt2.goto(x2+100, y2+125)
         turt2.pendown()
 
     turt2.end_fill()
     turt2.hideturtle()
 
-def draw_roof(turt3):
+def draw_roof(x3, y3):
     """
     Draws the roof of the house.
     """
+    turt3 = Turtle()
     turt3.penup()
-    turt3.goto(-150, 50)
+    turt3.goto(x3, y3)
     turt3.pendown()
     turt3.color("#669999")
     turt3.begin_fill()
@@ -95,12 +94,13 @@ def draw_roof(turt3):
     turt3.end_fill()
     turt3.hideturtle()
 
-def draw_sun(turt4):
+def draw_sun(x4, y4):
     """
     Draws the sun.
     """
+    turt4 = Turtle()
     turt4.penup()
-    turt4.goto(-200, 150)
+    turt4.goto(x4, y4)
     turt4.pendown()
     turt4.color("yellow")
     turt4.begin_fill()
@@ -108,14 +108,13 @@ def draw_sun(turt4):
     turt4.end_fill()
     turt4.hideturtle()
 
-def draw_flowers(turt5):
+def draw_flowers(x5, y5):
     """
     Draws flowers around the house.
     """
-    x2=-200
-    y2=-150
+    turt5= Turtle()
     turt5.penup()
-    turt5.goto(x2, y2)
+    turt5.goto(x5, y5)
     turt5.pendown()
     turt5.pensize(3)
 
@@ -134,42 +133,44 @@ def draw_flowers(turt5):
 
         turt5.end_fill()
         turt5.penup()
-        turt5.goto(x2+400, y2)
+        turt5.goto(x5+400, y5)
         turt5.pendown()
         turt5.left(150)
 
     turt5.hideturtle()
 
+def write_message(x6, y6):
+    """
+    Writes a welcome message.
+    """
+    turt6 = Turtle()
+    turt6.penup()
+    turt6.goto(x6, y6)
+    turt6.pendown()
+    turt6.color("white")
+    turt6.write("Welcome Home :)", move=False, align="center", font=("Courier", 30, "italic"))
+    turt6.hideturtle()
+
 
 def main():
     """
-    Calls all previously defined functions and writes a message at the bottom of the page.
+    Draws a house scene with the sun and flowers, and writes a welcome message at the bottom of the screen.
     """
     wn = Screen()
     wn.bgcolor("#99CCFF")
 
-    jana = Turtle()
-    draw_house(jana)
+    draw_house(-150, -150)
 
-    debi = Turtle()
-    door_windows(debi)
+    door_windows(-35, -150)
 
-    teni = Turtle()
-    draw_roof(teni)
+    draw_roof(-150, 50)
 
-    mimi = Turtle()
-    draw_sun(mimi)
+    draw_sun(-200, 150)
 
-    jeni = Turtle()
-    draw_flowers(jeni)
+    draw_flowers(-200, -150)
 
-    jada = Turtle()
-    jada.penup()
-    jada.goto(0, -200)
-    jada.pendown()
-    jada.color("white")
-    jada.write("Welcome Home :)", move=False, align="center", font=("Courier", 30, "italic"))
-    jada.hideturtle()
+    write_message(0, -200)
+
 
     wn.exitonclick()
 
