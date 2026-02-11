@@ -2,4 +2,4 @@
 
 Do not edit the README! This homework is all about git and 
 not creating merge conflicts. By editing this file, you will 
-likely create a merge conflict for all **other** students.
+likely create a merge conflict for all **other** students.  
