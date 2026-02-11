@@ -33,6 +33,7 @@ def roof_window(nee):
     nee.end_fill()
 
 def main():
+    """Set up the turtle screen, create the turtle and draw the house with a roof."""
     screen = turtle.Screen()
     screen.colormode(255)
     screen.bgcolor(180,220,255)
