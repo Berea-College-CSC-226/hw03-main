@@ -29,21 +29,21 @@ Replace each `Replace this text with your answer` with your answer to the questi
      What are the R, G, and B values?
 
 ```
-    rgb(128, 0, 128)
+    Replace this text with your answer
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    rgb(165, 42, 42)
+    Replace this text with your answer
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    rgb(115, 134, 120) 
+    Replace this text with your answer
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -57,37 +57,32 @@ _Return to the Google Doc to continue this assignment._
      besides the `turtle.forward()` command you are used to using?
 
 ```
-    turtle.fd()
+    Replace this text with your answer
 ```
 
 2.b. What command from the turtle library can be used to print the turtle's current 
    location?
    
 ```
-    print(turtle.pos())
+    Replace this text with your answer
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
    
 ```
-    turtle.speed(0)
+    Replace this text with your answer
 ```
 
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    screen.colormode(255)
-    turtle.color(115, 134, 120)
+    Replace this text with your answer
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Assume we want to fill circle with color xanadu:
-        turtle.fillcolor(115, 134, 120)
-        turtle.begin_fill()
-        turtle.circle(50)
-        turtle.end_fill() 
+    Replace this text with your answer
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -99,30 +94,28 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    It means downloading a complete copy of a project with all its history from a repository to my computer.
+    Replace this text with your answer
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    A repository is folder that stores a project files and version history, and it exist on both Github and local 
-    machine.
+    Replace this text with your answer
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    A commit is a recorded change to your project, and the commit message explains what changed and why so others can 
-    understand the update later.
+    Replace this text with your answer
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Push: means sending the code changes form my local machine to the repository on Github.
+    Replace this text with your answer
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -136,15 +129,14 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    it is important to pull before you push so that you get the latest changes in the code from Github and avoid 
-    conflicts when pushing the work.
+    Replace this text with your answer
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    
+    Replace this text with your answer
 ```
 
 
