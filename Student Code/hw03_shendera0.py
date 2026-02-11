@@ -1,17 +1,17 @@
 import turtle
 
 
-def draw_background():
+def draw_background(): #Sets up the turtle screen background.
     screen = turtle.Screen()
     screen.bgcolor("#87CEEB")  # RGB sky blue
     return screen
 
 
-def draw_house(Beni, beni,):
+def draw_house(x,y,): # """Draws a house at a specific location(x,y)."""
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
-    t.goto(Beni,beni)
+    t.goto(x,y)
     t.pendown()
 
     # House base
@@ -32,11 +32,11 @@ def draw_house(Beni, beni,):
     t.end_fill()
 
 
-def draw_door(B, S):
+def draw_door(a, b): #Draws a door at the given (a, b) position.
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
-    t.goto(B, S)
+    t.goto(a,b)
     t.pendown()
 
     t.fillcolor("#654321")  # dark brown
@@ -49,7 +49,8 @@ def draw_door(B, S):
     t.end_fill()
 
 
-def draw_window(x, y):
+def draw_window(x, y): #    """Draws a window with panes at the given (x, y) position."""
+
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
@@ -73,7 +74,8 @@ def draw_window(x, y):
     t.backward(50)
 
 
-def draw_tree(x, y):
+def draw_tree(x, y): #    """Draws a tree at the given (x, y) position."""
+
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
@@ -100,7 +102,7 @@ def draw_tree(x, y):
     t.end_fill()
 
 
-def draw_sun(x, y):
+def draw_sun(x, y): # """Draws a sun at the given (x, y) position."""
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
@@ -113,7 +115,7 @@ def draw_sun(x, y):
     t.end_fill()
 
 
-def main():
+def main(): #"""Runs the program and draws the full scene."""
     screen = draw_background()
 
     draw_house(-100, -100)
