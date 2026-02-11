@@ -10,7 +10,9 @@
 #################################################################################
 # Acknowledgements:
 #
-#
+# https://www.youtube.com/watch?v=WEUloPdIfRk
+# chatgpt.com (Used to correct my coordinates positions to come up with correct shape)
+# RGB Color Wheel tool
 #################################################################################
 
 import turtle
@@ -133,25 +135,6 @@ def draw_house(pen, base_x, base_y):
         draw_line(pen, wx + 35, base_y + 95, wx + 35, base_y + 155, color="black", thickness=2)
 
 
-def draw_tree(pen, x, y, scale=1.0):
-    """Draw a simple tree (trunk + leafy circles)."""
-    trunk_h = 90 * scale
-
-    # Trunk
-    draw_filled_rect(pen,x, y, h=trunk_h,fill=(80, 55, 40))
-
-    # Leaves in overlapping circles
-    leaf_color = "green"
-    centers = [
-        (y + trunk_h + 40 * scale),
-        (x - 25 * scale, y + trunk_h + 20 * scale),
-        (x +  + 25 * scale, y + trunk_h + 20 * scale),
-        (y + trunk_h + 10 * scale),
-    ]
-    for (cx, cy) in centers:
-        draw_circle(pen, cx, cy, 40 * scale, fill=leaf_color, thickness=2)
-
-
 def draw_cloud(pen, x, y, scale=1.0):
     """Draw a cloud made of overlapping circles."""
     cloud_fill = "white"
@@ -170,27 +153,10 @@ def draw_sun(pen, x, y):
     """Draw a sun with rays."""
     draw_circle(pen, x, y, 35, fill="yellow", thickness=2)
 
-    # Rays
-    for i in range(0, 360, 30):
-        pen.color("yellow")
-        pen.pensize(3)
-        pen.penup()
-        pen.goto(x, y)
-        pen.setheading(i)
-        pen.forward(45)
-        pen.pendown()
-        pen.forward(20)
-
 
 def draw_ground(pen):
     """Draw the ground as a rectangle."""
-    draw_filled_rect(
-        pen,
-        -520, -350,
-        w=1040, h=220,
-        fill="green",
-        thickness=0
-    )
+    draw_filled_rect(pen, -520, -350, w=1040, h=220,fill="green",thickness=0)
 
 
 def main():
@@ -200,15 +166,8 @@ def main():
 
     draw_ground(pen)
     draw_sun(pen, x=-380, y=260)
-
-    draw_cloud(pen, -120, 240, scale=1.2)
-    draw_cloud(pen, 180, 270, scale=0.9)
     draw_cloud(pen, 320, 220, scale=1.0)
-
     draw_house(pen, base_x=-180, base_y=-190)
-
-    draw_tree(pen, x=-430, y=-210, scale=1.1)
-    draw_tree(pen, x=260, y=-220, scale=0.95)
 
     screen.exitonclick()
 
