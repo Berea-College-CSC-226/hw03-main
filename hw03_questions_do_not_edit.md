@@ -2,23 +2,14 @@
 
 ## Instructions
 
-1. In the top right of Pycharm, change the display of this file to 
-   `Editor and Preview` mode, so you can see the code (markdown) and the rendered output:
-
-![Screenshot of "Editor and Preview" mode](split_mode_markdown.png)
-
 **_<span style="color:red">
     VERY IMPORTANT: Make a copy of this file. DO NOT EDIT IT DIRECTLY!
 </span>_**
 
-2. Make a copy of this file by selecting the file and hitting CTRL+C. 
-3. Paste your copy into the `Answers` folder.
-4. Rename the file to `hw03_username.md` replacing `username` with your username.
-5. Replace each `Replace this text with your answer` with your answer to the question above it.
-
-_Return to the Google Doc to continue this assignment._
-
----
+1. Make a copy of this file by selecting the file and hitting CTRL+C. 
+2. Paste your copy into the `Answers` folder.
+3. Name the file `hw03_username.md` replacing `username` with your username.
+4. Replace each `Replace this text with your answer` with your answer to the question above it.
 
 ## SECTION 1
 
@@ -42,8 +33,6 @@ _Return to the Google Doc to continue this assignment._
 ```
     Replace this text with your answer
 ```
-
-_Return to the Google Doc to continue this assignment._
 
 ---
 
@@ -82,8 +71,6 @@ _Return to the Google Doc to continue this assignment._
     Replace this text with your answer
 ```
 
-_Return to the Google Doc to continue this assignment._
-
 ---
 
 ## SECTION 3
@@ -114,8 +101,6 @@ _Return to the Google Doc to continue this assignment._
 ```
     Replace this text with your answer
 ```
-
-_Return to the Google Doc to continue this assignment._
 
 ---
 
@@ -160,8 +145,6 @@ _Return to the Google Doc to continue this assignment._
 ```
     Replace this text with your answer
 ```
-
-_Return to the Google Doc to continue this assignment._
 
 ---
 
