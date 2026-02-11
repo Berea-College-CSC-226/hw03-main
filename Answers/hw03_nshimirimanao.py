@@ -99,7 +99,6 @@ def main():
     Horizon(Hz)
     draw_birds(bd,dist)
 
-
     print("Enjoy the sunset!") # prints when done drawing
 
     wn.exitonclick() # holding window screen open until user clicks on it to close
