@@ -3,7 +3,7 @@
 # Username: Nshimirimanao
 #
 # Assignment: HW03_Fully Functional Gitty Psychedelic Robotic Turtles
-# Purpose:
+# Purpose: Learning how to write functions and using the turtle library
 # Google Doc Link: https://docs.google.com/document/d/1ZtcYU7PHItUzZ4hzqbLtUHBl__7jwoWPN-NipuDiB8Q/edit?usp=sharing
 #
 #################################################################################
@@ -14,7 +14,7 @@
 
 
 import turtle
-import random
+
 
 def draw_sun(t):
     """
@@ -25,7 +25,7 @@ def draw_sun(t):
     t.goto(0,-40)
     t.pendown()
 
-    t.begin_fill()
+    t.begin_fill() #t draws a circle and fills it in.
     t.circle(40)
     t.end_fill()
 
@@ -48,15 +48,12 @@ def draw_birds(bd,dist):
 
 
     bd.hideturtle()
-    bd.penup()
-    bd.goto(dist)
-    bd.pendown()
     for i in range(2):
         bd.penup()
         bd.goto(dist)
         bd.pendown()
 
-
+    # drawing the 2 birds
         bd.left(45)
         bd.fd(30)
         bd.right(45)
@@ -77,17 +74,21 @@ def main():
     Docstring for main. Should describe the main functionality of this file.
     """
     wn = turtle.Screen()
-    wn.bgcolor("blue")
+    wn.bgcolor("blue") #making my background blue
+
+    # making t a turtle object and making the color orangered
     t = turtle.Turtle()
     t.color("orange""red")
-    t.speed(0)
+    t.speed(0) #fastest speed
 
+    # making Hz a turtle object and making the color darkblue
     Hz = turtle.Turtle()
-    Hz.speed(0)
+    Hz.speed(0) #fastest speed
     Hz.color("darkblue")
 
+    # making bd a turtle object and making the color black
     bd = turtle.Turtle()
-    bd.speed(0)
+    bd.speed(0) #fastest speed
     bd.color("black")
     dist = (-100,100)
 
@@ -97,11 +98,11 @@ def main():
     draw_sun(t)
     Horizon(Hz)
     draw_birds(bd,dist)
-    draw_stars(s)
 
-    print("Enjoy the sunset!")
 
-    wn.exitonclick()
+    print("Enjoy the sunset!") # prints when done drawing
+
+    wn.exitonclick() # holding window screen open until user clicks on it to close
 
 
 main()  # Starts the program!
