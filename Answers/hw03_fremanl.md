@@ -176,7 +176,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1770866555866579
 ```
 
 ---
