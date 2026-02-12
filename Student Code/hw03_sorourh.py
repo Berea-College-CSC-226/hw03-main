@@ -151,8 +151,6 @@ def main():
     music_notes(radius+100)
     display_song(fav_song, radius)
 
-
-
     wn.exitonclick()
 
 main()  # Starts the program!

@@ -187,7 +187,8 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-I understand the basic Git workflow, but I'm confused about having two developers working on the same code. In the current teamwork, we have "chunks" we can code in together, but the number of lines will change due to the large number of lines per function. How does GitHub identify the different chunks? 
+
+https://bereacs.slack.com/archives/C3QACGH8R/p1770867798009269
 ```
 
 ---
