@@ -37,13 +37,6 @@ def move_to(t, x, y):
     t.goto(x, y)
     t.pendown()
 
-
-
-def draw_background(screen):
-    """Set a non-white background color."""
-    screen.bgcolor(180, 220, 255)  # sky blue
-
-
 def draw_sun(t):
     """Draw the sun."""
     move_to(t, -280, 200)
@@ -105,7 +98,7 @@ def draw_window(t, x, y):
 
 def draw_tree(t, x, y):
     """Draw a tree using custom Xanadu color leaves."""
-    XANADU = (115, 134, 120)  # unnamed RGB color requirement
+    xanadu= (115, 134, 120)  # unnamed RGB color requirement
 
     # trunk
     move_to(t, x, y)
@@ -116,7 +109,7 @@ def draw_tree(t, x, y):
 
     # leaves
     move_to(t, x + 10, y + 80)
-    t.color(XANADU)
+    t.color(xanadu)
     t.begin_fill()
     t.circle(40)
     t.end_fill()
@@ -146,7 +139,9 @@ def main():
 
     screen = turtle.Screen()
     screen.colormode(255)
-    draw_background(screen)
+    screen.bgcolor(180, 220, 255)  # sky blue
+
+
 
     t = turtle.Turtle()
     t.speed(0)
@@ -166,7 +161,8 @@ def main():
 
     draw_smoke(t)
 
-    turtle.done()
+    screen.exitonclick()
+
 
 
 main()
