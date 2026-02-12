@@ -15,6 +15,9 @@ import turtle
 
 
 def create_hut():
+    """
+       creates a big brown hut
+       """
     hut = turtle.Turtle()                #Draws the shape of the hut and fills in the color
     hut.penup()
     hut.setpos(-230, -230)
@@ -34,6 +37,9 @@ def create_hut():
 
 
 def create_details():
+    """
+       creates the big red door
+       """
     door = turtle.Turtle()             #creates a rectangle inside of the hut shape to represent a door
     door.penup()
     door.setpos(0, -230)
@@ -53,7 +59,11 @@ def create_details():
     door.hideturtle()
 
 def create_window():
-    window= turtle.Turtle()            #creates a smaller square with crossing lines to represent a window
+    """
+    creates a small crossed square
+    representing a window
+    """
+    window= turtle.Turtle()
     window.penup()
     window.setpos(15,20 )
     window.pendown()
@@ -75,6 +85,10 @@ def create_window():
     window.hideturtle()
 
 def main():
+    """
+       creates turtle window and makes background blue
+       then executes the hut, door and window function, drawing them with turtles.
+       """
     wn = turtle.Screen() #creates screen and sets background color to sky blue, then calls the hut function,
     wn.bgcolor("#87CEEB") # the door function and the window function in succession where the program can be closed upon clicking on it
     create_hut()
