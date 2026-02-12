@@ -158,7 +158,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When I checked out the master branch, I was no longer able to see my file in the project pane.
 ```
 
 
@@ -166,7 +166,9 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+   When I switched back to my branch, my file was back. Branching helps you no overwrite somebody's else work.
+   A lot of programmers have access to the master branch, so creating a new branch helps them do some testing
+   without changing the master branch.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -180,7 +182,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1770856204168319
 ```
 
 ---"""
