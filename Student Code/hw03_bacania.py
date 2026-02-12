@@ -12,7 +12,7 @@ def drawStart(flower_turtle):
     flower_turtle.pendown()
 
 """
-this code draws our stem
+this code draws our stem 
 """
 
 def drawFlowerStem(flower_turtle):
