@@ -2,8 +2,8 @@
 # HW03 Turtle House
 #Google link: https://docs.google.com/document/d/1eD6oPSwToj9XL7h4-obYFuxXiut22ZA9a_kja4AJ3dQ/edit?usp=sharing
 
+
 import turtle
-Screen=turtle.Screen()
 
 def draw_house(matcha):
     """simple house"""
@@ -36,7 +36,7 @@ def main():
     """Set up the turtle screen, create the turtle and draw the house with a roof."""
     screen = turtle.Screen()
     screen.colormode(255)
-    screen.bgcolor(180,220,255)
+    screen.bgcolor(180, 220, 255)
 
     matcha = turtle.Turtle()
     matcha.speed(3)
@@ -44,8 +44,7 @@ def main():
     draw_house(matcha)
     roof_window(matcha)
 
-    turtle.done()
+    screen.exitonclick()
 
 main()
-Screen.exitonclick()
 
