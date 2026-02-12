@@ -12,7 +12,7 @@
 import turtle
 
 
-def maketurtle(turtlename, r, g, b, size):
+def maketurtle(r, g, b, size):
     """
     Creates a turtle.
     """
