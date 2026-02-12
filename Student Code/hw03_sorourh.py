@@ -15,6 +15,7 @@
 
 
 import turtle
+
 def make_turtle():
     """
     Create all turtles.
@@ -35,6 +36,9 @@ def move_to(turtle_name, x, y, direction):
     turtle_name.pendown()
 
 def rectangle(t , length,  width):
+    """
+    Creates a rectangle with the given length and width.
+    """
     for i in range(2):
         t.forward(length)
         t.right(90)
@@ -74,8 +78,6 @@ def guitar_neck(current_position, radius):
     neck_body.end_fill()
     return neck_body.xcor(), neck_body.ycor()
 
-
-
 def guitar_details(current_position, radius):
     """
     building the guitar details
@@ -102,8 +104,6 @@ def guitar_details(current_position, radius):
     move_to(body_details, body_details.xcor() ,body_details.ycor()- 100 ,90)
     rectangle(body_details, radius //3 ,radius//5)
     body_details.end_fill()
-
-
 
 def music_notes(radius):
     """
@@ -134,7 +134,7 @@ def display_song(input_song, radius):
 
 def main():
     """
-    Docstring for main. Should describe the main functionality of this file.
+    Creating a guitar graphic with music note and your favourite song displayed on the screen.
     """
     wn = turtle.Screen()
     wn.colormode(255)
