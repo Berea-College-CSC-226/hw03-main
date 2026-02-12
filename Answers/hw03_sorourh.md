@@ -76,14 +76,21 @@ _Return to the Google Doc to continue this assignment._
 2.d. How would you change the turtle's color to xanadu? 
 
 ```
-    screen.colormode(255)
-    turtle.pencolor(115, 134, 120)
+    wn = turtle.Screen()
+    wn.colormode(255)
+    turtle.color(115, 134, 120)
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    wn = turtle.Screen()
+    wn.colormode(255)
+    turtle.color(115, 134, 120)
+    turtle.begin_fill()
+    turtle.circle(50) # example shape
+    turtle.end_fill()
+    
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -95,29 +102,29 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Cloning a repo is copying the repo into your personal computer so that you have your own independent copy away from github where you can make changes to it.
+    Cloning a repo means creating a local copy of a remote repository on your personal computer.
 ```
 
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    A repository is where you can save all of your code on github. It exists both on github and on your local machine when you clone it.
+    A repository is a location in which you store all of your project's files and history and it exists remotely on Github and locally on your personal machine
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    A commit is like saving your work. It is like a save point that indicated the changes you have made.
-    Commit Messages are important because illustrares 
+    A commit is a snapshot of the work done at a specific point, acting as a save point that records everything added and removed to your files from the last commit.
+    Commit messages are important because they describe what are the changes and why they were made. Furthermore, it make sit easier to track bugs and errors. Moreover, it helps the person looking over your code know what exactly you did.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    The idea of pushing your code is whenever you send main that is in github 
+    Pushing your code means uploading the commits you have made in your local repository to remote repository, synchronizing the versions together.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -131,21 +138,23 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    It is important to pull before you push as it is  good practice. It makes sure your repository is up to date with the latest changes from the remote repo. 
+    Pushing before pulling can result in merge conflicts and overlapping code that can result in your code being modified or deleted, which is not desired.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+    Since I pulled changes in main in my branch in this current state. I see 45 branches from current students and previous students who took the class. I see mine and see all of the branches.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, they are different. The master branch contains all the accepted work from current and previous students that has been merged. 
+    My branch contains my own files and changes that haven't been merged into master yet.
 ```
 
 
@@ -154,7 +163,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    My files disappeared as they are not part of the main branch yet.
 ```
 
 
@@ -162,7 +171,9 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    My files are back.
+    Branching is useful because it allows multiple people to work on different things simultaneously, allowing experimentations and code review 
+    and keeps the project organized.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -176,7 +187,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+I understand the basic Git workflow, but I'm confused about having two developers working on the same code. In the current teamwork, we have "chunks" we can code in together, but the number of lines will change due to the large number of lines per function. How does GitHub identify the different chunks? 
 ```
 
 ---
