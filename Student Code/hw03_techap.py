@@ -174,5 +174,5 @@ def main():
 
     wn.exitonclick()
 
-main()  # Starts the program!
+main()
 
