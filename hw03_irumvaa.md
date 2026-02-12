@@ -132,21 +132,24 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+      It is importnat to pull before pushing becuase there might be changes made by others in git, if you don't pull
+    , it can create merge conflict. Pulling upadats your local branch to make sure it is simlar the the 
+    remote main branch.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others?
 
 ```
-    Replace this text with your answer
+    There is the main branch and 47 other branches. yes I see my branch, and those of my classmates.
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    My branch contains the file I created and the changes I made for this assignment, while the main branch
+     contains combined version of the project.
 ```
 
 
