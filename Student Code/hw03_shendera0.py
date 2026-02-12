@@ -1,13 +1,29 @@
+#################################################################################
+# Author: Beni Shendera
+# Username: oshendera
+#
+# Assignment:HW03: Fully Functional Gitty Psychedelic Robotic Turtles
+# Purpose:Creating a complex shape
+# Google Doc Link:https://docs.google.com/document/d/1K0_eEC7B2a8JhkXA6MIDyG--ymo9hbkhb52r23a1eRk/edit?tab=t.0#heading=h.j4414z2ufr72
+#
+#################################################################################
+# Acknowledgements:
+#
+#
+#################################################################################
+
 import turtle
 
 
-def draw_background(): #Sets up the turtle screen background.
+def draw_background():
+    """Sets up the turtle screen background."""
     screen = turtle.Screen()
     screen.bgcolor("#87CEEB")  # RGB sky blue
     return screen
 
 
-def draw_house(x,y,): # """Draws a house at a specific location(x,y)."""
+def draw_house(x,y,):
+    """Draws a house at a specific location(x,y)."""
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
@@ -32,7 +48,8 @@ def draw_house(x,y,): # """Draws a house at a specific location(x,y)."""
     t.end_fill()
 
 
-def draw_door(a, b): #Draws a door at the given (a, b) position.
+def draw_door(a, b):
+    """Draws a door at the given (a, b) position."""
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
@@ -49,12 +66,12 @@ def draw_door(a, b): #Draws a door at the given (a, b) position.
     t.end_fill()
 
 
-def draw_window(x, y): #    """Draws a window with panes at the given (x, y) position."""
-
+def draw_window(x, y):
+    """Draws a window with panes at the given (x, y) position."""
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
-    t.goto(x, y)
+    t.goto (x, y)
     t.pendown()
 
     t.fillcolor("#FFFF99")  # light yellow
@@ -74,7 +91,8 @@ def draw_window(x, y): #    """Draws a window with panes at the given (x, y) pos
     t.backward(50)
 
 
-def draw_tree(x, y): #    """Draws a tree at the given (x, y) position."""
+def draw_tree(x, y):
+    """Draws a tree at the given (x, y) position."""
 
     t = turtle.Turtle()
     t.speed(10)
@@ -102,7 +120,8 @@ def draw_tree(x, y): #    """Draws a tree at the given (x, y) position."""
     t.end_fill()
 
 
-def draw_sun(x, y): # """Draws a sun at the given (x, y) position."""
+def draw_sun(x, y):
+    """Draws a sun at the given (x, y) position."""
     t = turtle.Turtle()
     t.speed(10)
     t.penup()
@@ -115,7 +134,8 @@ def draw_sun(x, y): # """Draws a sun at the given (x, y) position."""
     t.end_fill()
 
 
-def main(): #"""Runs the program and draws the full scene."""
+def main():
+    """Runs the program and draws the full scene."""
     screen = draw_background()
 
     draw_house(-100, -100)
