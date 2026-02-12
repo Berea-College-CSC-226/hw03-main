@@ -159,7 +159,7 @@ _Return to the Google Doc to continue this assignment._
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    
+    Yes, they're different because the main does not have my changes. 
 
 
 4.d. Go back to PyCharm, and go back to the Branches interface from before. Checkout the 
@@ -167,7 +167,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+ They disapeared, all my files were gone when I clicked on checkout in the master branch, they came back when I checked out my branch again. 
 ```
 
 
@@ -175,7 +175,7 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+ Yes, my file is back and branching is useful because of two main things to avoid messing up the original code, crashing it and work with different approaches also it is useful if you're working with a team.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -189,7 +189,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1770784666460479 
 ```
 
 ---
