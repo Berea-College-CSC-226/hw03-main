@@ -64,8 +64,7 @@ def draw_birds(bd,dist):
 
 def main():
     """
-    Docstring for main. Where the functions are called. Inputs of functions are defined.
-    screen set up and turtles are made.
+    Docstring for main. Where the functions are called to draw a sunset with birds in the sky.
     """
     wn = turtle.Screen()
     wn.bgcolor("blue") #making my background blue
