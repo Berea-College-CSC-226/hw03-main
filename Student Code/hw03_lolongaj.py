@@ -66,6 +66,9 @@ def draw_filled_triangle(pen, x, y, size,fill):
     pen.end_fill()
 
 def draw_circle(pen, x, y, radius, color):
+    """
+    Draw a circle starting at center (x, y) and radius (radius).
+    """
     pen.color(color)
     pen.penup()
     pen.goto(x, y - radius)
