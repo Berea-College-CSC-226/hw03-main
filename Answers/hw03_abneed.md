@@ -154,7 +154,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    There were no changes to the main branch on my pycharm. It is still there.
 ```
 
 
@@ -162,7 +162,7 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+    My file is still there. It allows you to make changes without altering the main branch and potentially creating conflicts on the main.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -176,7 +176,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1770874036241909
 ```
 
 ---

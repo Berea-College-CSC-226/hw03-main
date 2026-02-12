@@ -16,30 +16,153 @@
 import turtle
 
 
-def function_1():
+def DrawChessBoard(jerome):
     """
-    Example docstring for function_1. function_1 is not a good function name and should be changed.
+    This function draws a chess board using turtle.
     """
-    pass
-    # ....
+    jerome.speed(0)
+    jerome.pensize(2)
+    jerome.color("gold")
+    jerome.penup()
+    jerome.goto(-200,-200)
+    jerome.pendown()
+    for i in range(4):
+        jerome.forward(400)
+        jerome.left(90)
+    for i in range(4):
+        jerome.forward(50)
+        jerome.left(90)
+        jerome.forward(400)
+        jerome.right(90)
+        jerome.forward(50)
+        jerome.right(90)
+        jerome.forward(400)
+        jerome.left(90)
+    jerome.left(90)
+    for i in range(4):
+        jerome.forward(50)
+        jerome.left(90)
+        jerome.forward(400)
+        jerome.right(90)
+        jerome.forward(50)
+        jerome.right(90)
+        jerome.forward(400)
+        jerome.left(90)
+    jerome.penup()
+    jerome.shape("square")
+    jerome.shapesize(2.3)
+    jerome.goto(-175.5,-174.5)
+    for i in range(4):
+        jerome.stamp()
+        jerome.forward(100)
+        jerome.stamp()
+        jerome.forward(100)
+        jerome.stamp()
+        jerome.forward(100)
+        jerome.stamp()
+        jerome.forward(50)
+        jerome.right(90)
+        jerome.forward(50)
+        jerome.right(90)
+        jerome.stamp()
+        jerome.forward(100)
+        jerome.stamp()
+        jerome.forward(100)
+        jerome.stamp()
+        jerome.forward(100)
+        jerome.stamp()
+        jerome.forward(50)
+        jerome.left(90)
+        jerome.forward(50)
+        jerome.left(90)
+    jerome.goto(250,250)
+    jerome.shapesize(1)
 
+def DrawRook(jerome):
+    """
+    This function draws a Rook piece over top of the chess board.
+    """
+    jerome.pensize(20)
+    jerome.color("black")
+    jerome.shape("turtle")
+    jerome.penup()
+    jerome.goto(-75,-150)
+    jerome.pendown()
+    jerome.right(90)
+    jerome.forward(150)
+    jerome.left(110)
+    jerome.forward(50)
+    jerome.right(20)
+    jerome.forward(170)
+    jerome.right(90)
+    jerome.forward(15)
+    jerome.left(90)
+    jerome.forward(50)
+    for i in range(3):
+        jerome.left(90)
+        jerome.forward(20)
+        jerome.left(90)
+        jerome.forward(20)
+        jerome.right(90)
+        jerome.forward(20)
+        jerome.right(90)
+        jerome.forward(20)
+    jerome.left(90)
+    jerome.forward(20)
+    jerome.left(90)
+    jerome.forward(50)
+    jerome.left(90)
+    jerome.forward(15)
+    jerome.right(90)
+    jerome.forward(170)
+    jerome.right(25)
+    jerome.forward(50)
+    jerome.left(115)
 
-def function_2():
-    """
-    Example docstring for function_2. function_2 is not a good function name and should be changed.
-    """
-    pass
+    jerome.color("white")
+    jerome.pensize(10)
+    jerome.forward(150)
+    jerome.left(110)
+    jerome.forward(50)
+    jerome.right(20)
+    jerome.forward(170)
+    jerome.right(90)
+    jerome.forward(15)
+    jerome.left(90)
+    jerome.forward(50)
+    for i in range(3):
+        jerome.left(90)
+        jerome.forward(20)
+        jerome.left(90)
+        jerome.forward(20)
+        jerome.right(90)
+        jerome.forward(20)
+        jerome.right(90)
+        jerome.forward(20)
+    jerome.left(90)
+    jerome.forward(20)
+    jerome.left(90)
+    jerome.forward(50)
+    jerome.left(90)
+    jerome.forward(15)
+    jerome.right(90)
+    jerome.forward(170)
+    jerome.right(25)
+    jerome.forward(50)
+    jerome.left(115)
     # ...
 
 
 def main():
     """
-    Docstring for main. Should describe the main functionality of this file.
+    This function creates the screen with a background and calls the other 2 functions.
     """
-
-    # Function calls to function_1 and function_2.
-    function_1()            # TODO  Remove when you replace it with your function
-    function_2()            # TODO  Remove when you replace it with your function
-
+    jerome = turtle.Turtle()
+    wn = turtle.Screen()
+    wn.bgcolor("#3C0372")
+    # Function calls to DrawChessBoard and DrawKing.
+    DrawChessBoard(jerome)
+    DrawRook(jerome)
+    wn.exitonclick()
 
 main()  # Starts the program!
