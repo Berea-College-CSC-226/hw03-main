@@ -11,9 +11,7 @@
 # hw03_stubs_do_not_edit.py
 #
 #################################################################################
-
-
-import turtle
+import turtle #importing turtle library
 
 
 def draw_sun(t):
@@ -30,7 +28,7 @@ def draw_sun(t):
     t.end_fill()
 
 
-def Horizon(Hz):
+def draw_horizon(Hz):
     """
      Uses turtle to draw a horizontal line across the screen to signify the horizon.
     """
@@ -45,7 +43,6 @@ def draw_birds(bd,dist):
     """
          Uses turtle to draw birds off in the horizon.
     """
-
 
     bd.hideturtle()
     for i in range(2):
@@ -62,23 +59,20 @@ def draw_birds(bd,dist):
         bd.fd(10)
         bd.right(45)
         bd.fd(30)
-        dist = (120,120) #changing the distance for the second loop.
-
-
-
-
+        dist = (120,120) #changing the distance for the second loop
 
 
 def main():
     """
-    Docstring for main. Should describe the main functionality of this file.
+    Docstring for main. Where the functions are called. Inputs of functions are defined.
+    screen set up and turtles are made.
     """
     wn = turtle.Screen()
     wn.bgcolor("blue") #making my background blue
 
     # making t a turtle object and making the color orangered
     t = turtle.Turtle()
-    t.color("orange""red")
+    t.color("orangered")
     t.speed(0) #fastest speed
 
     # making Hz a turtle object and making the color darkblue
@@ -93,15 +87,13 @@ def main():
     dist = (-100,100)
 
 
-
     # calling functions to run
     draw_sun(t)
-    Horizon(Hz)
+    draw_horizon(Hz)
     draw_birds(bd,dist)
 
     print("Enjoy the sunset!") # prints when done drawing
 
     wn.exitonclick() # holding window screen open until user clicks on it to close
-
 
 main()  # Starts the program!
