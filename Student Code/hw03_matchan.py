@@ -39,7 +39,7 @@ def main():
     screen.bgcolor(180, 220, 255)
 
     matcha = turtle.Turtle()
-    matcha.speed(3)
+    matcha.speed(0)
 
     draw_house(matcha)
     roof_window(matcha)
