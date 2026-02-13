@@ -1,18 +1,7 @@
 import turtle
 import math
+import random
 from math import hypot
-
-
-def pattern (turt, thickness, interval, times):
-    for i in range(times):
-        shouldIturn = i % 2 * 2 - 1
-        turt.right(shouldIturn * 90)
-
-        turt.forward(thickness)
-        turt.left(shouldIturn * 90)
-
-        turt.fd(interval)
-        print(shouldIturn)
 
 def lozenge (turt, thickness, interval, times):
     for i in range(times):
@@ -29,58 +18,50 @@ def lozenge (turt, thickness, interval, times):
         turt.forward(length)
         turt.right(180-angle*.5)
 
+#####################################################
+# SETUP VARIABLES
 ws = turtle.Screen()
-ws.bgcolor("darkslategray")
+ws.bgcolor("lightskyblue")
 
 koopa = turtle.Turtle()
 koopa.pensize(10)
+#koopa.speed(0)
 
-# pattern(koopa, 40,10,5)
+colorsStoneBase = ["maroon", "saddlebrown", "tan3", "tan4", "red4"]
+colorsResort = ["firebrick4", "maroon"]
 
-def unused():
-    lozenge(koopa, 25, 50, 1)
-    koopa.up()
-    koopa.forward(20)
-    koopa.down()
-    lozenge(koopa, 15, 30, 1)
-    ws.exitonclick()
-
-def angleFinder(x,y):
-    return math.atan(y/x)
-
-def leaf (x, y, thickness):
-    koopa.right(angleFinder(x, y))
-    #extraAngle =
-    #adjustAngle =
-    koopa.forward(math.hypot(x, y))
-
-def bostro (turt, x, y):
-    direction = 1
+def bostro (turt, x, y, palette):
+    random.seed(226)
     for i in range(y//turt.pensize()):
-        turt.fd(x)
-        turt.left(direction*90)
+        lengthTaken = 1
+        while lengthTaken <= x:
+            step = 10*random.randint(3, 7)
+            # TODO: continue from here
+            step -= x%lengthTaken
+            print( x," % ",  lengthTaken, " = ", step)
+            turt.pencolor(palette[random.randint(0,  len(palette)-1)])
+            turt.fd(step)
+            lengthTaken += step
         turt.up()
+        turt.fd(-lengthTaken)
+        turt.left(90)
         turt.forward(turt.pensize())
         turt.down()
-        turt.left(direction*90)
-        direction *= -1
+        turt.right(90)
+
+def colordemo(palette):
+    for i in palette:
+        koopa.pencolor(i)
+        koopa.fd(20)
 
 
 def main():
-    # The starter pinapple
-    #koopa.begin_fill()
-    #koopa.forward(-50)
-    #for i in range(0,4):
-    #    koopa.forward(100+i%2*50)
-    #    koopa.right(45)
-    #    koopa.forward(50)
-    #    koopa.right(45)
+    #koopa.goto(-50,-400)
+    #bostro(koopa, 550, 300, colorsStoneBase)
 
-    #koopa.fillcolor("goldenrod")
-    #koopa.end_fill()
-    bostro(koopa, 50, 50)
-
-
+    bostro(koopa, 300, 200, colorsResort)
 
     ws.exitonclick()
+
+
 main()
