@@ -25,7 +25,7 @@ ws.bgcolor("lightskyblue")
 
 koopa = turtle.Turtle()
 koopa.pensize(10)
-#koopa.speed(0)
+koopa.speed(0)
 
 colorsStoneBase = ["maroon", "saddlebrown", "tan3", "tan4", "red4"]
 colorsResort = ["firebrick4", "maroon"]
@@ -33,11 +33,12 @@ colorsResort = ["firebrick4", "maroon"]
 def bostro (turt, x, y, palette):
     random.seed(226)
     for i in range(y//turt.pensize()):
-        lengthTaken = 1
-        while lengthTaken <= x:
+        lengthTaken = 0
+        while lengthTaken < x:
             step = 10*random.randint(3, 7)
-            # TODO: continue from here
-            step -= x%lengthTaken
+            if lengthTaken + step >= x:
+                step = x-lengthTaken
+            # to do fixed: continue from here
             print( x," % ",  lengthTaken, " = ", step)
             turt.pencolor(palette[random.randint(0,  len(palette)-1)])
             turt.fd(step)
@@ -56,8 +57,8 @@ def colordemo(palette):
 
 
 def main():
-    #koopa.goto(-50,-400)
-    #bostro(koopa, 550, 300, colorsStoneBase)
+    koopa.goto(-50,-400)
+    bostro(koopa, 550, 300, colorsStoneBase)
 
     bostro(koopa, 300, 200, colorsResort)
 
