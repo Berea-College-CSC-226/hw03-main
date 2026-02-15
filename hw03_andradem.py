@@ -1,22 +1,5 @@
 import turtle
-import math
 import random
-from math import hypot
-
-def lozenge (turt, thickness, interval, times):
-    for i in range(times):
-        angle = 2 * math.degrees(math.atan(thickness / interval))
-        length = hypot(thickness, interval)
-        print(angle)
-        turt.left(angle/2)
-        turt.forward (length)
-        turt.right(angle)
-        turt.forward (length)
-        turt.right(180-angle)
-        turt.forward(length)
-        turt.right(angle)
-        turt.forward(length)
-        turt.right(180-angle*.5)
 
 #####################################################
 # SETUP VARIABLES
@@ -33,53 +16,65 @@ colorsRoof = ["azure", "azure1", "lavender"]
 colorsRoof2 = ["lightsalmon", "lightsalmon", "lightsalmon3"]
 colorsBackground = ["lightsteelblue1", "lightsteelblue2", "lightsteelblue", "lightsteelblue3"]
 
-def bostro (turt, x, y, palette, triangle):
+def bostro (x, y, palette, triangle):
+    """
+    Draws a boustrophedon rectangle. Randomly switches colors using input palette.
+    Triangle decreases the tip of the rectangle to turn it into an isosceles trapezoid, or triangle if it ends up
+    surpassing x.
+    x and y are not pensize dependant, but Triangle unfortunately is
+
+    Args:
+        x: x distance of rectangle
+        y: y distance of rectangle
+        palette: randomly switches pencolors using this array of colors
+        triangle: decrease the x of the rectangle for what amount for each line, effectively turning the rectangle into
+            an isosceles trapezoid or triangle
+    """
     random.seed(226)
     direction = 1
-    for i in range(y//turt.pensize()):
+    for i in range(y//koopa.pensize()):
         lengthTaken = 0
         x -= triangle # decrease size (only triangle)
         while lengthTaken < x:
             step = 10*random.randint(3, 7)
             if lengthTaken + step >= x:
                 step = x-lengthTaken
-            turt.pencolor(palette[random.randint(0,  len(palette)-1)])
-            turt.fd(step)
+            koopa.pencolor(palette[random.randint(0,  len(palette)-1)])
+            koopa.fd(step)
             lengthTaken += step
-        turt.up()
-        turt.left(90*direction)
-        turt.forward(turt.pensize())
-        turt.left(90*direction)
+        koopa.up()
+        koopa.left(90*direction)
+        koopa.forward(koopa.pensize())
+        koopa.left(90*direction)
 
         x -= triangle # decrease size (triangle only)
-        turt.forward(triangle) # same here
+        koopa.forward(triangle) # same here
 
-        turt.down()
+        koopa.down()
         direction *= -1
 
-def background (turt, thickness, palette):
+def background (thickness, palette):
     bg_width = 500
-    turt.pensize(thickness)
+    koopa.pensize(thickness)
     for i in range (len(palette)):
-        turt.pencolor(palette[i])
+        koopa.pencolor(palette[i])
         color = [palette[i]]
-        bostro(turt, bg_width, 50, color, False)
-    turt.pensize(10)
+        bostro(bg_width, 50, color, False)
+    koopa.pensize(10)
 
 def colordemo(palette):
     for i in palette:
         koopa.pencolor(i)
         koopa.fd(20)
 
-def rectangle (turt, x, y, pen, fill):
-    turt.pencolor(pen)
-    turt.fillcolor(fill)
-    turt.begin_fill()
+def rectangle (x, y, pen, fill):
+    koopa.pencolor(pen)
+    koopa.fillcolor(fill)
+    koopa.begin_fill()
     for i in range(0,4):
-        turt.fd(y * (i%2) + x * ((i+1)%2))
-        turt.right(90)
-    turt.end_fill()
-
+        koopa.fd(y * (i%2) + x * ((i+1)%2))
+        koopa.right(90)
+    koopa.end_fill()
 def main():
 
     #background(koopa, 50, colorsBackground)
@@ -100,17 +95,17 @@ def main():
     koopa.pensize(10)
 
     koopa.goto(-50,-400)
-    bostro(koopa, 550, 300, colorsStoneBase, False)
+    bostro(550, 300, colorsStoneBase, False)
 
     koopa.right(180)
-    rectangle(koopa, 20, 90, "burlywood", "burlywood")
+    rectangle(20, 90, "burlywood", "burlywood")
     koopa.right(180)
 
-    bostro(koopa, 300, 100, colorsResort, False)
+    bostro(300, 100, colorsResort, False)
 
     koopa.fd(-10)
-    bostro(koopa, 320, 140, colorsRoof, 7)
-    bostro(koopa, 123, 100, colorsRoof2, 7)
+    bostro(320, 140, colorsRoof, 7)
+    bostro(123, 100, colorsRoof2, 7)
 
     for i in range(0,2):
         koopa.up()
@@ -119,11 +114,11 @@ def main():
         koopa.left(90)
         koopa.fd(20)
         koopa.down()
-        rectangle(koopa, 30, 50, "lavender", "skyblue4")
+        rectangle(30, 50, "lavender", "skyblue4")
         koopa.up()
         koopa.fd(-70)
         koopa.down()
-        rectangle(koopa, 30, 50, "lavender", "skyblue4")
+        rectangle(30, 50, "lavender", "skyblue4")
         koopa.up()
         koopa.fd(55)
 
