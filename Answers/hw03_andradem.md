@@ -97,28 +97,30 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+Cloning a repository means making a copy of all files to your machine. Now that you have access to a copy of the files,
+you can edit them.
 ```
-
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+The repository is where all the files for the project are located. Main, and all branches are stored here.
 ```
 
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+A commit is basically a "save". The machine takes note of all the changes that were made and we describe said changes.
+It's a way to remember what we did.
 ```
 
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+After making all the changes we want, we send the changes back to Git by means of a push.
+We are pushing the changes from our local host to the Git server.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -132,30 +134,30 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+By pulling, we get up-to-date changes to our files, potentially avoiding merge conflicts before they even happen.
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    Replace this text with your answer
+There are exactly 50(!) branches from main.
+I see mine! I think I worded it wrong...
+I can also see the branches of everyone else.
 ```
-
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+Wow, you can see that a lot more people have had their pull requests accepted by now. Makes sense.
 ```
-
 
 4.d. Go back to PyCharm, and go back to the Branches interface from before. Checkout the 
      master branch. Describe what happens to your file in the Project pane of PyCharm. Is it still 
      there? Did it change?
 
 ```
-    Replace this text with your answer
+It says that my changes will be overwritten if I do that. I think I'll refrain :(
 ```
 
 
@@ -163,7 +165,7 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    Replace this text with your answer
+I will asume that it is?? I guess that's what shelving does. 
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -177,7 +179,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+Shucks...
 ```
 
 ---
