@@ -1,0 +1,190 @@
+# Fully Functional Gitty Psychedelic Robotic Turtles
+
+## Instructions
+
+1. In the top right of Pycharm, change the display of this file to 
+   `Editor and Preview` mode, so you can see the code (markdown) and the rendered output. 
+
+![Screenshot of "Editor and Preview" mode](split_mode_markdown.png)
+
+The next line should appear red in the `Preview` mode on the right:
+
+**_<span style="color:red">
+    VERY IMPORTANT: Make a copy of this file. DO NOT EDIT IT DIRECTLY!
+</span>_**
+
+2. Make a copy of this file by selecting the file and hitting CTRL+C. 
+3. Paste your copy into the `Answers` folder.
+4. Rename the file to `hw03_username.md` replacing `username` with your username.
+
+_Return to the Google Doc to continue this assignment._
+
+---
+
+## SECTION 1
+
+Replace each `Replace this text with your answer` with your answer to the question above it.
+
+1.a. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color purple. 
+     What are the R, G, and B values?
+
+```
+   rgb(128, 0, 128) red=128, green=0, blue= 128
+```
+
+1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
+     What are the R, G, and B values? 
+
+```
+   rgb(165, 42, 42) red=165, green= 42, blue= 42
+```
+
+1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
+     What are the R, G, and B values?
+
+```
+    no such color exist on color spice 
+```
+
+_Return to the Google Doc to continue this assignment._
+
+---
+
+### SECTION 2
+
+2.a. Explore the turtle library documentation and find the description for the 
+     `forward()` method. What alternate command can be used to move the turtle forward, 
+     besides the `turtle.forward()` command you are used to using?
+
+```
+    turtle.fd()
+```
+
+2.b. What command from the turtle library can be used to print the turtle's current 
+   location?
+   
+```
+    pos()
+```
+
+2.c. How do you set the turtle's speed to maximum speed?
+   
+```
+    turtle.speed(0)
+```
+
+2.d. How would you change the turtle's color to xanadu? 
+
+```
+    turtle.color("xanadu") or you can enter the RGB numbers of that color if they exist.
+```
+
+2.e. How would you fill a shape with the color xanadu?
+
+```
+    turtle.color('red')
+turtle.fillcolor('xanadu')
+turtle.begin_fill
+then you draw and object 
+turtle.end_fill
+```
+
+_Return to the Google Doc to continue this assignment._
+
+---
+
+## SECTION 3
+
+3.a. What does **cloning** the repo mean?
+
+```
+    creating a copy of the main code, which allows you to work on it,
+    without editing the entire and original source code or file. 
+```
+
+
+- What is the **repository**? Where does it exist (on your local machine or in Github)?
+
+```
+   it is a fundamental storage location for a project.
+   it exists both in your local machine and in github. 
+```
+
+
+- What is a **commit**? Why does it need a commit message?
+
+```
+    commiting is saving your work in your repository, so that you can later on access it
+    it needs a message, because the message tells you exactly what was changed during the coding session.
+```
+
+
+- What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
+
+```
+   ounce your code is pushed, it leaves your local repository into github,where other people can access it. 
+```
+
+_Return to the Google Doc to continue this assignment._
+
+---
+
+## SECTION 4
+
+## Pull Master Into Your Local
+
+4.a. Why do you think it is important to pull before you push?
+
+```
+you pull before you push to avoid merge conflicts and to equally update your code.
+```
+
+4.b. How many branches are in the repository?
+     Click the link to look at the branches. Do you see yours? Do you see any others? 
+
+```
+    29 and i saw mine and those of my peers from different sections of the class. 
+```
+
+
+4.c. Compare your branch and the master branch by clicking on each. Are they different?
+
+```
+   yes they are different, mine is personalized to my name 
+```
+
+
+4.d. Go back to PyCharm, and go back to the Branches interface from before. Checkout the 
+     master branch. Describe what happens to your file in the Project pane of PyCharm. Is it still 
+     there? Did it change?
+
+```
+   i had quite an issue trying to do this section of the problems
+```
+
+
+4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations
+     here, describe how branching is useful:
+
+```
+    branching is helpful because it permits everyone to work on different portions of the same document
+    it lets you test different codes on a copy before deciding to make those changes on the branch
+    you can use it to update your document if you and your partner are working on the same project 
+```
+
+_Return to the Google Doc to continue this assignment._
+
+---
+
+## SECTION 5
+
+A lot happened in this assignment, and often, you do things without fully understanding them. Your last task is to 
+formulate a question and ask it. To do this, put your question into the [Slack channel](https://bereacs.slack.com/archives/C3QACGH8R) and the TAs and the 
+instructor will answer them for everyone! Paste the link to your question in Slack here:
+
+```
+    i had a lot of issue with checking out and in of the main branch and my branch. 
+    it kept on resseting my work to zero, after displaying a bunch of errors. 
+```
+
+---
