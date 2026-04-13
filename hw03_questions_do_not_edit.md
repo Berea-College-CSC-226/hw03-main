@@ -124,7 +124,7 @@ _Return to the Google Doc to continue this assignment._
 
 ## SECTION 4
 
-## Pull Master Into Your Local
+## Pull Main Into Your Local
 
 4.a. Why do you think it is important to pull before you push?
 
@@ -140,7 +140,7 @@ _Return to the Google Doc to continue this assignment._
 ```
 
 
-4.c. Compare your branch and the master branch by clicking on each. Are they different?
+4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
 ```
     Replace this text with your answer
@@ -148,7 +148,7 @@ _Return to the Google Doc to continue this assignment._
 
 
 4.d. Go back to PyCharm, and go back to the Branches interface from before. Checkout the 
-     master branch. Describe what happens to your file in the Project pane of PyCharm. Is it still 
+     main branch. Describe what happens to your file in the Project pane of PyCharm. Is it still 
      there? Did it change?
 
 ```
