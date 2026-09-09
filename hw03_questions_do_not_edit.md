@@ -2,13 +2,15 @@
 
 ## Instructions
 
-1. In the top right of Pycharm, change the display of this file to
-   `Editor and Preview` mode, so you can see the code (markdown) and the rendered output:
+1. In the top right of Pycharm, change the display of this file to 
+   `Editor and Preview` mode, so you can see the code (markdown) and the rendered output. 
 
 ![Screenshot of "Editor and Preview" mode](split_mode_markdown.png)
 
+The next line should appear red in the `Preview` mode on the right:
+
 **_<span style="color:red">
-VERY IMPORTANT: Make a copy of this file. DO NOT EDIT IT DIRECTLY!
+    VERY IMPORTANT: Make a copy of this file. DO NOT EDIT IT DIRECTLY!
 </span>_**
 
 2. Make a copy of this file by selecting the file and hitting CTRL+C.
@@ -29,15 +31,15 @@ G, and B values?
     Replace this text with your answer
 ```
 
-1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. What are the R,
-G, and B values?
+1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
+     What are the R, G, and B values? 
 
 ```
     Replace this text with your answer
 ```
 
-1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. What are the R,
-G, and B values?
+1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
+     What are the R, G, and B values?
 
 ```
     Replace this text with your answer
@@ -117,7 +119,7 @@ _Return to the Google Doc to continue this assignment._
 
 ## SECTION 4
 
-## Pull Master Into Your Local
+## Pull Main Into Your Local
 
 4.a. Why do you think it is important to pull before you push?
 
@@ -132,14 +134,17 @@ others?
     Replace this text with your answer
 ```
 
-4.c. Compare your branch and the master branch by clicking on each. Are they different?
+
+4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
 ```
     Replace this text with your answer
 ```
 
-4.d. Go back to PyCharm, and go back to the Branches interface from before. Checkout the master branch. Describe what
-happens to your file in the Project pane of PyCharm. Is it still there? Did it change?
+
+4.d. Go back to PyCharm, and go back to the Branches interface from before. Checkout the 
+     main branch. Describe what happens to your file in the Project pane of PyCharm. Is it still 
+     there? Did it change?
 
 ```
     Replace this text with your answer
@@ -158,10 +163,9 @@ _Return to the Google Doc to continue this assignment._
 
 ## SECTION 5
 
-A lot happened in this assignment, and often, you do things without fully understanding them. Your last task is to
-formulate a question and ask it. To do this, put your question into
-the [Slack channel](https://bereacs.slack.com/archives/C3QACGH8R) and the TAs and the instructor will do our best to
-answer them. Paste the link to your question in Slack here:
+A lot happened in this assignment, and often, you do things without fully understanding them. Your last task is to 
+formulate a question and ask it. To do this, put your question into the [Slack channel](https://bereacs.slack.com/archives/C3QACGH8R) and the TAs and the 
+instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
     Replace this text with your answer
