@@ -1,1 +1,0 @@
-This folder is dedicated to holding all of the Python files with your individual code.
