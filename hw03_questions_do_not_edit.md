@@ -7,7 +7,7 @@
 
 ![Screenshot of "Editor and Preview" mode](split_mode_markdown.png)
 
-The next line should appear red in the `Preview` mode on the right:
+In PyCharm, the next line should appear red in the `Preview` mode on the right:
 
 **_<span style="color:red">
     VERY IMPORTANT: Make a copy of this file. DO NOT EDIT IT DIRECTLY!
