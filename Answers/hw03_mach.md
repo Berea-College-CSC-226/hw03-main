@@ -3,7 +3,7 @@
 ## Instructions
 
 1. In the top right of Pycharm, change the display of this file to 
-   `Editor and Preview` mode, so you can see the code (markdown) and the rendered output.
+   `Editor and Preview` mode, so you can see the code (markdown) and the rendered output. 
 
 ![Screenshot of "Editor and Preview" mode](split_mode_markdown.png)
 
@@ -28,21 +28,22 @@ _Return to the Google Doc to continue this assignment._
 G, and B values?
 
 ```
-    Replace this text with your answer
+    R = 128, G = 0, B = 128.
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+    rgb(165, 42, 42)
+    R = 165, G=42, B=42
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    I could not find this color 
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -56,7 +57,8 @@ _Return to the Google Doc to continue this assignment._
 command you are used to using?
 
 ```
-    Replace this text with your answer
+    According to the turtle library documentation, the command forward () has an alternate called turtle.fd(distance)
+    This command also takes in an argument which is a specified distance which the turtle can take in the direction it is facing. 
 ```
 
 2.b. Which command from the turtle library can be used to print the turtle's current location?
