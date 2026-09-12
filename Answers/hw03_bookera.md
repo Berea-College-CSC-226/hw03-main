@@ -107,7 +107,7 @@ _Return to the Google Doc to continue this assignment._
 
 ```
     A commit is like a bench mark where you can sake your progress everytime you press commit. You need this in order to
-    save and new code you may have put.
+    save new code you may have put.
 ```
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
