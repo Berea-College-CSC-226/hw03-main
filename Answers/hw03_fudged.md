@@ -147,14 +147,14 @@ others?
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    After I checkedout the main branch it put me back to the main branch before any changes was made.
 ```
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations here, describe how branching
 is useful:
 
 ```
-    Replace this text with your answer
+    Yes, my file is back to normal. This can be useful if I need to restart everything from scatch.
 ```
 
 _Return to the Google Doc to continue this assignment._
