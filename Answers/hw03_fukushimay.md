@@ -125,21 +125,22 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    So that merge conflicts are kept minimal, and your work will not overwrite someone else's work.
 ```
 
 4.b. How many branches are in the repository? Click the link to look at the branches. Do you see yours? Do you see any
 others?
 
 ```
-    Replace this text with your answer
+    53 branches as of 9/12 9:39PM.
 ```
 
 
 4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    I don't see my branch on github since I haven't pushed it yet. But the files are different as I added some to 
+    "Answers," text, code, and the number of commits are different. A lot of differences.
 ```
 
 
