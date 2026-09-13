@@ -131,14 +131,14 @@ _Return to the Google Doc to continue this assignment._
 others?
 
 ```
-    Replace this text wi
+    There are 55 branches in the repository. Yes, I see my branch and I do see other branches as well.
 ```
 
 
 4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, they are different. Mine has my branches that I changed and the main has the orginal branches in it.
 ```
 
 
