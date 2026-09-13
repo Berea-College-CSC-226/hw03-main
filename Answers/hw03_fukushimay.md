@@ -149,14 +149,15 @@ others?
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    My files that I had in my branch were no there, and there was only a README.md file.
 ```
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations here, describe how branching
 is useful:
 
 ```
-    Replace this text with your answer
+    My file is back. By using the main branch as a locker that stores code that is already working, and a branch as a 
+    experiemental space, it keeps my project going, while I can make adjustments and developments to the project.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -170,7 +171,9 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    1. What is the difference between deleting a branch and deleting the files that were created on that branch?
+    2. Can you undo a commit after pushing it to GitHub, and if so, what happens to the commit history?
+    3. If I create a branch from another branch instead of from main, what happens when I eventually merge it into main?
 ```
 
 ---
