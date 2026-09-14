@@ -50,7 +50,7 @@ def draw_house(tur):
 
     tur.end_fill()
 
-def add_doorframe(tur, wn):
+def draw_doorframe(tur, wn):
     """Add door frame"""
     tur.teleport(-50, -100)
     tur.fillcolor(162, 162, 162)
@@ -68,6 +68,7 @@ def add_doorframe(tur, wn):
 
     tur.end_fill()
 
+def add_ghost(wn):
     """Add ghost"""
     wn.addshape("ghost.gif")
 
@@ -204,7 +205,8 @@ def main():
     draw_house(tur)
     left_window(tur)
     right_window(tur)
-    add_doorframe(tur, wn)
+    draw_doorframe(tur)
+    add_ghost(wn)
     draw_roof(tur)
     draw_chimney(tur)
     draw_moon(tur)
