@@ -64,25 +64,35 @@ command you are used to using?
 2.b. Which command from the turtle library can be used to print the turtle's current location?
 
 ```
-    Replace this text with your answer
+    print(mach.position()) is used for printing the current location of the turtle 
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
 
 ```
-    Replace this text with your answer
+    turtle.speed(0)
 ```
 
 2.d. How would you change the turtle's color to xanadu?
 
 ```
-    Replace this text with your answer
+    turtle.colormode(255)
+turtle.color(115, 134, 120)
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    turtle.colormode(255)
+turtle.fillcolor(115, 134, 120)
+
+turtle.begin_fill()
+
+for side in range(4):
+    turtle.forward(100)
+    turtle.left(90)
+
+turtle.end_fill()
 ```
 
 _Return to the Google Doc to continue this assignment._
