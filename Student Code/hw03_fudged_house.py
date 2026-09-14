@@ -10,23 +10,6 @@
 
 import turtle                       # Imports turtle from the Turtle library.
 
-def main():
-    """
-    Spawns in the screen which is baby blue and spawns the turtle which is invisible.
-    Also defines the pieces of the drawing and exits the screen on click.
-    """
-    turtle.Turtle()                 # Spawns the turtle from the Turtle library.
-    bert = turtle.Turtle()          # Turtle is named bert.
-    wn = turtle.Screen()            # Spawns the screen to draw on.
-    wn.bgcolor("#89cff0")           # Screen color is baby blue.
-    bert.hideturtle()               # Makes the turtle invisible.
-    bert.pensize(10)
-    house_frame(bert)               # Makes all the functions work when called.
-    house_roof(bert)
-    house_door(bert)
-    house_window(bert)
-    wn.exitonclick()                # Closes the screen by clicking it.
-
 def house_frame(bert):
     """
     Draws the frame of the house.
@@ -97,5 +80,21 @@ def house_window(bert):
     bert.goto(-20, -10)
     bert.pendown()
     bert.forward(70)
+
+def main():
+    """
+    Spawns in the screen which is baby blue and spawns the turtle which is invisible.
+    Also defines the pieces of the drawing and exits the screen on click.
+    """
+    bert = turtle.Turtle()          # Spawns a turtle from the Turtle library named bert.
+    wn = turtle.Screen()            # Spawns the screen to draw on.
+    wn.bgcolor("#89cff0")           # Screen color is baby blue.
+    bert.hideturtle()               # Makes the turtle invisible.
+    bert.pensize(10)
+    house_frame(bert)               # Makes all the functions work when called.
+    house_roof(bert)
+    house_door(bert)
+    house_window(bert)
+    wn.exitonclick()                # Closes the screen by clicking it.
 
 main()                              # Calls all the functions back so it can now work.
