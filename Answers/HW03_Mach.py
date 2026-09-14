@@ -16,31 +16,37 @@
 #
 #################################################################################
 
-
 import turtle
 
-
 def function_1(color, shape):
-    t=turtle.Turtle()
+    t = turtle.Turtle()
     t.color(color)
-    t.shapesize(shape)
-    pass
-    # ....
+    t.shape(shape)
+    return t
 
 
 def function_2(screen_color, back_ground_color):
-    wn = screen.Screen()
+    wn = turtle.Screen()
     wn.bgcolor(back_ground_color)
-    wn.color(screen_color)
-    pass
-    # ...
+    return wn
 
+
+def create_square(t):
+    t.begin_fill()
+    for _ in range(4):
+        t.forward(100)
+        t.right(90)
+    t.end_fill()
 
 def main():
+    t = function_1("black", "turtle")
+    function_2("green", "white")
+    create_square(t)
+    t.fillcolor()
+    turtle.done()
 
-    # Function calls to function_1 and function_2.
-    function_1("black","turtle")            #TODO  Remove when you replace it with your function
-    function_2("green", "white")            #TODO  Remove when you replace it with your function
 
+if __name__ == "__main__":
+    main()
 
-    main()  # Starts the program!
+  # Starts the program!
