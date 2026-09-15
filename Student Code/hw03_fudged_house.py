@@ -7,6 +7,11 @@
 # Google Doc Link: https://docs.google.com/document/d/1AbNSF82yNFrVIakRkAtp-AM72y4IbijL1r1pgXPx-b0/edit?tab=t.0
 #
 #################################################################################
+# Acknowledgements:
+# https://docs.python.org/3/library/turtle.html
+# https://colorspire.com/rgb-color-wheel/
+#
+#################################################################################
 
 import turtle                       # Imports turtle from the Turtle library.
 
