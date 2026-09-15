@@ -18,7 +18,7 @@ import turtle, random
 
 def draw_grass(shape):
     """
-    Example docstring for function_1. function_1 is not a good function name and should be changed.
+       This function draws the green grass.
     """
     shape.color("green")
     shape.teleport(-330, -300)
@@ -38,7 +38,7 @@ def draw_grass(shape):
 
 def draw_house_frame(shape):
     """
-    Example docstring for function_1. function_1 is not a good function name and should be changed.
+       This function draws the frame of the house and fills it with white color.
     """
     shape.color("white")
     shape.teleport(-100,-100)
@@ -60,7 +60,7 @@ def draw_house_frame(shape):
 
 def draw_roof(wn, shape):
     """
-        Example docstring for function_1. function_1 is not a good function name and should be changed.
+       This function puts the bricks picture on top of the house frame to make a roof.
     """
     wn.register_shape("./Bricks.gif")
     shape.penup()
@@ -70,7 +70,9 @@ def draw_roof(wn, shape):
     shape.stamp()
 
 def draw_door(shape):
-
+    """
+       This function draws the door for the house.
+    """
     shape.color("red")
     shape.teleport(-30, -100)
     shape.fillcolor("red")
@@ -90,7 +92,9 @@ def draw_door(shape):
     shape.setheading(0)
 
 def draw_door_handle(shape):
-
+    """
+       This function draws the door handle for the house.
+    """
     shape.color("yellow")
     shape.teleport(20, -50)
     shape.shape("circle")
@@ -101,7 +105,9 @@ def draw_door_handle(shape):
     shape.setheading(0)
 
 def draw_window(shape, x, y):
-
+    """
+       This function draws the windows for the house.
+    """
     shape.teleport(x, y)
     shape.shape("circle")
     shape.shapesize(2.5, 2.5, 2)
@@ -121,9 +127,9 @@ def draw_window(shape, x, y):
 
     shape.setheading(0)
 
-def draw_sun(wn, shape):
+def draw_sun(shape):
     """
-        Example docstring for function_1. function_1 is not a good function name and should be changed.
+       This function draws the sun.
     """
     shape.color("yellow")
     shape.teleport(-210, 190)
@@ -141,9 +147,9 @@ def draw_sun(wn, shape):
 
     shape.setheading(0)
 
-def draw_cloud(wn, shape):
+def draw_cloud(shape):
     """
-        Example docstring for function_1. function_1 is not a good function name and should be changed.
+        This function draws the cloud.
     """
     for i in range(40):
         x = random.randint(50, 250)
@@ -154,7 +160,7 @@ def draw_cloud(wn, shape):
 
 def draw_bush(wn, shape):
     """
-        Example docstring for function_1. function_1 is not a good function name and should be changed.
+        This function puts the bush picture on top of the grass.
     """
     a = [-200, 200]
     b = [-200, -180]
@@ -169,7 +175,7 @@ def draw_bush(wn, shape):
 
 def main():
     """
-    Docstring for main. Should describe the main functionality of this file.
+    Docstring for main. This function calls out all the other functions.
     """
     wn = turtle.Screen()
     wn.colormode(255)
@@ -185,8 +191,8 @@ def main():
     draw_door_handle(shape)
     draw_window(shape, 65, -20)
     draw_window(shape, -65, -20)
-    draw_sun(wn, shape)
-    draw_cloud(wn, shape)
+    draw_sun(shape)
+    draw_cloud(shape)
     draw_bush(wn, shape)
 
     wn.exitonclick()
