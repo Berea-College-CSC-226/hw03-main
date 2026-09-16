@@ -95,25 +95,26 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+  cloning a repo means having a copy of that code in your repository
 ```
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    it exists on github and is the main centralized place for all files on that code
 ```
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    a commit is a message that tells what changes were made.
 ```
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    to push your file means to send it to github. Its being pushed from the 
+    place where your code was being done (pycharm for us) and to Githubs repository.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -127,21 +128,22 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    this brings in any changes made by partners so that when a merge happens
+    no problems arise. 
 ```
 
 4.b. How many branches are in the repository? Click the link to look at the branches. Do you see yours? Do you see any
 others?
 
 ```
-    Replace this text with your answer
+    There are many branches, many from my classmates. And yes, mine is included.
 ```
 
 
 4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    The main branch has the outline of the assignments that we use to build off of.
 ```
 
 
@@ -150,14 +152,16 @@ others?
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    Whenever I first checked out the main branch, pycharm said something about shelving my changes
+    and "rollback." I didn't get what it meant and thought that it would perhaps save my progress...
+    Needless to say that I had to re-do a few sections for my questions.
 ```
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations here, describe how branching
 is useful:
 
 ```
-    Replace this text with your answer
+    branching is useful to move from one branch to another. it allows different versions of the same code.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -171,7 +175,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+   https://bereacs.slack.com/archives/C3QACGH8R/p1789557057334699
 ```
 
 ---
