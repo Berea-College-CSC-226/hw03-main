@@ -200,7 +200,6 @@ def main():
     wn.screensize(500, 500)
     tur = turtle.Turtle()
 
-    # Function calls to function_1 and function_2.
     draw_land(tur)
     draw_house(tur)
     left_window(tur)
@@ -210,8 +209,6 @@ def main():
     draw_roof(tur)
     draw_chimney(tur)
     draw_moon(tur)
-
-    print(wn.screensize())
 
     wn.exitonclick()
 
