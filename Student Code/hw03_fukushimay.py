@@ -50,7 +50,7 @@ def draw_house(tur):
 
     tur.end_fill()
 
-def draw_doorframe(tur, wn):
+def draw_doorframe(tur):
     """Add door frame"""
     tur.teleport(-50, -100)
     tur.fillcolor(162, 162, 162)
@@ -213,4 +213,4 @@ def main():
     wn.exitonclick()
 
 
-main()  # Starts the program!
+main()
