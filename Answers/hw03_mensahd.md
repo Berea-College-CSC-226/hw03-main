@@ -12,7 +12,7 @@ In PyCharm, the next line should appear red in the `Preview` mode on the right:
 **_<span style="color:red">
     VERY IMPORTANT: Make a copy of this file. DO NOT EDIT IT DIRECTLY!
 </span>_**
-
+ 
 2. Make a copy of this file by selecting the file and hitting CTRL+C.
 3. Paste your copy into the `Answers` folder.
 4. Rename the file to `hw03_username.md` replacing `username` with your username.
