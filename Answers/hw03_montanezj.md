@@ -140,7 +140,7 @@ others?
 4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes
 ```
 
 
@@ -149,14 +149,16 @@ others?
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    My file was gone and when I checked back out into this branch it was reverted to before I checked out the main
+    branch.
 ```
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations here, describe how branching
 is useful:
 
 ```
-    Replace this text with your answer
+    My file is back, branching is useful so you can see all the differences between each branch of code so you can see 
+    what may work for your project and what may not.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -170,7 +172,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    (https://bereacs.slack.com/archives/C3QACGH8R/p1789602083659509)
 ```
 
 ---
