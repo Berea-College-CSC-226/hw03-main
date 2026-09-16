@@ -127,21 +127,23 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    So that you can pull the new/updated version of the code and work with that version instead of trying to push the 
+    new code and work with that one without the updates.
+
 ```
 
 4.b. How many branches are in the repository? Click the link to look at the branches. Do you see yours? Do you see any
 others?
 
 ```
-    Replace this text with your answer
+    3
 ```
 
 
 4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    The main folder doesn;t have my code and the duplicated version of the questions.
 ```
 
 
@@ -150,14 +152,18 @@ others?
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When I went to go and checkout the main bramch I lost my updated answers for this section and I believe it was 
+    because I hadn't pressed commit to save my changes before changing branches but I saw when switching 
+    branches that I lost a folder.
 ```
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations here, describe how branching
 is useful:
 
 ```
-    Replace this text with your answer
+    My file was still still there when I came back just lost this sections answers. But I believe that swicthing 
+    branches can be useful to going back to your orignial code. If you had tried to make your code different
+    than you could make a new branch and develop add some additions to your code.
 ```
 
 _Return to the Google Doc to continue this assignment._
