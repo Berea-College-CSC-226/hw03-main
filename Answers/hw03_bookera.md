@@ -177,7 +177,9 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    Is it possible to group a function and move that function with all of it's code together at once? For example, 
+    if I had a function called drawSquare and it had all of my code with the square is it possible to move that whole 
+    square to the right or up?
 ```
 
 ---
