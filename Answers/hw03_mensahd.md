@@ -95,25 +95,27 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Getting a copy of the repository
 ```
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    A repository is a folder that stores files. It can exist on either your local machine or github 
+    depending on whether you push it to github.
 ```
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit is a version of your code at a certain time. We use commit messages to keep track of the checkpoints,
+    thus where we got to.
 ```
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    when you push your code, it moves from the local repository to the remote repository.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -127,21 +129,22 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Pulling helps us update the code before we push. This is due to the fact that, we might be working on
+    the same repository with several users, hence pulling it allows us to get the updated version of what we have remotely.
 ```
 
 4.b. How many branches are in the repository? Click the link to look at the branches. Do you see yours? Do you see any
 others?
 
 ```
-    Replace this text with your answer
+    57 branches
 ```
 
 
 4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, they are.
 ```
 
 
@@ -150,14 +153,15 @@ others?
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    After checking out to main branch, the file was not there. I think it's because my file is on the branch I created,
+    and has not been merged into the main branch yet.
 ```
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations here, describe how branching
 is useful:
 
 ```
-    Replace this text with your answer
+    Yes, it is there. Branching in this case helps us work on specific features of a project without touching the main branch
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -171,7 +175,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    I fully understood each part of this assignment.
 ```
 
 ---
