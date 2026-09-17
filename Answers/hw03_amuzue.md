@@ -130,21 +130,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    
+    It is important because it allows your project/work to be up to date, so when you push it causes no conflict in the repo
 ```
 
 4.b. How many branches are in the repository?
      Click the link to look at the branches. Do you see yours? Do you see any others? 
 
 ```
-    
+    There are 30 branches, yes I see mine among many others too
 ```
 
 
 4.c. Compare your branch and the master branch by clicking on each. Are they different?
 
 ```
-    
+    Yes, for one the main branch has not been edited
 ```
 
 
@@ -153,7 +153,7 @@ _Return to the Google Doc to continue this assignment._
      there? Did it change?
 
 ```
-    
+    No, it is not still there, it has disappeared only leaving the Readme file among all the other starting files
 ```
 
 
@@ -161,7 +161,8 @@ _Return to the Google Doc to continue this assignment._
      here, describe how branching is useful:
 
 ```
-    
+    Yes, my file is back, branching is very useful in cases where a large group of people are working on a single project 
+    but do not want to overwrite someone else' code or work.
 ```
 
 _Return to the Google Doc to continue this assignment._
