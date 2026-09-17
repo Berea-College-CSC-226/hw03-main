@@ -70,19 +70,19 @@ Pull Main Into Your Local
     This is to be able to update your program before you can push any changes yet.
 4.b. How many branches are in the repository? Click the link to look at the branches. Do you see yours? Do you see any others?
 
-    Replace this text with your answer
+    63 branches. Yes I see mine
 4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
-    Replace this text with your answer
+    Yes. My branch has a python file not in the main
 4.d. Go back to PyCharm, and go back to the Branches interface from before. Checkout the main branch. Describe what happens to your file in the Project pane of PyCharm. Is it still there? Did it change?
 
-    Replace this text with your answer
+    Yes it changed.
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations here, describe how branching is useful:
 
-    Replace this text with your answer
+    Branching helps us to make changes that we want before we can push them to them main. It helps us explore without breaking anything
 Return to the Google Doc to continue this assignment.
 
 SECTION 5
 A lot happened in this assignment, and often, you do things without fully understanding them. Your last task is to formulate a question and ask it. To do this, put your question into the Slack channel and the TAs and the instructor will answer them for everyone! Paste the link to your question in Slack here:
 
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1789617233560459
