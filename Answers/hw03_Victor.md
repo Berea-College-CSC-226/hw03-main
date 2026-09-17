@@ -67,7 +67,7 @@ SECTION 4
 Pull Main Into Your Local
 4.a. Why do you think it is important to pull before you push?
 
-    Replace this text with your answer
+    This is to be able to update your program before you can push any changes yet.
 4.b. How many branches are in the repository? Click the link to look at the branches. Do you see yours? Do you see any others?
 
     Replace this text with your answer
