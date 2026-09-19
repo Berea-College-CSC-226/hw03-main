@@ -128,21 +128,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    It is important to pull before you push so you have the latest changes from the repository and avoid conflicts with other people's work.
 ```
 
 4.b. How many branches are in the repository? Click the link to look at the branches. Do you see yours? Do you see any
 others?
 
 ```
-    Replace this text with your answer
+    There are in total 54 branches. Yes I can see my branch, and other people's branch too.
 ```
 
 
 4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes hw03_sehrawata is different than main by 1 commit.
 ```
 
 
@@ -151,14 +151,15 @@ others?
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    After I checked out the main branch, my file was no longer there because the file was only added to my branch and not to main.
 ```
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations here, describe how branching
 is useful:
 
 ```
-    Replace this text with your answer
+    Yes, my file came back when I switched back to my branch. 
+    Branching is useful because it lets different people work on their own changes without affecting the main branch or other people's work.
 ```
 
 _Return to the Google Doc to continue this assignment._
