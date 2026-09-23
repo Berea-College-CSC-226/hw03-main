@@ -3,7 +3,7 @@
 ## Instructions
 
 1. In the top right of Pycharm, change the display of this file to 
-   `Editor and Preview` mode, so you can see the code (markdown) and the rendered output.
+   `Editor and Preview` mode, so you can see the code (markdown) and the rendered output. 
 
 ![Screenshot of "Editor and Preview" mode](split_mode_markdown.png)
 
@@ -28,21 +28,22 @@ _Return to the Google Doc to continue this assignment._
 G, and B values?
 
 ```
-    Replace this text with your answer
+    R = 128, G = 0, B = 128.
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    Replace this text with your answer
+    rgb(165, 42, 42)
+    R = 165, G=42, B=42
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    Replace this text with your answer
+    I could not find this color 
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -56,31 +57,42 @@ _Return to the Google Doc to continue this assignment._
 command you are used to using?
 
 ```
-    Replace this text with your answer
+    According to the turtle library documentation, the command forward () has an alternate called turtle.fd(distance)
+    This command also takes in an argument which is a specified distance which the turtle can take in the direction it is facing. 
 ```
 
 2.b. Which command from the turtle library can be used to print the turtle's current location?
 
 ```
-    Replace this text with your answer
+    print(mach.position()) is used for printing the current location of the turtle 
 ```
 
 2.c. How do you set the turtle's speed to maximum speed?
 
 ```
-    Replace this text with your answer
+    turtle.speed(0)
 ```
 
 2.d. How would you change the turtle's color to xanadu?
 
 ```
-    Replace this text with your answer
+    turtle.colormode(255)
+turtle.color(115, 134, 120)
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    Replace this text with your answer
+    turtle.colormode(255)
+turtle.fillcolor(115, 134, 120)
+
+turtle.begin_fill()
+
+for side in range(4):
+    turtle.forward(100)
+    turtle.left(90)
+
+turtle.end_fill()
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -92,25 +104,25 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    Replace this text with your answer
+    Cloning a repository means creating a local copy of an existing repository, including its project files and Git history.
 ```
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    Replace this text with your answer
+    A repository contains project files and the history Git uses to track changes to them. It can exist locally on my computer and remotely on GitHub.
 ```
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Replace this text with your answer
+    A commit records a snapshot of staged changes in my local Git history. A commit message explains what changed, helping me and other developers understand the project's history.
 ```
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-    Replace this text with your answer
+    Pushing means sending commits from my local repository on my computer to a remote repository hosted on GitHub.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -124,21 +136,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    Pulling brings in changes that other developers have pushed to the remote branch. It allows me to integrate their work and resolve any conflicts before pushing my own changes.
 ```
 
 4.b. How many branches are in the repository? Click the link to look at the branches. Do you see yours? Do you see any
 others?
 
 ```
-    Replace this text with your answer
+    I observed two branches: main and my own branch. Yes, I could see my branch and the main branch.
 ```
 
 
 4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    Yes, I observed some differences in their contents. My branch contains changes that have not yet been merged into main.
 ```
 
 
@@ -147,14 +159,15 @@ others?
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    When I checked out main, my file disappeared from the Project pane. I restored it using PyCharm's Local History. I later learned that switching branches can remove a file from the working folder if it does not exist on the selected branch, without deleting it from the other branch's committed history.
+    
 ```
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations here, describe how branching
 is useful:
 
 ```
-    Replace this text with your answer
+    My file was available again after I restored it through Local History, so I cannot confirm that switching branches alone brought it back. Branching is useful because it lets me develop and experiment separately from main, then merge completed work when it is ready.
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -168,7 +181,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    https://bereacs.slack.com/archives/C3QACGH8R/p1789135033277219
 ```
 
 ---
