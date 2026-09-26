@@ -28,21 +28,21 @@ _Return to the Google Doc to continue this assignment._
 G, and B values?
 
 ```
-    120,25,157
+    (136, 0, 255)
 ```
 
 1.b. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color brown. 
      What are the R, G, and B values? 
 
 ```
-    95,60,0
+    (42, 34, 1)
 ```
 
 1.c. Using the [RGB Color Wheel tool](https://colorspire.com/rgb-color-wheel/), create the color xanadu. 
      What are the R, G, and B values?
 
 ```
-    115,134,120
+    (115, 134, 120)
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -56,7 +56,7 @@ _Return to the Google Doc to continue this assignment._
 command you are used to using?
 
 ```
-turtle.fd()
+    turtle.fd()
 ```
 
 2.b. Which command from the turtle library can be used to print the turtle's current location?
@@ -74,13 +74,13 @@ turtle.fd()
 2.d. How would you change the turtle's color to xanadu?
 
 ```
-    turtle.color("xanadu")
+    turtle.color(#738678)
 ```
 
 2.e. How would you fill a shape with the color xanadu?
 
 ```
-    turtle.fillcolor("xanadu")
+    
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -92,25 +92,25 @@ _Return to the Google Doc to continue this assignment._
 3.a. What does **cloning** the repo mean?
 
 ```
-    making a copy of the repo on your computer. 
+    making a copy of the repo to your laptop 
 ```
 
 - What is the **repository**? Where does it exist (on your local machine or in Github)?
 
 ```
-    It is on your local machine and a repository is like a digital storage space. 
+    It is on both 
 ```
 
 - What is a **commit**? Why does it need a commit message?
 
 ```
-    Commit is like a save and it needs a commit message to tell the people that you work with what you did to the code, 
+    commit is a save and it tells the other people that you work with what you did. 
 ```
 
 - What does it mean to **push** your code? Where is your code being pushed _to_ and _from_?
 
 ```
-   uploding the code that you made to github. It is getting pushed from your laptop to github. 
+    give the save code to github so your team can get it too. 
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -124,21 +124,21 @@ _Return to the Google Doc to continue this assignment._
 4.a. Why do you think it is important to pull before you push?
 
 ```
-    Replace this text with your answer
+    To have the newest version of all of them. 
 ```
 
 4.b. How many branches are in the repository? Click the link to look at the branches. Do you see yours? Do you see any
 others?
 
 ```
-    Replace this text with your answer
+    there is 61. 
 ```
 
 
 4.c. Compare your branch and the main branch by clicking on each. Are they different?
 
 ```
-    Replace this text with your answer
+    yes because I made changes to the code that other people didn't do. 
 ```
 
 
@@ -147,14 +147,14 @@ others?
      there? Did it change?
 
 ```
-    Replace this text with your answer
+    no because it's not on the main branch. 
 ```
 
 4.e. Now go back to your branch in PyCharm. Is your file back? Based on your observations here, describe how branching
 is useful:
 
 ```
-    Replace this text with your answer
+    The file is still there. It is useful because it lets us test new code. 
 ```
 
 _Return to the Google Doc to continue this assignment._
@@ -168,7 +168,7 @@ formulate a question and ask it. To do this, put your question into the [Slack c
 instructor will answer them for everyone! Paste the link to your question in Slack here:
 
 ```
-    Replace this text with your answer
+    NO QUESTIONS ASKED
 ```
 
 ---
